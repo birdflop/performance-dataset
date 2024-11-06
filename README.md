@@ -11,6 +11,7 @@ The profiles have much information redacted before being published, including bu
 - tokens
 - messages
 - usernames and UUIDs
+- plugins present in fewer than 5 spark reports
 
 # Information Collection
 All information is collected from the Birdflop [performance-analyzing Discord bot](https://github.com/birdflop/botflop) and our free online resources permitting Spark and Timings analysis on [our website](https://birdflop.com/), including the APIs for our resources. All information is processed in accordance with our [privacy policy](https://birdflop.com/privacy).
