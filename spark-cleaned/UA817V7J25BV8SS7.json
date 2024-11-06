@@ -1,0 +1,3691 @@
+{
+    "metadata": {
+        "startTime": 1718658329349,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "SSSpigot2-1.18.2-20220925-80b5528 (MC: 1.18.2)",
+            "minecraftVersion": "1.18.2",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 11530787840,
+                    "total": 18354274304
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 107,
+                    "avgTime": 66.44859813084112,
+                    "avgFrequency": 153163
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 16395583,
+            "tps": {
+                "last1m": 19.999972821370267,
+                "last5m": 19.999998822733403,
+                "last15m": 20.0000016889557
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 34.25070862583333,
+                    "max": 85.928381,
+                    "min": 28.841609,
+                    "median": 33.474895,
+                    "percentile95": 38.645122
+                },
+                "last5m": {
+                    "mean": 35.23774394433333,
+                    "max": 95.685665,
+                    "min": 28.841609,
+                    "median": 34.493813,
+                    "percentile95": 40.835911
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 20.27777777777778,
+                    "max": 24,
+                    "min": 16,
+                    "median": 21,
+                    "percentile95": 23
+                }
+            },
+            "playerCount": 69,
+            "world": {
+                "totalEntities": 851,
+                "entityCounts": {
+                    "item": 181,
+                    "ender_dragon": 1,
+                    "painting": 556,
+                    "arrow": 1,
+                    "end_crystal": 30,
+                    "firework_rocket": 2,
+                    "boat": 4,
+                    "player": 76
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 4,
+                        "regions": [
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -11,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 2,
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 11,
+                        "regions": [
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 1,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "ender_dragon": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 77,
+                        "regions": [
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": 2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 50,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -1,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "player": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 0,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "player": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -1,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "player": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 1,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "player": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "arrow": 1,
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "player": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 2,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "player": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 3,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "item": 5,
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "player": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "firework_rocket": 1,
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "player": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "player": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 5,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 11,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": 1,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 10,
+                        "regions": [
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 10,
+                        "regions": [
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "end_crystal": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 739,
+                        "regions": [
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": -4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 13,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 1,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "painting": 6,
+                                            "player": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "player": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 19,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -9,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "item": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -10,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -11,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -5,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 21,
+                                "chunks": [
+                                    {
+                                        "x": 1,
+                                        "z": 1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 0,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "painting": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 0,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "painting": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 16,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": -15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -16,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "painting": 11
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -14,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 12,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": -9,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "painting": 12
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": -7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": -9,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "item": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 9,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": -6,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "painting": 9
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": -1,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "item": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "player": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 12,
+                                        "z": -16,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 32,
+                                "chunks": [
+                                    {
+                                        "x": 13,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 3,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "item": 24,
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 2,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "item": 4,
+                                            "player": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 25,
+                                "chunks": [
+                                    {
+                                        "x": 16,
+                                        "z": -3,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "painting": 10
+                                        }
+                                    },
+                                    {
+                                        "x": 17,
+                                        "z": -4,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "painting": 12
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": -2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": -17,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 15,
+                                        "z": -15,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": -2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": 16,
+                                        "z": 3,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": 2,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 13,
+                                "chunks": [
+                                    {
+                                        "x": 13,
+                                        "z": -18,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": -20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": -19,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": -20,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": -19,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "painting": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -6,
+                                        "z": -4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 9,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": 4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -8,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 5,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -9,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 8,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": -17,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "painting": 8
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -19,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "painting": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "boat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 5,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 17,
+                                        "z": -6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": -2,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 15,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": 6,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "item": 15
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 18,
+                                        "z": 6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 15,
+                                "chunks": [
+                                    {
+                                        "x": 18,
+                                        "z": -16,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "item": 15
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 14,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": 0,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "painting": 7
+                                        }
+                                    },
+                                    {
+                                        "x": -10,
+                                        "z": -1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -9,
+                                        "z": -2,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": 7,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "painting": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "boat": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 15,
+                                "chunks": [
+                                    {
+                                        "x": -8,
+                                        "z": -21,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -22,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "painting": 12
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": -17,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": -21,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": -22,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "firework_rocket": 1,
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -21,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 11,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": 7,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 8,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "painting": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 19,
+                                "chunks": [
+                                    {
+                                        "x": 15,
+                                        "z": 7,
+                                        "totalEntities": 18,
+                                        "entityCounts": {
+                                            "painting": 18
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 19,
+                                        "z": 0,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": -8,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 18,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 26,
+                                "chunks": [
+                                    {
+                                        "x": 20,
+                                        "z": -13,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "painting": 17
+                                        }
+                                    },
+                                    {
+                                        "x": 21,
+                                        "z": -12,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "item": 3,
+                                            "painting": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": 21,
+                                        "z": -6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": -6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 16,
+                                "chunks": [
+                                    {
+                                        "x": -10,
+                                        "z": -4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -11,
+                                        "z": -5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -12,
+                                        "z": -6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -11,
+                                        "z": -6,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "painting": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 7,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 9,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "boat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -11,
+                                        "z": -16,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": 21,
+                                        "z": -16,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "painting": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 21,
+                                        "z": -9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": -24,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "player": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 12,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": -24,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "painting": 12
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 7,
+                                "chunks": [
+                                    {
+                                        "x": -13,
+                                        "z": -14,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -12,
+                                        "z": -13,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -12,
+                                        "z": -11,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "item": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -12,
+                                        "z": -10,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 8,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": 10,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "painting": 8
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 24,
+                                "chunks": [
+                                    {
+                                        "x": 6,
+                                        "z": 12,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": 13,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": 10,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "painting": 15
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 11,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -13,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 9,
+                                "chunks": [
+                                    {
+                                        "x": -13,
+                                        "z": 7,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "painting": 9
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 12,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": -14,
+                                        "z": -5,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "painting": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 13,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "painting": 9
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -14,
+                                        "z": -8,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 22,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -15,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -15,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -15,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -15,
+                                        "z": 9,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 13,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 7,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": 13,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "painting": 6,
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 25,
+                                        "z": -25,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -16,
+                                        "z": -16,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 24,
+                                        "z": 14,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 14,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 18,
+                                "chunks": [
+                                    {
+                                        "x": -17,
+                                        "z": -9,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "painting": 16
+                                        }
+                                    },
+                                    {
+                                        "x": -18,
+                                        "z": -9,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -17,
+                                        "z": -18,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -18,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -18,
+                                        "z": 4,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": 16,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 17,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": 16,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 17,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "painting": 16
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 11,
+                                "chunks": [
+                                    {
+                                        "x": -20,
+                                        "z": -7,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "painting": 11
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 35,
+                                "chunks": [
+                                    {
+                                        "x": -20,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -20,
+                                        "z": 8,
+                                        "totalEntities": 34,
+                                        "entityCounts": {
+                                            "item": 34
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 8,
+                                "chunks": [
+                                    {
+                                        "x": -19,
+                                        "z": -3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -20,
+                                        "z": -4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -19,
+                                        "z": -2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -22,
+                                        "z": -13,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -21,
+                                        "z": -10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -22,
+                                        "z": -8,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "painting": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 8,
+                                "chunks": [
+                                    {
+                                        "x": -23,
+                                        "z": 12,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "painting": 8
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -17,
+                                        "z": 18,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "painting": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -13,
+                                        "z": 19,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "boat": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -12,
+                                        "z": 22,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 8,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 19,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 20,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "painting": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": 22,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": 20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": 12,
+                                        "z": 17,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 18,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 19,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "painting": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": 20,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "painting": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 15,
+                                        "z": 18,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": 17,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 23,
+                                        "z": 20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "painting": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 12,
+                "processUsage": {
+                    "last1m": 0.1925939032024573,
+                    "last15m": 0.19376238150433917
+                },
+                "systemUsage": {
+                    "last1m": 0.3060476861203454,
+                    "last15m": 0.32844540362026925
+                },
+                "modelName": "AMD Ryzen 5 PRO 4650G with Radeon Graphics"
+            },
+            "memory": {
+                "physical": {
+                    "used": 26080792576,
+                    "total": 66684715008
+                },
+                "swap": {
+                    "used": 4485558272,
+                    "total": 16453201920
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 1959,
+                    "avgTime": 48.21439509954058,
+                    "avgFrequency": 8342
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 74721050624,
+                "total": 964403961856
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-25-generic"
+            },
+            "java": {
+                "vendor": "Private Build",
+                "version": "17.0.2",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xms128M -Xmx20G"
+            },
+            "uptime": 16436832,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 10690.266666666666,
+                        "max": 37944,
+                        "min": 4394,
+                        "median": 9934,
+                        "percentile95": 37944
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 10690.266666666666,
+                        "max": 37944,
+                        "min": 4394,
+                        "median": 9934,
+                        "percentile95": 37944
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 31.333333333333332,
+                        "max": 70,
+                        "min": 17,
+                        "median": 27,
+                        "percentile95": 70
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 31.333333333333332,
+                        "max": 70,
+                        "min": 17,
+                        "median": 27,
+                        "percentile95": 70
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 402441.2,
+                        "max": 434156,
+                        "min": 370902,
+                        "median": 405649,
+                        "percentile95": 434156
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 2381679.6666666665,
+                        "max": 2665619,
+                        "min": 1919858,
+                        "median": 2406816,
+                        "percentile95": 2665619
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 5358.733333333334,
+                        "max": 5780,
+                        "min": 4941,
+                        "median": 5384,
+                        "percentile95": 5780
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 6446.2,
+                        "max": 6984,
+                        "min": 5918,
+                        "median": 6488,
+                        "percentile95": 6984
+                    }
+                }
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": true,
+                "gamemode": "survival",
+                "enable-query": false,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "pvp",
+                "query.port": 27002,
+                "pvp": true,
+                "generate-structures": false,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "easy",
+                "network-compression-threshold": 256,
+                "max-tick-time": 60000,
+                "require-resource-pack": false,
+                "max-players": 2023,
+                "use-native-transport": true,
+                "online-mode": false,
+                "enable-status": true,
+                "allow-flight": true,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 7,
+                "max-build-height": 256,
+                "resource-pack-prompt": "",
+                "allow-nether": false,
+                "server-port": 28009,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "op-permission-level": 4,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 10,
+                "player-idle-timeout": 0,
+                "force-gamemode": false,
+                "debug": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "spawn-npcs": false,
+                "spawn-animals": false,
+                "log-ips": true,
+                "snooper-enabled": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "default",
+                "text-filtering-config": "",
+                "spawn-monsters": false,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 16,
+                "max-world-size": 29999984
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": true,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default",
+                    "minimum-api": "none"
+                },
+                "spawn-limits": {
+                    "monsters": 70,
+                    "animals": 10,
+                    "water-animals": 5,
+                    "water-ambient": 20,
+                    "water-underground-creature": 5,
+                    "axolotls": 5,
+                    "ambient": 15
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 600
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 1,
+                    "water-spawns": 1,
+                    "water-ambient-spawns": 1,
+                    "water-underground-creature-spawns": 1,
+                    "axolotl-spawns": 1,
+                    "ambient-spawns": 1,
+                    "autosave": 6000
+                },
+                "aliases": "now-in-commands.yml"
+            },
+            "spigot.yml": {
+                "settings": {
+                    "debug": false,
+                    "sample-count": 12,
+                    "bungeecord": false,
+                    "player-shuffle": 0,
+                    "user-cache-size": 1000,
+                    "save-user-cache-on-stop-only": false,
+                    "moved-wrongly-threshold": 0.0625,
+                    "moved-too-quickly-multiplier": 10.0,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 4,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    },
+                    "log-villager-deaths": true,
+                    "log-named-deaths": true
+                },
+                "advancements": {
+                    "disable-saving": false,
+                    "disabled": [
+                        "minecraft:story/disabled"
+                    ]
+                },
+                "players": {
+                    "disable-saving": false
+                },
+                "commands": {
+                    "spam-exclusions": [
+                        "/skill"
+                    ],
+                    "silent-commandblock-console": false,
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ],
+                    "log": true,
+                    "tab-complete": 0,
+                    "send-namespaced": false
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": false,
+                        "merge-radius": {
+                            "exp": 3.0,
+                            "item": 2.5
+                        },
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "beetroot-modifier": 100,
+                            "carrot-modifier": 100,
+                            "potato-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100,
+                            "vine-modifier": 100,
+                            "cocoa-modifier": 100,
+                            "bamboo-modifier": 100,
+                            "sweetberry-modifier": 100,
+                            "kelp-modifier": 100,
+                            "twistingvines-modifier": 100,
+                            "weepingvines-modifier": 100,
+                            "cavevines-modifier": 100,
+                            "glowberry-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 32,
+                            "monsters": 32,
+                            "raiders": 48,
+                            "misc": 16,
+                            "water": 16,
+                            "villagers": 32,
+                            "flying-monsters": 32,
+                            "wake-up-inactive": {
+                                "animals-max-per-tick": 4,
+                                "animals-every": 1200,
+                                "animals-for": 100,
+                                "monsters-max-per-tick": 8,
+                                "monsters-every": 400,
+                                "monsters-for": 100,
+                                "villagers-max-per-tick": 4,
+                                "villagers-every": 600,
+                                "villagers-for": 100,
+                                "flying-monsters-max-per-tick": 8,
+                                "flying-monsters-every": 200,
+                                "flying-monsters-for": 100
+                            },
+                            "villagers-work-immunity-after": 100,
+                            "villagers-work-immunity-for": 20,
+                            "villagers-active-for-panic": true,
+                            "tick-inactive-villagers": true,
+                            "ignore-spectators": false
+                        },
+                        "entity-tracking-range": {
+                            "players": 48,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "other": 64
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 1
+                        },
+                        "hopper-amount": 1,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "jump-walk-exhaustion": 0.05,
+                            "jump-sprint-exhaustion": 0.2,
+                            "combat-exhaustion": 0.1,
+                            "regen-exhaustion": 6.0,
+                            "swim-multiplier": 0.01,
+                            "sprint-multiplier": 0.1,
+                            "other-multiplier": 0.0
+                        },
+                        "max-tnt-per-tick": 100,
+                        "max-tick-time": {
+                            "tile": 50,
+                            "entity": 50
+                        },
+                        "item-despawn-rate": 6000,
+                        "view-distance": "default",
+                        "simulation-distance": "default",
+                        "thunder-chance": 100000,
+                        "nerf-spawner-mobs": false,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "wither-spawn-sound-radius": 0,
+                        "arrow-despawn-rate": 1200,
+                        "trident-despawn-rate": 1200,
+                        "hanging-tick-frequency": 100,
+                        "zombie-aggressive-towards-villager": true,
+                        "mob-spawn-range": 8,
+                        "end-portal-sound-radius": 0,
+                        "below-zero-generation-in-existing-chunks": true
+                    },
+                    "faweregentempworld": {
+                        "verbose": false
+                    }
+                },
+                "config-version": 12,
+                "stats": {
+                    "disable-saving": false
+                }
+            },
+            "paper.yml": {
+                "verbose": false,
+                "timings": {
+                    "enabled": true,
+                    "really-enabled": false,
+                    "verbose": true,
+                    "hidden-config-entries": [
+                        "database",
+                        "settings.bungeecord-addresses",
+                        "settings.velocity-support.secret"
+                    ],
+                    "history-interval": 300,
+                    "history-length": 3600
+                },
+                "config-version": 27,
+                "settings": {
+                    "fix-entity-position-desync": true,
+                    "load-permissions-yml-before-plugins": true,
+                    "region-file-cache-size": 256,
+                    "enable-player-collisions": true,
+                    "save-empty-scoreboard-teams": false,
+                    "bungee-online-mode": true,
+                    "incoming-packet-spam-threshold": 300,
+                    "use-alternative-luck-formula": false,
+                    "velocity-support": {
+                        "enabled": false,
+                        "online-mode": false
+                    },
+                    "console-has-all-permissions": false,
+                    "player-auto-save-rate": -1,
+                    "max-player-auto-save-per-tick": -1,
+                    "fix-target-selector-tag-completion": true,
+                    "lag-compensate-block-breaking": true,
+                    "send-full-pos-for-hard-colliding-entities": true,
+                    "time-command-affects-all-worlds": false,
+                    "max-joins-per-tick": 3,
+                    "track-plugin-scoreboards": false,
+                    "use-dimension-type-for-custom-spawners": false,
+                    "log-player-ip-addresses": true,
+                    "console": {
+                        "enable-brigadier-highlighting": true,
+                        "enable-brigadier-completions": true
+                    },
+                    "suggest-player-names-when-null-tab-completions": true,
+                    "watchdog": {
+                        "early-warning-every": 5000,
+                        "early-warning-delay": 10000
+                    },
+                    "spam-limiter": {
+                        "tab-spam-increment": 1,
+                        "tab-spam-limit": 500,
+                        "recipe-spam-increment": 1,
+                        "recipe-spam-limit": 20
+                    },
+                    "book-size": {
+                        "page-max": 2560,
+                        "total-multiplier": 0.98
+                    },
+                    "loggers": {
+                        "deobfuscate-stacktraces": true,
+                        "use-rgb-for-named-text-colors": true
+                    },
+                    "item-validation": {
+                        "display-name": 8192,
+                        "loc-name": 8192,
+                        "lore-line": 8192,
+                        "book": {
+                            "author": 8192,
+                            "page": 16384
+                        }
+                    },
+                    "chunk-loading": {
+                        "min-load-radius": 2,
+                        "max-concurrent-sends": 2,
+                        "autoconfig-send-distance": true,
+                        "target-player-chunk-send-rate": 100.0,
+                        "global-max-chunk-send-rate": -1.0,
+                        "enable-frustum-priority": false,
+                        "global-max-chunk-load-rate": -1.0,
+                        "player-max-concurrent-loads": 20.0,
+                        "global-max-concurrent-loads": 500.0,
+                        "player-max-chunk-load-rate": -1.0
+                    },
+                    "async-chunks": {
+                        "threads": -1
+                    },
+                    "unsupported-settings": {
+                        "allow-permanent-block-break-exploits": false,
+                        "allow-piston-duplication": false,
+                        "perform-username-validation": true,
+                        "allow-headless-pistons": false,
+                        "allow-permanent-block-break-exploits-readme": "This setting controls if players should be able to break bedrock, end portals and other intended to be permanent blocks.",
+                        "allow-piston-duplication-readme": "This setting controls if player should be able to use TNT duplication, but this also allows duplicating carpet, rails and potentially other items",
+                        "allow-headless-pistons-readme": "This setting controls if players should be able to create headless pistons."
+                    },
+                    "packet-limiter": {
+                        "limits": {
+                            "all": {
+                                "interval": 7.0,
+                                "max-packet-rate": 500.0
+                            },
+                            "PacketPlayInAutoRecipe": {
+                                "interval": 4.0,
+                                "max-packet-rate": 5.0,
+                                "action": "DROP"
+                            }
+                        }
+                    }
+                },
+                "world-settings": {
+                    "default": {
+                        "disable-teleportation-suffocation-check": false,
+                        "spawn-limits": {
+                            "monster": -1,
+                            "creature": -1,
+                            "ambient": -1,
+                            "axolotls": -1,
+                            "underground_water_creature": -1,
+                            "water_creature": -1,
+                            "water_ambient": -1
+                        },
+                        "max-auto-save-chunks-per-tick": 24,
+                        "optimize-explosions": false,
+                        "prevent-moving-into-unloaded-chunks": false,
+                        "allow-using-signs-inside-spawn-protection": false,
+                        "game-mechanics": {
+                            "scan-for-legacy-ender-dragon": true,
+                            "disable-pillager-patrols": false,
+                            "pillager-patrols": {
+                                "spawn-chance": 0.2,
+                                "spawn-delay": {
+                                    "per-player": false,
+                                    "ticks": 12000
+                                },
+                                "start": {
+                                    "per-player": false,
+                                    "day": 5
+                                }
+                            },
+                            "fix-curing-zombie-villager-discount-exploit": true,
+                            "disable-player-crits": false,
+                            "disable-sprint-interruption-on-attack": false,
+                            "shield-blocking-delay": 5,
+                            "disable-end-credits": false,
+                            "nerf-pigmen-from-nether-portals": false,
+                            "disable-chest-cat-detection": false,
+                            "disable-relative-projectile-velocity": false,
+                            "disable-unloaded-chunk-enderpearl-exploit": true,
+                            "disable-mob-spawner-spawn-egg-transformation": false
+                        },
+                        "should-remove-dragon": false,
+                        "ender-dragons-death-always-places-dragon-egg": false,
+                        "max-growth-height": {
+                            "cactus": 3,
+                            "reeds": 3,
+                            "bamboo": {
+                                "max": 16,
+                                "min": 11
+                            }
+                        },
+                        "fishing-time-range": {
+                            "MinimumTicks": 100,
+                            "MaximumTicks": 600
+                        },
+                        "despawn-ranges": {
+                            "monster": {
+                                "soft": 32,
+                                "hard": 128
+                            },
+                            "creature": {
+                                "soft": 32,
+                                "hard": 128
+                            },
+                            "ambient": {
+                                "soft": 32,
+                                "hard": 128
+                            },
+                            "axolotls": {
+                                "soft": 32,
+                                "hard": 128
+                            },
+                            "underground_water_creature": {
+                                "soft": 32,
+                                "hard": 128
+                            },
+                            "water_creature": {
+                                "soft": 32,
+                                "hard": 128
+                            },
+                            "water_ambient": {
+                                "soft": 32,
+                                "hard": 64
+                            },
+                            "misc": {
+                                "soft": 32,
+                                "hard": 128
+                            }
+                        },
+                        "falling-block-height-nerf": 0,
+                        "tnt-entity-height-nerf": 0,
+                        "slime-spawn-height": {
+                            "swamp-biome": {
+                                "maximum": 70.0,
+                                "minimum": 50.0
+                            },
+                            "slime-chunk": {
+                                "maximum": 40.0
+                            }
+                        },
+                        "frosted-ice": {
+                            "enabled": true,
+                            "delay": {
+                                "min": 20,
+                                "max": 40
+                            }
+                        },
+                        "lootables": {
+                            "auto-replenish": false,
+                            "restrict-player-reloot": true,
+                            "reset-seed-on-fill": true,
+                            "max-refills": -1,
+                            "refresh-min": "12h",
+                            "refresh-max": "2d"
+                        },
+                        "filter-nbt-data-from-spawn-eggs-and-related": true,
+                        "max-entity-collisions": 8,
+                        "disable-creeper-lingering-effect": false,
+                        "duplicate-uuid-resolver": "saferegen",
+                        "duplicate-uuid-saferegen-delete-range": 32,
+                        "hopper": {
+                            "cooldown-when-full": true,
+                            "disable-move-event": false,
+                            "ignore-occluding-blocks": false
+                        },
+                        "mob-effects": {
+                            "undead-immune-to-certain-effects": true,
+                            "spiders-immune-to-poison-effect": true,
+                            "immune-to-wither-effect": {
+                                "wither": true,
+                                "wither-skeleton": true
+                            }
+                        },
+                        "piglins-guard-chests": true,
+                        "baby-zombie-movement-modifier": 0.5,
+                        "use-vanilla-world-scoreboard-name-coloring": false,
+                        "count-all-mobs-for-spawning": false,
+                        "experience-merge-max-value": -1,
+                        "wandering-trader": {
+                            "spawn-minute-length": 1200,
+                            "spawn-day-length": 24000,
+                            "spawn-chance-failure-increment": 25,
+                            "spawn-chance-min": 25,
+                            "spawn-chance-max": 75
+                        },
+                        "door-breaking-difficulty": {
+                            "zombie": [
+                                "HARD"
+                            ],
+                            "zombie_villager": [
+                                "HARD"
+                            ],
+                            "husk": [
+                                "HARD"
+                            ],
+                            "zombified_piglin": [
+                                "HARD"
+                            ],
+                            "vindicator": [
+                                "NORMAL",
+                                "HARD"
+                            ]
+                        },
+                        "update-pathfinding-on-block-update": true,
+                        "phantoms-do-not-spawn-on-creative-players": true,
+                        "phantoms-only-attack-insomniacs": true,
+                        "mobs-can-always-pick-up-loot": {
+                            "zombies": false,
+                            "skeletons": false
+                        },
+                        "map-item-frame-cursor-update-interval": 10,
+                        "allow-player-cramming-damage": false,
+                        "anticheat": {
+                            "obfuscation": {
+                                "items": {
+                                    "hide-itemmeta": false,
+                                    "hide-durability": false
+                                }
+                            }
+                        },
+                        "monster-spawn-max-light-level": -1,
+                        "only-players-collide": false,
+                        "allow-vehicle-collisions": true,
+                        "allow-non-player-entities-on-scoreboards": false,
+                        "portal-search-radius": 128,
+                        "portal-create-radius": 16,
+                        "portal-search-vanilla-dimension-scaling": true,
+                        "keep-spawn-loaded-range": 10,
+                        "fix-items-merging-through-walls": false,
+                        "keep-spawn-loaded": true,
+                        "parrots-are-unaffected-by-player-movement": false,
+                        "disable-explosion-knockback": false,
+                        "nether-ceiling-void-damage-height": 0,
+                        "anti-xray": {
+                            "enabled": false,
+                            "engine-mode": 1,
+                            "max-block-height": 64,
+                            "update-radius": 2,
+                            "lava-obscures": false,
+                            "use-permission": false,
+                            "hidden-blocks": [
+                                "copper_ore",
+                                "deepslate_copper_ore",
+                                "gold_ore",
+                                "deepslate_gold_ore",
+                                "iron_ore",
+                                "deepslate_iron_ore",
+                                "coal_ore",
+                                "deepslate_coal_ore",
+                                "lapis_ore",
+                                "deepslate_lapis_ore",
+                                "mossy_cobblestone",
+                                "obsidian",
+                                "chest",
+                                "diamond_ore",
+                                "deepslate_diamond_ore",
+                                "redstone_ore",
+                                "deepslate_redstone_ore",
+                                "clay",
+                                "emerald_ore",
+                                "deepslate_emerald_ore",
+                                "ender_chest"
+                            ],
+                            "replacement-blocks": [
+                                "stone",
+                                "oak_planks",
+                                "deepslate"
+                            ]
+                        },
+                        "armor-stands-do-collision-entity-lookups": true,
+                        "disable-thunder": false,
+                        "skeleton-horse-thunder-spawn-chance": 0.01,
+                        "disable-ice-and-snow": false,
+                        "fix-climbing-bypassing-cramming-rule": false,
+                        "container-update-tick-rate": 1,
+                        "water-over-lava-flow-speed": 5,
+                        "grass-spread-tick-rate": 1,
+                        "redstone-implementation": "vanilla",
+                        "fixed-chunk-inhabited-time": -1,
+                        "prevent-tnt-from-moving-in-water": false,
+                        "show-sign-click-command-failure-msgs-to-player": false,
+                        "iron-golems-can-spawn-in-air": false,
+                        "max-leash-distance": 10.0,
+                        "armor-stands-tick": true,
+                        "non-player-arrow-despawn-rate": -1,
+                        "creative-arrow-despawn-rate": -1,
+                        "spawner-nerfed-mobs-should-jump": false,
+                        "entities-target-with-follow-range": false,
+                        "wateranimal-spawn-height": {
+                            "maximum": "default",
+                            "minimum": "default"
+                        },
+                        "zombies-target-turtle-eggs": true,
+                        "unsupported-settings": {
+                            "fix-invulnerable-end-crystal-exploit": true
+                        },
+                        "zombie-villager-infection-chance": -1.0,
+                        "all-chunks-are-slime-chunks": false,
+                        "mob-spawner-tick-rate": 1,
+                        "map-item-frame-cursor-limit": 128,
+                        "light-queue-size": 20,
+                        "auto-save-interval": -1,
+                        "per-player-mob-spawns": true,
+                        "enable-treasure-maps": true,
+                        "treasure-maps-return-already-discovered": false,
+                        "generator-settings": {
+                            "flat-bedrock": false
+                        },
+                        "split-overstacked-loot": true,
+                        "delay-chunk-unloads-by": "10s",
+                        "entity-per-chunk-save-limit": {
+                            "experience_orb": -1,
+                            "snowball": -1,
+                            "ender_pearl": -1,
+                            "arrow": -1,
+                            "fireball": -1,
+                            "small_fireball": -1
+                        },
+                        "tick-rates": {
+                            "sensor": {
+                                "villager": {
+                                    "secondarypoisensor": 40
+                                }
+                            },
+                            "behavior": {
+                                "villager": {
+                                    "validatenearbypoi": -1
+                                }
+                            }
+                        },
+                        "alt-item-despawn-rate": {
+                            "enabled": false,
+                            "items": {
+                                "cobblestone": 300
+                            }
+                        }
+                    }
+                }
+            },
+            "purpur.yml": {
+                "world-settings": {
+                    "default": {
+                        "blocks": {
+                            "sign": {
+                                "right-click-edit": false,
+                                "allow-colors": false
+                            },
+                            "turtle_egg": {
+                                "break-from-exp-orbs": true,
+                                "break-from-items": true,
+                                "break-from-minecarts": true
+                            }
+                        },
+                        "mobs": {
+                            "squid": {
+                                "immune-to-EAR": true
+                            },
+                            "villager": {
+                                "brain-ticks": 1,
+                                "use-brain-ticks-only-when-lagging": true
+                            }
+                        }
+                    }
+                },
+                "verbose": false,
+                "settings": {
+                    "lagging-threshold": 19.0,
+                    "use-alternate-keepalive": false,
+                    "logger": {
+                        "suppress-init-legacy-material-errors": false,
+                        "suppress-ignored-advancement-warnings": false,
+                        "suppress-unrecognized-recipe-errors": false,
+                        "suppress-setblock-in-far-chunk-errors": false
+                    },
+                    "tps-catchup": true
+                },
+                "config-version": 27
+            },
+            "pufferfish.yml": {
+                "info": {
+                    "version": "1.0"
+                },
+                "sentry-dsn": "",
+                "enable-books": true,
+                "enable-suffocation-optimization": true,
+                "enable-async-mob-spawning": true,
+                "projectile": {
+                    "max-loads-per-tick": 10,
+                    "max-loads-per-projectile": 10
+                },
+                "dab": {
+                    "enabled": true,
+                    "start-distance": 12,
+                    "max-tick-freq": 20,
+                    "activation-dist-mod": 8
+                },
+                "inactive-goal-selector-throttle": true,
+                "misc": {
+                    "disable-method-profiler": true
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                38
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1718660066718,
+        "numberOfTicks": 34748,
+        "plugins": {
+            "voidgen": {
+                "name": "VoidGen",
+                "version": "2.2.1"
+            },
+            "fastchunkpregenerator": {
+                "name": "FastChunkPregenerator",
+                "version": "2.0.9-SNAPSHOT"
+            },
+            "placeholderapi": {
+                "name": "PlaceholderAPI",
+                "version": "2.11.5"
+            },
+            "automessage": {
+                "name": "AutoMessage",
+                "version": "5.1.4"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.71"
+            },
+            "nightcore": {
+                "name": "nightcore",
+                "version": "2.6.1"
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.15.1"
+            },
+            "adminvision": {
+                "name": "AdminVision",
+                "version": "1.0.0"
+            },
+            "multiverse-core": {
+                "name": "Multiverse-Core",
+                "version": "4.3.1-b861"
+            },
+            "itemedit": {
+                "name": "ItemEdit",
+                "version": "3.0.13"
+            },
+            "fastasyncworldedit": {
+                "name": "FastAsyncWorldEdit",
+                "version": "2.8.1-SNAPSHOT-564;a7f1d94"
+            },
+            "walletvision": {
+                "name": "WalletVision",
+                "version": "1.0.0"
+            },
+            "blueslimecore": {
+                "name": "BlueSlimeCore",
+                "version": "2.9.4.377"
+            },
+            "playerkits2": {
+                "name": "PlayerKits2",
+                "version": "1.11.4"
+            },
+            "clansvision": {
+                "name": "ClansVision",
+                "version": "1.0.0"
+            },
+            "viaversion": {
+                "name": "ViaVersion",
+                "version": "4.10.2"
+            },
+            "viabackwards": {
+                "name": "ViaBackwards",
+                "version": "4.10.2"
+            },
+            "worldguard": {
+                "name": "WorldGuard",
+                "version": "7.0.7+216b061"
+            },
+            "protocollib": {
+                "name": "ProtocolLib",
+                "version": "5.1.0"
+            },
+            "citizens": {
+                "name": "Citizens",
+                "version": "2.0.34-SNAPSHOT (build 3410)"
+            },
+            "vulcan": {
+                "name": "Vulcan",
+                "version": "2.8.6"
+            },
+            "shopkeepers": {
+                "name": "Shopkeepers",
+                "version": "2.20.1"
+            },
+            "combatlogx": {
+                "name": "CombatLogX",
+                "version": "11.4.0.1.1193"
+            },
+            "decentholograms": {
+                "name": "DecentHolograms",
+                "version": "2.8.6"
+            },
+            "grimac": {
+                "name": "GrimAC",
+                "version": "2.3.64"
+            },
+            "lpx": {
+                "name": "LPX",
+                "version": "3.4.7"
+            },
+            "goxy": {
+                "name": "goxy",
+                "version": "1.4.0"
+            },
+            "excellentcrates": {
+                "name": "ExcellentCrates",
+                "version": "5.2.2.3"
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.102"
+            },
+            "goxy-pubsub": {
+                "name": "goxy-pubsub",
+                "version": "0.1.0"
+            },
+            "tab": {
+                "name": "TAB",
+                "version": "4.0.7"
+            },
+            "alertfull": {
+                "name": "alertfull",
+                "version": "1.0"
+            },
+            "anarchiaffavision": {
+                "name": "AnarchiaFFAVision",
+                "version": "1.0.0"
+            },
+            "ffacore": {
+                "name": "ffacore",
+                "version": "1.0"
+            },
+            "plugmanx": {
+                "name": "PlugManX",
+                "version": "2.3.7"
+            }
+        },
+        "samplerMode": 0
+    }
+}

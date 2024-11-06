@@ -1,0 +1,3342 @@
+{
+    "metadata": {
+        "startTime": 1730530993717,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "0.16.5",
+            "minecraftVersion": "1.21",
+            "sparkVersion": 2,
+            "brand": "Fabric API"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 903598440,
+                    "committed": 1879048192,
+                    "init": 134217728,
+                    "max": 12582912000
+                },
+                "nonHeap": {
+                    "used": 191083896,
+                    "committed": 234356736,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 201326592,
+                            "committed": 905969664,
+                            "init": 33554432,
+                            "max": 905969664
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 905969664,
+                            "init": 33554432,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 701735928,
+                            "committed": 939524096,
+                            "init": 100663296,
+                            "max": 12582912000
+                        },
+                        "collectionUsage": {
+                            "used": 701723544,
+                            "committed": 939524096,
+                            "init": 100663296,
+                            "max": 12582912000
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 535920,
+                            "committed": 33554432,
+                            "init": 0,
+                            "max": 33554432
+                        },
+                        "collectionUsage": {
+                            "used": 535920,
+                            "committed": 33554432,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 295,
+                    "avgTime": 5.4711864406779664,
+                    "avgFrequency": 2566
+                },
+                "G1 Concurrent GC": {
+                    "total": 280,
+                    "avgTime": 2.95,
+                    "avgFrequency": 2707
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 758874,
+            "tps": {
+                "last1m": 20.003415310117585,
+                "last5m": 18.558615874762115,
+                "last15m": 19.36535561758337
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 44.553656626666665,
+                    "max": 67.843928,
+                    "min": 37.215223,
+                    "median": 43.574549,
+                    "percentile95": 52.702839
+                },
+                "last5m": {
+                    "mean": 45.408220831,
+                    "max": 2261.3975,
+                    "min": 35.246498,
+                    "median": 43.616582,
+                    "percentile95": 53.894208
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 42.6031746031746,
+                    "max": 49,
+                    "min": 11,
+                    "median": 45,
+                    "percentile95": 48
+                }
+            },
+            "playerCount": 6,
+            "world": {
+                "totalEntities": 4995,
+                "entityCounts": {
+                    "minecraft:text_display": 208,
+                    "minecraft:wandering_trader": 37,
+                    "minecraft:block_display": 699,
+                    "minecraft:player": 6,
+                    "taterzens:npc": 12,
+                    "minecraft:llama": 87,
+                    "minecraft:item_display": 885,
+                    "minecraft:shulker": 89,
+                    "minecraft:hopper_minecart": 12,
+                    "minecraft:interaction": 21,
+                    "minecraft:armor_stand": 50,
+                    "minecraft:villager": 1,
+                    "minecraft:ocelot": 17,
+                    "minecraft:cow": 1,
+                    "minecraft:item_frame": 25,
+                    "minecraft:minecart": 2,
+                    "minecraft:marker": 2805,
+                    "minecraft:item": 2,
+                    "minecraft:painting": 36
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 4995,
+                        "regions": [
+                            {
+                                "totalEntities": 4769,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 2,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:marker": 12
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 0,
+                                        "totalEntities": 81,
+                                        "entityCounts": {
+                                            "minecraft:item": 2,
+                                            "minecraft:wandering_trader": 24,
+                                            "minecraft:llama": 21,
+                                            "minecraft:block_display": 15,
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 5,
+                                            "minecraft:item_frame": 1,
+                                            "minecraft:item_display": 2,
+                                            "minecraft:player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -1,
+                                        "totalEntities": 67,
+                                        "entityCounts": {
+                                            "minecraft:llama": 27,
+                                            "minecraft:block_display": 20,
+                                            "minecraft:marker": 11,
+                                            "taterzens:npc": 2,
+                                            "minecraft:text_display": 2,
+                                            "minecraft:player": 3,
+                                            "minecraft:interaction": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 4,
+                                        "totalEntities": 13,
+                                        "entityCounts": {
+                                            "minecraft:marker": 13
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -2,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 3,
+                                            "minecraft:armor_stand": 1,
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -3,
+                                        "totalEntities": 24,
+                                        "entityCounts": {
+                                            "minecraft:marker": 24
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -4,
+                                        "totalEntities": 27,
+                                        "entityCounts": {
+                                            "minecraft:marker": 27
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 5,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 1,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 15
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 2,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "minecraft:marker": 15
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 6,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 4,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -6,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:painting": 4,
+                                            "minecraft:marker": 3,
+                                            "minecraft:text_display": 3,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 5,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -1,
+                                        "totalEntities": 60,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 23,
+                                            "minecraft:llama": 12,
+                                            "taterzens:npc": 3,
+                                            "minecraft:marker": 6,
+                                            "minecraft:text_display": 3,
+                                            "minecraft:armor_stand": 3,
+                                            "minecraft:item_display": 5,
+                                            "minecraft:player": 1,
+                                            "minecraft:interaction": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -7,
+                                        "totalEntities": 197,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 21,
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 3,
+                                            "minecraft:item_frame": 4,
+                                            "minecraft:item_display": 168
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 3,
+                                        "totalEntities": 42,
+                                        "entityCounts": {
+                                            "minecraft:marker": 42
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 6,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:minecart": 1,
+                                            "minecraft:marker": 3,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -4,
+                                        "totalEntities": 33,
+                                        "entityCounts": {
+                                            "minecraft:marker": 31,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 0,
+                                        "totalEntities": 161,
+                                        "entityCounts": {
+                                            "minecraft:shulker": 38,
+                                            "minecraft:block_display": 30,
+                                            "minecraft:llama": 9,
+                                            "minecraft:marker": 6,
+                                            "minecraft:item_display": 78
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -7,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 3,
+                                        "totalEntities": 46,
+                                        "entityCounts": {
+                                            "minecraft:marker": 46
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -5,
+                                        "totalEntities": 100,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 7,
+                                            "minecraft:marker": 18,
+                                            "taterzens:npc": 1,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 69,
+                                            "minecraft:interaction": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -5,
+                                        "totalEntities": 23,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 6,
+                                            "minecraft:ocelot": 5,
+                                            "minecraft:item_display": 11
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -6,
+                                        "totalEntities": 47,
+                                        "entityCounts": {
+                                            "minecraft:llama": 1,
+                                            "minecraft:block_display": 32,
+                                            "minecraft:painting": 4,
+                                            "minecraft:marker": 6,
+                                            "minecraft:item_display": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -3,
+                                        "totalEntities": 26,
+                                        "entityCounts": {
+                                            "minecraft:marker": 26
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 1,
+                                        "totalEntities": 107,
+                                        "entityCounts": {
+                                            "minecraft:shulker": 21,
+                                            "minecraft:block_display": 14,
+                                            "minecraft:marker": 12,
+                                            "minecraft:item_display": 60
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 1,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "minecraft:llama": 1,
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 15
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 2,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "minecraft:marker": 25
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -5,
+                                        "totalEntities": 31,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:block_display": 1,
+                                            "minecraft:painting": 2,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:ocelot": 2,
+                                            "minecraft:item_display": 15
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 3,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "minecraft:marker": 25
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 0,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -1,
+                                        "totalEntities": 14,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 6,
+                                            "minecraft:armor_stand": 3,
+                                            "minecraft:item_display": 3,
+                                            "minecraft:interaction": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -2,
+                                        "totalEntities": 31,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 6,
+                                            "minecraft:llama": 3,
+                                            "taterzens:npc": 3,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 4,
+                                            "minecraft:armor_stand": 1,
+                                            "minecraft:item_display": 2,
+                                            "minecraft:interaction": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -3,
+                                        "totalEntities": 57,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1,
+                                            "minecraft:marker": 51,
+                                            "minecraft:item_display": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 7,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 2,
+                                            "minecraft:text_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -4,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "minecraft:marker": 16
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 2,
+                                        "totalEntities": 28,
+                                        "entityCounts": {
+                                            "minecraft:marker": 28
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -2,
+                                        "totalEntities": 33,
+                                        "entityCounts": {
+                                            "minecraft:llama": 7,
+                                            "minecraft:marker": 13,
+                                            "taterzens:npc": 2,
+                                            "minecraft:text_display": 2,
+                                            "minecraft:armor_stand": 4,
+                                            "minecraft:item_display": 3,
+                                            "minecraft:interaction": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -6,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9,
+                                            "minecraft:ocelot": 1,
+                                            "minecraft:item_display": 7
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 3,
+                                        "totalEntities": 30,
+                                        "entityCounts": {
+                                            "minecraft:marker": 26,
+                                            "minecraft:item_display": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -6,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -4,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "minecraft:marker": 16
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -5,
+                                        "totalEntities": 211,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:block_display": 126,
+                                            "minecraft:marker": 6,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 77
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 5,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:marker": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -3,
+                                        "totalEntities": 42,
+                                        "entityCounts": {
+                                            "minecraft:marker": 42
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 4,
+                                        "totalEntities": 14,
+                                        "entityCounts": {
+                                            "minecraft:painting": 2,
+                                            "minecraft:marker": 12
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 0,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 2,
+                                            "minecraft:player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -7,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "taterzens:npc": 1,
+                                            "minecraft:marker": 6,
+                                            "minecraft:interaction": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -3,
+                                        "totalEntities": 144,
+                                        "entityCounts": {
+                                            "minecraft:shulker": 25,
+                                            "minecraft:block_display": 64,
+                                            "minecraft:marker": 23,
+                                            "minecraft:armor_stand": 6,
+                                            "minecraft:item_display": 26
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -5,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3,
+                                            "minecraft:item_display": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -2,
+                                        "totalEntities": 44,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 9,
+                                            "minecraft:marker": 35
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 7,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -4,
+                                        "totalEntities": 19,
+                                        "entityCounts": {
+                                            "minecraft:marker": 19
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 1,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 0,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -2,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 4,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -7,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -1,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -4,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "minecraft:marker": 16
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 3,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 0,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 3,
+                                        "totalEntities": 42,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 41
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 1,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -3,
+                                        "totalEntities": 18,
+                                        "entityCounts": {
+                                            "minecraft:marker": 16,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -5,
+                                        "totalEntities": 14,
+                                        "entityCounts": {
+                                            "minecraft:painting": 2,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -1,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -4,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "minecraft:marker": 16
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -2,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9,
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -3,
+                                        "totalEntities": 18,
+                                        "entityCounts": {
+                                            "minecraft:marker": 17,
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:marker": 1,
+                                            "minecraft:armor_stand": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 5,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -4,
+                                        "totalEntities": 19,
+                                        "entityCounts": {
+                                            "minecraft:marker": 19
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 2,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6,
+                                            "minecraft:item_frame": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 5,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 1,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "minecraft:minecart": 1,
+                                            "minecraft:marker": 10
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 6,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:marker": 12,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -6,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -1,
+                                        "totalEntities": 35,
+                                        "entityCounts": {
+                                            "minecraft:marker": 35
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 3,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -3,
+                                        "totalEntities": 21,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 19,
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -7,
+                                        "totalEntities": 13,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 1,
+                                            "minecraft:ocelot": 2,
+                                            "minecraft:item_display": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 7,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "minecraft:item_display": 17
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 0,
+                                        "totalEntities": 46,
+                                        "entityCounts": {
+                                            "minecraft:marker": 46
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 3,
+                                        "totalEntities": 38,
+                                        "entityCounts": {
+                                            "minecraft:marker": 38
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 0,
+                                        "totalEntities": 41,
+                                        "entityCounts": {
+                                            "minecraft:marker": 41
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -6,
+                                        "totalEntities": 33,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 3,
+                                            "minecraft:marker": 3,
+                                            "minecraft:item_display": 27
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -6,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 2,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 3,
+                                            "minecraft:marker": 6,
+                                            "minecraft:item_frame": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 1,
+                                        "totalEntities": 30,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:llama": 1,
+                                            "minecraft:block_display": 18,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -5,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 0,
+                                        "totalEntities": 39,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 38
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -1,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:painting": 2,
+                                            "minecraft:marker": 9,
+                                            "minecraft:item_frame": 1,
+                                            "minecraft:armor_stand": 1,
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 1,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 21,
+                                            "minecraft:armor_stand": 2,
+                                            "minecraft:item_display": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -1,
+                                        "totalEntities": 45,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 6,
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 6,
+                                            "minecraft:text_display": 32
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -7,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:marker": 3,
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -6,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -2,
+                                        "totalEntities": 44,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 13,
+                                            "minecraft:llama": 2,
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 3,
+                                            "minecraft:text_display": 4,
+                                            "minecraft:item_frame": 3,
+                                            "minecraft:item_display": 14,
+                                            "minecraft:interaction": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 2,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 4,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:marker": 12
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 6,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -3,
+                                        "totalEntities": 26,
+                                        "entityCounts": {
+                                            "minecraft:marker": 25,
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 0,
+                                        "totalEntities": 58,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 4,
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 41,
+                                            "minecraft:item_display": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -5,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -7,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 4,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -2,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 6,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:marker": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 7,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:item_display": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -3,
+                                        "totalEntities": 104,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 50,
+                                            "minecraft:marker": 31,
+                                            "minecraft:item_display": 23
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 0,
+                                        "totalEntities": 44,
+                                        "entityCounts": {
+                                            "minecraft:marker": 44
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -6,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:marker": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:marker": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -5,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -2,
+                                        "totalEntities": 27,
+                                        "entityCounts": {
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 13,
+                                            "minecraft:text_display": 12,
+                                            "minecraft:item_frame": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 4,
+                                        "totalEntities": 20,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 8,
+                                            "minecraft:marker": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 5,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 3,
+                                            "minecraft:item_display": 8
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 6,
+                                        "totalEntities": 23,
+                                        "entityCounts": {
+                                            "minecraft:marker": 22,
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -7,
+                                        "totalEntities": 20,
+                                        "entityCounts": {
+                                            "minecraft:marker": 20
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -2,
+                                        "totalEntities": 34,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:block_display": 21,
+                                            "minecraft:painting": 2,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 3,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "minecraft:marker": 25
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -1,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -1,
+                                        "totalEntities": 112,
+                                        "entityCounts": {
+                                            "minecraft:villager": 1,
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:shulker": 1,
+                                            "minecraft:block_display": 68,
+                                            "minecraft:llama": 2,
+                                            "minecraft:painting": 4,
+                                            "minecraft:marker": 24,
+                                            "minecraft:text_display": 2,
+                                            "minecraft:item_frame": 4,
+                                            "minecraft:armor_stand": 1,
+                                            "minecraft:item_display": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 6,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "minecraft:marker": 25
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -7,
+                                        "totalEntities": 31,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 26,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 4,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "minecraft:marker": 7
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 3,
+                                        "totalEntities": 27,
+                                        "entityCounts": {
+                                            "minecraft:marker": 27
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -4,
+                                        "totalEntities": 13,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 9,
+                                            "minecraft:text_display": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 0,
+                                        "totalEntities": 59,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:painting": 2,
+                                            "minecraft:marker": 47,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_frame": 1,
+                                            "minecraft:armor_stand": 1,
+                                            "minecraft:item_display": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -5,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -7,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 6,
+                                        "totalEntities": 13,
+                                        "entityCounts": {
+                                            "minecraft:wandering_trader": 1,
+                                            "minecraft:shulker": 1,
+                                            "minecraft:block_display": 1,
+                                            "minecraft:marker": 9,
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 0,
+                                        "totalEntities": 30,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1,
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 28
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -6,
+                                        "totalEntities": 41,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 35,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -1,
+                                        "totalEntities": 44,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 32,
+                                            "minecraft:marker": 6,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_frame": 2,
+                                            "minecraft:armor_stand": 1,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 5,
+                                        "totalEntities": 35,
+                                        "entityCounts": {
+                                            "minecraft:marker": 35
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 0,
+                                        "totalEntities": 27,
+                                        "entityCounts": {
+                                            "minecraft:marker": 27
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 3,
+                                        "totalEntities": 38,
+                                        "entityCounts": {
+                                            "minecraft:marker": 38
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -3,
+                                        "totalEntities": 40,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 3,
+                                            "minecraft:marker": 35,
+                                            "minecraft:text_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 2,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -4,
+                                        "totalEntities": 27,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 14,
+                                            "minecraft:marker": 3,
+                                            "minecraft:text_display": 10
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 3,
+                                        "totalEntities": 38,
+                                        "entityCounts": {
+                                            "minecraft:marker": 38
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 4,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 2,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:marker": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -6,
+                                        "totalEntities": 49,
+                                        "entityCounts": {
+                                            "minecraft:marker": 44,
+                                            "minecraft:ocelot": 2,
+                                            "minecraft:item_display": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -3,
+                                        "totalEntities": 48,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 4,
+                                            "minecraft:marker": 35,
+                                            "minecraft:item_display": 9
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 5,
+                                        "totalEntities": 51,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 4,
+                                            "minecraft:marker": 38,
+                                            "minecraft:item_frame": 1,
+                                            "minecraft:armor_stand": 1,
+                                            "minecraft:item_display": 7
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -1,
+                                        "totalEntities": 18,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 5,
+                                            "minecraft:marker": 9,
+                                            "minecraft:item_display": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 3,
+                                        "totalEntities": 35,
+                                        "entityCounts": {
+                                            "minecraft:marker": 35
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -7,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 4,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 1,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:marker": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:ocelot": 1,
+                                            "minecraft:item_display": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 2,
+                                        "totalEntities": 14,
+                                        "entityCounts": {
+                                            "minecraft:marker": 12,
+                                            "minecraft:item_frame": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -5,
+                                        "totalEntities": 45,
+                                        "entityCounts": {
+                                            "minecraft:painting": 1,
+                                            "minecraft:marker": 35,
+                                            "minecraft:ocelot": 4,
+                                            "minecraft:item_display": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -2,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "minecraft:llama": 1,
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 6,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_frame": 3,
+                                            "minecraft:armor_stand": 2,
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 3,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "minecraft:marker": 32
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -5,
+                                        "totalEntities": 36,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 2,
+                                            "minecraft:marker": 32,
+                                            "minecraft:text_display": 1,
+                                            "minecraft:item_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:marker": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -3,
+                                        "totalEntities": 53,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 10,
+                                            "minecraft:marker": 38,
+                                            "minecraft:text_display": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -4,
+                                        "totalEntities": 19,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 3,
+                                            "minecraft:marker": 3,
+                                            "minecraft:text_display": 8,
+                                            "minecraft:item_display": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -3,
+                                        "totalEntities": 51,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 10,
+                                            "minecraft:marker": 32,
+                                            "minecraft:item_display": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 2,
+                                        "totalEntities": 22,
+                                        "entityCounts": {
+                                            "minecraft:block_display": 7,
+                                            "minecraft:marker": 9,
+                                            "minecraft:item_display": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 6,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:marker": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -2,
+                                        "totalEntities": 13,
+                                        "entityCounts": {
+                                            "minecraft:marker": 12,
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 4,
+                                        "totalEntities": 38,
+                                        "entityCounts": {
+                                            "minecraft:marker": 38
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 9,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:hopper_minecart": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 8,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:item_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:shulker": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:shulker": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 73,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -17,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -16,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -16,
+                                        "totalEntities": 53,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 53
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -16,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 7
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": -9,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -10,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -9,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 22,
+                                "chunks": [
+                                    {
+                                        "x": -14,
+                                        "z": -8,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "minecraft:armor_stand": 11
+                                        }
+                                    },
+                                    {
+                                        "x": -14,
+                                        "z": -7,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "minecraft:armor_stand": 11
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:shulker": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 115,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": -4,
+                                        "totalEntities": 61,
+                                        "entityCounts": {
+                                            "minecraft:item_display": 61
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": -3,
+                                        "totalEntities": 45,
+                                        "entityCounts": {
+                                            "minecraft:item_display": 45
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": -3,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:item_display": 9
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 18,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -14,
+                                        "z": 16,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:text_display": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ],
+                "gameRules": [
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "the_nether": "393216",
+                            "overworld": "393216",
+                            "the_end": "393216"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "the_nether": "1",
+                            "overworld": "1",
+                            "the_end": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "24",
+                        "worldValues": {
+                            "the_nether": "24",
+                            "overworld": "24",
+                            "the_end": "24"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "100",
+                        "worldValues": {
+                            "the_nether": "100",
+                            "overworld": "100",
+                            "the_end": "100"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "the_nether": "1",
+                            "overworld": "1",
+                            "the_end": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "3",
+                        "worldValues": {
+                            "the_nether": "0",
+                            "overworld": "0",
+                            "the_end": "0"
+                        }
+                    },
+                    {
+                        "defaultValue": "80",
+                        "worldValues": {
+                            "the_nether": "80",
+                            "overworld": "80",
+                            "the_end": "80"
+                        }
+                    },
+                    {
+                        "defaultValue": "10",
+                        "worldValues": {
+                            "the_nether": "0",
+                            "overworld": "0",
+                            "the_end": "0"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "2",
+                        "worldValues": {
+                            "the_nether": "2",
+                            "overworld": "2",
+                            "the_end": "2"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "32768",
+                        "worldValues": {
+                            "the_nether": "32768",
+                            "overworld": "32768",
+                            "the_end": "32768"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "the_nether": "65536",
+                            "overworld": "65536",
+                            "the_end": "65536"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    }
+                ],
+                "dataPacks": [
+                    {
+                        "description": "The default data for Minecraft",
+                        "source": "builtin"
+                    },
+                    {
+                        "description": "Mod resources.",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "axiom",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "chat-control",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "config2brigadier",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "fabric-convention-tags-v2",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "headindex",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "server_translations_api",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "Climbable Chains Addon",
+                        "source": "world"
+                    },
+                    {
+                        "description": "Hide and Seek Chat Mute Addon",
+                        "source": "world"
+                    },
+                    {
+                        "description": "SpeechTools 1.0 for 1.21.1",
+                        "source": "world"
+                    },
+                    {
+                        "description": "Explosion-based player motion library",
+                        "source": "world"
+                    },
+                    {
+                        "description": "Icosahedron Datapack",
+                        "source": "world"
+                    },
+                    {
+                        "description": "TETRIS",
+                        "source": "world"
+                    },
+                    {
+                        "description": "Hide and Seek with custom items!",
+                        "source": "world"
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 3,
+                "processUsage": {
+                    "last1m": 0.3877274994828774,
+                    "last15m": 0.36311921552765747
+                },
+                "systemUsage": {
+                    "last1m": 0.38451379056118945,
+                    "last15m": 0.36455496497173256
+                },
+                "modelName": "AMD Ryzen 7 5700G with Radeon Graphics"
+            },
+            "memory": {
+                "physical": {
+                    "used": 3305304064,
+                    "total": 16501825536
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 370,
+                    "avgTime": 7.0864864864864865,
+                    "avgFrequency": 2075
+                },
+                "G1 Concurrent GC": {
+                    "total": 296,
+                    "avgTime": 3.0777027027027026,
+                    "avgFrequency": 2600
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 23200149504,
+                "total": 206090272768
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.14.0-427.35.1.el9_4.x86_64"
+            },
+            "java": {
+                "vendor": "GraalVM Community",
+                "version": "22.0.2",
+                "vendorVersion": "GraalVM CE 22.0.2+9.1",
+                "vmArgs": "-XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -Duser.timezone=CST -Xms128M -Xmx12000M -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dterminal.jline=false -Dterminal.ansi=true"
+            },
+            "uptime": 770534,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 10.333333333333334,
+                        "max": 34,
+                        "min": 0,
+                        "median": 11,
+                        "percentile95": 34
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 10.333333333333334,
+                        "max": 34,
+                        "min": 0,
+                        "median": 11,
+                        "percentile95": 34
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 10270.416666666666,
+                        "max": 16696,
+                        "min": 17,
+                        "median": 11328,
+                        "percentile95": 16696
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 521704.75,
+                        "max": 688148,
+                        "min": 29,
+                        "median": 632768,
+                        "percentile95": 688148
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 161.66666666666666,
+                        "max": 228,
+                        "min": 0,
+                        "median": 188,
+                        "percentile95": 228
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 279.3333333333333,
+                        "max": 475,
+                        "min": 0,
+                        "median": 301,
+                        "percentile95": 475
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "GraalVM Community",
+                "version": "22.0.2+9-jvmci-b01"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": true,
+                "gamemode": "adventure",
+                "enable-query": true,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "world",
+                "query.port": 25565,
+                "pvp": true,
+                "generate-structures": false,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "easy",
+                "network-compression-threshold": 256,
+                "max-tick-time": 60000,
+                "require-resource-pack": true,
+                "max-players": 100,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": true,
+                "allow-flight": true,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 24,
+                "resource-pack-prompt": "",
+                "bug-report-link": "",
+                "allow-nether": false,
+                "server-port": 23123,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "resource-pack-id": "",
+                "op-permission-level": 4,
+                "accepts-transfers": false,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 24,
+                "player-idle-timeout": 0,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": true,
+                "broadcast-console-to-ops": true,
+                "region-file-compression": "deflate",
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "log-ips": false,
+                "function-permission-level": 3,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:flat",
+                "text-filtering-config": "",
+                "spawn-monsters": false,
+                "enforce-whitelist": true,
+                "resource-pack-sha1": "",
+                "spawn-protection": 0,
+                "max-world-size": 29999984
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                50
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1730531594090,
+        "numberOfTicks": 11450,
+        "plugins": {
+            "axiom": {
+                "name": "axiom",
+                "version": "4.1.1",
+                "author": "Moulberry",
+                "description": "Client-side building utility mod"
+            },
+            "chat-control": {
+                "name": "chat-control",
+                "version": "1.6.2",
+                "author": "Declipsonator",
+                "description": "Control your chat with regex and filters"
+            },
+            "cicada": {
+                "name": "cicada",
+                "version": "0.8.3+1.21-and-above",
+                "author": "enjarai",
+                "description": "Confusing, Interesting and Considerably Agnostic Development Aid"
+            },
+            "com_fasterxml_jackson_core_jackson-annotations": {
+                "name": "com_fasterxml_jackson_core_jackson-annotations",
+                "version": "2.17.1",
+                "author": "",
+                "description": ""
+            },
+            "com_fasterxml_jackson_core_jackson-core": {
+                "name": "com_fasterxml_jackson_core_jackson-core",
+                "version": "2.17.1",
+                "author": "",
+                "description": ""
+            },
+            "com_fasterxml_jackson_core_jackson-databind": {
+                "name": "com_fasterxml_jackson_core_jackson-databind",
+                "version": "2.17.1",
+                "author": "",
+                "description": ""
+            },
+            "com_fasterxml_jackson_dataformat_jackson-dataformat-yaml": {
+                "name": "com_fasterxml_jackson_dataformat_jackson-dataformat-yaml",
+                "version": "2.17.1",
+                "author": "",
+                "description": ""
+            },
+            "com_moulberry_axiomclientapi_axiomclientapi_": {
+                "name": "com_moulberry_axiomclientapi_axiomclientapi_",
+                "version": "1.0.0",
+                "author": "",
+                "description": ""
+            },
+            "com_moulberry_mixinconstraints": {
+                "name": "com_moulberry_mixinconstraints",
+                "version": "1.0.1",
+                "author": "",
+                "description": ""
+            },
+            "commandaliases": {
+                "name": "commandaliases",
+                "version": "1.0.1+mc1.21-build.70",
+                "author": "FlashyReese",
+                "description": "Alternate short commands for complex commands"
+            },
+            "common-economy-api": {
+                "name": "common-economy-api",
+                "version": "1.1.1",
+                "author": "Patbox",
+                "description": "Common API for interactions between economy related mods"
+            },
+            "config2brigadier": {
+                "name": "config2brigadier",
+                "version": "1.2.6",
+                "author": "samo_lego",
+                "description": "A library to automagically generate in-game command for config editing."
+            },
+            "fabric-api": {
+                "name": "fabric-api",
+                "version": "0.100.4+1.21",
+                "author": "FabricMC",
+                "description": "Core API module providing key hooks and intercompatibility features."
+            },
+            "fabric-api-base": {
+                "name": "fabric-api-base",
+                "version": "0.4.42+6573ed8cd1",
+                "author": "FabricMC",
+                "description": "Contains the essentials for Fabric API modules."
+            },
+            "fabric-api-lookup-api-v1": {
+                "name": "fabric-api-lookup-api-v1",
+                "version": "1.6.67+b5597344d1",
+                "author": "FabricMC",
+                "description": "A universal way to expose and query APIs"
+            },
+            "fabric-biome-api-v1": {
+                "name": "fabric-biome-api-v1",
+                "version": "13.0.28+6fc22b99d1",
+                "author": "FabricMC",
+                "description": "Hooks for adding biomes to the default world generator."
+            },
+            "fabric-block-api-v1": {
+                "name": "fabric-block-api-v1",
+                "version": "1.0.22+0af3f5a7d1",
+                "author": "FabricMC",
+                "description": "Hooks for blocks"
+            },
+            "fabric-block-view-api-v2": {
+                "name": "fabric-block-view-api-v2",
+                "version": "1.0.10+6573ed8cd1",
+                "author": "FabricMC",
+                "description": "Hooks for block views"
+            },
+            "fabric-command-api-v1": {
+                "name": "fabric-command-api-v1",
+                "version": "1.2.48+f71b366fd1",
+                "author": "FabricMC",
+                "description": "Deprecated. Please migrate to v2"
+            },
+            "fabric-command-api-v2": {
+                "name": "fabric-command-api-v2",
+                "version": "2.2.28+6ced4dd96a",
+                "author": "FabricMC",
+                "description": "Adds command-related hooks."
+            },
+            "fabric-commands-v0": {
+                "name": "fabric-commands-v0",
+                "version": "0.2.65+df3654b3d1",
+                "author": "FabricMC",
+                "description": "Deprecated. Please migrate to v2"
+            },
+            "fabric-content-registries-v0": {
+                "name": "fabric-content-registries-v0",
+                "version": "8.0.14+b5597344d1",
+                "author": "FabricMC",
+                "description": "Adds registries for vanilla mechanics that are missing them."
+            },
+            "fabric-convention-tags-v1": {
+                "name": "fabric-convention-tags-v1",
+                "version": "2.0.15+7f945d5bd1",
+                "author": "FabricMC",
+                "description": "Contains common tags used by mods for vanilla things."
+            },
+            "fabric-convention-tags-v2": {
+                "name": "fabric-convention-tags-v2",
+                "version": "2.3.2+78017270d1",
+                "author": "FabricMC",
+                "description": "Contains common tags used by mods for better inter-mod compatibility."
+            },
+            "fabric-crash-report-info-v1": {
+                "name": "fabric-crash-report-info-v1",
+                "version": "0.2.29+0af3f5a7d1",
+                "author": "FabricMC",
+                "description": "Adds Fabric-related debug info to crash reports."
+            },
+            "fabric-data-attachment-api-v1": {
+                "name": "fabric-data-attachment-api-v1",
+                "version": "1.1.24+6a6dfa19d1",
+                "author": "FabricMC",
+                "description": "Allows conveniently attaching data to existing game objects"
+            },
+            "fabric-data-generation-api-v1": {
+                "name": "fabric-data-generation-api-v1",
+                "version": "20.2.9+16c4ae25d1",
+                "author": "FabricMC",
+                "description": "Allows for automatic data generation."
+            },
+            "fabric-dimensions-v1": {
+                "name": "fabric-dimensions-v1",
+                "version": "4.0.0+6fc22b99d1",
+                "author": "FabricMC",
+                "description": "Fabric Dimension API."
+            },
+            "fabric-entity-events-v1": {
+                "name": "fabric-entity-events-v1",
+                "version": "1.6.12+6fc22b99d1",
+                "author": "FabricMC",
+                "description": "Events to hook into entities."
+            },
+            "fabric-events-interaction-v0": {
+                "name": "fabric-events-interaction-v0",
+                "version": "0.7.10+e633f883d1",
+                "author": "FabricMC",
+                "description": "Events for player interaction with blocks and entities."
+            },
+            "fabric-game-rule-api-v1": {
+                "name": "fabric-game-rule-api-v1",
+                "version": "1.0.52+6573ed8cd1",
+                "author": "FabricMC",
+                "description": "Allows registration of custom game rules."
+            },
+            "fabric-item-api-v1": {
+                "name": "fabric-item-api-v1",
+                "version": "11.0.0+afdfc921d1",
+                "author": "FabricMC",
+                "description": "Hooks for items"
+            },
+            "fabric-item-group-api-v1": {
+                "name": "fabric-item-group-api-v1",
+                "version": "4.1.2+78017270d1",
+                "author": "FabricMC",
+                "description": "An API for adding custom item groups."
+            },
+            "fabric-lifecycle-events-v1": {
+                "name": "fabric-lifecycle-events-v1",
+                "version": "2.3.12+6c1df3606a",
+                "author": "FabricMC",
+                "description": "Events for the game's lifecycle."
+            },
+            "fabric-loot-api-v2": {
+                "name": "fabric-loot-api-v2",
+                "version": "3.0.11+6573ed8cd1",
+                "author": "FabricMC",
+                "description": "Hooks for manipulating loot tables."
+            },
+            "fabric-message-api-v1": {
+                "name": "fabric-message-api-v1",
+                "version": "6.0.13+6573ed8cd1",
+                "author": "FabricMC",
+                "description": "Adds message-related hooks."
+            },
+            "fabric-networking-api-v1": {
+                "name": "fabric-networking-api-v1",
+                "version": "4.2.2+60c3209b6a",
+                "author": "FabricMC",
+                "description": "Low-level, vanilla protocol oriented networking hooks."
+            },
+            "fabric-object-builder-api-v1": {
+                "name": "fabric-object-builder-api-v1",
+                "version": "15.1.12+d1321076d1",
+                "author": "FabricMC",
+                "description": "Builders for objects vanilla has locked down."
+            },
+            "fabric-particles-v1": {
+                "name": "fabric-particles-v1",
+                "version": "4.0.2+6573ed8cd1",
+                "author": "FabricMC",
+                "description": "Hooks for registering custom particles."
+            },
+            "fabric-permissions-api-v0": {
+                "name": "fabric-permissions-api-v0",
+                "version": "0.3.1",
+                "author": "Luck",
+                "description": "A simple permissions API for Fabric."
+            },
+            "fabric-recipe-api-v1": {
+                "name": "fabric-recipe-api-v1",
+                "version": "5.0.10+65089712d1",
+                "author": "FabricMC",
+                "description": "Recipe extensions such as creation of new types of recipe ingredients."
+            },
+            "fabric-registry-sync-v0": {
+                "name": "fabric-registry-sync-v0",
+                "version": "5.0.23+78017270d1",
+                "author": "FabricMC",
+                "description": "Syncs registry mappings."
+            },
+            "fabric-rendering-data-attachment-v1": {
+                "name": "fabric-rendering-data-attachment-v1",
+                "version": "0.3.48+73761d2ed1",
+                "author": "FabricMC",
+                "description": "Thread-safe hooks for block entity data use during terrain rendering."
+            },
+            "fabric-rendering-fluids-v1": {
+                "name": "fabric-rendering-fluids-v1",
+                "version": "3.1.6+b5597344d1",
+                "author": "FabricMC",
+                "description": "Hooks for registering fluid renders."
+            },
+            "fabric-resource-conditions-api-v1": {
+                "name": "fabric-resource-conditions-api-v1",
+                "version": "4.2.1+d153f344d1",
+                "author": "FabricMC",
+                "description": "Allows conditionally loading resources."
+            },
+            "fabric-resource-loader-v0": {
+                "name": "fabric-resource-loader-v0",
+                "version": "1.3.0+565991296a",
+                "author": "FabricMC",
+                "description": "Asset and data resource loading."
+            },
+            "fabric-screen-handler-api-v1": {
+                "name": "fabric-screen-handler-api-v1",
+                "version": "1.3.80+b5597344d1",
+                "author": "FabricMC",
+                "description": "Hooks and extensions for creating screen handlers."
+            },
+            "fabric-transfer-api-v1": {
+                "name": "fabric-transfer-api-v1",
+                "version": "5.1.15+3dccd343d1",
+                "author": "FabricMC",
+                "description": "A common API for the transfer of fluids, items and other game resources."
+            },
+            "fabric-transitive-access-wideners-v1": {
+                "name": "fabric-transitive-access-wideners-v1",
+                "version": "6.0.12+6573ed8cd1",
+                "author": "FabricMC",
+                "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code."
+            },
+            "fabricloader": {
+                "name": "fabricloader",
+                "version": "0.16.5",
+                "author": "FabricMC",
+                "description": "The base mod loader."
+            },
+            "headindex": {
+                "name": "headindex",
+                "version": "1.1.7",
+                "author": "Potatoboy9999",
+                "description": "Adds a serverside head index"
+            },
+            "image2map": {
+                "name": "image2map",
+                "version": "0.7.1+1.21",
+                "author": "Essem, Patbox",
+                "description": "Turn images into maps!"
+            },
+            "invview": {
+                "name": "invview",
+                "version": "1.4.15-1.20.5+",
+                "author": "Potatoboy9999",
+                "description": "Allows you to open the inventory and ender chest of online and offline players"
+            },
+            "java": {
+                "name": "java",
+                "version": "22",
+                "author": "",
+                "description": ""
+            },
+            "map-canvas-api": {
+                "name": "map-canvas-api",
+                "version": "0.4.1+1.21",
+                "author": "Patbox",
+                "description": "Simple, server side api for drawing on maps!"
+            },
+            "minecraft": {
+                "name": "minecraft",
+                "version": "1.21",
+                "author": "",
+                "description": ""
+            },
+            "mixinextras": {
+                "name": "mixinextras",
+                "version": "0.4.1",
+                "author": "LlamaLad7",
+                "description": "Companion library to Mixin with lots of features to improve the compatibility and concision of your mixins!"
+            },
+            "noend": {
+                "name": "noend",
+                "version": "0.0.3",
+                "author": "",
+                "description": ""
+            },
+            "org_apache_commons_commons-pool2": {
+                "name": "org_apache_commons_commons-pool2",
+                "version": "2.12.0",
+                "author": "",
+                "description": ""
+            },
+            "org_iq80_leveldb_leveldb": {
+                "name": "org_iq80_leveldb_leveldb",
+                "version": "0.12",
+                "author": "",
+                "description": ""
+            },
+            "org_iq80_leveldb_leveldb-api": {
+                "name": "org_iq80_leveldb_leveldb-api",
+                "version": "0.12",
+                "author": "",
+                "description": ""
+            },
+            "org_yaml_snakeyaml": {
+                "name": "org_yaml_snakeyaml",
+                "version": "2.2",
+                "author": "",
+                "description": ""
+            },
+            "packet_tweaker": {
+                "name": "packet_tweaker",
+                "version": "0.5.5+1.21",
+                "author": "Gegy, Patbox",
+                "description": "Library to assist with transforming packets before they get sent to the client"
+            },
+            "placeholder-api": {
+                "name": "placeholder-api",
+                "version": "2.4.0-pre.2+1.21",
+                "author": "Patbox",
+                "description": "Simple api for mods allowing for user friendly formatting and universal placeholders!"
+            },
+            "polymer-common": {
+                "name": "polymer-common",
+                "version": "0.9.7+1.21",
+                "author": "Patbox",
+                "description": "Common classes/internals used across Polymer libraries"
+            },
+            "polymer-core": {
+                "name": "polymer-core",
+                "version": "0.9.7+1.21",
+                "author": "Patbox",
+                "description": "Library for creation of better server side content!"
+            },
+            "polymer-networking": {
+                "name": "polymer-networking",
+                "version": "0.9.7+1.21",
+                "author": "Patbox",
+                "description": "Networking API with some bit of magic"
+            },
+            "polymer-registry-sync-manipulator": {
+                "name": "polymer-registry-sync-manipulator",
+                "version": "0.9.7+1.21",
+                "author": "Patbox",
+                "description": "Library for removing entries from registry sync!"
+            },
+            "redis_clients_jedis": {
+                "name": "redis_clients_jedis",
+                "version": "5.1.2",
+                "author": "",
+                "description": ""
+            },
+            "server_translations_api": {
+                "name": "server_translations_api",
+                "version": "2.3.1+1.21-pre2",
+                "author": "CatCore, Gegy, Patbox",
+                "description": ""
+            },
+            "sgui": {
+                "name": "sgui",
+                "version": "1.6.0+1.21",
+                "author": "Patbox",
+                "description": "Library for creating server side guis!"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.109",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            },
+            "taterzens": {
+                "name": "taterzens",
+                "version": "1.15.5",
+                "author": "samo_lego",
+                "description": "A citizens like mod."
+            },
+            "voicechat": {
+                "name": "voicechat",
+                "version": "1.21.1-2.5.21",
+                "author": "Max Henkel",
+                "description": "A working voice chat in Minecraft!"
+            },
+            "worldedit": {
+                "name": "worldedit",
+                "version": "7.3.6+6892-3d660b8",
+                "author": "EngineHub",
+                "description": "WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single- and multi-player."
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}

@@ -1,0 +1,257 @@
+{
+    "metadata": {
+        "startTime": 1724880096638,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "36.2.39",
+            "minecraftVersion": "1.16.5",
+            "sparkVersion": 2,
+            "brand": ""
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 5734295560,
+                    "committed": 17179869184,
+                    "init": 0,
+                    "max": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 1198131,
+            "tps": {
+                "last1m": 19.999971923039414,
+                "last5m": 20.000001787333492,
+                "last15m": 20.000000633755576
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 1.4473792566666666,
+                    "max": 11.60265,
+                    "min": 0.718961,
+                    "median": 1.260228,
+                    "percentile95": 2.163094
+                },
+                "last5m": {
+                    "mean": 1.5253380746666667,
+                    "max": 358.83945,
+                    "min": 0.376698,
+                    "median": 1.053219,
+                    "percentile95": 2.431208
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 1035.1917808219177,
+                    "max": 4763,
+                    "min": 311,
+                    "median": 722,
+                    "percentile95": 3605
+                }
+            },
+            "playerCount": 0,
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 24,
+                "processUsage": {
+                    "last1m": 0.010382897473778517,
+                    "last15m": 0.010693309471222663
+                },
+                "systemUsage": {
+                    "last1m": 0.015571035962812915,
+                    "last15m": 0.01600090596963554
+                },
+                "modelName": "AMD Ryzen 9 5900X 12-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 24060215296,
+                    "total": 134986964992
+                },
+                "swap": {
+                    "used": 40894464,
+                    "total": 8589930496
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 23,
+                    "avgTime": 78.95652173913044,
+                    "avgFrequency": 53408
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 891606462464,
+                "total": 3933593591808
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.8.0-40-generic"
+            },
+            "java": {
+                "vendor": "Ubuntu",
+                "version": "17.0.12",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xms16G -Xmx92G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:MaxGCPauseMillis=60 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=95 -XX:G1NewSizePercent=35 -XX:G1MaxNewSizePercent=60 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=50 -Dlog4j2.formatMsgNoLookups=true -Dfile.encoding=UTF-8 -Dlog4j.configurationFile=log4j2_112-116.xml"
+            },
+            "uptime": 1230221,
+            "net": {
+                "enp36s0f0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "enp36s0f1": {
+                    "rxBytesPerSecond": {
+                        "mean": 7069.8,
+                        "max": 12342,
+                        "min": 875,
+                        "median": 7278,
+                        "percentile95": 12342
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 132153.66666666666,
+                        "max": 358224,
+                        "min": 1028,
+                        "median": 122953,
+                        "percentile95": 358224
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 90.13333333333334,
+                        "max": 183,
+                        "min": 7,
+                        "median": 101,
+                        "percentile95": 183
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 154.66666666666666,
+                        "max": 338,
+                        "min": 6,
+                        "median": 140,
+                        "percentile95": 338
+                    }
+                },
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 497.8666666666667,
+                        "max": 777,
+                        "min": 344,
+                        "median": 495,
+                        "percentile95": 777
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 497.8666666666667,
+                        "max": 777,
+                        "min": 344,
+                        "median": 495,
+                        "percentile95": 777
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 3,
+                        "max": 5,
+                        "min": 2,
+                        "median": 3,
+                        "percentile95": 5
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 3,
+                        "max": 5,
+                        "min": 2,
+                        "median": 3,
+                        "percentile95": 5
+                    }
+                },
+                "enx868c2fccd619": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 5.6,
+                        "max": 6,
+                        "min": 0,
+                        "median": 6,
+                        "percentile95": 6
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                73
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 0,
+        "numberOfTicks": 0,
+        "samplerMode": 0
+    }
+}

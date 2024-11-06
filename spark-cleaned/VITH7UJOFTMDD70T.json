@@ -1,0 +1,273 @@
+{
+    "metadata": {
+        "startTime": 1726324424089,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-46e9cdfe)",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "Velocity"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 400334320,
+                    "committed": 536870912,
+                    "init": 536870912,
+                    "max": 536870912
+                },
+                "nonHeap": {
+                    "used": 118735304,
+                    "committed": 135856128,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 230686720,
+                            "committed": 314572800,
+                            "init": 25165824,
+                            "max": 314572800
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 314572800,
+                            "init": 25165824,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 168249792,
+                            "committed": 218103808,
+                            "init": 511705088,
+                            "max": 536870912
+                        },
+                        "collectionUsage": {
+                            "used": 168249792,
+                            "committed": 218103808,
+                            "init": 511705088,
+                            "max": 536870912
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 1397808,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": 4194304
+                        },
+                        "collectionUsage": {
+                            "used": 1397808,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 147,
+                    "avgTime": 12.843537414965986,
+                    "avgFrequency": 11080
+                },
+                "G1 Concurrent GC": {
+                    "total": 86,
+                    "avgTime": 0.9418604651162791,
+                    "avgFrequency": 18960
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 1630674,
+            "playerCount": 0,
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 12,
+                "processUsage": {
+                    "last1m": 0.02232422654392828,
+                    "last15m": 0.020327207844556324
+                },
+                "systemUsage": {
+                    "last1m": 0.01163699833000935,
+                    "last15m": 0.024257936259983636
+                },
+                "modelName": "Intel(R) Core(TM) i5-10500H CPU @ 2.50GHz"
+            },
+            "memory": {
+                "physical": {
+                    "used": 6942162944,
+                    "total": 8136749056
+                },
+                "swap": {
+                    "used": 1890844672,
+                    "total": 4294963200
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 157,
+                    "avgTime": 12.738853503184714,
+                    "avgFrequency": 10403
+                },
+                "G1 Concurrent GC": {
+                    "total": 92,
+                    "avgTime": 0.9239130434782609,
+                    "avgFrequency": 17774
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 79535759360,
+                "total": 249792131072
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.8.0-41-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3",
+                "vendorVersion": "Temurin-21.0.3+9",
+                "vmArgs": "-Xms512M -Xmx512M -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:MaxInlineLevel=15"
+            },
+            "uptime": 1635312,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 0.4,
+                        "max": 6,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 6
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0.4,
+                        "max": 6,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 6
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 46.333333333333336,
+                        "max": 120,
+                        "min": 18,
+                        "median": 34,
+                        "percentile95": 120
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 44.666666666666664,
+                        "max": 95,
+                        "min": 16,
+                        "median": 43,
+                        "percentile95": 95
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0.26666666666666666,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0.2,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3+9-LTS"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1726326030631,
+        "numberOfTicks": 0,
+        "plugins": {
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b109-49bd564)",
+                "author": "GeyserMC",
+                "description": ""
+            },
+            "geyser": {
+                "name": "geyser",
+                "version": "2.4.2-b647 (git-master-0bc39d5)",
+                "author": "GeyserMC",
+                "description": ""
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.139",
+                "author": "Luck",
+                "description": ""
+            },
+            "minimotd-velocity": {
+                "name": "minimotd-velocity",
+                "version": "2.1.2",
+                "author": "jmp",
+                "description": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.97",
+                "author": "Luck",
+                "description": ""
+            },
+            "tcpshield": {
+                "name": "tcpshield",
+                "version": "2.8.1",
+                "author": "TCPShield",
+                "description": ""
+            },
+            "tebex": {
+                "name": "tebex",
+                "version": "2.0.6",
+                "author": "Tebex",
+                "description": ""
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 0
+    }
+}

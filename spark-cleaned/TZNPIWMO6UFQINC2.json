@@ -1,0 +1,768 @@
+{
+    "metadata": {
+        "startTime": 1729617571260,
+        "interval": 10000,
+        "platform": {
+            "type": 0,
+            "version": "1.8.8-R0.1-SNAPSHOT (MC: 1.8.8)",
+            "minecraftVersion": "v1_8_R3",
+            "sparkVersion": 2,
+            "brand": "VanteyMC"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 556370984,
+                    "committed": 994050048,
+                    "init": 536870912,
+                    "max": 4294967296
+                },
+                "nonHeap": {
+                    "used": 311650408,
+                    "committed": 317259776,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 23068672,
+                            "committed": 35651584,
+                            "init": 27262976,
+                            "max": 35651584
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 35651584,
+                            "init": 27262976,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 517922480,
+                            "committed": 941621248,
+                            "init": 509607936,
+                            "max": 4294967296
+                        },
+                        "collectionUsage": {
+                            "used": 517922480,
+                            "committed": 664797184,
+                            "init": 509607936,
+                            "max": 4294967296
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 15379832,
+                            "committed": 16777216,
+                            "init": 0,
+                            "max": 16777216
+                        },
+                        "collectionUsage": {
+                            "used": 15379832,
+                            "committed": 16777216,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 109,
+                    "avgTime": 11.715596330275229,
+                    "avgFrequency": 36352
+                },
+                "G1 Old Generation": {
+                    "total": 1,
+                    "avgTime": 173,
+                    "avgFrequency": 3963472
+                }
+            },
+            "uptime": 3963645,
+            "tps": {
+                "last1m": 19.999994101668406,
+                "last5m": 19.999998114000178,
+                "last15m": 19.99999920571114
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 61.111111111111114,
+                    "max": 346,
+                    "min": 37,
+                    "median": 50,
+                    "percentile95": 112
+                }
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 1,
+                "entityCounts": {
+                    "unknown[PLAYER]": 1
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 1,
+                        "regions": [
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 78,
+                                        "z": 88,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 4,
+                "processUsage": {
+                    "last1m": 0.04615755690552223,
+                    "last15m": 0.049275553277362646
+                },
+                "systemUsage": {
+                    "last1m": 0.0774865366177941,
+                    "last15m": 0.05950434073686071
+                },
+                "modelName": "AMD Ryzen 9 7950X3D 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 5109497856,
+                    "total": 8327114752
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 124,
+                    "avgTime": 14.064516129032258,
+                    "avgFrequency": 32113
+                },
+                "G1 Old Generation": {
+                    "total": 1,
+                    "avgTime": 173,
+                    "avgFrequency": 3983630
+                }
+            },
+            "disk": {
+                "used": 24086089728,
+                "total": 73859076096
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.8.0-47-generic"
+            },
+            "java": {
+                "vendor": "Ubuntu",
+                "version": "17.0.12",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xmx4G -Xms512M"
+            },
+            "uptime": 3983803,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 26110.066666666666,
+                        "max": 43542,
+                        "min": 21975,
+                        "median": 24265,
+                        "percentile95": 43542
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 26110.066666666666,
+                        "max": 43542,
+                        "min": 21975,
+                        "median": 24265,
+                        "percentile95": 43542
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 340.1333333333333,
+                        "max": 394,
+                        "min": 316,
+                        "median": 341,
+                        "percentile95": 394
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 340.1333333333333,
+                        "max": 394,
+                        "min": 316,
+                        "median": 341,
+                        "percentile95": 394
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 23790.4,
+                        "max": 25081,
+                        "min": 22404,
+                        "median": 23901,
+                        "percentile95": 25081
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 16819.2,
+                        "max": 33768,
+                        "min": 13011,
+                        "median": 14853,
+                        "percentile95": 33768
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 356.93333333333334,
+                        "max": 370,
+                        "min": 338,
+                        "median": 359,
+                        "percentile95": 370
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 197.33333333333334,
+                        "max": 203,
+                        "min": 191,
+                        "median": 197,
+                        "percentile95": 203
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Ubuntu",
+                "version": "17.0.12+7-Ubuntu-1ubuntu224.04"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "view-distance": 20,
+                "max-build-height": 256,
+                "bStats-UUID": "cd0e4a72-7416-48ed-ac0c-43c4d417f287",
+                "rcon.port": 25575,
+                "gamemode": 0,
+                "allow-nether": false,
+                "enable-command-block": false,
+                "server-port": 25567,
+                "enable-rcon": false,
+                "enable-query": false,
+                "op-permission-level": 4,
+                "generator-settings": "",
+                "player-idle-timeout": 0,
+                "level-name": "kitpvpmap",
+                "announce-player-achievements": false,
+                "force-gamemode": false,
+                "debug": false,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "pvp": true,
+                "spawn-npcs": true,
+                "spawn-animals": false,
+                "generate-structures": false,
+                "snooper-enabled": false,
+                "transport-to-use": "default",
+                "difficulty": 2,
+                "network-compression-threshold": 256,
+                "level-type": "DEFAULT",
+                "spawn-monsters": false,
+                "max-players": 150,
+                "use-native-transport": true,
+                "spawn-protection": 0,
+                "online-mode": false,
+                "allow-flight": true,
+                "resource-pack-hash": "",
+                "max-world-size": 29999984
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": false,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default"
+                },
+                "spawn-limits": {
+                    "monsters": 70,
+                    "animals": 15,
+                    "water-animals": 5,
+                    "ambient": 15
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 400,
+                    "load-threshold": 0
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 2,
+                    "autosave": 3000
+                },
+                "aliases": "now-in-commands.yml"
+            },
+            "spigot.yml": {
+                "config-version": 8,
+                "commands": {
+                    "tab-complete": 0,
+                    "log": true,
+                    "spam-exclusions": [
+                        "/skill"
+                    ],
+                    "silent-commandblock-console": false,
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ]
+                },
+                "settings": {
+                    "save-user-cache-on-stop-only": false,
+                    "netty-threads": 4,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    },
+                    "bungeecord": true,
+                    "late-bind": false,
+                    "sample-count": 12,
+                    "player-shuffle": 0,
+                    "filter-creative-items": true,
+                    "user-cache-size": 1000,
+                    "int-cache-limit": 1024,
+                    "moved-wrongly-threshold": 20000.0,
+                    "moved-too-quickly-threshold": 20000.0,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./script.sh",
+                    "baby-zombie-movement-speed": 0.5,
+                    "limit-player-interactions": true,
+                    "debug": false
+                },
+                "stats": {
+                    "disable-saving": false
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "mob-spawn-range": 4,
+                        "anti-xray": {
+                            "enabled": true,
+                            "engine-mode": 1,
+                            "hide-blocks": [
+                                14,
+                                15,
+                                16,
+                                21,
+                                48,
+                                49,
+                                54,
+                                56,
+                                73,
+                                74,
+                                82,
+                                129,
+                                130
+                            ],
+                            "replace-blocks": [
+                                1,
+                                5
+                            ]
+                        },
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 32,
+                            "monsters": 32,
+                            "misc": 16
+                        },
+                        "entity-tracking-range": {
+                            "players": 128,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "other": 64
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 8
+                        },
+                        "hopper-amount": 1,
+                        "random-light-updates": true,
+                        "save-structure-info": true,
+                        "max-bulk-chunks": 10,
+                        "max-entity-collisions": 8,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "walk-exhaustion": 0.2,
+                            "sprint-exhaustion": 0.8,
+                            "combat-exhaustion": 0.3,
+                            "regen-exhaustion": 3.0
+                        },
+                        "max-tick-time": {
+                            "tile": 50,
+                            "entity": 50
+                        },
+                        "view-distance": 20,
+                        "item-despawn-rate": 6000,
+                        "merge-radius": {
+                            "item": 2.5,
+                            "exp": 3.0
+                        },
+                        "chunks-per-tick": 650,
+                        "clear-tick-list": false,
+                        "arrow-despawn-rate": 0,
+                        "wither-spawn-sound-radius": 0,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "nerf-spawner-mobs": false,
+                        "hanging-tick-frequency": 100,
+                        "zombie-aggressive-towards-villager": true,
+                        "max-tnt-per-tick": 100
+                    }
+                },
+                "warnWhenSettingExcessiveVelocity": true,
+                "effect-modifiers": {
+                    "strength": 1.3,
+                    "weakness": -0.5
+                },
+                "stackable-buckets": {
+                    "lava": false,
+                    "water": false,
+                    "milk": false
+                }
+            },
+            "paper.yml": {
+                "config-version": 9,
+                "effect-modifiers": {
+                    "strength": 1.3,
+                    "weakness": -0.5
+                },
+                "stackable-buckets": {
+                    "lava": false,
+                    "water": false,
+                    "milk": false
+                },
+                "warnWhenSettingExcessiveVelocity": true,
+                "settings": {
+                    "baby-zombie-movement-speed": 0.5,
+                    "limit-player-interactions": true,
+                    "effect-modifiers": {
+                        "strength": 1.3,
+                        "weakness": -0.5
+                    },
+                    "stackable-buckets": {
+                        "lava": false,
+                        "water": false,
+                        "milk": false
+                    },
+                    "warnWhenSettingExcessiveVelocity": true
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "generator-settings": {
+                            "canyon": false,
+                            "caves": false,
+                            "dungeon": false,
+                            "fortress": false,
+                            "mineshaft": false,
+                            "monument": false,
+                            "stronghold": false,
+                            "temple": false,
+                            "village": false,
+                            "flat-bedrock": true
+                        },
+                        "allow-block-location-tab-completion": true,
+                        "cache-chunk-maps": true,
+                        "remove-invalid-mob-spawner-tile-entities": false,
+                        "tnt-explosion-volume": 4.0,
+                        "optimize-explosions": true,
+                        "disable-mood-sounds": false,
+                        "mob-spawner-tick-rate": 1,
+                        "use-hopper-check": false,
+                        "disable-teleportation-suffocation-check": false,
+                        "squid-spawn-height": {
+                            "minimum": 45.0,
+                            "maximum": 63.0
+                        },
+                        "max-growth-height": {
+                            "cactus": 3,
+                            "reeds": 3
+                        },
+                        "fishing-time-range": {
+                            "MinimumTicks": 100,
+                            "MaximumTicks": 900
+                        },
+                        "player-exhaustion": {
+                            "block-break": 0.025,
+                            "swimming": 0.015
+                        },
+                        "despawn-ranges": {
+                            "soft": 32,
+                            "hard": 128
+                        },
+                        "falling-block-height-nerf": 0,
+                        "remove-unloaded": {
+                            "enderpearls": true,
+                            "tnt-entities": true,
+                            "falling-blocks": true
+                        },
+                        "game-mechanics": {
+                            "boats-drop-boats": false,
+                            "disable-player-crits": false,
+                            "disable-chest-cat-detection": false,
+                            "disable-end-credits": false
+                        },
+                        "nether-ceiling-void-damage": false,
+                        "load-chunks": {
+                            "enderpearls": false,
+                            "tnt-entities": false,
+                            "falling-blocks": false
+                        },
+                        "fast-drain": {
+                            "lava": false,
+                            "water": false
+                        },
+                        "lava-flow-speed": {
+                            "normal": 30,
+                            "nether": 10
+                        },
+                        "all-chunks-are-slime-chunks": false,
+                        "disable-explosion-knockback": true,
+                        "player-blocking-damage-multiplier": 0.5,
+                        "portal-search-radius": 128,
+                        "disable-thunder": false,
+                        "disable-ice-and-snow": false,
+                        "tick-next-tick-list-cap": 10000,
+                        "tick-next-tick-list-cap-ignores-redstone": false,
+                        "keep-spawn-loaded": true,
+                        "falling-blocks-collide-with-signs": false,
+                        "use-async-lighting": true,
+                        "fix-cannons": false,
+                        "water-over-lava-flow-speed": 5,
+                        "tnt-entity-height-nerf": 0,
+                        "container-update-tick-rate": 1,
+                        "allow-undead-horse-leashing": false
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                20
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1729621540094,
+        "numberOfTicks": 79272,
+        "plugins": {
+            "apollo-bukkit": {
+                "name": "Apollo-Bukkit",
+                "version": "1.1.5",
+                "author": "Moonsworth",
+                "description": ""
+            },
+            "worldedit": {
+                "name": "WorldEdit",
+                "version": "6.1.7;dd00bb1",
+                "author": "",
+                "description": ""
+            },
+            "placeholderapi": {
+                "name": "PlaceholderAPI",
+                "version": "2.11.6",
+                "author": "HelpChat",
+                "description": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.95",
+                "author": "Luck",
+                "description": ""
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.15.1",
+                "author": "Ruan",
+                "description": ""
+            },
+            "worldguard": {
+                "name": "WorldGuard",
+                "version": "6.1.3-SNAPSHOT;c904242",
+                "author": "",
+                "description": ""
+            },
+            "viaversion": {
+                "name": "ViaVersion",
+                "version": "5.0.5",
+                "author": "_MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01",
+                "description": ""
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b109-49bd564)",
+                "author": "GeyserMC",
+                "description": ""
+            },
+            "staffplus": {
+                "name": "StaffPlus",
+                "version": "3.3.14.2",
+                "author": "Shortninja,Qball",
+                "description": ""
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.137",
+                "author": "Luck",
+                "description": ""
+            },
+            "protocollib": {
+                "name": "ProtocolLib",
+                "version": "5.1.0",
+                "author": "dmulloy2, comphenix",
+                "description": ""
+            },
+            "vulcan": {
+                "name": "Vulcan",
+                "version": "2.9.1",
+                "author": "frep, GladUrBad, Joshb_, Elevated, retrooper",
+                "description": ""
+            },
+            "vault": {
+                "name": "Vault",
+                "version": "1.7.3-b131",
+                "author": "cereal, Sleaker, mung3r",
+                "description": ""
+            },
+            "lpc": {
+                "name": "LPC",
+                "version": "3.6.0",
+                "author": "wikmor",
+                "description": ""
+            },
+            "playerkits": {
+                "name": "PlayerKits",
+                "version": "2.27.1",
+                "author": "Ajneb97",
+                "description": ""
+            },
+            "essentials": {
+                "name": "Essentials",
+                "version": "2.20.1",
+                "author": "Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally, drtshock, vemacs, SupaHam, mdcfe, JRoy, pop4959",
+                "description": ""
+            },
+            "grimac": {
+                "name": "GrimAC",
+                "version": "2.3.67",
+                "author": "GrimAC",
+                "description": ""
+            },
+            "lpx": {
+                "name": "LPX",
+                "version": "3.4.11",
+                "author": "Ytnoos",
+                "description": ""
+            },
+            "headdatabase": {
+                "name": "HeadDatabase",
+                "version": "4.17.0",
+                "author": "Arcaniax",
+                "description": ""
+            },
+            "citizens": {
+                "name": "Citizens",
+                "version": "2.0.31-SNAPSHOT (build 3091)",
+                "author": "fullwall",
+                "description": ""
+            },
+            "auctionhouse": {
+                "name": "AuctionHouse",
+                "version": "2.2.4",
+                "author": "klugemonkey",
+                "description": ""
+            },
+            "tradesystem": {
+                "name": "TradeSystem",
+                "version": "2.6.2",
+                "author": "CodingAir",
+                "description": ""
+            },
+            "ajleaderboards": {
+                "name": "ajLeaderboards",
+                "version": "2.9.0",
+                "author": "ajgeiss0702",
+                "description": ""
+            },
+            "deluxemenus": {
+                "name": "DeluxeMenus",
+                "version": "1.13.3-Release",
+                "author": "extended_clip, Glare",
+                "description": ""
+            },
+            "tab": {
+                "name": "TAB",
+                "version": "4.1.7",
+                "author": "NEZNAMY",
+                "description": ""
+            },
+            "playervaults": {
+                "name": "PlayerVaults",
+                "version": "4.3.0",
+                "author": "drtshock, kashike, mbaxter",
+                "description": ""
+            },
+            "decentholograms": {
+                "name": "DecentHolograms",
+                "version": "2.8.3",
+                "author": "d0by",
+                "description": ""
+            },
+            "citizenscmd": {
+                "name": "CitizensCMD",
+                "version": "2.7.2",
+                "author": "Mateus Moreira, HexedHero",
+                "description": ""
+            },
+            "crazycrates": {
+                "name": "CrazyCrates",
+                "version": "1.10.2.2",
+                "author": "BadBones69",
+                "description": ""
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 0
+    }
+}

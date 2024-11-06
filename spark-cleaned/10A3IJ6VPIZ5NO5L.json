@@ -1,0 +1,360 @@
+{
+    "metadata": {
+        "startTime": 1730122286445,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "2.2.3",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "FlameCord"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 709013520,
+                    "committed": 1040187392,
+                    "init": 134217728,
+                    "max": 8174698496
+                },
+                "nonHeap": {
+                    "used": 142914448,
+                    "committed": 177340416,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 402653184,
+                            "committed": 650117120,
+                            "init": 16777216,
+                            "max": 650117120
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 650117120,
+                            "init": 16777216,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 303017424,
+                            "committed": 385875968,
+                            "init": 117440512,
+                            "max": 8174698496
+                        },
+                        "collectionUsage": {
+                            "used": 303017424,
+                            "committed": 385875968,
+                            "init": 117440512,
+                            "max": 8174698496
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 3342912,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": 4194304
+                        },
+                        "collectionUsage": {
+                            "used": 3342912,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 62,
+                    "avgTime": 22.79032258064516,
+                    "avgFrequency": 108267
+                },
+                "G1 Concurrent GC": {
+                    "total": 38,
+                    "avgTime": 5.2894736842105265,
+                    "avgFrequency": 176678
+                },
+                "G1 Old Generation": {
+                    "total": 1,
+                    "avgTime": 135,
+                    "avgFrequency": 6713857
+                }
+            },
+            "uptime": 6713992,
+            "ping": {
+                "last15m": {
+                    "mean": 61.233333333333334,
+                    "max": 85,
+                    "min": 50,
+                    "median": 59,
+                    "percentile95": 81
+                }
+            },
+            "playerCount": 36,
+            "onlineMode": 1
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 6,
+                "processUsage": {
+                    "last1m": 0.23555555555555555,
+                    "last15m": 0.20737777777777777
+                },
+                "systemUsage": {
+                    "last1m": 0.2355358726138889,
+                    "last15m": 0.2074605160461111
+                },
+                "modelName": "Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz"
+            },
+            "memory": {
+                "physical": {
+                    "used": 6813368320,
+                    "total": 67400708096
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 851,
+                    "avgTime": 15.957696827262044,
+                    "avgFrequency": 7884
+                },
+                "G1 Concurrent GC": {
+                    "total": 82,
+                    "avgTime": 8.012195121951219,
+                    "avgFrequency": 81980
+                },
+                "G1 Old Generation": {
+                    "total": 1,
+                    "avgTime": 135,
+                    "avgFrequency": 6722953
+                }
+            },
+            "disk": {
+                "used": 91371126784,
+                "total": 528305659904
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.4.0-182-generic"
+            },
+            "java": {
+                "vendor": "GraalVM Community",
+                "version": "21.0.2",
+                "vendorVersion": "GraalVM CE 21.0.2+13.1",
+                "vmArgs": "-XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -Xms128M -XX:MaxRAMPercentage=95.0"
+            },
+            "uptime": 6723088,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 24.466666666666665,
+                        "max": 361,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 361
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 24.466666666666665,
+                        "max": 361,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 361
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0.26666666666666666,
+                        "max": 4,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 4
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0.26666666666666666,
+                        "max": 4,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 4
+                    }
+                },
+                "pterodactyl0": {
+                    "rxBytesPerSecond": {
+                        "mean": 350118.13333333336,
+                        "max": 475872,
+                        "min": 241232,
+                        "median": 350005,
+                        "percentile95": 475872
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 384943.86666666664,
+                        "max": 506202,
+                        "min": 275457,
+                        "median": 388070,
+                        "percentile95": 506202
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 1740.1333333333334,
+                        "max": 2305,
+                        "min": 1472,
+                        "median": 1605,
+                        "percentile95": 2305
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 1897.8666666666666,
+                        "max": 2855,
+                        "min": 1500,
+                        "median": 1673,
+                        "percentile95": 2855
+                    }
+                },
+                "ens160": {
+                    "rxBytesPerSecond": {
+                        "mean": 3647234.8,
+                        "max": 10878605,
+                        "min": 2625733,
+                        "median": 3175511,
+                        "percentile95": 10878605
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1639401.4666666666,
+                        "max": 2118911,
+                        "min": 1307612,
+                        "median": 1635834,
+                        "percentile95": 2118911
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 8880.6,
+                        "max": 14360,
+                        "min": 7160,
+                        "median": 8653,
+                        "percentile95": 14360
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 8859.533333333333,
+                        "max": 11592,
+                        "min": 7053,
+                        "median": 8817,
+                        "percentile95": 11592
+                    }
+                },
+                "docker0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "GraalVM Community",
+                "version": "21.0.2+13-jvmci-23.1-b30"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1730123064592,
+        "numberOfTicks": 0,
+        "plugins": {
+            "ajqueue": {
+                "name": "ajQueue",
+                "version": "2.7.0",
+                "author": "ajgeiss0702",
+                "description": ""
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.141",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "skinsrestorer": {
+                "name": "SkinsRestorer",
+                "version": "15.4.3",
+                "author": "knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls",
+                "description": ""
+            },
+            "customf3brand": {
+                "name": "CustomF3Brand",
+                "version": "1.2.1",
+                "author": "LoreSchaeffer",
+                "description": "Edit your server brand in debug screen"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.116",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            },
+            "sonar": {
+                "name": "Sonar",
+                "version": "2.1.13",
+                "author": "Jones Development, Sonar Contributors",
+                "description": "A lightweight, effective, and easy-to-use anti-bot plugin for Velocity, BungeeCord, and Bukkit."
+            },
+            "safenet": {
+                "name": "SafeNET",
+                "version": "3.9",
+                "author": "dejvokep",
+                "description": "A lightweight protection from IP-forward bypass exploit inspired by BungeeGuard and IP whitelist."
+            },
+            "commandwhitelist": {
+                "name": "CommandWhitelist",
+                "version": "2.10.0",
+                "author": "YouHaveTrouble",
+                "description": "You decide what commands players can use or tab complete on your server!"
+            },
+            "jpremium": {
+                "name": "JPremium",
+                "version": "CLEARED-1.24.1",
+                "author": "Jakubson",
+                "description": "An advanced BungeeCord authorization plugin."
+            },
+            "maintenance": {
+                "name": "Maintenance",
+                "version": "4.3.0",
+                "author": "kennytv",
+                "description": "Enable maintenance mode with a custom maintenance motd and icon."
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}

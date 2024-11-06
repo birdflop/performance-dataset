@@ -1,0 +1,200 @@
+{
+    "metadata": {
+        "startTime": 1721741614267,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "1.21-R0.1-SNAPSHOT",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "NullCordX"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 677050992,
+                    "total": 836239360
+                }
+            },
+            "gc": {
+                "PS MarkSweep": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "PS Scavenge": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 142480,
+            "ping": {
+                "last15m": {
+                    "mean": 87.125,
+                    "max": 121,
+                    "min": 70,
+                    "median": 77,
+                    "percentile95": 121
+                }
+            },
+            "playerCount": 1
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 2,
+                "processUsage": {
+                    "last1m": 0.04617195767195767,
+                    "last15m": 0.08873220806319398
+                },
+                "systemUsage": {
+                    "last1m": 0.04610675758377425,
+                    "last15m": 0.08882001304121022
+                },
+                "modelName": "AMD Ryzen 9 7950X3D 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 182526107648,
+                    "total": 202278604800
+                },
+                "swap": {
+                    "used": 56289771520,
+                    "total": 135286218752
+                }
+            },
+            "gc": {
+                "PS MarkSweep": {
+                    "total": 4,
+                    "avgTime": 90,
+                    "avgFrequency": 36824
+                },
+                "PS Scavenge": {
+                    "total": 13,
+                    "avgTime": 22.076923076923077,
+                    "avgFrequency": 11336
+                }
+            },
+            "disk": {
+                "used": 1335428923392,
+                "total": 1883405279232
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-112-generic"
+            },
+            "java": {
+                "vendor": "Azul Systems, Inc.",
+                "version": "21.0.3",
+                "vendorVersion": "Zulu21.34+19-CA",
+                "vmArgs": "-Xms128M -Xmx4096M -DPaper.IgnoreJavaVersion=true -Dfml.queryResult=confirm -Dlog4j2.formatMsgNoLookups=true -Dterminal.jline=false -Dterminal.ansi=true -DIReallyKnowWhatIAmDoingISwear=true -Djdk.module.illegalAccess=deny -Duser.timezone=Europe/Moscow -XX:+UseNUMA -XX:G1ReservePercent=5 -XX:G1HeapWastePercent=10 -XX:+OptimizeStringConcat -XX:+TieredCompilation -XX:+EliminateLocks -XX:+UseSuperWord -XX:+OptimizeFill -XX:LoopUnrollMin=4 -XX:LoopMaxUnroll=16 -XX:+UseLoopPredicate -XX:+RangeCheckElimination -Dfile.encoding=UTF-8 -XX:+DisableExplicitGC -XX:+UseFastJNIAccessors -XX:+UseParallelGC"
+            },
+            "uptime": 147656,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 24.5,
+                        "max": 49,
+                        "min": 0,
+                        "median": 49,
+                        "percentile95": 49
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 24.5,
+                        "max": 49,
+                        "min": 0,
+                        "median": 49,
+                        "percentile95": 49
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 323733,
+                        "max": 645951,
+                        "min": 1515,
+                        "median": 645951,
+                        "percentile95": 645951
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 13557,
+                        "max": 26760,
+                        "min": 354,
+                        "median": 26760,
+                        "percentile95": 26760
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 61.5,
+                        "max": 115,
+                        "min": 8,
+                        "median": 115,
+                        "percentile95": 115
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 46.5,
+                        "max": 90,
+                        "min": 3,
+                        "median": 90,
+                        "percentile95": 90
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Azul Systems, Inc.",
+                "version": "21.0.3+9-LTS"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1721741619765,
+        "numberOfTicks": 0,
+        "plugins": {
+            "module-kick": {
+                "name": "module-kick",
+                "version": "3.8.7"
+            },
+            "module-send": {
+                "name": "module-send",
+                "version": "3.8.7"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.85"
+            },
+            "skinsrestorer": {
+                "name": "SkinsRestorer",
+                "version": "15.3.1"
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.137"
+            },
+            "nullcordx-bridge": {
+                "name": "NullCordX-Bridge",
+                "version": "3.8.7"
+            }
+        },
+        "samplerMode": 0
+    }
+}

@@ -1,0 +1,2304 @@
+{
+    "metadata": {
+        "startTime": 1730122819952,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "0.16.7",
+            "minecraftVersion": "1.21.1",
+            "sparkVersion": 2,
+            "brand": "Fabric API"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 1544814024,
+                    "committed": 3774873600,
+                    "init": 134217728,
+                    "max": 10485760000
+                },
+                "nonHeap": {
+                    "used": 205186720,
+                    "committed": 227606528,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 310378496,
+                            "committed": 2164260864,
+                            "init": 16777216,
+                            "max": 2164260864
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 2164260864,
+                            "init": 16777216,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 1021399544,
+                            "committed": 1392508928,
+                            "init": 117440512,
+                            "max": 10485760000
+                        },
+                        "collectionUsage": {
+                            "used": 764728320,
+                            "committed": 1392508928,
+                            "init": 117440512,
+                            "max": 10485760000
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 213035984,
+                            "committed": 218103808,
+                            "init": 0,
+                            "max": 218103808
+                        },
+                        "collectionUsage": {
+                            "used": 213035984,
+                            "committed": 218103808,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 63,
+                    "avgTime": 43.44444444444444,
+                    "avgFrequency": 29094
+                },
+                "G1 Concurrent GC": {
+                    "total": 12,
+                    "avgTime": 2.5833333333333335,
+                    "avgFrequency": 152972
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 1835705,
+            "tps": {
+                "last1m": 19.99663227517403,
+                "last5m": 19.998806237591022,
+                "last15m": 19.999602978903667
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 9.6207267625,
+                    "max": 141.987439,
+                    "min": 2.233274,
+                    "median": 6.093061,
+                    "percentile95": 26.004793
+                },
+                "last5m": {
+                    "mean": 6.8321241185,
+                    "max": 141.987439,
+                    "min": 0.008424,
+                    "median": 4.560247,
+                    "percentile95": 23.412122
+                }
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 232,
+                "entityCounts": {
+                    "minecraft:cod": 23,
+                    "minecraft:skeleton": 27,
+                    "minecraft:bat": 15,
+                    "minecraft:player": 1,
+                    "minecraft:pig": 28,
+                    "minecraft:turtle": 1,
+                    "minecraft:squid": 4,
+                    "minecraft:sheep": 7,
+                    "minecraft:glow_squid": 8,
+                    "minecraft:enderman": 2,
+                    "minecraft:cow": 15,
+                    "minecraft:dolphin": 3,
+                    "minecraft:chicken": 20,
+                    "minecraft:spider": 11,
+                    "minecraft:chest_minecart": 4,
+                    "minecraft:zombie": 19,
+                    "minecraft:falling_block": 3,
+                    "minecraft:creeper": 15,
+                    "minecraft:horse": 17,
+                    "minecraft:item": 7,
+                    "minecraft:bee": 2
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 232,
+                        "regions": [
+                            {
+                                "totalEntities": 173,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:horse": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:squid": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -3,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:cod": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -3,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "minecraft:cod": 10
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:squid": 1,
+                                            "minecraft:cod": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:pig": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:squid": 1,
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1,
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:bat": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:cod": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 7,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1,
+                                            "minecraft:sheep": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 2,
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:bat": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:horse": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1,
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:sheep": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1,
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": 3,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:spider": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -3,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 2,
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": 2,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 2,
+                                            "minecraft:creeper": 2,
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:cod": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 2,
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1,
+                                            "minecraft:zombie": 1,
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 1,
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 2,
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1,
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 2,
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": -3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1,
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:bee": 1,
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:cow": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:bee": 1,
+                                            "minecraft:horse": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:horse": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 5,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 3,
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 35,
+                                "chunks": [
+                                    {
+                                        "x": -6,
+                                        "z": -5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:cow": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:turtle": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:cow": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -8,
+                                        "z": -6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:pig": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:cow": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 1,
+                                            "minecraft:cow": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -10,
+                                        "z": -6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:pig": 2,
+                                            "minecraft:sheep": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -11,
+                                        "z": -7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:horse": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -9,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -9,
+                                        "z": -7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -9,
+                                        "z": -8,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1,
+                                            "minecraft:item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -11,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:sheep": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 9,
+                                        "z": -9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 1,
+                                        "z": -8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:dolphin": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:dolphin": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": 11,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:pig": 4,
+                                            "minecraft:chicken": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": -10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": 11,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:falling_block": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": -4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -11,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -11,
+                                        "z": -3,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:pig": 4
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ],
+                "gameRules": [
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "the_nether": "65536",
+                            "overworld": "65536",
+                            "the_end": "65536"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "the_nether": "1",
+                            "overworld": "1",
+                            "the_end": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "24",
+                        "worldValues": {
+                            "the_nether": "24",
+                            "overworld": "24",
+                            "the_end": "24"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "100",
+                        "worldValues": {
+                            "the_nether": "100",
+                            "overworld": "100",
+                            "the_end": "100"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "the_nether": "1",
+                            "overworld": "1",
+                            "the_end": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "3",
+                        "worldValues": {
+                            "the_nether": "3",
+                            "overworld": "3",
+                            "the_end": "3"
+                        }
+                    },
+                    {
+                        "defaultValue": "80",
+                        "worldValues": {
+                            "the_nether": "80",
+                            "overworld": "80",
+                            "the_end": "80"
+                        }
+                    },
+                    {
+                        "defaultValue": "10",
+                        "worldValues": {
+                            "the_nether": "10",
+                            "overworld": "10",
+                            "the_end": "10"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "2",
+                        "worldValues": {
+                            "the_nether": "2",
+                            "overworld": "2",
+                            "the_end": "2"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "32768",
+                        "worldValues": {
+                            "the_nether": "32768",
+                            "overworld": "32768",
+                            "the_end": "32768"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "the_nether": "65536",
+                            "overworld": "65536",
+                            "the_end": "65536"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    }
+                ],
+                "dataPacks": [
+                    {
+                        "description": "The default data for Minecraft",
+                        "source": "builtin"
+                    },
+                    {
+                        "description": "Mod resources.",
+                        "source": "unknown"
+                    },
+                    {
+                        "description": "fabric-convention-tags-v2",
+                        "source": "unknown"
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 24,
+                "processUsage": {
+                    "last1m": 0.2794635679643172,
+                    "last15m": 0.2939335596784046
+                },
+                "systemUsage": {
+                    "last1m": 0.6125723033553521,
+                    "last15m": 0.5044468650455479
+                },
+                "modelName": "Intel(R) Xeon(R) CPU E5-2643 v4 @ 3.40GHz"
+            },
+            "memory": {
+                "physical": {
+                    "used": 17007951872,
+                    "total": 67418603520
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 882,
+                    "avgTime": 60.94897959183673,
+                    "avgFrequency": 2035
+                },
+                "G1 Concurrent GC": {
+                    "total": 312,
+                    "avgTime": 3.6121794871794872,
+                    "avgFrequency": 5923
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 10067048497152,
+                "total": 11999075368960
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-122-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3",
+                "vendorVersion": "Temurin-21.0.3+9",
+                "vmArgs": "-Xms128M -Xmx10000M"
+            },
+            "uptime": 1849410,
+            "net": {
+                "eno4": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eno3": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 2021802,
+                        "max": 4704736,
+                        "min": 585031,
+                        "median": 1501525,
+                        "percentile95": 4704736
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 2021802,
+                        "max": 4704736,
+                        "min": 585031,
+                        "median": 1501525,
+                        "percentile95": 4704736
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 76.66666666666667,
+                        "max": 143,
+                        "min": 49,
+                        "median": 70,
+                        "percentile95": 143
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 76.66666666666667,
+                        "max": 143,
+                        "min": 49,
+                        "median": 70,
+                        "percentile95": 143
+                    }
+                },
+                "eno2": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "wings0": {
+                    "rxBytesPerSecond": {
+                        "mean": 693.2,
+                        "max": 1137,
+                        "min": 525,
+                        "median": 642,
+                        "percentile95": 1137
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 175.66666666666666,
+                        "max": 297,
+                        "min": 129,
+                        "median": 164,
+                        "percentile95": 297
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 2.466666666666667,
+                        "max": 3,
+                        "min": 2,
+                        "median": 2,
+                        "percentile95": 3
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 2.533333333333333,
+                        "max": 4,
+                        "min": 2,
+                        "median": 2,
+                        "percentile95": 4
+                    }
+                },
+                "eno1": {
+                    "rxBytesPerSecond": {
+                        "mean": 39354.4,
+                        "max": 87605,
+                        "min": 23105,
+                        "median": 35376,
+                        "percentile95": 87605
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 2096036.7333333334,
+                        "max": 4533901,
+                        "min": 603391,
+                        "median": 1685907,
+                        "percentile95": 4533901
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 442.8,
+                        "max": 718,
+                        "min": 170,
+                        "median": 479,
+                        "percentile95": 718
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 1447.4,
+                        "max": 3050,
+                        "min": 454,
+                        "median": 1166,
+                        "percentile95": 3050
+                    }
+                },
+                "docker0": {
+                    "rxBytesPerSecond": {
+                        "mean": 87.73333333333333,
+                        "max": 169,
+                        "min": 15,
+                        "median": 100,
+                        "percentile95": 169
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1743.8666666666666,
+                        "max": 11989,
+                        "min": 20,
+                        "median": 361,
+                        "percentile95": 11989
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0.8,
+                        "max": 2,
+                        "min": 0,
+                        "median": 1,
+                        "percentile95": 2
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0.8,
+                        "max": 2,
+                        "min": 0,
+                        "median": 1,
+                        "percentile95": 2
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3+9-LTS"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": false,
+                "gamemode": "survival",
+                "enable-query": true,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "world",
+                "query.port": 25565,
+                "pvp": true,
+                "generate-structures": true,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "normal",
+                "network-compression-threshold": 256,
+                "max-tick-time": 60000,
+                "require-resource-pack": false,
+                "max-players": 69,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": true,
+                "allow-flight": false,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 10,
+                "resource-pack-prompt": "",
+                "bug-report-link": "",
+                "allow-nether": true,
+                "server-port": 25575,
+                "enable-rcon": false,
+                "sync-chunk-writes": false,
+                "resource-pack-id": "",
+                "op-permission-level": 4,
+                "accepts-transfers": false,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 10,
+                "player-idle-timeout": 0,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "region-file-compression": "deflate",
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "log-ips": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:normal",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 0,
+                "max-world-size": 29999984
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                81
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1730122923010,
+        "numberOfTicks": 2053,
+        "plugins": {
+            "chunky": {
+                "name": "chunky",
+                "version": "1.4.20",
+                "author": "pop4959",
+                "description": "Pre-generates chunks, quickly, efficiently, and safely"
+            },
+            "cloth-basic-math": {
+                "name": "cloth-basic-math",
+                "version": "0.6.1",
+                "author": "",
+                "description": ""
+            },
+            "cloth-config": {
+                "name": "cloth-config",
+                "version": "15.0.128",
+                "author": "shedaniel",
+                "description": "An API for config screens."
+            },
+            "fabric-api": {
+                "name": "fabric-api",
+                "version": "0.107.0+1.21.1",
+                "author": "FabricMC",
+                "description": "Core API module providing key hooks and intercompatibility features."
+            },
+            "fabric-api-base": {
+                "name": "fabric-api-base",
+                "version": "0.4.42+6573ed8c19",
+                "author": "FabricMC",
+                "description": "Contains the essentials for Fabric API modules."
+            },
+            "fabric-api-lookup-api-v1": {
+                "name": "fabric-api-lookup-api-v1",
+                "version": "1.6.69+b559734419",
+                "author": "FabricMC",
+                "description": "A universal way to expose and query APIs"
+            },
+            "fabric-biome-api-v1": {
+                "name": "fabric-biome-api-v1",
+                "version": "13.0.30+be1ed2d719",
+                "author": "FabricMC",
+                "description": "Hooks for adding biomes to the default world generator."
+            },
+            "fabric-block-api-v1": {
+                "name": "fabric-block-api-v1",
+                "version": "1.0.22+0af3f5a719",
+                "author": "FabricMC",
+                "description": "Hooks for blocks"
+            },
+            "fabric-block-view-api-v2": {
+                "name": "fabric-block-view-api-v2",
+                "version": "1.0.10+6573ed8c19",
+                "author": "FabricMC",
+                "description": "Hooks for block views"
+            },
+            "fabric-command-api-v1": {
+                "name": "fabric-command-api-v1",
+                "version": "1.2.49+f71b366f19",
+                "author": "FabricMC",
+                "description": "Deprecated. Please migrate to v2"
+            },
+            "fabric-command-api-v2": {
+                "name": "fabric-command-api-v2",
+                "version": "2.2.28+6ced4dd919",
+                "author": "FabricMC",
+                "description": "Adds command-related hooks."
+            },
+            "fabric-commands-v0": {
+                "name": "fabric-commands-v0",
+                "version": "0.2.66+df3654b319",
+                "author": "FabricMC",
+                "description": "Deprecated. Please migrate to v2"
+            },
+            "fabric-content-registries-v0": {
+                "name": "fabric-content-registries-v0",
+                "version": "8.0.17+b559734419",
+                "author": "FabricMC",
+                "description": "Adds registries for vanilla mechanics that are missing them."
+            },
+            "fabric-convention-tags-v1": {
+                "name": "fabric-convention-tags-v1",
+                "version": "2.1.1+7f945d5b19",
+                "author": "FabricMC",
+                "description": "Contains common tags used by mods for vanilla things."
+            },
+            "fabric-convention-tags-v2": {
+                "name": "fabric-convention-tags-v2",
+                "version": "2.9.1+7fd4837519",
+                "author": "FabricMC",
+                "description": "Contains common tags used by mods for better inter-mod compatibility."
+            },
+            "fabric-crash-report-info-v1": {
+                "name": "fabric-crash-report-info-v1",
+                "version": "0.2.29+0af3f5a719",
+                "author": "FabricMC",
+                "description": "Adds Fabric-related debug info to crash reports."
+            },
+            "fabric-data-attachment-api-v1": {
+                "name": "fabric-data-attachment-api-v1",
+                "version": "1.2.0+e49211d819",
+                "author": "FabricMC",
+                "description": "Allows conveniently attaching data to existing game objects"
+            },
+            "fabric-data-generation-api-v1": {
+                "name": "fabric-data-generation-api-v1",
+                "version": "20.2.22+16c4ae2519",
+                "author": "FabricMC",
+                "description": "Allows for automatic data generation."
+            },
+            "fabric-dimensions-v1": {
+                "name": "fabric-dimensions-v1",
+                "version": "4.0.0+6fc22b9919",
+                "author": "FabricMC",
+                "description": "Fabric Dimension API."
+            },
+            "fabric-entity-events-v1": {
+                "name": "fabric-entity-events-v1",
+                "version": "1.7.0+2122d82819",
+                "author": "FabricMC",
+                "description": "Events to hook into entities."
+            },
+            "fabric-events-interaction-v0": {
+                "name": "fabric-events-interaction-v0",
+                "version": "0.7.13+ba9dae0619",
+                "author": "FabricMC",
+                "description": "Events for player interaction with blocks and entities."
+            },
+            "fabric-game-rule-api-v1": {
+                "name": "fabric-game-rule-api-v1",
+                "version": "1.0.53+6ced4dd919",
+                "author": "FabricMC",
+                "description": "Allows registration of custom game rules."
+            },
+            "fabric-item-api-v1": {
+                "name": "fabric-item-api-v1",
+                "version": "11.1.1+d5debaed19",
+                "author": "FabricMC",
+                "description": "Hooks for items"
+            },
+            "fabric-item-group-api-v1": {
+                "name": "fabric-item-group-api-v1",
+                "version": "4.1.6+6823f7cd19",
+                "author": "FabricMC",
+                "description": "An API for adding custom item groups."
+            },
+            "fabric-lifecycle-events-v1": {
+                "name": "fabric-lifecycle-events-v1",
+                "version": "2.4.0+0f6c53cd19",
+                "author": "FabricMC",
+                "description": "Events for the game's lifecycle."
+            },
+            "fabric-loot-api-v2": {
+                "name": "fabric-loot-api-v2",
+                "version": "3.0.15+3f89f5a519",
+                "author": "FabricMC",
+                "description": "Hooks for manipulating loot tables."
+            },
+            "fabric-loot-api-v3": {
+                "name": "fabric-loot-api-v3",
+                "version": "1.0.3+3f89f5a519",
+                "author": "FabricMC",
+                "description": "Hooks for manipulating loot tables."
+            },
+            "fabric-message-api-v1": {
+                "name": "fabric-message-api-v1",
+                "version": "6.0.13+6573ed8c19",
+                "author": "FabricMC",
+                "description": "Adds message-related hooks."
+            },
+            "fabric-networking-api-v1": {
+                "name": "fabric-networking-api-v1",
+                "version": "4.3.0+c7469b2119",
+                "author": "FabricMC",
+                "description": "Low-level, vanilla protocol oriented networking hooks."
+            },
+            "fabric-object-builder-api-v1": {
+                "name": "fabric-object-builder-api-v1",
+                "version": "15.2.1+40875a9319",
+                "author": "FabricMC",
+                "description": "Builders for objects vanilla has locked down."
+            },
+            "fabric-particles-v1": {
+                "name": "fabric-particles-v1",
+                "version": "4.0.2+6573ed8c19",
+                "author": "FabricMC",
+                "description": "Hooks for registering custom particles."
+            },
+            "fabric-permissions-api-v0": {
+                "name": "fabric-permissions-api-v0",
+                "version": "0.3.1",
+                "author": "Luck",
+                "description": "A simple permissions API for Fabric."
+            },
+            "fabric-recipe-api-v1": {
+                "name": "fabric-recipe-api-v1",
+                "version": "5.0.13+6508971219",
+                "author": "FabricMC",
+                "description": "Recipe extensions such as creation of new types of recipe ingredients."
+            },
+            "fabric-registry-sync-v0": {
+                "name": "fabric-registry-sync-v0",
+                "version": "5.1.3+60c3209b19",
+                "author": "FabricMC",
+                "description": "Syncs registry mappings."
+            },
+            "fabric-rendering-data-attachment-v1": {
+                "name": "fabric-rendering-data-attachment-v1",
+                "version": "0.3.48+73761d2e19",
+                "author": "FabricMC",
+                "description": "Thread-safe hooks for block entity data use during terrain rendering."
+            },
+            "fabric-rendering-fluids-v1": {
+                "name": "fabric-rendering-fluids-v1",
+                "version": "3.1.6+1daea21519",
+                "author": "FabricMC",
+                "description": "Hooks for registering fluid renders."
+            },
+            "fabric-resource-conditions-api-v1": {
+                "name": "fabric-resource-conditions-api-v1",
+                "version": "4.3.0+8dc279b119",
+                "author": "FabricMC",
+                "description": "Allows conditionally loading resources."
+            },
+            "fabric-resource-loader-v0": {
+                "name": "fabric-resource-loader-v0",
+                "version": "1.3.1+5b5275af19",
+                "author": "FabricMC",
+                "description": "Asset and data resource loading."
+            },
+            "fabric-screen-handler-api-v1": {
+                "name": "fabric-screen-handler-api-v1",
+                "version": "1.3.87+b559734419",
+                "author": "FabricMC",
+                "description": "Hooks and extensions for creating screen handlers."
+            },
+            "fabric-transfer-api-v1": {
+                "name": "fabric-transfer-api-v1",
+                "version": "5.4.1+95bead5f19",
+                "author": "FabricMC",
+                "description": "A common API for the transfer of fluids, items and other game resources."
+            },
+            "fabric-transitive-access-wideners-v1": {
+                "name": "fabric-transitive-access-wideners-v1",
+                "version": "6.1.0+1daea21519",
+                "author": "FabricMC",
+                "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code."
+            },
+            "fabricloader": {
+                "name": "fabricloader",
+                "version": "0.16.7",
+                "author": "FabricMC",
+                "description": "The base mod loader."
+            },
+            "ferritecore": {
+                "name": "ferritecore",
+                "version": "7.0.2-hotfix",
+                "author": "malte0811",
+                "description": "Reduces memory usage"
+            },
+            "java": {
+                "name": "java",
+                "version": "21",
+                "author": "",
+                "description": ""
+            },
+            "lithium": {
+                "name": "lithium",
+                "version": "0.14.0-snapshot+mc1.21.1-build.88",
+                "author": "JellySquid, 2No2Name",
+                "description": "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game."
+            },
+            "minecraft": {
+                "name": "minecraft",
+                "version": "1.21.1",
+                "author": "",
+                "description": ""
+            },
+            "mixinextras": {
+                "name": "mixinextras",
+                "version": "0.4.1",
+                "author": "LlamaLad7",
+                "description": "Companion library to Mixin with lots of features to improve the compatibility and concision of your mixins!"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.109",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}

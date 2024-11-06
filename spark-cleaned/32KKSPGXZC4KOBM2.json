@@ -1,0 +1,264 @@
+{
+    "metadata": {
+        "startTime": 1716809983335,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-42d42883-b393)",
+            "minecraftVersion": "",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 1490078080,
+                    "total": 2147483648
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 53,
+                    "avgTime": 45.64150943396226,
+                    "avgFrequency": 1527591
+                },
+                "G1 Concurrent GC": {
+                    "total": 30,
+                    "avgTime": 7.366666666666666,
+                    "avgFrequency": 2698818
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 80964781,
+            "ping": {
+                "last15m": {
+                    "mean": 48.32222222222222,
+                    "max": 53,
+                    "min": 45,
+                    "median": 48,
+                    "percentile95": 51
+                }
+            },
+            "playerCount": 475
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 6,
+                "processUsage": {
+                    "last1m": 0.6263113512614403,
+                    "last15m": 0.6802786328726311
+                },
+                "systemUsage": {
+                    "last1m": 0.6901724346294571,
+                    "last15m": 0.7394615612491183
+                },
+                "modelName": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+            },
+            "memory": {
+                "physical": {
+                    "used": 5138505728,
+                    "total": 10400235520
+                },
+                "swap": {
+                    "used": 68595712,
+                    "total": 2062544896
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 560,
+                    "avgTime": 39.82857142857143,
+                    "avgFrequency": 144547
+                },
+                "G1 Concurrent GC": {
+                    "total": 360,
+                    "avgTime": 7.138888888888889,
+                    "avgFrequency": 224905
+                },
+                "G1 Old Generation": {
+                    "total": 5,
+                    "avgTime": 632.6,
+                    "avgFrequency": 16193108
+                }
+            },
+            "disk": {
+                "used": 13336580096,
+                "total": 42156257280
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.4.0-169-generic"
+            },
+            "java": {
+                "vendor": "Amazon.com Inc.",
+                "version": "21.0.2",
+                "vmArgs": "-Xms2G -Xmx2G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15"
+            },
+            "uptime": 80968704,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 53.2,
+                        "max": 67,
+                        "min": 36,
+                        "median": 54,
+                        "percentile95": 67
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 53.2,
+                        "max": 67,
+                        "min": 36,
+                        "median": 54,
+                        "percentile95": 67
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "ens160": {
+                    "rxBytesPerSecond": {
+                        "mean": 77577358,
+                        "max": 88303855,
+                        "min": 68206569,
+                        "median": 77938976,
+                        "percentile95": 88303855
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 16586461.2,
+                        "max": 17948420,
+                        "min": 15430235,
+                        "median": 16638848,
+                        "percentile95": 17948420
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 191652.33333333334,
+                        "max": 221001,
+                        "min": 156868,
+                        "median": 198429,
+                        "percentile95": 221001
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 142212.13333333333,
+                        "max": 154434,
+                        "min": 120674,
+                        "median": 145570,
+                        "percentile95": 154434
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1716811535970,
+        "numberOfTicks": 0,
+        "plugins": {
+            "litebans": {
+                "name": "litebans",
+                "version": "2.11.5"
+            },
+            "banswebhook": {
+                "name": "banswebhook",
+                "version": "2.1.1"
+            },
+            "cleanmotd": {
+                "name": "cleanmotd",
+                "version": "0.2.8"
+            },
+            "cleanping": {
+                "name": "cleanping",
+                "version": "1.5.2"
+            },
+            "premiumvanish": {
+                "name": "premiumvanish",
+                "version": "2.9.3"
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.116"
+            },
+            "cleanstaffchat": {
+                "name": "cleanstaffchat",
+                "version": "1.14.2"
+            },
+            "commandwhitelist": {
+                "name": "commandwhitelist",
+                "version": "2.8.1"
+            },
+            "jpremium": {
+                "name": "jpremium",
+                "version": "CLEARED-1.21.4"
+            },
+            "maintenance": {
+                "name": "maintenance",
+                "version": "4.2.0"
+            },
+            "nuvotifier": {
+                "name": "nuvotifier",
+                "version": "2.7.3"
+            },
+            "parties": {
+                "name": "parties",
+                "version": "3.2.14"
+            },
+            "serverutils": {
+                "name": "serverutils",
+                "version": "3.5.4"
+            },
+            "skinsrestorer": {
+                "name": "skinsrestorer",
+                "version": "15.0.13"
+            },
+            "sonar": {
+                "name": "sonar",
+                "version": "2.0.30"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.59"
+            },
+            "tab": {
+                "name": "tab",
+                "version": "4.1.3-SNAPSHOT"
+            },
+            "velocity-tools": {
+                "name": "velocity-tools",
+                "version": "1.2.2"
+            },
+            "votingplugin": {
+                "name": "votingplugin",
+                "version": "1.0"
+            },
+            "warpsystem": {
+                "name": "warpsystem",
+                "version": "5.1.10"
+            },
+            "logfilter": {
+                "name": "logfilter",
+                "version": "3.0.5"
+            }
+        },
+        "samplerMode": 0
+    }
+}

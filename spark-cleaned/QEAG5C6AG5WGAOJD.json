@@ -1,0 +1,403 @@
+{
+    "metadata": {
+        "startTime": 1728146228222,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "git-WildyaSpigot-d12ccc6-P (MC: 1.8.8)",
+            "minecraftVersion": "v1_8_R3",
+            "sparkVersion": 2,
+            "brand": "CraftBukkit"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 504406288,
+                    "committed": 838860800,
+                    "init": 838860800,
+                    "max": 838860800
+                },
+                "nonHeap": {
+                    "used": 172769488,
+                    "committed": 204079104,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 276824064,
+                            "committed": 327155712,
+                            "init": 251658240,
+                            "max": 327155712
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 327155712,
+                            "init": 251658240,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 227245056,
+                            "committed": 503316480,
+                            "init": 587202560,
+                            "max": 838860800
+                        },
+                        "collectionUsage": {
+                            "used": 227245056,
+                            "committed": 503316480,
+                            "init": 587202560,
+                            "max": 838860800
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 337168,
+                            "committed": 8388608,
+                            "init": 0,
+                            "max": 8388608
+                        },
+                        "collectionUsage": {
+                            "used": 337168,
+                            "committed": 8388608,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "uptime": 448848,
+            "tps": {
+                "last1m": 19.99976963465344,
+                "last5m": 20.000005345734763,
+                "last15m": 20.00013316348662
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 18.704545454545453,
+                    "max": 20,
+                    "min": 13,
+                    "median": 19,
+                    "percentile95": 20
+                }
+            },
+            "playerCount": 10,
+            "world": {
+                "totalEntities": 10,
+                "entityCounts": {
+                    "unknown[PLAYER]": 10
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 10,
+                        "regions": [
+                            {
+                                "totalEntities": 7,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -1,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 12,
+                "processUsage": {
+                    "last1m": 0.03020535340018092,
+                    "last15m": 0.03848672284640144
+                },
+                "systemUsage": {
+                    "last1m": 0.1549624080467726,
+                    "last15m": 0.1476886238926965
+                },
+                "modelName": "AMD Ryzen 5 3600X 6-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 14293872640,
+                    "total": 33548623872
+                },
+                "swap": {
+                    "used": 524288,
+                    "total": 1073733632
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 36,
+                    "avgTime": 6.888888888888889,
+                    "avgFrequency": 12630
+                },
+                "G1 Concurrent GC": {
+                    "total": 24,
+                    "avgTime": 3.1666666666666665,
+                    "avgFrequency": 18953
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 141857447936,
+                "total": 500673052672
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.10.11-amd64"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "23",
+                "vendorVersion": "Temurin-23+37",
+                "vmArgs": "--add-opens=java.base/java.net=ALL-UNNAMED -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Xmx800M -Xms800M"
+            },
+            "uptime": 454960,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 6.714285714285714,
+                        "max": 30,
+                        "min": 0,
+                        "median": 5,
+                        "percentile95": 30
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 6.714285714285714,
+                        "max": 30,
+                        "min": 0,
+                        "median": 5,
+                        "percentile95": 30
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 153535,
+                        "max": 192456,
+                        "min": 52612,
+                        "median": 184026,
+                        "percentile95": 192456
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 848852.1428571428,
+                        "max": 1717685,
+                        "min": 148322,
+                        "median": 895338,
+                        "percentile95": 1717685
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 2150.4285714285716,
+                        "max": 2701,
+                        "min": 724,
+                        "median": 2577,
+                        "percentile95": 2701
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 2736.1428571428573,
+                        "max": 3606,
+                        "min": 776,
+                        "median": 3338,
+                        "percentile95": 3606
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "23+37"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "view-distance": 10,
+                "max-build-height": 256,
+                "enable-weather": false,
+                "gamemode": 2,
+                "enable-command-block": false,
+                "allow-nether": false,
+                "server-port": 25565,
+                "enable-rcon": false,
+                "enable-query": false,
+                "op-permission-level": 0,
+                "generator-settings": "",
+                "level-name": "lobby_host",
+                "player-idle-timeout": 0,
+                "announce-player-achievements": false,
+                "debug": false,
+                "force-gamemode": true,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": false,
+                "pvp": true,
+                "spawn-npcs": false,
+                "generate-structures": false,
+                "spawn-animals": false,
+                "snooper-enabled": false,
+                "difficulty": 2,
+                "network-compression-threshold": "-1",
+                "level-type": "FLAT",
+                "spawn-monsters": false,
+                "max-players": 1000,
+                "use-native-transport": true,
+                "spawn-protection": 0,
+                "online-mode": false,
+                "allow-flight": true,
+                "max-world-size": 200,
+                "resource-pack-hash": ""
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                36
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1728146362223,
+        "numberOfTicks": 2677,
+        "plugins": {
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.141",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "apollo-bukkit": {
+                "name": "Apollo-Bukkit",
+                "version": "1.1.5",
+                "author": "Moonsworth",
+                "description": ""
+            },
+            "chatformatter": {
+                "name": "ChatFormatter",
+                "version": "1.0",
+                "author": "Wildya",
+                "description": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.110",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.16.0",
+                "author": "Ruan",
+                "description": "Lightweight banning plugin with full UUID support."
+            },
+            "cheatbreakerapi": {
+                "name": "CheatBreakerAPI",
+                "version": "3ee5e2f",
+                "author": "CheatBreaker Development Team",
+                "description": "CheatBreaker Bukkit API"
+            },
+            "protocollib": {
+                "name": "ProtocolLib",
+                "version": "5.3.0-SNAPSHOT-732",
+                "author": "dmulloy2, comphenix",
+                "description": "Provides read/write access to the Minecraft protocol."
+            },
+            "packetevents": {
+                "name": "packetevents",
+                "version": "2.5.0",
+                "author": "retrooper",
+                "description": ""
+            },
+            "karhuloader": {
+                "name": "KarhuLoader",
+                "version": "1.2",
+                "author": "",
+                "description": ""
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 0
+    }
+}

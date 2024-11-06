@@ -1,0 +1,191 @@
+{
+    "metadata": {
+        "startTime": 1716985808699,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-399bc232-b386)",
+            "minecraftVersion": "",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 161760520,
+                    "total": 203919360
+                }
+            },
+            "gc": {
+                "Copy": {
+                    "total": 747,
+                    "avgTime": 13.298527443105757,
+                    "avgFrequency": 80386
+                },
+                "MarkSweepCompact": {
+                    "total": 24,
+                    "avgTime": 509.75,
+                    "avgFrequency": 2501920
+                }
+            },
+            "uptime": 60058316,
+            "ping": {
+                "last15m": {
+                    "mean": 34.24444444444445,
+                    "max": 99,
+                    "min": 22,
+                    "median": 30,
+                    "percentile95": 64
+                }
+            },
+            "playerCount": 9
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 1,
+                "processUsage": {
+                    "last1m": 0.97375,
+                    "last15m": 0.9023611111111111
+                },
+                "systemUsage": {
+                    "last1m": 0.974917125,
+                    "last15m": 0.9034507604166667
+                },
+                "modelName": "AMD EPYC 9654 96-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 7358840832,
+                    "total": 10423574528
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "Copy": {
+                    "total": 2640,
+                    "avgTime": 6.30719696969697,
+                    "avgFrequency": 22746
+                },
+                "MarkSweepCompact": {
+                    "total": 27,
+                    "avgTime": 470.77777777777777,
+                    "avgFrequency": 2224250
+                }
+            },
+            "disk": {
+                "used": 10694926336,
+                "total": 83053432832
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-107-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "17.0.11",
+                "vendorVersion": "Temurin-17.0.11+9",
+                "vmArgs": "-Xms128M -XX:MaxRAMPercentage=95.0"
+            },
+            "uptime": 60067482,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 20.6,
+                        "max": 44,
+                        "min": 6,
+                        "median": 18,
+                        "percentile95": 44
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 20.6,
+                        "max": 44,
+                        "min": 6,
+                        "median": 18,
+                        "percentile95": 44
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 260796.93333333332,
+                        "max": 376864,
+                        "min": 176120,
+                        "median": 277130,
+                        "percentile95": 376864
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1480238.4666666666,
+                        "max": 2412047,
+                        "min": 808976,
+                        "median": 1547090,
+                        "percentile95": 2412047
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 1284.4666666666667,
+                        "max": 1851,
+                        "min": 904,
+                        "median": 1236,
+                        "percentile95": 1851
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 1175.4,
+                        "max": 1741,
+                        "min": 900,
+                        "median": 1146,
+                        "percentile95": 1741
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1716988754577,
+        "numberOfTicks": 0,
+        "plugins": {
+            "ajqueue": {
+                "name": "ajqueue",
+                "version": "2.6.0"
+            },
+            "kaurivpn": {
+                "name": "kaurivpn",
+                "version": "1.9.2"
+            },
+            "nlogin": {
+                "name": "nlogin",
+                "version": "10.3.23"
+            },
+            "sonar": {
+                "name": "sonar",
+                "version": "2.0.28"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.66"
+            }
+        },
+        "samplerMode": 0
+    }
+}

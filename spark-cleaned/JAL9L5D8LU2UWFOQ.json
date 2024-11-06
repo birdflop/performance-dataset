@@ -1,0 +1,289 @@
+{
+    "metadata": {
+        "startTime": 1725069445231,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-6100e675-b416)",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "Velocity"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 281375296,
+                    "committed": 671088640,
+                    "init": 134217728,
+                    "max": 1073741824
+                },
+                "nonHeap": {
+                    "used": 172061376,
+                    "committed": 189071360,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 50331648,
+                            "committed": 385875968,
+                            "init": 67108864,
+                            "max": 385875968
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 385875968,
+                            "init": 67108864,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 212629592,
+                            "committed": 251658240,
+                            "init": 67108864,
+                            "max": 1073741824
+                        },
+                        "collectionUsage": {
+                            "used": 212629592,
+                            "committed": 251658240,
+                            "init": 67108864,
+                            "max": 1073741824
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 18414056,
+                            "committed": 33554432,
+                            "init": 0,
+                            "max": 33554432
+                        },
+                        "collectionUsage": {
+                            "used": 18414056,
+                            "committed": 33554432,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 110,
+                    "avgTime": 16.936363636363637,
+                    "avgFrequency": 13192
+                },
+                "G1 Concurrent GC": {
+                    "total": 88,
+                    "avgTime": 3.1704545454545454,
+                    "avgFrequency": 16509
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 1453075,
+            "playerCount": 0,
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 12,
+                "processUsage": {
+                    "last1m": 0.06333503113951652,
+                    "last15m": 0.0625974220375536
+                },
+                "systemUsage": {
+                    "last1m": 0.5531761472139205,
+                    "last15m": 0.4710721431151757
+                },
+                "modelName": "AMD EPYC 9634 84-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 24607191040,
+                    "total": 33614147584
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 128,
+                    "avgTime": 16.21875,
+                    "avgFrequency": 11367
+                },
+                "G1 Concurrent GC": {
+                    "total": 104,
+                    "avgTime": 3.0673076923076925,
+                    "avgFrequency": 14008
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 400709140480,
+                "total": 1081057550336
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-119-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3",
+                "vendorVersion": "Temurin-21.0.3+9"
+            },
+            "uptime": 1457165,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 3.6,
+                        "max": 12,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 12
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 3.6,
+                        "max": 12,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 12
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 6130.4,
+                        "max": 7735,
+                        "min": 5071,
+                        "median": 5896,
+                        "percentile95": 7735
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 2415.9333333333334,
+                        "max": 2673,
+                        "min": 2248,
+                        "median": 2390,
+                        "percentile95": 2673
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 13,
+                        "max": 14,
+                        "min": 12,
+                        "median": 13,
+                        "percentile95": 14
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 14.466666666666667,
+                        "max": 16,
+                        "min": 14,
+                        "median": 14,
+                        "percentile95": 16
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3+9-LTS"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1725070347514,
+        "numberOfTicks": 0,
+        "plugins": {
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.134",
+                "author": "Luck"
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b109-49bd564)",
+                "author": "GeyserMC"
+            },
+            "geyser": {
+                "name": "geyser",
+                "version": "2.4.2-b660 (git-master-63e60bc)",
+                "author": "GeyserMC"
+            },
+            "litebans": {
+                "name": "litebans",
+                "version": "2.15.1",
+                "author": "Ruan"
+            },
+            "nuvotifier": {
+                "name": "nuvotifier",
+                "version": "2.7.3",
+                "author": "Ichbinjoe"
+            },
+            "packetevents": {
+                "name": "packetevents",
+                "version": "2.4.0",
+                "author": "retrooper"
+            },
+            "pl-hide-pro": {
+                "name": "pl-hide-pro",
+                "version": "2.10.3",
+                "author": "Nononitas"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.99",
+                "author": "Luck"
+            },
+            "tab": {
+                "name": "tab",
+                "version": "4.1.7",
+                "author": "NEZNAMY"
+            },
+            "tebex": {
+                "name": "tebex",
+                "version": "2.0.5",
+                "author": "Tebex"
+            },
+            "velocitycontrol": {
+                "name": "velocitycontrol",
+                "version": "1.1.0",
+                "author": "kangarko"
+            },
+            "votingplugin": {
+                "name": "votingplugin",
+                "version": "1.0",
+                "author": "BenCodez"
+            }
+        },
+        "samplerMode": 0
+    }
+}

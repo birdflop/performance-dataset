@@ -1,0 +1,242 @@
+{
+    "metadata": {
+        "startTime": 1722174330197,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "git:Waterfall-Bootstrap:1.20-R0.3-SNAPSHOT:c5fd43a:565",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "XCord"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 754680936,
+                    "total": 2147483648
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 312,
+                    "avgTime": 31.628205128205128,
+                    "avgFrequency": 24077
+                },
+                "G1 Concurrent GC": {
+                    "total": 206,
+                    "avgTime": 3.883495145631068,
+                    "avgFrequency": 36511
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 7522174,
+            "ping": {
+                "last15m": {
+                    "mean": 26.9,
+                    "max": 44,
+                    "min": 23,
+                    "median": 26,
+                    "percentile95": 31
+                }
+            },
+            "playerCount": 4
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 10,
+                "processUsage": {
+                    "last1m": 0.10963896408870015,
+                    "last15m": 0.1094480961451587
+                },
+                "systemUsage": {
+                    "last1m": 0.15273560653576465,
+                    "last15m": 0.1782395168390181
+                },
+                "modelName": "AMD Ryzen 9 5950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 28659232768,
+                    "total": 33654337536
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 321,
+                    "avgTime": 30.97196261682243,
+                    "avgFrequency": 23418
+                },
+                "G1 Concurrent GC": {
+                    "total": 214,
+                    "avgTime": 3.789719626168224,
+                    "avgFrequency": 35171
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 147810762752,
+                "total": 295795273728
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.8.0-38-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3",
+                "vendorVersion": "Temurin-21.0.3+9",
+                "vmArgs": "-Xms2048M -Xmx2048M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15"
+            },
+            "uptime": 7527418,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 1007.3333333333334,
+                        "max": 1016,
+                        "min": 1003,
+                        "median": 1007,
+                        "percentile95": 1016
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1007.3333333333334,
+                        "max": 1016,
+                        "min": 1003,
+                        "median": 1007,
+                        "percentile95": 1016
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 20,
+                        "max": 20,
+                        "min": 20,
+                        "median": 20,
+                        "percentile95": 20
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 20,
+                        "max": 20,
+                        "min": 20,
+                        "median": 20,
+                        "percentile95": 20
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 565566.9333333333,
+                        "max": 1974700,
+                        "min": 125682,
+                        "median": 414439,
+                        "percentile95": 1974700
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 109281.2,
+                        "max": 299643,
+                        "min": 47481,
+                        "median": 76169,
+                        "percentile95": 299643
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 315.6,
+                        "max": 581,
+                        "min": 169,
+                        "median": 302,
+                        "percentile95": 581
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 283.6666666666667,
+                        "max": 479,
+                        "min": 157,
+                        "median": 273,
+                        "percentile95": 479
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3+9-LTS"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1722181726326,
+        "numberOfTicks": 0,
+        "plugins": {
+            "minimotd": {
+                "name": "MiniMOTD",
+                "version": "2.1.2"
+            },
+            "ajqueue": {
+                "name": "ajQueue",
+                "version": "2.7.0"
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.137"
+            },
+            "nlogin": {
+                "name": "nLogin",
+                "version": "10.3.28"
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b109-49bd564)"
+            },
+            "skinsrestorer": {
+                "name": "SkinsRestorer",
+                "version": "15.3.1"
+            },
+            "bungeeguard": {
+                "name": "BungeeGuard",
+                "version": "1.4.4"
+            },
+            "geyser-bungeecord": {
+                "name": "Geyser-BungeeCord",
+                "version": "2.4.0-SNAPSHOT"
+            },
+            "geyserupdater": {
+                "name": "GeyserUpdater",
+                "version": "1.6.4"
+            },
+            "packetevents": {
+                "name": "packetevents",
+                "version": "2.4.1-SNAPSHOT"
+            },
+            "pl-hide-pro": {
+                "name": "Pl-Hide-Pro",
+                "version": "2.10.3"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.86"
+            },
+            "commandsync": {
+                "name": "CommandSync",
+                "version": "2.8.2"
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.15.1"
+            }
+        },
+        "samplerMode": 0
+    }
+}

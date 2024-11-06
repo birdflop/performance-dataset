@@ -1,0 +1,288 @@
+{
+    "metadata": {
+        "startTime": 1723361491707,
+        "interval": 10,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-2203a2bc)",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "Velocity"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 3348281944,
+                    "committed": 7302283264,
+                    "init": 0,
+                    "max": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 8,
+                    "avgTime": 98.875,
+                    "avgFrequency": 2290224
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 18322588,
+            "ping": {
+                "last15m": {
+                    "mean": 43.98888888888889,
+                    "max": 46,
+                    "min": 41,
+                    "median": 44,
+                    "percentile95": 45
+                }
+            },
+            "playerCount": 499,
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 40,
+                "processUsage": {
+                    "last1m": 0.21534846702571386,
+                    "last15m": 0.19117603110213924
+                },
+                "systemUsage": {
+                    "last1m": 0.33893006312858565,
+                    "last15m": 0.33222302085592015
+                },
+                "modelName": "Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz"
+            },
+            "memory": {
+                "physical": {
+                    "used": 63646134272,
+                    "total": 135127822336
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 103,
+                    "avgTime": 39.37864077669903,
+                    "avgFrequency": 177911
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 396906434560,
+                "total": 1004826894336
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.4.0-190-generic"
+            },
+            "java": {
+                "vendor": "Amazon.com Inc.",
+                "version": "17.0.12",
+                "vmArgs": "-Xms6963M -Xmx6963M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15 -Dterminal.jline=false -Dterminal.ansi=true -Dvelocity.packet-decode-logging=true"
+            },
+            "uptime": 18328918,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 51,
+                        "max": 85,
+                        "min": 25,
+                        "median": 51,
+                        "percentile95": 85
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 51,
+                        "max": 85,
+                        "min": 25,
+                        "median": 51,
+                        "percentile95": 85
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0.13333333333333333,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0.13333333333333333,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 68755078.53333333,
+                        "max": 76061295,
+                        "min": 59770829,
+                        "median": 67977075,
+                        "percentile95": 76061295
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 16391070,
+                        "max": 17224548,
+                        "min": 15476338,
+                        "median": 16377628,
+                        "percentile95": 17224548
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 137541.6,
+                        "max": 144490,
+                        "min": 129734,
+                        "median": 137318,
+                        "percentile95": 144490
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 117491.46666666666,
+                        "max": 122688,
+                        "min": 110726,
+                        "median": 118156,
+                        "percentile95": 122688
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Amazon.com Inc.",
+                "version": "17.0.12+7-LTS"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1723361797129,
+        "numberOfTicks": 0,
+        "plugins": {
+            "ajqueue": {
+                "name": "ajqueue",
+                "version": "2.7.0",
+                "author": ""
+            },
+            "serverantivpn": {
+                "name": "serverantivpn",
+                "version": "1.4.2-BETA-b1",
+                "author": ""
+            },
+            "geyser": {
+                "name": "geyser",
+                "version": "2.4.1-SNAPSHOT (git-master-5075b98)",
+                "author": ""
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b??-e69334d)",
+                "author": ""
+            },
+            "sonar": {
+                "name": "sonar",
+                "version": "2.0.38",
+                "author": ""
+            },
+            "commandforward": {
+                "name": "commandforward",
+                "version": "0.4.0",
+                "author": ""
+            },
+            "forcepack": {
+                "name": "forcepack",
+                "version": "1.3.4",
+                "author": ""
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.137",
+                "author": ""
+            },
+            "jpremium": {
+                "name": "jpremium",
+                "version": "CLEARED-1.23.1",
+                "author": ""
+            },
+            "serverlistplus": {
+                "name": "serverlistplus",
+                "version": "3.5.1-SNAPSHOT",
+                "author": ""
+            },
+            "litebans": {
+                "name": "litebans",
+                "version": "2.15.1",
+                "author": ""
+            },
+            "logfilter": {
+                "name": "logfilter",
+                "version": "3.0.5",
+                "author": ""
+            },
+            "nuvotifier": {
+                "name": "nuvotifier",
+                "version": "2.7.3",
+                "author": ""
+            },
+            "partyandfriends": {
+                "name": "partyandfriends",
+                "version": "1.0.251-E",
+                "author": ""
+            },
+            "plan": {
+                "name": "plan",
+                "version": "5.6 build 2883",
+                "author": ""
+            },
+            "premiumvanish": {
+                "name": "premiumvanish",
+                "version": "2.9.13",
+                "author": ""
+            },
+            "proantitab": {
+                "name": "proantitab",
+                "version": "1.8.0",
+                "author": ""
+            },
+            "sayanchat": {
+                "name": "sayanchat",
+                "version": "1.0",
+                "author": ""
+            },
+            "skinsrestorer": {
+                "name": "skinsrestorer",
+                "version": "15.4.0",
+                "author": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.93",
+                "author": ""
+            },
+            "tab": {
+                "name": "tab",
+                "version": "5.0.0-SNAPSHOT",
+                "author": ""
+            },
+            "velocityreport": {
+                "name": "velocityreport",
+                "version": "3.10.5",
+                "author": ""
+            }
+        },
+        "samplerMode": 0
+    }
+}

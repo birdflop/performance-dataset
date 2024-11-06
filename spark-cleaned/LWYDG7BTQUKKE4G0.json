@@ -1,0 +1,233 @@
+{
+    "metadata": {
+        "startTime": 1716145824658,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-399bc232-b386)",
+            "minecraftVersion": "",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 543381040,
+                    "total": 889192448
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Concurrent GC": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 75323883,
+            "ping": {
+                "last15m": {
+                    "mean": 21.466666666666665,
+                    "max": 47,
+                    "min": 14,
+                    "median": 20,
+                    "percentile95": 29
+                }
+            },
+            "playerCount": 5
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 7,
+                "processUsage": {
+                    "last1m": 0.032872830872830876,
+                    "last15m": 0.01451311404644738
+                },
+                "systemUsage": {
+                    "last1m": 0.037057339316239314,
+                    "last15m": 0.01718981456247456
+                },
+                "modelName": "AMD Ryzen 7 3700X 8-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 25634435072,
+                    "total": 67335495680
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 1592,
+                    "avgTime": 4.21859296482412,
+                    "avgFrequency": 47311
+                },
+                "G1 Concurrent GC": {
+                    "total": 1054,
+                    "avgTime": 3.312144212523719,
+                    "avgFrequency": 71463
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 130003943424,
+                "total": 971968172032
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-106-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3",
+                "vendorVersion": "Temurin-21.0.3+9",
+                "vmArgs": "-Xms128M -Xmx3814M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15"
+            },
+            "uptime": 75326413,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 4.666666666666667,
+                        "max": 32,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 32
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 4.666666666666667,
+                        "max": 32,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 32
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 694062.9333333333,
+                        "max": 1083815,
+                        "min": 257567,
+                        "median": 785401,
+                        "percentile95": 1083815
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 696913.4,
+                        "max": 1079705,
+                        "min": 264587,
+                        "median": 790313,
+                        "percentile95": 1079705
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 604.7333333333333,
+                        "max": 795,
+                        "min": 394,
+                        "median": 618,
+                        "percentile95": 795
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 484.2,
+                        "max": 647,
+                        "min": 382,
+                        "median": 476,
+                        "percentile95": 647
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1716145834032,
+        "numberOfTicks": 0,
+        "plugins": {
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b103-f8c8418)"
+            },
+            "viaversion": {
+                "name": "viaversion",
+                "version": "4.10.2"
+            },
+            "viabackwards": {
+                "name": "viabackwards",
+                "version": "4.10.2"
+            },
+            "forcepack": {
+                "name": "forcepack",
+                "version": "1.3.3"
+            },
+            "geyser": {
+                "name": "geyser",
+                "version": "2.3.1-SNAPSHOT (git-master-4d61766)"
+            },
+            "litebans": {
+                "name": "litebans",
+                "version": "2.15.0"
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.123"
+            },
+            "nuvotifier": {
+                "name": "nuvotifier",
+                "version": "2.7.3"
+            },
+            "papiproxybridge": {
+                "name": "papiproxybridge",
+                "version": "1.5"
+            },
+            "plan": {
+                "name": "plan",
+                "version": "5.6 build 2820"
+            },
+            "signedvelocity": {
+                "name": "signedvelocity",
+                "version": "1.2.3"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.63"
+            },
+            "votingplugin": {
+                "name": "votingplugin",
+                "version": "1.0"
+            }
+        },
+        "samplerMode": 0
+    }
+}

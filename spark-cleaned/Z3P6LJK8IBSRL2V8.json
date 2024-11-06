@@ -1,0 +1,1854 @@
+{
+    "metadata": {
+        "startTime": 1720713757628,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "0.15.11",
+            "minecraftVersion": "1.20.1",
+            "sparkVersion": 2,
+            "brand": ""
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 3328085120,
+                    "total": 7314866176
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 1,
+                    "avgTime": 38,
+                    "avgFrequency": 9104159
+                },
+                "G1 Concurrent GC": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 9104197,
+            "tps": {
+                "last1m": 19.99994153583757,
+                "last5m": 19.999950697921534,
+                "last15m": 20.00000549260151
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 25.42130836833333,
+                    "max": 70.041982,
+                    "min": 19.691363,
+                    "median": 24.738185,
+                    "percentile95": 31.084368
+                },
+                "last5m": {
+                    "mean": 25.470647629166667,
+                    "max": 151.780057,
+                    "min": 19.331591,
+                    "median": 24.76288,
+                    "percentile95": 31.24539
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 188.82222222222222,
+                    "max": 1613,
+                    "min": 49,
+                    "median": 85,
+                    "percentile95": 696
+                }
+            },
+            "playerCount": 2,
+            "world": {
+                "totalEntities": 0,
+                "worlds": [
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ]
+            }
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 4,
+                "processUsage": {
+                    "last1m": 0.19808333333333333,
+                    "last15m": 0.17841666666666667
+                },
+                "systemUsage": {
+                    "last1m": 0.1980953375,
+                    "last15m": 0.1784176722222222
+                },
+                "modelName": "AMD Ryzen 9 5950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 89024000000,
+                    "total": 134967721984
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 586,
+                    "avgTime": 21.907849829351537,
+                    "avgFrequency": 15629
+                },
+                "G1 Concurrent GC": {
+                    "total": 300,
+                    "avgTime": 8.84,
+                    "avgFrequency": 30563
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 1387791638528,
+                "total": 3773883293696
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.8.0-35-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3",
+                "vendorVersion": "Temurin-21.0.3+9",
+                "vmArgs": "-Xms128M -XX:MaxRAMPercentage=85"
+            },
+            "uptime": 9171586,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 2.533333333333333,
+                        "max": 19,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 19
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 2.533333333333333,
+                        "max": 19,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 19
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "gre0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "gretap0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 31953.6,
+                        "max": 53999,
+                        "min": 9472,
+                        "median": 35290,
+                        "percentile95": 53999
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 187231.06666666668,
+                        "max": 284380,
+                        "min": 100511,
+                        "median": 201722,
+                        "percentile95": 284380
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 559.6666666666666,
+                        "max": 967,
+                        "min": 155,
+                        "median": 619,
+                        "percentile95": 967
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 1638.6,
+                        "max": 2526,
+                        "min": 569,
+                        "median": 1910,
+                        "percentile95": 2526
+                    }
+                },
+                "erspan0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                }
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 50161,
+                "enable-command-block": true,
+                "gamemode": "survival",
+                "enable-query": true,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "world",
+                "query.port": 25876,
+                "pvp": true,
+                "generate-structures": true,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "hard",
+                "network-compression-threshold": 256,
+                "timeout-time": 10000,
+                "max-tick-time": 60000,
+                "require-resource-pack": false,
+                "max-players": 20,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": true,
+                "allow-flight": false,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 10,
+                "resource-pack-prompt": "",
+                "allow-nether": true,
+                "server-port": 25876,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "op-permission-level": 4,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 10,
+                "player-idle-timeout": 0,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:normal",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 16,
+                "max-world-size": 29999984
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                80
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1720713761817,
+        "numberOfTicks": 84,
+        "plugins": {
+            "advancedmusicmod": {
+                "name": "advancedmusicmod",
+                "version": "1.0.1+1.20.1"
+            },
+            "advancementframes": {
+                "name": "advancementframes",
+                "version": "1.20-2.2.6"
+            },
+            "adventure-platform-fabric": {
+                "name": "adventure-platform-fabric",
+                "version": "5.10.0-SNAPSHOT"
+            },
+            "adventurez": {
+                "name": "adventurez",
+                "version": "1.4.20"
+            },
+            "amendments": {
+                "name": "amendments",
+                "version": "1.20-1.2.8"
+            },
+            "amplified_nether": {
+                "name": "amplified_nether",
+                "version": "1.2.4"
+            },
+            "another_furniture": {
+                "name": "another_furniture",
+                "version": "1.20.1-3.0.1"
+            },
+            "appleskin": {
+                "name": "appleskin",
+                "version": "2.5.1+mc1.20"
+            },
+            "architectury": {
+                "name": "architectury",
+                "version": "9.1.12"
+            },
+            "areas": {
+                "name": "areas",
+                "version": "5.6"
+            },
+            "autochefsdelight": {
+                "name": "autochefsdelight",
+                "version": "1.0.4+fabric"
+            },
+            "autotag": {
+                "name": "autotag",
+                "version": "2.0.2+1.20"
+            },
+            "autotag-convention": {
+                "name": "autotag-convention",
+                "version": "2.0.2+1.20"
+            },
+            "awesomedungeonnether": {
+                "name": "awesomedungeonnether",
+                "version": "3.1.1"
+            },
+            "balm-fabric": {
+                "name": "balm-fabric",
+                "version": "7.2.1"
+            },
+            "banhammer": {
+                "name": "banhammer",
+                "version": "0.7.1+1.20.1"
+            },
+            "bclib": {
+                "name": "bclib",
+                "version": "3.0.14"
+            },
+            "beautify": {
+                "name": "beautify",
+                "version": "1.1.0+1.20"
+            },
+            "bee_info": {
+                "name": "bee_info",
+                "version": "1.2"
+            },
+            "betteradvancements": {
+                "name": "betteradvancements",
+                "version": "0.3.2.162"
+            },
+            "betterdeserttemples": {
+                "name": "betterdeserttemples",
+                "version": "1.20-Fabric-3.0.3"
+            },
+            "betterdungeons": {
+                "name": "betterdungeons",
+                "version": "1.20-Fabric-4.0.3"
+            },
+            "betterend": {
+                "name": "betterend",
+                "version": "4.0.11"
+            },
+            "betterfortresses": {
+                "name": "betterfortresses",
+                "version": "1.20-Fabric-2.0.6"
+            },
+            "bettermineshafts": {
+                "name": "bettermineshafts",
+                "version": "1.20-Fabric-4.0.4"
+            },
+            "betteroceanmonuments": {
+                "name": "betteroceanmonuments",
+                "version": "1.20-Fabric-3.0.4"
+            },
+            "betterstats": {
+                "name": "betterstats",
+                "version": "3.7+fabric-1.20.1"
+            },
+            "betterstrongholds": {
+                "name": "betterstrongholds",
+                "version": "1.20-Fabric-4.0.3"
+            },
+            "bettervillage": {
+                "name": "bettervillage",
+                "version": "3.1.0"
+            },
+            "betterwitchhuts": {
+                "name": "betterwitchhuts",
+                "version": "1.20-Fabric-3.0.3"
+            },
+            "biolith": {
+                "name": "biolith",
+                "version": "1.0.0-beta.1"
+            },
+            "blue_endless_jankson": {
+                "name": "blue_endless_jankson",
+                "version": "1.2.3"
+            },
+            "bookshelf": {
+                "name": "bookshelf",
+                "version": "20.1.8"
+            },
+            "bosses_of_mass_destruction": {
+                "name": "bosses_of_mass_destruction",
+                "version": "1.7.5-1.20.1"
+            },
+            "botanypots": {
+                "name": "botanypots",
+                "version": "13.0.35"
+            },
+            "bowinfinityfix": {
+                "name": "bowinfinityfix",
+                "version": "2.6.0"
+            },
+            "brewinandchewin": {
+                "name": "brewinandchewin",
+                "version": "3.0.6+1.20.1"
+            },
+            "cardinal-components": {
+                "name": "cardinal-components",
+                "version": "5.2.2"
+            },
+            "cardinal-components-base": {
+                "name": "cardinal-components-base",
+                "version": "5.2.2"
+            },
+            "cardinal-components-block": {
+                "name": "cardinal-components-block",
+                "version": "5.2.2"
+            },
+            "cardinal-components-chunk": {
+                "name": "cardinal-components-chunk",
+                "version": "5.2.2"
+            },
+            "cardinal-components-entity": {
+                "name": "cardinal-components-entity",
+                "version": "5.2.2"
+            },
+            "cardinal-components-item": {
+                "name": "cardinal-components-item",
+                "version": "5.2.2"
+            },
+            "cardinal-components-level": {
+                "name": "cardinal-components-level",
+                "version": "5.2.2"
+            },
+            "cardinal-components-scoreboard": {
+                "name": "cardinal-components-scoreboard",
+                "version": "5.2.2"
+            },
+            "cardinal-components-world": {
+                "name": "cardinal-components-world",
+                "version": "5.2.2"
+            },
+            "carpet": {
+                "name": "carpet",
+                "version": "1.4.112+v230608"
+            },
+            "carryon": {
+                "name": "carryon",
+                "version": "2.1.2.7"
+            },
+            "casualness_delight": {
+                "name": "casualness_delight",
+                "version": "1.20.1-0.4-FDR"
+            },
+            "chefsdelight": {
+                "name": "chefsdelight",
+                "version": "1.0.3-fabric-1.20.1"
+            },
+            "chimes": {
+                "name": "chimes",
+                "version": "2.0.1"
+            },
+            "chunky": {
+                "name": "chunky",
+                "version": "1.3.146"
+            },
+            "cinderscapes": {
+                "name": "cinderscapes",
+                "version": "4.0.10"
+            },
+            "cinderscapes-common": {
+                "name": "cinderscapes-common",
+                "version": "4.0.10"
+            },
+            "cinderscapes-worldgen": {
+                "name": "cinderscapes-worldgen",
+                "version": "4.0.10"
+            },
+            "clickadv": {
+                "name": "clickadv",
+                "version": "1.20.1-3.7"
+            },
+            "cloth-basic-math": {
+                "name": "cloth-basic-math",
+                "version": "0.6.1"
+            },
+            "cloth-config": {
+                "name": "cloth-config",
+                "version": "11.1.118"
+            },
+            "cloud": {
+                "name": "cloud",
+                "version": "1.8.3"
+            },
+            "cloud_commandframework_cloud-brigadier_": {
+                "name": "cloud_commandframework_cloud-brigadier_",
+                "version": "1.8.3"
+            },
+            "cloud_commandframework_cloud-core": {
+                "name": "cloud_commandframework_cloud-core",
+                "version": "1.8.3"
+            },
+            "cloud_commandframework_cloud-core_": {
+                "name": "cloud_commandframework_cloud-core_",
+                "version": "1.8.3"
+            },
+            "cloud_commandframework_cloud-minecraft-extras": {
+                "name": "cloud_commandframework_cloud-minecraft-extras",
+                "version": "1.8.3"
+            },
+            "cloud_commandframework_cloud-services_": {
+                "name": "cloud_commandframework_cloud-services_",
+                "version": "1.8.3"
+            },
+            "collective": {
+                "name": "collective",
+                "version": "7.61"
+            },
+            "com_electronwill_night-config_core": {
+                "name": "com_electronwill_night-config_core",
+                "version": "3.6.6"
+            },
+            "com_electronwill_night-config_toml": {
+                "name": "com_electronwill_night-config_toml",
+                "version": "3.6.6"
+            },
+            "com_eliotlash_mclib_mclib": {
+                "name": "com_eliotlash_mclib_mclib",
+                "version": "20"
+            },
+            "com_fasterxml_jackson_core_jackson-annotations": {
+                "name": "com_fasterxml_jackson_core_jackson-annotations",
+                "version": "2.15.2"
+            },
+            "com_fasterxml_jackson_core_jackson-core": {
+                "name": "com_fasterxml_jackson_core_jackson-core",
+                "version": "2.15.2"
+            },
+            "com_fasterxml_jackson_core_jackson-databind": {
+                "name": "com_fasterxml_jackson_core_jackson-databind",
+                "version": "2.15.2"
+            },
+            "com_github_carleslc_simple-yaml_simple-yaml": {
+                "name": "com_github_carleslc_simple-yaml_simple-yaml",
+                "version": "1.8.3"
+            },
+            "com_google_code_gson_gson": {
+                "name": "com_google_code_gson_gson",
+                "version": "2.10.1"
+            },
+            "com_mysql_mysql-connector-j": {
+                "name": "com_mysql_mysql-connector-j",
+                "version": "8.0.31"
+            },
+            "com_neovisionaries_nv-websocket-client": {
+                "name": "com_neovisionaries_nv-websocket-client",
+                "version": "2.14"
+            },
+            "com_squareup_okhttp3_okhttp": {
+                "name": "com_squareup_okhttp3_okhttp",
+                "version": "4.10.0"
+            },
+            "com_squareup_okio_okio-jvm": {
+                "name": "com_squareup_okio_okio-jvm",
+                "version": "3.0.0"
+            },
+            "com_teamresourceful_bytecodecs": {
+                "name": "com_teamresourceful_bytecodecs",
+                "version": "1.0.2"
+            },
+            "com_teamresourceful_yabn": {
+                "name": "com_teamresourceful_yabn",
+                "version": "1.0.3"
+            },
+            "com_twelvemonkeys_common_common-image": {
+                "name": "com_twelvemonkeys_common_common-image",
+                "version": "3.10.0"
+            },
+            "com_twelvemonkeys_common_common-io": {
+                "name": "com_twelvemonkeys_common_common-io",
+                "version": "3.10.0"
+            },
+            "com_twelvemonkeys_common_common-lang": {
+                "name": "com_twelvemonkeys_common_common-lang",
+                "version": "3.10.0"
+            },
+            "com_twelvemonkeys_imageio_imageio-core": {
+                "name": "com_twelvemonkeys_imageio_imageio-core",
+                "version": "3.10.0"
+            },
+            "com_twelvemonkeys_imageio_imageio-metadata": {
+                "name": "com_twelvemonkeys_imageio_imageio-metadata",
+                "version": "3.10.0"
+            },
+            "com_twelvemonkeys_imageio_imageio-webp": {
+                "name": "com_twelvemonkeys_imageio_imageio-webp",
+                "version": "3.10.0"
+            },
+            "connectedglass": {
+                "name": "connectedglass",
+                "version": "1.1.11"
+            },
+            "convenientdecor": {
+                "name": "convenientdecor",
+                "version": "0.4.1"
+            },
+            "corndelight": {
+                "name": "corndelight",
+                "version": "1.1"
+            },
+            "coroutil": {
+                "name": "coroutil",
+                "version": "1.20.1-1.3.5"
+            },
+            "creativecore": {
+                "name": "creativecore",
+                "version": "2.11.24"
+            },
+            "cristellib": {
+                "name": "cristellib",
+                "version": "1.1.5"
+            },
+            "culturaldelights": {
+                "name": "culturaldelights",
+                "version": "1.0.4+1.20.1"
+            },
+            "cupboard": {
+                "name": "cupboard",
+                "version": "1.20.1-2.2"
+            },
+            "customportalapi": {
+                "name": "customportalapi",
+                "version": "0.0.1-beta64-1.20"
+            },
+            "darkpaintings": {
+                "name": "darkpaintings",
+                "version": "17.0.4"
+            },
+            "deeperdarker": {
+                "name": "deeperdarker",
+                "version": "1.2.6"
+            },
+            "diagonalblocks": {
+                "name": "diagonalblocks",
+                "version": "8.0.2"
+            },
+            "diagonalfences": {
+                "name": "diagonalfences",
+                "version": "8.1.3"
+            },
+            "dimensional-inventories": {
+                "name": "dimensional-inventories",
+                "version": "1.0.2+1.20.1"
+            },
+            "doapi": {
+                "name": "doapi",
+                "version": "1.2.15"
+            },
+            "doubledoors": {
+                "name": "doubledoors",
+                "version": "5.4"
+            },
+            "duckling": {
+                "name": "duckling",
+                "version": "3.0.0"
+            },
+            "dungeons_arise": {
+                "name": "dungeons_arise",
+                "version": "2.1.58"
+            },
+            "easyanvils": {
+                "name": "easyanvils",
+                "version": "8.0.1"
+            },
+            "easymagic": {
+                "name": "easymagic",
+                "version": "8.0.1"
+            },
+            "ec-core": {
+                "name": "ec-core",
+                "version": "1.3.0-mc1.20.1"
+            },
+            "ecologics": {
+                "name": "ecologics",
+                "version": "2.2.0"
+            },
+            "egg-of-capitalism": {
+                "name": "egg-of-capitalism",
+                "version": "4.0"
+            },
+            "elytraslot": {
+                "name": "elytraslot",
+                "version": "6.3.0+1.20.1"
+            },
+            "elytratrims": {
+                "name": "elytratrims",
+                "version": "3.1.9"
+            },
+            "endrem": {
+                "name": "endrem",
+                "version": "5.2.4"
+            },
+            "ends_delight": {
+                "name": "ends_delight",
+                "version": "1.0.1"
+            },
+            "entityculling": {
+                "name": "entityculling",
+                "version": "1.6.6"
+            },
+            "essential_commands": {
+                "name": "essential_commands",
+                "version": "0.35.0-mc1.20.1"
+            },
+            "expandeddelight": {
+                "name": "expandeddelight",
+                "version": "0.3.1"
+            },
+            "exposure": {
+                "name": "exposure",
+                "version": "1.6.0"
+            },
+            "extra_advancements": {
+                "name": "extra_advancements",
+                "version": "1.0.0"
+            },
+            "extraalchemy": {
+                "name": "extraalchemy",
+                "version": "1.10.0"
+            },
+            "fabric-api": {
+                "name": "fabric-api",
+                "version": "0.92.0+1.20.1"
+            },
+            "fabric-api-base": {
+                "name": "fabric-api-base",
+                "version": "0.4.31+1802ada577"
+            },
+            "fabric-api-lookup-api-v1": {
+                "name": "fabric-api-lookup-api-v1",
+                "version": "1.6.36+1802ada577"
+            },
+            "fabric-biome-api-v1": {
+                "name": "fabric-biome-api-v1",
+                "version": "13.0.13+1802ada577"
+            },
+            "fabric-block-api-v1": {
+                "name": "fabric-block-api-v1",
+                "version": "1.0.11+1802ada577"
+            },
+            "fabric-block-view-api-v2": {
+                "name": "fabric-block-view-api-v2",
+                "version": "1.0.1+1802ada577"
+            },
+            "fabric-command-api-v1": {
+                "name": "fabric-command-api-v1",
+                "version": "1.2.34+f71b366f77"
+            },
+            "fabric-command-api-v2": {
+                "name": "fabric-command-api-v2",
+                "version": "2.2.13+1802ada577"
+            },
+            "fabric-commands-v0": {
+                "name": "fabric-commands-v0",
+                "version": "0.2.51+df3654b377"
+            },
+            "fabric-containers-v0": {
+                "name": "fabric-containers-v0",
+                "version": "0.1.64+df3654b377"
+            },
+            "fabric-content-registries-v0": {
+                "name": "fabric-content-registries-v0",
+                "version": "4.0.11+1802ada577"
+            },
+            "fabric-convention-tags-v1": {
+                "name": "fabric-convention-tags-v1",
+                "version": "1.5.5+1802ada577"
+            },
+            "fabric-crash-report-info-v1": {
+                "name": "fabric-crash-report-info-v1",
+                "version": "0.2.19+1802ada577"
+            },
+            "fabric-data-attachment-api-v1": {
+                "name": "fabric-data-attachment-api-v1",
+                "version": "1.0.0+de0fd6d177"
+            },
+            "fabric-data-generation-api-v1": {
+                "name": "fabric-data-generation-api-v1",
+                "version": "12.3.4+1802ada577"
+            },
+            "fabric-dimensions-v1": {
+                "name": "fabric-dimensions-v1",
+                "version": "2.1.54+1802ada577"
+            },
+            "fabric-entity-events-v1": {
+                "name": "fabric-entity-events-v1",
+                "version": "1.6.0+1c78457f77"
+            },
+            "fabric-events-interaction-v0": {
+                "name": "fabric-events-interaction-v0",
+                "version": "0.6.2+1802ada577"
+            },
+            "fabric-events-lifecycle-v0": {
+                "name": "fabric-events-lifecycle-v0",
+                "version": "0.2.63+df3654b377"
+            },
+            "fabric-game-rule-api-v1": {
+                "name": "fabric-game-rule-api-v1",
+                "version": "1.0.40+1802ada577"
+            },
+            "fabric-item-api-v1": {
+                "name": "fabric-item-api-v1",
+                "version": "2.1.28+1802ada577"
+            },
+            "fabric-item-group-api-v1": {
+                "name": "fabric-item-group-api-v1",
+                "version": "4.0.12+1802ada577"
+            },
+            "fabric-language-kotlin": {
+                "name": "fabric-language-kotlin",
+                "version": "1.10.17+kotlin.1.9.22"
+            },
+            "fabric-lifecycle-events-v1": {
+                "name": "fabric-lifecycle-events-v1",
+                "version": "2.2.22+1802ada577"
+            },
+            "fabric-loot-api-v2": {
+                "name": "fabric-loot-api-v2",
+                "version": "1.2.1+1802ada577"
+            },
+            "fabric-loot-tables-v1": {
+                "name": "fabric-loot-tables-v1",
+                "version": "1.1.45+9e7660c677"
+            },
+            "fabric-message-api-v1": {
+                "name": "fabric-message-api-v1",
+                "version": "5.1.9+1802ada577"
+            },
+            "fabric-mining-level-api-v1": {
+                "name": "fabric-mining-level-api-v1",
+                "version": "2.1.50+1802ada577"
+            },
+            "fabric-networking-api-v1": {
+                "name": "fabric-networking-api-v1",
+                "version": "1.3.11+1802ada577"
+            },
+            "fabric-networking-v0": {
+                "name": "fabric-networking-v0",
+                "version": "0.3.51+df3654b377"
+            },
+            "fabric-object-builder-api-v1": {
+                "name": "fabric-object-builder-api-v1",
+                "version": "11.1.3+1802ada577"
+            },
+            "fabric-particles-v1": {
+                "name": "fabric-particles-v1",
+                "version": "1.1.2+1802ada577"
+            },
+            "fabric-permissions-api-v0": {
+                "name": "fabric-permissions-api-v0",
+                "version": "0.2-SNAPSHOT"
+            },
+            "fabric-recipe-api-v1": {
+                "name": "fabric-recipe-api-v1",
+                "version": "1.0.21+1802ada577"
+            },
+            "fabric-registry-sync-v0": {
+                "name": "fabric-registry-sync-v0",
+                "version": "2.3.3+1802ada577"
+            },
+            "fabric-rendering-data-attachment-v1": {
+                "name": "fabric-rendering-data-attachment-v1",
+                "version": "0.3.37+92a0d36777"
+            },
+            "fabric-rendering-fluids-v1": {
+                "name": "fabric-rendering-fluids-v1",
+                "version": "3.0.28+1802ada577"
+            },
+            "fabric-resource-conditions-api-v1": {
+                "name": "fabric-resource-conditions-api-v1",
+                "version": "2.3.8+1802ada577"
+            },
+            "fabric-resource-loader-v0": {
+                "name": "fabric-resource-loader-v0",
+                "version": "0.11.10+1802ada577"
+            },
+            "fabric-screen-handler-api-v1": {
+                "name": "fabric-screen-handler-api-v1",
+                "version": "1.3.30+1802ada577"
+            },
+            "fabric-transfer-api-v1": {
+                "name": "fabric-transfer-api-v1",
+                "version": "3.3.4+1802ada577"
+            },
+            "fabric-transitive-access-wideners-v1": {
+                "name": "fabric-transitive-access-wideners-v1",
+                "version": "4.3.1+1802ada577"
+            },
+            "fabricloader": {
+                "name": "fabricloader",
+                "version": "0.15.11"
+            },
+            "fallingtree": {
+                "name": "fallingtree",
+                "version": "4.3.4"
+            },
+            "farmersdelight": {
+                "name": "farmersdelight",
+                "version": "1.20.1-2.1.1+refabricated"
+            },
+            "farmersrespite": {
+                "name": "farmersrespite",
+                "version": "3.0.2"
+            },
+            "ferritecore": {
+                "name": "ferritecore",
+                "version": "6.0.1"
+            },
+            "festive_delight": {
+                "name": "festive_delight",
+                "version": "1.0.0"
+            },
+            "findme": {
+                "name": "findme",
+                "version": "3.2.1"
+            },
+            "forgeconfigapiport": {
+                "name": "forgeconfigapiport",
+                "version": "8.0.0"
+            },
+            "formations": {
+                "name": "formations",
+                "version": "1.0.2"
+            },
+            "formationsnether": {
+                "name": "formationsnether",
+                "version": "1.0.3"
+            },
+            "framework": {
+                "name": "framework",
+                "version": "0.6.16"
+            },
+            "friendsandfoes": {
+                "name": "friendsandfoes",
+                "version": "2.0.7"
+            },
+            "fruitfulfun": {
+                "name": "fruitfulfun",
+                "version": "7.4.3+fabric"
+            },
+            "ftblibrary": {
+                "name": "ftblibrary",
+                "version": "2001.2.2"
+            },
+            "ftbranks": {
+                "name": "ftbranks",
+                "version": "2001.1.3"
+            },
+            "fusion": {
+                "name": "fusion",
+                "version": "1.1.0+c"
+            },
+            "geckolib": {
+                "name": "geckolib",
+                "version": "4.4"
+            },
+            "go-fish": {
+                "name": "go-fish",
+                "version": "1.6.3+1.20.1"
+            },
+            "goblintraders": {
+                "name": "goblintraders",
+                "version": "1.9.3"
+            },
+            "graveyard": {
+                "name": "graveyard",
+                "version": "3.0"
+            },
+            "hamsters": {
+                "name": "hamsters",
+                "version": "1.0.2-fabric"
+            },
+            "handcrafted": {
+                "name": "handcrafted",
+                "version": "3.0.6"
+            },
+            "hearths": {
+                "name": "hearths",
+                "version": "1.0.0"
+            },
+            "iceberg": {
+                "name": "iceberg",
+                "version": "1.1.18"
+            },
+            "imm_ptl_core": {
+                "name": "imm_ptl_core",
+                "version": "3.3.9"
+            },
+            "immersive_paintings": {
+                "name": "immersive_paintings",
+                "version": "0.6.7+1.20.1"
+            },
+            "immersive_portals": {
+                "name": "immersive_portals",
+                "version": "3.3.9"
+            },
+            "immersive_weathering": {
+                "name": "immersive_weathering",
+                "version": "1.20.1-2.0.1"
+            },
+            "infinityandmending": {
+                "name": "infinityandmending",
+                "version": "1.20.x-1.0.0"
+            },
+            "invview": {
+                "name": "invview",
+                "version": "1.4.12-1.20+"
+            },
+            "io_leangen_geantyref_geantyref": {
+                "name": "io_leangen_geantyref_geantyref",
+                "version": "1.3.13"
+            },
+            "java": {
+                "name": "java",
+                "version": "21"
+            },
+            "jei": {
+                "name": "jei",
+                "version": "15.3.0.4"
+            },
+            "justenoughprofessions": {
+                "name": "justenoughprofessions",
+                "version": "3.0.1"
+            },
+            "justmobheads": {
+                "name": "justmobheads",
+                "version": "7.8"
+            },
+            "kanos_config": {
+                "name": "kanos_config",
+                "version": "0.4.1+1.14.4-1.19.4"
+            },
+            "kiwi": {
+                "name": "kiwi",
+                "version": "11.6.0"
+            },
+            "ksyxis": {
+                "name": "ksyxis",
+                "version": "1.3.2"
+            },
+            "libraryferret": {
+                "name": "libraryferret",
+                "version": "4.0.0"
+            },
+            "libz": {
+                "name": "libz",
+                "version": "1.0.3"
+            },
+            "lithium": {
+                "name": "lithium",
+                "version": "0.11.2"
+            },
+            "lootintegrations": {
+                "name": "lootintegrations",
+                "version": "1.20.1-3.4"
+            },
+            "lootr": {
+                "name": "lootr",
+                "version": "0.7.29.75"
+            },
+            "lovely_snails": {
+                "name": "lovely_snails",
+                "version": "1.1.3+1.20.1"
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.102"
+            },
+            "luckperms-placeholders": {
+                "name": "luckperms-placeholders",
+                "version": "5.4-SNAPSHOT"
+            },
+            "lychee": {
+                "name": "lychee",
+                "version": "5.1.14"
+            },
+            "maelstrom_library": {
+                "name": "maelstrom_library",
+                "version": "1.6.1-1.20"
+            },
+            "mcwbridges": {
+                "name": "mcwbridges",
+                "version": "3.0.0"
+            },
+            "mcwdoors": {
+                "name": "mcwdoors",
+                "version": "1.1.1"
+            },
+            "mcwroofs": {
+                "name": "mcwroofs",
+                "version": "2.3.0"
+            },
+            "melius-commands": {
+                "name": "melius-commands",
+                "version": "1.1.0+1.20.1"
+            },
+            "memoryleakfix": {
+                "name": "memoryleakfix",
+                "version": "1.1.5"
+            },
+            "mes": {
+                "name": "mes",
+                "version": "1.3.1-1.20-fabric"
+            },
+            "midnightlib": {
+                "name": "midnightlib",
+                "version": "1.4.1"
+            },
+            "mighty_mail": {
+                "name": "mighty_mail",
+                "version": "1.0.14"
+            },
+            "minecraft": {
+                "name": "minecraft",
+                "version": "1.20.1"
+            },
+            "minimotd-fabric": {
+                "name": "minimotd-fabric",
+                "version": "2.0.13"
+            },
+            "miniplaceholders": {
+                "name": "miniplaceholders",
+                "version": "2.2.1"
+            },
+            "miniplaceholders-luckperms-expansion": {
+                "name": "miniplaceholders-luckperms-expansion",
+                "version": "1.4.1"
+            },
+            "mixinextras": {
+                "name": "mixinextras",
+                "version": "0.3.6"
+            },
+            "mixinsquared": {
+                "name": "mixinsquared",
+                "version": "0.1.2-beta.4"
+            },
+            "mm": {
+                "name": "mm",
+                "version": "2.3"
+            },
+            "modernfix": {
+                "name": "modernfix",
+                "version": "5.18.1+mc1.20.1"
+            },
+            "moonlight": {
+                "name": "moonlight",
+                "version": "1.20-2.12.6"
+            },
+            "moreadvancementsmod": {
+                "name": "moreadvancementsmod",
+                "version": "1.3.0-1.20.1"
+            },
+            "moredelight": {
+                "name": "moredelight",
+                "version": "1.2.2-1.20.1-fabric"
+            },
+            "movingelevators": {
+                "name": "movingelevators",
+                "version": "1.4.6"
+            },
+            "mr_advancement_count": {
+                "name": "mr_advancement_count",
+                "version": "1-v1.1.0b"
+            },
+            "mr_ctov_beautifycompat": {
+                "name": "mr_ctov_beautifycompat",
+                "version": "2.0"
+            },
+            "mr_ctov_friendsandfoescompat": {
+                "name": "mr_ctov_friendsandfoescompat",
+                "version": "2.0"
+            },
+            "mr_dungeons_andtaverns": {
+                "name": "mr_dungeons_andtaverns",
+                "version": "3.0.3.1f"
+            },
+            "mr_tidal_towns": {
+                "name": "mr_tidal_towns",
+                "version": "1.3"
+            },
+            "mru": {
+                "name": "mru",
+                "version": "0.4.0+1.20"
+            },
+            "multipart_entities": {
+                "name": "multipart_entities",
+                "version": "1.5-1.20"
+            },
+            "naturalist": {
+                "name": "naturalist",
+                "version": "4.0.3"
+            },
+            "net_dv8tion_jda": {
+                "name": "net_dv8tion_jda",
+                "version": "5.0.0-beta.13"
+            },
+            "net_kyori_adventure-api": {
+                "name": "net_kyori_adventure-api",
+                "version": "4.14.0"
+            },
+            "net_kyori_adventure-key": {
+                "name": "net_kyori_adventure-key",
+                "version": "4.14.0"
+            },
+            "net_kyori_adventure-platform-api": {
+                "name": "net_kyori_adventure-platform-api",
+                "version": "4.3.0"
+            },
+            "net_kyori_adventure-text-logger-slf4j": {
+                "name": "net_kyori_adventure-text-logger-slf4j",
+                "version": "4.14.0"
+            },
+            "net_kyori_adventure-text-minimessage": {
+                "name": "net_kyori_adventure-text-minimessage",
+                "version": "4.14.0"
+            },
+            "net_kyori_adventure-text-serializer-ansi": {
+                "name": "net_kyori_adventure-text-serializer-ansi",
+                "version": "4.14.0"
+            },
+            "net_kyori_adventure-text-serializer-gson": {
+                "name": "net_kyori_adventure-text-serializer-gson",
+                "version": "4.14.0"
+            },
+            "net_kyori_adventure-text-serializer-json": {
+                "name": "net_kyori_adventure-text-serializer-json",
+                "version": "4.14.0"
+            },
+            "net_kyori_adventure-text-serializer-plain": {
+                "name": "net_kyori_adventure-text-serializer-plain",
+                "version": "4.14.0"
+            },
+            "net_kyori_ansi": {
+                "name": "net_kyori_ansi",
+                "version": "1.0.1"
+            },
+            "net_kyori_examination-api": {
+                "name": "net_kyori_examination-api",
+                "version": "1.3.0"
+            },
+            "net_kyori_examination-string": {
+                "name": "net_kyori_examination-string",
+                "version": "1.3.0"
+            },
+            "net_lingala_zip4j_zip4j": {
+                "name": "net_lingala_zip4j_zip4j",
+                "version": "2.11.5"
+            },
+            "net_minecraftforge_eventbus": {
+                "name": "net_minecraftforge_eventbus",
+                "version": "6.0.3"
+            },
+            "net_sf_trove4j_trove4j": {
+                "name": "net_sf_trove4j_trove4j",
+                "version": "3.0.3"
+            },
+            "net_william278_desertwell": {
+                "name": "net_william278_desertwell",
+                "version": "2.0.4"
+            },
+            "nethersdelight": {
+                "name": "nethersdelight",
+                "version": "1.20.1-4.1.1"
+            },
+            "niftycarts": {
+                "name": "niftycarts",
+                "version": "3.0.2+1.20.1"
+            },
+            "notenoughanimations": {
+                "name": "notenoughanimations",
+                "version": "1.7.0"
+            },
+            "oceansdelight": {
+                "name": "oceansdelight",
+                "version": "1.0.2-1.20.1"
+            },
+            "omega-config": {
+                "name": "omega-config",
+                "version": "1.4.0+1.20.1"
+            },
+            "onedatastore": {
+                "name": "onedatastore",
+                "version": "0.1.3+1.20"
+            },
+            "openpartiesandclaims": {
+                "name": "openpartiesandclaims",
+                "version": "0.22.0"
+            },
+            "org_apache_commons_commons-collections4": {
+                "name": "org_apache_commons_commons-collections4",
+                "version": "4.4"
+            },
+            "org_javassist_javassist": {
+                "name": "org_javassist_javassist",
+                "version": "3.29.2-GA"
+            },
+            "org_jetbrains_kotlin_kotlin-reflect": {
+                "name": "org_jetbrains_kotlin_kotlin-reflect",
+                "version": "1.9.22"
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib",
+                "version": "1.9.22"
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib-jdk7": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib-jdk7",
+                "version": "1.9.22"
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib-jdk8": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib-jdk8",
+                "version": "1.9.22"
+            },
+            "org_jetbrains_kotlinx_atomicfu-jvm": {
+                "name": "org_jetbrains_kotlinx_atomicfu-jvm",
+                "version": "0.23.1"
+            },
+            "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm",
+                "version": "1.7.3"
+            },
+            "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8": {
+                "name": "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8",
+                "version": "1.7.3"
+            },
+            "org_jetbrains_kotlinx_kotlinx-datetime-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-datetime-jvm",
+                "version": "0.5.0"
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm",
+                "version": "1.6.2"
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm",
+                "version": "1.6.2"
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm",
+                "version": "1.6.2"
+            },
+            "org_postgresql_postgresql": {
+                "name": "org_postgresql_postgresql",
+                "version": "42.5.1"
+            },
+            "org_quiltmc_parsers_gson": {
+                "name": "org_quiltmc_parsers_gson",
+                "version": "0.2.1"
+            },
+            "org_quiltmc_parsers_json": {
+                "name": "org_quiltmc_parsers_json",
+                "version": "0.2.1"
+            },
+            "org_reflections_reflections": {
+                "name": "org_reflections_reflections",
+                "version": "0.10.2"
+            },
+            "org_xerial_sqlite-jdbc": {
+                "name": "org_xerial_sqlite-jdbc",
+                "version": "3.40.0.0"
+            },
+            "org_yaml_snakeyaml": {
+                "name": "org_yaml_snakeyaml",
+                "version": "2.0"
+            },
+            "owo": {
+                "name": "owo",
+                "version": "0.11.2+1.20"
+            },
+            "paraglider": {
+                "name": "paraglider",
+                "version": "20.1.3"
+            },
+            "pehkui": {
+                "name": "pehkui",
+                "version": "3.7.12+1.14.4-1.20.4"
+            },
+            "pfm": {
+                "name": "pfm",
+                "version": "1.2.1"
+            },
+            "pingspam": {
+                "name": "pingspam",
+                "version": "1.3.1+1.20"
+            },
+            "placeholder-api": {
+                "name": "placeholder-api",
+                "version": "2.1.1+1.20"
+            },
+            "player-animator": {
+                "name": "player-animator",
+                "version": "1.0.2-rc1+1.20"
+            },
+            "player-data-api": {
+                "name": "player-data-api",
+                "version": "0.2.2+1.19.3"
+            },
+            "playerabilitylib": {
+                "name": "playerabilitylib",
+                "version": "1.8.0"
+            },
+            "polymorph": {
+                "name": "polymorph",
+                "version": "0.49.5+1.20.1"
+            },
+            "porting_lib_accessors": {
+                "name": "porting_lib_accessors",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_attributes": {
+                "name": "porting_lib_attributes",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_base": {
+                "name": "porting_lib_base",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_client_events": {
+                "name": "porting_lib_client_events",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_common": {
+                "name": "porting_lib_common",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_config": {
+                "name": "porting_lib_config",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_core": {
+                "name": "porting_lib_core",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_entity": {
+                "name": "porting_lib_entity",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_extensions": {
+                "name": "porting_lib_extensions",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_fluids": {
+                "name": "porting_lib_fluids",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_lazy_registration": {
+                "name": "porting_lib_lazy_registration",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_loot": {
+                "name": "porting_lib_loot",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_mixin_extensions": {
+                "name": "porting_lib_mixin_extensions",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_networking": {
+                "name": "porting_lib_networking",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_recipe_book_categories": {
+                "name": "porting_lib_recipe_book_categories",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_registries": {
+                "name": "porting_lib_registries",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_tags": {
+                "name": "porting_lib_tags",
+                "version": "3.0"
+            },
+            "porting_lib_tool_actions": {
+                "name": "porting_lib_tool_actions",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_transfer": {
+                "name": "porting_lib_transfer",
+                "version": "2.3.4+1.20.1"
+            },
+            "porting_lib_utility": {
+                "name": "porting_lib_utility",
+                "version": "2.3.4+1.20.1"
+            },
+            "predicate-api": {
+                "name": "predicate-api",
+                "version": "0.1.2+1.20"
+            },
+            "puzzlesaccessapi": {
+                "name": "puzzlesaccessapi",
+                "version": "8.0.7"
+            },
+            "puzzleslib": {
+                "name": "puzzleslib",
+                "version": "8.1.13"
+            },
+            "q_misc_util": {
+                "name": "q_misc_util",
+                "version": "3.3.9"
+            },
+            "reach-entity-attributes": {
+                "name": "reach-entity-attributes",
+                "version": "2.4.0"
+            },
+            "resourcefullib": {
+                "name": "resourcefullib",
+                "version": "2.1.25"
+            },
+            "respawninganimals": {
+                "name": "respawninganimals",
+                "version": "8.2.0"
+            },
+            "rhino": {
+                "name": "rhino",
+                "version": "2001.2.2-build.18"
+            },
+            "seasons": {
+                "name": "seasons",
+                "version": "2.3+1.20"
+            },
+            "seasonsdelightcompat": {
+                "name": "seasonsdelightcompat",
+                "version": "1.0-1.3.9"
+            },
+            "seasonsextras": {
+                "name": "seasonsextras",
+                "version": "1.2-BETA+1.20"
+            },
+            "seasonsterralithcompat": {
+                "name": "seasonsterralithcompat",
+                "version": "1.0-2.3.7"
+            },
+            "sgui": {
+                "name": "sgui",
+                "version": "1.2.2+1.20"
+            },
+            "simply_houses": {
+                "name": "simply_houses",
+                "version": "1.1.4-1.20.1"
+            },
+            "sit": {
+                "name": "sit",
+                "version": "1.20-24"
+            },
+            "smarterfarmers": {
+                "name": "smarterfarmers",
+                "version": "1.20-1.8.2"
+            },
+            "smwyg": {
+                "name": "smwyg",
+                "version": "1.1.1"
+            },
+            "snowrealmagic": {
+                "name": "snowrealmagic",
+                "version": "10.4.2"
+            },
+            "snowyleavesplus": {
+                "name": "snowyleavesplus",
+                "version": "0.1.9"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.53"
+            },
+            "spectrelib": {
+                "name": "spectrelib",
+                "version": "0.13.15+1.20.1"
+            },
+            "statatusbot": {
+                "name": "statatusbot",
+                "version": "18.0"
+            },
+            "structory": {
+                "name": "structory",
+                "version": "1.3.4"
+            },
+            "structory_towers": {
+                "name": "structory_towers",
+                "version": "1.0.6"
+            },
+            "styledplayerlist": {
+                "name": "styledplayerlist",
+                "version": "3.1.1+1.20.1"
+            },
+            "supermartijn642configlib": {
+                "name": "supermartijn642configlib",
+                "version": "1.1.8+a"
+            },
+            "supermartijn642corelib": {
+                "name": "supermartijn642corelib",
+                "version": "1.1.16"
+            },
+            "supplementaries": {
+                "name": "supplementaries",
+                "version": "1.20-2.8.17"
+            },
+            "t_and_t": {
+                "name": "t_and_t",
+                "version": "1.12"
+            },
+            "tcdcommons": {
+                "name": "tcdcommons",
+                "version": "3.7+fabric-1.20.1"
+            },
+            "team_reborn_energy": {
+                "name": "team_reborn_energy",
+                "version": "3.0.0"
+            },
+            "tectonic": {
+                "name": "tectonic",
+                "version": "2.3.1a"
+            },
+            "terraform-biome-remapper-api-v1": {
+                "name": "terraform-biome-remapper-api-v1",
+                "version": "7.0.3"
+            },
+            "terraform-shapes-api-v1": {
+                "name": "terraform-shapes-api-v1",
+                "version": "7.0.3"
+            },
+            "terraform-surfaces-api-v1": {
+                "name": "terraform-surfaces-api-v1",
+                "version": "7.0.3"
+            },
+            "terraform-wood-api-v1": {
+                "name": "terraform-wood-api-v1",
+                "version": "7.0.3"
+            },
+            "terralith": {
+                "name": "terralith",
+                "version": "2.4.11"
+            },
+            "textutilities": {
+                "name": "textutilities",
+                "version": "1.6.1+1.20.1"
+            },
+            "tiered": {
+                "name": "tiered",
+                "version": "1.3.2"
+            },
+            "toolstats": {
+                "name": "toolstats",
+                "version": "16.0.7"
+            },
+            "trashcans": {
+                "name": "trashcans",
+                "version": "1.0.18"
+            },
+            "travelersbackpack": {
+                "name": "travelersbackpack",
+                "version": "fabric-1.20.1-9.1.13"
+            },
+            "trinkets": {
+                "name": "trinkets",
+                "version": "3.7.1"
+            },
+            "ubesdelight": {
+                "name": "ubesdelight",
+                "version": "1.20.1-0.1.5.4"
+            },
+            "urlmusicdiscs": {
+                "name": "urlmusicdiscs",
+                "version": "1.2.0"
+            },
+            "vinery": {
+                "name": "vinery",
+                "version": "1.4.25"
+            },
+            "vinurl": {
+                "name": "vinurl",
+                "version": "1.1.2"
+            },
+            "voicechat": {
+                "name": "voicechat",
+                "version": "1.20.1-2.4.32"
+            },
+            "watut": {
+                "name": "watut",
+                "version": "1.20.1-1.0.12"
+            },
+            "weaponmaster": {
+                "name": "weaponmaster",
+                "version": "3.0.5"
+            },
+            "woof": {
+                "name": "woof",
+                "version": "4.0.2+1.20.1"
+            },
+            "worldedit": {
+                "name": "worldedit",
+                "version": "7.2.15+6463-5ca4dff"
+            },
+            "wunderlib": {
+                "name": "wunderlib",
+                "version": "1.1.5"
+            },
+            "yet_another_config_lib_v3": {
+                "name": "yet_another_config_lib_v3",
+                "version": "3.5.0+1.20.1-fabric"
+            },
+            "yungsapi": {
+                "name": "yungsapi",
+                "version": "1.20-Fabric-4.0.2"
+            },
+            "yungsbridges": {
+                "name": "yungsbridges",
+                "version": "1.20-Fabric-4.0.3"
+            },
+            "yungsextras": {
+                "name": "yungsextras",
+                "version": "1.20-Fabric-4.0.3"
+            }
+        },
+        "extraPlatformMetadata": {
+            "datapacks": "{\"vanilla\":{\"name\":\"Default\",\"description\":\"The default data for Minecraft\",\"source\":\"builtin\"},\"Immersive Weathering Generated Pack\":{\"name\":\"Immersive Weathering Generated Pack\",\"description\":\"Immersive Weathering Dynamic Resources\",\"source\":\"builtin\"},\"fabric\":{\"name\":\"Fabric Mods\",\"description\":\"Mod resources.\",\"source\":\"unknown\"},\"file/Dungeons and Taverns\":{\"name\":\"Dungeons and Taverns\",\"description\":\"Adds 57 New structures to the Nether and Overworld\",\"source\":\"world\"},\"file/Immersive Creative\":{\"name\":\"Immersive Creative\",\"description\":\"A Dimension Generator and Immersive Portal Presets for adding a Creative dimension to your world.\",\"source\":\"world\"},\"file/WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1 (1)\":{\"name\":\"WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1 (1)\",\"description\":\"dungeons_arise resources\",\"source\":\"world\"},\"tectonic:terratonic\":{\"name\":\"Terratonic\",\"description\":\"Terratonic v3.1.1\\nCreated by Apollo\",\"source\":\"unknown\"},\"Supplementaries Generated Pack\":{\"name\":\"Supplementaries Generated Pack\",\"description\":\"Supplementaries Dynamic Resources\",\"source\":\"builtin\"},\"fruitfulfun:apple_tree_in_village\":{\"name\":\"fruitfulfun/apple_tree_in_village\",\"description\":\"Fruitful Fun\",\"source\":\"unknown\"},\"fruitfulfun:farmersdelight\":{\"name\":\"fruitfulfun/farmersdelight\",\"description\":\"Fruitful Fun\",\"source\":\"unknown\"},\"fruitfulfun:food\":{\"name\":\"fruitfulfun/food\",\"description\":\"Fruitful Fun\",\"source\":\"unknown\"},\"pfm-data-resources\":{\"name\":\"PFM Data\",\"description\":\"Runtime Generated Data for PFM\",\"source\":\"none\"}}"
+        },
+        "samplerMode": 0
+    }
+}

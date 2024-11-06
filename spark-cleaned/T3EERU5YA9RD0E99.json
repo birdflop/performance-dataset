@@ -1,0 +1,977 @@
+{
+    "metadata": {
+        "startTime": 1723238732827,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "0.15.11",
+            "minecraftVersion": "1.21",
+            "sparkVersion": 2,
+            "brand": ""
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 2577904064,
+                    "committed": 8589934592,
+                    "init": 0,
+                    "max": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Concurrent GC": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 4922591,
+            "tps": {
+                "last1m": 19.999984258679056,
+                "last5m": 20.00000151246678,
+                "last15m": 19.999996922600474
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 0.4394387025,
+                    "max": 10.220541,
+                    "min": 0.364569,
+                    "median": 0.420786,
+                    "percentile95": 0.521398
+                },
+                "last5m": {
+                    "mean": 0.4529575888333333,
+                    "max": 114.708246,
+                    "min": 0.358993,
+                    "median": 0.41367,
+                    "percentile95": 0.528233
+                }
+            },
+            "playerCount": 0,
+            "world": {
+                "totalEntities": 15,
+                "entityCounts": {
+                    "minecraft:cow": 1,
+                    "minecraft:chest_minecart": 2,
+                    "minecraft:chicken": 1,
+                    "minecraft:item": 10,
+                    "minecraft:axolotl": 1
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 15,
+                        "regions": [
+                            {
+                                "totalEntities": 11,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": -3,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:item": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:axolotl": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ]
+            },
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 12,
+                "processUsage": {
+                    "last1m": 0.022028532198425866,
+                    "last15m": 0.018567022744165062
+                },
+                "systemUsage": {
+                    "last1m": 0.009466306120664441,
+                    "last15m": 0.010034350890535726
+                },
+                "modelName": "QEMU Virtual CPU version 2.5+"
+            },
+            "memory": {
+                "physical": {
+                    "used": 6614241280,
+                    "total": 12536131584
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 4294963200
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 15,
+                    "avgTime": 36.93333333333333,
+                    "avgFrequency": 330430
+                },
+                "G1 Concurrent GC": {
+                    "total": 10,
+                    "avgTime": 5.3,
+                    "avgFrequency": 495696
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 15490183168,
+                "total": 32574881792
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-118-generic"
+            },
+            "java": {
+                "vendor": "Ubuntu",
+                "version": "21.0.4",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xms8G -Xmx8G"
+            },
+            "uptime": 4957016,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 1.9333333333333333,
+                        "max": 13,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 13
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1.9333333333333333,
+                        "max": 13,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 13
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "ens18": {
+                    "rxBytesPerSecond": {
+                        "mean": 401.4,
+                        "max": 687,
+                        "min": 251,
+                        "median": 406,
+                        "percentile95": 687
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 40,
+                        "max": 289,
+                        "min": 3,
+                        "median": 7,
+                        "percentile95": 289
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 2.7333333333333334,
+                        "max": 3,
+                        "min": 2,
+                        "median": 3,
+                        "percentile95": 3
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0.06666666666666667,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    }
+                }
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": true,
+                "gamemode": "survival",
+                "enable-query": false,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "world",
+                "query.port": 25567,
+                "pvp": true,
+                "generate-structures": true,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "normal",
+                "network-compression-threshold": 256,
+                "max-tick-time": 60000,
+                "require-resource-pack": false,
+                "max-players": 20,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": true,
+                "allow-flight": false,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 12,
+                "resource-pack-prompt": "",
+                "bug-report-link": "",
+                "allow-nether": true,
+                "server-port": 25567,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "resource-pack-id": "",
+                "op-permission-level": 4,
+                "accepts-transfers": false,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 8,
+                "player-idle-timeout": 0,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": true,
+                "broadcast-console-to-ops": true,
+                "region-file-compression": "deflate",
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "log-ips": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:normal",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 0,
+                "max-world-size": 29999984
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                104
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1723238751172,
+        "numberOfTicks": 368,
+        "plugins": {
+            "admiral": {
+                "name": "admiral",
+                "version": "0.4.4+1.20.5",
+                "author": ""
+            },
+            "antixray": {
+                "name": "antixray",
+                "version": "1.4.2+1.21",
+                "author": ""
+            },
+            "audioplayer": {
+                "name": "audioplayer",
+                "version": "1.21-1.10.2",
+                "author": ""
+            },
+            "bclib": {
+                "name": "bclib",
+                "version": "21.0.10",
+                "author": ""
+            },
+            "betterend": {
+                "name": "betterend",
+                "version": "21.0.6",
+                "author": ""
+            },
+            "betternether": {
+                "name": "betternether",
+                "version": "21.0.9",
+                "author": ""
+            },
+            "blue_endless_jankson": {
+                "name": "blue_endless_jankson",
+                "version": "1.2.2",
+                "author": ""
+            },
+            "bosses_of_mass_destruction": {
+                "name": "bosses_of_mass_destruction",
+                "version": "1.10.1-1.21",
+                "author": ""
+            },
+            "cardinal-components": {
+                "name": "cardinal-components",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-base": {
+                "name": "cardinal-components-base",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-block": {
+                "name": "cardinal-components-block",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-chunk": {
+                "name": "cardinal-components-chunk",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-entity": {
+                "name": "cardinal-components-entity",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-item": {
+                "name": "cardinal-components-item",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-level": {
+                "name": "cardinal-components-level",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-scoreboard": {
+                "name": "cardinal-components-scoreboard",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "cardinal-components-world": {
+                "name": "cardinal-components-world",
+                "version": "6.1.1",
+                "author": ""
+            },
+            "chunky": {
+                "name": "chunky",
+                "version": "1.4.16",
+                "author": ""
+            },
+            "cloth-basic-math": {
+                "name": "cloth-basic-math",
+                "version": "0.6.1",
+                "author": ""
+            },
+            "cloth-config": {
+                "name": "cloth-config",
+                "version": "15.0.128",
+                "author": ""
+            },
+            "collective": {
+                "name": "collective",
+                "version": "7.80",
+                "author": ""
+            },
+            "com_electronwill_night-config_core": {
+                "name": "com_electronwill_night-config_core",
+                "version": "3.6.7",
+                "author": ""
+            },
+            "com_electronwill_night-config_toml": {
+                "name": "com_electronwill_night-config_toml",
+                "version": "3.6.7",
+                "author": ""
+            },
+            "com_fasterxml_jackson_core_jackson-annotations": {
+                "name": "com_fasterxml_jackson_core_jackson-annotations",
+                "version": "2.17.0",
+                "author": ""
+            },
+            "com_fasterxml_jackson_core_jackson-core": {
+                "name": "com_fasterxml_jackson_core_jackson-core",
+                "version": "2.17.0",
+                "author": ""
+            },
+            "com_fasterxml_jackson_core_jackson-databind": {
+                "name": "com_fasterxml_jackson_core_jackson-databind",
+                "version": "2.17.0",
+                "author": ""
+            },
+            "com_google_code_gson_gson": {
+                "name": "com_google_code_gson_gson",
+                "version": "2.11.0",
+                "author": ""
+            },
+            "com_moandjiezana_toml_toml4j": {
+                "name": "com_moandjiezana_toml_toml4j",
+                "version": "0.7.2",
+                "author": ""
+            },
+            "com_neovisionaries_nv-websocket-client": {
+                "name": "com_neovisionaries_nv-websocket-client",
+                "version": "2.14",
+                "author": ""
+            },
+            "com_squareup_okhttp3_okhttp": {
+                "name": "com_squareup_okhttp3_okhttp",
+                "version": "4.12.0",
+                "author": ""
+            },
+            "com_squareup_okio_okio-jvm": {
+                "name": "com_squareup_okio_okio-jvm",
+                "version": "3.6.0",
+                "author": ""
+            },
+            "com_velocitypowered_velocity-native": {
+                "name": "com_velocitypowered_velocity-native",
+                "version": "3.3.0-SNAPSHOT",
+                "author": ""
+            },
+            "croptopia": {
+                "name": "croptopia",
+                "version": "3.0.9",
+                "author": ""
+            },
+            "discord-mc-chat": {
+                "name": "discord-mc-chat",
+                "version": "2.3.4",
+                "author": ""
+            },
+            "discord-mc-chat-1_21": {
+                "name": "discord-mc-chat-1_21",
+                "version": "2.3.4",
+                "author": ""
+            },
+            "epherolib": {
+                "name": "epherolib",
+                "version": "1.2.0-1.20.6",
+                "author": ""
+            },
+            "evs": {
+                "name": "evs",
+                "version": "2.0.1",
+                "author": ""
+            },
+            "fabric-api": {
+                "name": "fabric-api",
+                "version": "0.100.4+1.21",
+                "author": ""
+            },
+            "fabric-api-base": {
+                "name": "fabric-api-base",
+                "version": "0.4.42+6573ed8c90",
+                "author": ""
+            },
+            "fabric-api-lookup-api-v1": {
+                "name": "fabric-api-lookup-api-v1",
+                "version": "1.6.67+b5597344d1",
+                "author": ""
+            },
+            "fabric-biome-api-v1": {
+                "name": "fabric-biome-api-v1",
+                "version": "13.0.28+6fc22b99d1",
+                "author": ""
+            },
+            "fabric-block-api-v1": {
+                "name": "fabric-block-api-v1",
+                "version": "1.0.22+0af3f5a7d1",
+                "author": ""
+            },
+            "fabric-block-view-api-v2": {
+                "name": "fabric-block-view-api-v2",
+                "version": "1.0.10+6573ed8cd1",
+                "author": ""
+            },
+            "fabric-command-api-v1": {
+                "name": "fabric-command-api-v1",
+                "version": "1.2.48+f71b366fd1",
+                "author": ""
+            },
+            "fabric-command-api-v2": {
+                "name": "fabric-command-api-v2",
+                "version": "2.2.27+6a6dfa1990",
+                "author": ""
+            },
+            "fabric-commands-v0": {
+                "name": "fabric-commands-v0",
+                "version": "0.2.65+df3654b3d1",
+                "author": ""
+            },
+            "fabric-content-registries-v0": {
+                "name": "fabric-content-registries-v0",
+                "version": "8.0.14+b5597344d1",
+                "author": ""
+            },
+            "fabric-convention-tags-v1": {
+                "name": "fabric-convention-tags-v1",
+                "version": "2.0.15+7f945d5bd1",
+                "author": ""
+            },
+            "fabric-convention-tags-v2": {
+                "name": "fabric-convention-tags-v2",
+                "version": "2.3.2+78017270d1",
+                "author": ""
+            },
+            "fabric-crash-report-info-v1": {
+                "name": "fabric-crash-report-info-v1",
+                "version": "0.2.29+0af3f5a7d1",
+                "author": ""
+            },
+            "fabric-data-attachment-api-v1": {
+                "name": "fabric-data-attachment-api-v1",
+                "version": "1.1.24+6a6dfa19d1",
+                "author": ""
+            },
+            "fabric-data-generation-api-v1": {
+                "name": "fabric-data-generation-api-v1",
+                "version": "20.2.9+16c4ae25d1",
+                "author": ""
+            },
+            "fabric-dimensions-v1": {
+                "name": "fabric-dimensions-v1",
+                "version": "4.0.0+6fc22b99d1",
+                "author": ""
+            },
+            "fabric-entity-events-v1": {
+                "name": "fabric-entity-events-v1",
+                "version": "1.6.12+6fc22b99d1",
+                "author": ""
+            },
+            "fabric-events-interaction-v0": {
+                "name": "fabric-events-interaction-v0",
+                "version": "0.7.10+e633f883d1",
+                "author": ""
+            },
+            "fabric-game-rule-api-v1": {
+                "name": "fabric-game-rule-api-v1",
+                "version": "1.0.52+6573ed8cd1",
+                "author": ""
+            },
+            "fabric-item-api-v1": {
+                "name": "fabric-item-api-v1",
+                "version": "11.0.0+afdfc921d1",
+                "author": ""
+            },
+            "fabric-item-group-api-v1": {
+                "name": "fabric-item-group-api-v1",
+                "version": "4.1.2+78017270d1",
+                "author": ""
+            },
+            "fabric-language-kotlin": {
+                "name": "fabric-language-kotlin",
+                "version": "1.11.0+kotlin.2.0.0",
+                "author": ""
+            },
+            "fabric-lifecycle-events-v1": {
+                "name": "fabric-lifecycle-events-v1",
+                "version": "2.3.11+8f3583aed1",
+                "author": ""
+            },
+            "fabric-loot-api-v2": {
+                "name": "fabric-loot-api-v2",
+                "version": "3.0.11+6573ed8cd1",
+                "author": ""
+            },
+            "fabric-message-api-v1": {
+                "name": "fabric-message-api-v1",
+                "version": "6.0.13+6573ed8cd1",
+                "author": ""
+            },
+            "fabric-networking-api-v1": {
+                "name": "fabric-networking-api-v1",
+                "version": "4.2.0+ab7edbacd1",
+                "author": ""
+            },
+            "fabric-object-builder-api-v1": {
+                "name": "fabric-object-builder-api-v1",
+                "version": "15.1.12+d1321076d1",
+                "author": ""
+            },
+            "fabric-particles-v1": {
+                "name": "fabric-particles-v1",
+                "version": "4.0.2+6573ed8cd1",
+                "author": ""
+            },
+            "fabric-permissions-api-v0": {
+                "name": "fabric-permissions-api-v0",
+                "version": "0.3.1",
+                "author": ""
+            },
+            "fabric-recipe-api-v1": {
+                "name": "fabric-recipe-api-v1",
+                "version": "5.0.10+65089712d1",
+                "author": ""
+            },
+            "fabric-registry-sync-v0": {
+                "name": "fabric-registry-sync-v0",
+                "version": "5.0.23+78017270d1",
+                "author": ""
+            },
+            "fabric-rendering-data-attachment-v1": {
+                "name": "fabric-rendering-data-attachment-v1",
+                "version": "0.3.48+73761d2ed1",
+                "author": ""
+            },
+            "fabric-rendering-fluids-v1": {
+                "name": "fabric-rendering-fluids-v1",
+                "version": "3.1.6+b5597344d1",
+                "author": ""
+            },
+            "fabric-resource-conditions-api-v1": {
+                "name": "fabric-resource-conditions-api-v1",
+                "version": "4.2.1+d153f344d1",
+                "author": ""
+            },
+            "fabric-resource-loader-v0": {
+                "name": "fabric-resource-loader-v0",
+                "version": "1.1.5+78017270d1",
+                "author": ""
+            },
+            "fabric-screen-handler-api-v1": {
+                "name": "fabric-screen-handler-api-v1",
+                "version": "1.3.80+b5597344d1",
+                "author": ""
+            },
+            "fabric-transfer-api-v1": {
+                "name": "fabric-transfer-api-v1",
+                "version": "5.1.15+3dccd343d1",
+                "author": ""
+            },
+            "fabric-transitive-access-wideners-v1": {
+                "name": "fabric-transitive-access-wideners-v1",
+                "version": "6.0.12+6573ed8cd1",
+                "author": ""
+            },
+            "fabricloader": {
+                "name": "fabricloader",
+                "version": "0.15.11",
+                "author": ""
+            },
+            "ferritecore": {
+                "name": "ferritecore",
+                "version": "7.0.0",
+                "author": ""
+            },
+            "geckolib": {
+                "name": "geckolib",
+                "version": "4.5.7",
+                "author": ""
+            },
+            "glitchcore": {
+                "name": "glitchcore",
+                "version": "2.0.0.2",
+                "author": ""
+            },
+            "io_wispforest_endec": {
+                "name": "io_wispforest_endec",
+                "version": "0.1.5",
+                "author": ""
+            },
+            "io_wispforest_endec_gson": {
+                "name": "io_wispforest_endec_gson",
+                "version": "0.1.3",
+                "author": ""
+            },
+            "io_wispforest_endec_jankson": {
+                "name": "io_wispforest_endec_jankson",
+                "version": "0.1.3",
+                "author": ""
+            },
+            "io_wispforest_endec_netty": {
+                "name": "io_wispforest_endec_netty",
+                "version": "0.1.2",
+                "author": ""
+            },
+            "java": {
+                "name": "java",
+                "version": "21",
+                "author": ""
+            },
+            "krypton": {
+                "name": "krypton",
+                "version": "0.2.8",
+                "author": ""
+            },
+            "lithium": {
+                "name": "lithium",
+                "version": "0.12.7",
+                "author": ""
+            },
+            "melius-vanish": {
+                "name": "melius-vanish",
+                "version": "1.5.6+1.21",
+                "author": ""
+            },
+            "minecraft": {
+                "name": "minecraft",
+                "version": "1.21",
+                "author": ""
+            },
+            "mixinextras": {
+                "name": "mixinextras",
+                "version": "0.3.5",
+                "author": ""
+            },
+            "mr_players_dropheads": {
+                "name": "mr_players_dropheads",
+                "version": "48.2",
+                "author": ""
+            },
+            "mr_true_ending": {
+                "name": "mr_true_ending",
+                "version": "1-v1.1.2b",
+                "author": ""
+            },
+            "multipart_entities": {
+                "name": "multipart_entities",
+                "version": "1.7-1.21",
+                "author": ""
+            },
+            "net_dv8tion_jda": {
+                "name": "net_dv8tion_jda",
+                "version": "5.0.0",
+                "author": ""
+            },
+            "net_fellbaum_jemoji": {
+                "name": "net_fellbaum_jemoji",
+                "version": "1.3.4",
+                "author": ""
+            },
+            "net_jodah_typetools": {
+                "name": "net_jodah_typetools",
+                "version": "0.6.3",
+                "author": ""
+            },
+            "net_sf_trove4j_core": {
+                "name": "net_sf_trove4j_core",
+                "version": "3.1.0",
+                "author": ""
+            },
+            "noportals": {
+                "name": "noportals",
+                "version": "1.1.3",
+                "author": ""
+            },
+            "org_apache_commons_commons-collections4": {
+                "name": "org_apache_commons_commons-collections4",
+                "version": "4.4",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-reflect": {
+                "name": "org_jetbrains_kotlin_kotlin-reflect",
+                "version": "2.0.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib",
+                "version": "2.0.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib-jdk7": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib-jdk7",
+                "version": "2.0.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib-jdk8": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib-jdk8",
+                "version": "2.0.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_atomicfu-jvm": {
+                "name": "org_jetbrains_kotlinx_atomicfu-jvm",
+                "version": "0.24.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm",
+                "version": "1.8.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8": {
+                "name": "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8",
+                "version": "1.8.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-datetime-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-datetime-jvm",
+                "version": "0.6.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm",
+                "version": "1.6.3",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm",
+                "version": "1.6.3",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm",
+                "version": "1.6.3",
+                "author": ""
+            },
+            "org_slf4j_slf4j-api": {
+                "name": "org_slf4j_slf4j-api",
+                "version": "2.0.13",
+                "author": ""
+            },
+            "oth3r-sit": {
+                "name": "oth3r-sit",
+                "version": "1.1.7+1.21",
+                "author": ""
+            },
+            "owo": {
+                "name": "owo",
+                "version": "0.12.11+1.21",
+                "author": ""
+            },
+            "packet_tweaker": {
+                "name": "packet_tweaker",
+                "version": "0.5.1+24w03b",
+                "author": ""
+            },
+            "placeholder-api": {
+                "name": "placeholder-api",
+                "version": "2.4.0-pre.2+1.21",
+                "author": ""
+            },
+            "player-data-api": {
+                "name": "player-data-api",
+                "version": "0.6.0+1.21",
+                "author": ""
+            },
+            "sereneseasons": {
+                "name": "sereneseasons",
+                "version": "10.0.0.2",
+                "author": ""
+            },
+            "server_translations_api": {
+                "name": "server_translations_api",
+                "version": "2.3.1+1.21-pre2",
+                "author": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.73",
+                "author": ""
+            },
+            "terralith": {
+                "name": "terralith",
+                "version": "2.5.4",
+                "author": ""
+            },
+            "timeoutout": {
+                "name": "timeoutout",
+                "version": "1.0.4+1.20.2",
+                "author": ""
+            },
+            "toggleableitemframes": {
+                "name": "toggleableitemframes",
+                "version": "5.0.0-1.21",
+                "author": ""
+            },
+            "treeharvester": {
+                "name": "treeharvester",
+                "version": "9.0",
+                "author": ""
+            },
+            "voicechat": {
+                "name": "voicechat",
+                "version": "1.21-2.5.17",
+                "author": ""
+            },
+            "wunderlib": {
+                "name": "wunderlib",
+                "version": "21.0.5",
+                "author": ""
+            }
+        },
+        "extraPlatformMetadata": {
+            "datapacks": "{\"vanilla\":{\"name\":\"Default\",\"description\":\"The default data for Minecraft\",\"source\":\"builtin\"},\"fabric\":{\"name\":\"Fabric Mods\",\"description\":\"Mod resources.\",\"source\":\"unknown\"},\"audioplayer\":{\"name\":\"Fabric Mod \\\"AudioPlayer\\\"\",\"description\":\"audioplayer\",\"source\":\"unknown\"},\"bclib\":{\"name\":\"Fabric Mod \\\"BCLib\\\"\",\"description\":\"bclib\",\"source\":\"unknown\"},\"betterend\":{\"name\":\"Fabric Mod \\\"Better End\\\"\",\"description\":\"betterend\",\"source\":\"unknown\"},\"betternether\":{\"name\":\"Fabric Mod \\\"Better Nether\\\"\",\"description\":\"betternether\",\"source\":\"unknown\"},\"bosses_of_mass_destruction\":{\"name\":\"Fabric Mod \\\"Bosses of Mass Destruction (Beta)\\\"\",\"description\":\"bosses_of_mass_destruction\",\"source\":\"unknown\"},\"collective\":{\"name\":\"Fabric Mod \\\"Collective\\\"\",\"description\":\"collective resources\",\"source\":\"unknown\"},\"croptopia\":{\"name\":\"Fabric Mod \\\"Croptopia\\\"\",\"description\":\"croptopia\",\"source\":\"unknown\"},\"evs\":{\"name\":\"Fabric Mod \\\"Enchanted Vertical Slabs\\\"\",\"description\":\"Enchanted Vertical Slabs\",\"source\":\"unknown\"},\"fabric-convention-tags-v2\":{\"name\":\"Fabric Mod \\\"Fabric Convention Tags (v2)\\\"\",\"description\":\"fabric-convention-tags-v2\",\"source\":\"unknown\"},\"melius-vanish\":{\"name\":\"Fabric Mod \\\"Vanish\\\"\",\"description\":\"melius-vanish\",\"source\":\"unknown\"},\"mr_afk_announcer\":{\"name\":\"Fabric Mod \\\"AFK Announcer\\\"\",\"description\":\"Displays players that are afk as afk - [1.21] - v.2.0.0\",\"source\":\"unknown\"},\"mr_no_endermangrief\":{\"name\":\"Fabric Mod \\\"No Enderman Grief\\\"\",\"description\":\"Disables enderman grief - [1.21] - v.2.0.1\",\"source\":\"unknown\"},\"mr_players_dropheads\":{\"name\":\"Fabric Mod \\\"Players Drop Heads\\\"\",\"description\":\"\u00a7e by \u00a73 Craemon \u00a7e version \u00a72 1.21\",\"source\":\"unknown\"},\"mr_show_dimensioninname\":{\"name\":\"Fabric Mod \\\"Show Dimension In Name\\\"\",\"description\":\"Shows the dimension a player is in next to its name - [1.21] - v.2.0.0\",\"source\":\"unknown\"},\"mr_sleep\":{\"name\":\"Fabric Mod \\\"Sleep\\\"\",\"description\":\"Shows who is currently sleeping and skips the night. [1.21] v.2.1.0\",\"source\":\"unknown\"},\"mr_true_ending\":{\"name\":\"Fabric Mod \\\"True Ending: Ender Dragon Overhaul\\\"\",\"description\":\"Ender Dragon Overhauled\\nVersion v1.1.2b - MC 1.21\",\"source\":\"unknown\"},\"noportals\":{\"name\":\"Fabric Mod \\\"No Portals\\\"\",\"description\":\"noportals\",\"source\":\"unknown\"},\"sereneseasons\":{\"name\":\"Fabric Mod \\\"SereneSeasons\\\"\",\"description\":\"Resources used for Serene Seasons\",\"source\":\"unknown\"},\"server_translations_api\":{\"name\":\"Fabric Mod \\\"Server Translations API\\\"\",\"description\":\"server_translations_api\",\"source\":\"unknown\"},\"terralith\":{\"name\":\"Fabric Mod \\\"Terralith\\\"\",\"description\":\"Terralith - Overworld Evolved\\nCreated by Stardust Labs\",\"source\":\"unknown\"},\"wover-generator\":{\"name\":\"Fabric Mod \\\"WorldWeaver - World Generator API\\\"\",\"description\":\"wover-generator\",\"source\":\"unknown\"},\"wover-preset\":{\"name\":\"Fabric Mod \\\"WorldWeaver - World Preset API\\\"\",\"description\":\"wover-preset\",\"source\":\"unknown\"},\"wover-surface\":{\"name\":\"Fabric Mod \\\"WorldWeaver - Surface API\\\"\",\"description\":\"wover-surface\",\"source\":\"unknown\"},\"wover-tag\":{\"name\":\"Fabric Mod \\\"WorldWeaver - Tag API\\\"\",\"description\":\"wover-tag\",\"source\":\"unknown\"}}"
+        },
+        "samplerMode": 0
+    }
+}

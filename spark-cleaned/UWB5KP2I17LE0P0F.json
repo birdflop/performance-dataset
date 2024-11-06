@@ -1,0 +1,245 @@
+{
+    "metadata": {
+        "startTime": 1729838256305,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.4.0-SNAPSHOT (git-69ee655d-b445)",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "Velocity"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 554112608,
+                    "committed": 1073741824,
+                    "init": 1073741824,
+                    "max": 1073741824
+                },
+                "nonHeap": {
+                    "used": 181146456,
+                    "committed": 210567168,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 67108864,
+                            "committed": 549453824,
+                            "init": 50331648,
+                            "max": 549453824
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 549453824,
+                            "init": 50331648,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 483380320,
+                            "committed": 520093696,
+                            "init": 1023410176,
+                            "max": 1073741824
+                        },
+                        "collectionUsage": {
+                            "used": 483380320,
+                            "committed": 520093696,
+                            "init": 1023410176,
+                            "max": 1073741824
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 3623424,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": 4194304
+                        },
+                        "collectionUsage": {
+                            "used": 3623424,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "uptime": 12235431,
+            "ping": {
+                "last15m": {
+                    "mean": 27.81111111111111,
+                    "max": 38,
+                    "min": 26,
+                    "median": 28,
+                    "percentile95": 29
+                }
+            },
+            "playerCount": 2,
+            "onlineMode": 1
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 24,
+                "processUsage": {
+                    "last1m": 0.0036965346314551738,
+                    "last15m": 0.0019732947627483645
+                },
+                "systemUsage": {
+                    "last1m": 0.07818445009821555,
+                    "last15m": 0.07214958911441514
+                },
+                "modelName": "AMD Ryzen 9 5900X 12-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 22546542592,
+                    "total": 34278948864
+                },
+                "swap": {
+                    "used": 49185484800,
+                    "total": 68638687232
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 36,
+                    "avgTime": 3.9722222222222223,
+                    "avgFrequency": 339965
+                },
+                "G1 Concurrent GC": {
+                    "total": 24,
+                    "avgTime": 4.458333333333333,
+                    "avgFrequency": 509949
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 328558579712,
+                "total": 1000194011136
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "10.0.19045"
+            },
+            "java": {
+                "vendor": "Oracle Corporation",
+                "version": "21.0.4",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xms1G -Xmx1G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch"
+            },
+            "uptime": 12238889,
+            "jvm": {
+                "vendor": "Oracle Corporation",
+                "version": "21.0.4+8-LTS-274"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1729838261539,
+        "numberOfTicks": 0,
+        "plugins": {
+            "ajqueue": {
+                "name": "ajqueue",
+                "version": "2.7.0",
+                "author": "ajgeiss0702",
+                "description": "Queue for servers"
+            },
+            "geyser": {
+                "name": "geyser",
+                "version": "2.4.3-b692 (git-master-264a914)",
+                "author": "GeyserMC",
+                "description": ""
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.142",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "maintenance": {
+                "name": "maintenance",
+                "version": "4.3.0",
+                "author": "kennytv",
+                "description": "Enable maintenance mode with a custom maintenance motd and icon."
+            },
+            "minimotd-velocity": {
+                "name": "minimotd-velocity",
+                "version": "2.1.3",
+                "author": "jmp",
+                "description": "Use MiniMessage text formatting in the server list MOTD."
+            },
+            "miniplaceholders": {
+                "name": "miniplaceholders",
+                "version": "2.2.4",
+                "author": "4drian3d",
+                "description": ""
+            },
+            "packetevents": {
+                "name": "packetevents",
+                "version": "2.5.1+638062e-SNAPSHOT",
+                "author": "retrooper",
+                "description": "Packet library."
+            },
+            "pl-hide-pro": {
+                "name": "pl-hide-pro",
+                "version": "2.11.1",
+                "author": "Nononitas",
+                "description": ""
+            },
+            "protocolize": {
+                "name": "protocolize",
+                "version": "v2",
+                "author": "Exceptionflug",
+                "description": ""
+            },
+            "skinsrestorer": {
+                "name": "skinsrestorer",
+                "version": "15.4.3",
+                "author": "knat, AlexProgrammerDE, Blackfire62, McLive",
+                "description": "Ability to restore/change skins on servers!"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.110",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            },
+            "tab": {
+                "name": "tab",
+                "version": "5.0.1",
+                "author": "NEZNAMY",
+                "description": "An all-in-one solution that works"
+            },
+            "tebex": {
+                "name": "tebex",
+                "version": "2.1.0",
+                "author": "Tebex",
+                "description": "The Velocity plugin for Tebex."
+            },
+            "velocitycontrol": {
+                "name": "velocitycontrol",
+                "version": "1.1.0",
+                "author": "kangarko",
+                "description": ""
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 0
+    }
+}

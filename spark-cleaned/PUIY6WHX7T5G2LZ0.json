@@ -1,0 +1,321 @@
+{
+    "metadata": {
+        "startTime": 1728336099551,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "2.1.8",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "FlameCord"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 131000608,
+                    "committed": 364904448,
+                    "init": 134217728,
+                    "max": 1073741824
+                },
+                "nonHeap": {
+                    "used": 143870184,
+                    "committed": 147128320,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 25165824,
+                            "committed": 226492416,
+                            "init": 8388608,
+                            "max": 226492416
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 226492416,
+                            "init": 8388608,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 104857600,
+                            "committed": 134217728,
+                            "init": 125829120,
+                            "max": 1073741824
+                        },
+                        "collectionUsage": {
+                            "used": 104857600,
+                            "committed": 134217728,
+                            "init": 125829120,
+                            "max": 1073741824
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 977184,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": 4194304
+                        },
+                        "collectionUsage": {
+                            "used": 977184,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 4,
+                    "avgTime": 18.75,
+                    "avgFrequency": 27846
+                },
+                "G1 Concurrent GC": {
+                    "total": 2,
+                    "avgTime": 3.5,
+                    "avgFrequency": 55727
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 111461,
+            "playerCount": 0,
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 4,
+                "processUsage": {
+                    "last1m": 0.051463518467115575,
+                    "last15m": 0.04087318694253736
+                },
+                "systemUsage": {
+                    "last1m": 0.16155667013598557,
+                    "last15m": 0.33545403993813233
+                },
+                "modelName": "AMD Ryzen 9 5950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 5294690304,
+                    "total": 12542377984
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 31,
+                    "avgTime": 11.451612903225806,
+                    "avgFrequency": 3871
+                },
+                "G1 Concurrent GC": {
+                    "total": 12,
+                    "avgTime": 3.5833333333333335,
+                    "avgFrequency": 10027
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 68422934528,
+                "total": 105331511296
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.8.0-45-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.4",
+                "vendorVersion": "Temurin-21.0.4+7",
+                "vmArgs": "-Xms128M -Xmx1024M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15"
+            },
+            "uptime": 120377,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 42,
+                        "max": 42,
+                        "min": 42,
+                        "median": 42,
+                        "percentile95": 42
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 42,
+                        "max": 42,
+                        "min": 42,
+                        "median": 42,
+                        "percentile95": 42
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 1,
+                        "max": 1,
+                        "min": 1,
+                        "median": 1,
+                        "percentile95": 1
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 1,
+                        "max": 1,
+                        "min": 1,
+                        "median": 1,
+                        "percentile95": 1
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 5106,
+                        "max": 5106,
+                        "min": 5106,
+                        "median": 5106,
+                        "percentile95": 5106
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 4221,
+                        "max": 4221,
+                        "min": 4221,
+                        "median": 4221,
+                        "percentile95": 4221
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 24,
+                        "max": 24,
+                        "min": 24,
+                        "median": 24,
+                        "percentile95": 24
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 31,
+                        "max": 31,
+                        "min": 31,
+                        "median": 31,
+                        "percentile95": 31
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.4+7-LTS"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1728336114888,
+        "numberOfTicks": 0,
+        "plugins": {
+            "chatsentinel": {
+                "name": "ChatSentinel",
+                "version": "1.0.2",
+                "author": "2LS",
+                "description": "Advanced chat management plugin"
+            },
+            "liteannouncer": {
+                "name": "LiteAnnouncer",
+                "version": "6.3.1",
+                "author": "LITEFINE",
+                "description": "AutoMessages System for BungeeCord"
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.141",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "ajqueue": {
+                "name": "ajQueue",
+                "version": "2.7.0",
+                "author": "ajgeiss0702",
+                "description": ""
+            },
+            "nlogin": {
+                "name": "nLogin",
+                "version": "10.4.4",
+                "author": "NickUC",
+                "description": "A practical, secure and friendly authentication plugin"
+            },
+            "skinsrestorer": {
+                "name": "SkinsRestorer",
+                "version": "15.4.2",
+                "author": "knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls",
+                "description": ""
+            },
+            "serverlistplus": {
+                "name": "ServerListPlus",
+                "version": "3.5.0",
+                "author": "Minecrell (https://github.com/Minecrell)",
+                "description": "A flexible Minecraft plugin to customize the appearance of your server in the server list"
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.15.1",
+                "author": "Ruan",
+                "description": "Lightweight banning plugin with full UUID support."
+            },
+            "serverutils": {
+                "name": "ServerUtils",
+                "version": "3.5.4",
+                "author": "FrankHeijden",
+                "description": "A server utility"
+            },
+            "maintenance": {
+                "name": "Maintenance",
+                "version": "4.3.0",
+                "author": "kennytv",
+                "description": "Enable maintenance mode with a custom maintenance motd and icon."
+            },
+            "bettersecurity": {
+                "name": "BetterSecurity",
+                "version": "1.7",
+                "author": "zS0bye",
+                "description": "Your safety is the priority of everything!"
+            },
+            "cloudscore": {
+                "name": "CloudsCore",
+                "version": "1.1.8",
+                "author": "Red",
+                "description": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.105",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            },
+            "craftingstore": {
+                "name": "CraftingStore",
+                "version": "2.9.3",
+                "author": "thijs_a",
+                "description": ""
+            },
+            "botsentry": {
+                "name": "BotSentry",
+                "version": "9.6.1-THANATOS",
+                "author": "New Era Studios & Lahuca Software Development",
+                "description": ""
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}

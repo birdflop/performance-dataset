@@ -1,0 +1,573 @@
+{
+    "metadata": {
+        "startTime": 1730919567551,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "14.23.5.2860",
+            "minecraftVersion": "1.12.2",
+            "sparkVersion": 2,
+            "brand": ""
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 2206132464,
+                    "committed": 3829923840,
+                    "init": 0,
+                    "max": 0
+                }
+            },
+            "gc": {
+                "PS Scavenge": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "PS MarkSweep": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 10733857,
+            "tps": {
+                "last1m": 20.00005759016583,
+                "last5m": 19.999999005266716,
+                "last15m": 20.00001005462728
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 0.17778424833333334,
+                    "max": 41.493434,
+                    "min": 0.00747,
+                    "median": 0.137931,
+                    "percentile95": 0.18866
+                },
+                "last5m": {
+                    "mean": 0.1747997995,
+                    "max": 41.493434,
+                    "min": 0.00747,
+                    "median": 0.130801,
+                    "percentile95": 0.166891
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 33.75555555555555,
+                    "max": 48,
+                    "min": 8,
+                    "median": 37,
+                    "percentile95": 46
+                }
+            },
+            "playerCount": 0,
+            "world": {
+                "totalEntities": 0,
+                "worlds": [
+                    {
+                        "totalEntities": 0
+                    }
+                ]
+            },
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 24,
+                "processUsage": {
+                    "last1m": 0.0017946870143732245,
+                    "last15m": 0.0005245851256725513
+                },
+                "systemUsage": {
+                    "last1m": 0.24413614226225597,
+                    "last15m": 0.23597438344147573
+                },
+                "modelName": "AMD Ryzen 9 7900 12-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 100955385856,
+                    "total": 116039995392
+                },
+                "swap": {
+                    "used": 431312896,
+                    "total": 25769795584
+                }
+            },
+            "gc": {
+                "PS Scavenge": {
+                    "total": 553,
+                    "avgTime": 67.53887884267631,
+                    "avgFrequency": 19486
+                },
+                "PS MarkSweep": {
+                    "total": 11,
+                    "avgTime": 892.7272727272727,
+                    "avgFrequency": 982124
+                }
+            },
+            "disk": {
+                "used": 379298971648,
+                "total": 1043049975808
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-124-generic"
+            },
+            "java": {
+                "vendor": "Temurin",
+                "version": "1.8.0_312",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xms128M -Xmx6144M -Dterminal.jline=false -Dterminal.ansi=true"
+            },
+            "uptime": 10813187,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 150.2,
+                        "max": 156,
+                        "min": 146,
+                        "median": 150,
+                        "percentile95": 156
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 1.0666666666666667,
+                        "max": 2,
+                        "min": 1,
+                        "median": 1,
+                        "percentile95": 2
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                }
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "view-distance": 10,
+                "max-build-height": 256,
+                "server-port": 25642,
+                "enable-command-block": true,
+                "gamemode": 0,
+                "allow-nether": true,
+                "enable-rcon": false,
+                "op-permission-level": 4,
+                "enable-query": false,
+                "prevent-proxy-connections": false,
+                "generator-settings": "",
+                "level-name": "DregoraRL",
+                "player-idle-timeout": 0,
+                "query.port": 25642,
+                "force-gamemode": false,
+                "hellworld": true,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "texture-pack": "",
+                "pvp": true,
+                "spawn-npcs": true,
+                "generate-structures": true,
+                "spawn-animals": true,
+                "snooper-enabled": false,
+                "difficulty": 3,
+                "network-compression-threshold": 256,
+                "level-type": "OTG",
+                "spawn-monsters": true,
+                "max-tick-time": "-1",
+                "use-native-transport": true,
+                "max-players": 20,
+                "resource-pack-sha1": "",
+                "spawn-protection": 16,
+                "online-mode": false,
+                "allow-flight": true,
+                "max-world-size": 29999984
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                30
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1730919641798,
+        "numberOfTicks": 1481,
+        "plugins": {
+            "minecraft": {
+                "name": "minecraft",
+                "version": "1.12.2",
+                "author": "",
+                "description": ""
+            },
+            "forge": {
+                "name": "forge",
+                "version": "14.23.5.2860",
+                "author": "",
+                "description": ""
+            },
+            "itemphysic": {
+                "name": "itemphysic",
+                "version": "1.4.0",
+                "author": "",
+                "description": ""
+            },
+            "forgeendertech": {
+                "name": "forgeendertech",
+                "version": "1.12.2-4.5.6.1",
+                "author": "",
+                "description": ""
+            },
+            "adhooks": {
+                "name": "adhooks",
+                "version": "1.12.2-3.3.1.0",
+                "author": "",
+                "description": ""
+            },
+            "lostcities": {
+                "name": "lostcities",
+                "version": "2.0.22",
+                "author": "",
+                "description": ""
+            },
+            "aquaculture": {
+                "name": "aquaculture",
+                "version": "1.6.8",
+                "author": "",
+                "description": ""
+            },
+            "astikorcarts": {
+                "name": "astikorcarts",
+                "version": "1.12.2-0.1.2.8",
+                "author": "",
+                "description": ""
+            },
+            "attributefix": {
+                "name": "attributefix",
+                "version": "1.0.12",
+                "author": "",
+                "description": ""
+            },
+            "crafttweaker": {
+                "name": "crafttweaker",
+                "version": "4.1.20",
+                "author": "",
+                "description": ""
+            },
+            "jei": {
+                "name": "jei",
+                "version": "4.16.1.1012",
+                "author": "",
+                "description": ""
+            },
+            "quark": {
+                "name": "quark",
+                "version": "r1.6-179",
+                "author": "",
+                "description": ""
+            },
+            "autoreglib": {
+                "name": "autoreglib",
+                "version": "1.3-32",
+                "author": "",
+                "description": ""
+            },
+            "iceandfire": {
+                "name": "iceandfire",
+                "version": "2.0.5",
+                "author": "",
+                "description": ""
+            },
+            "mantle": {
+                "name": "mantle",
+                "version": "1.12-1.3.3.55",
+                "author": "",
+                "description": ""
+            },
+            "bettermineshafts": {
+                "name": "bettermineshafts",
+                "version": "1.12.2-2.2.1",
+                "author": "",
+                "description": ""
+            },
+            "betternether": {
+                "name": "betternether",
+                "version": "0.1.8.6",
+                "author": "",
+                "description": ""
+            },
+            "biomesoplenty": {
+                "name": "biomesoplenty",
+                "version": "7.0.1.2445",
+                "author": "",
+                "description": ""
+            },
+            "bloodmoon": {
+                "name": "bloodmoon",
+                "version": "1.5.3",
+                "author": "",
+                "description": ""
+            },
+            "bountiful": {
+                "name": "bountiful",
+                "version": "2.2.3",
+                "author": "",
+                "description": ""
+            },
+            "callablehorses": {
+                "name": "callablehorses",
+                "version": "1.1.1",
+                "author": "",
+                "description": ""
+            },
+            "carryon": {
+                "name": "carryon",
+                "version": "1.12.3",
+                "author": "",
+                "description": ""
+            },
+            "charm": {
+                "name": "charm",
+                "version": "1.4",
+                "author": "",
+                "description": ""
+            },
+            "comforts": {
+                "name": "comforts",
+                "version": "1.4.1.3",
+                "author": "",
+                "description": ""
+            },
+            "creativecore": {
+                "name": "creativecore",
+                "version": "1.10.0",
+                "author": "",
+                "description": ""
+            },
+            "dynamictrees": {
+                "name": "dynamictrees",
+                "version": "1.12.2-0.9.29",
+                "author": "",
+                "description": ""
+            },
+            "traverse": {
+                "name": "traverse",
+                "version": "1.6.0",
+                "author": "",
+                "description": ""
+            },
+            "openterraingenerator": {
+                "name": "openterraingenerator",
+                "version": "v9.5-R2",
+                "author": "",
+                "description": ""
+            },
+            "sereneseasons": {
+                "name": "sereneseasons",
+                "version": "1.2.18",
+                "author": "",
+                "description": ""
+            },
+            "enhancedvisuals": {
+                "name": "enhancedvisuals",
+                "version": "1.3.0",
+                "author": "",
+                "description": ""
+            },
+            "konkrete": {
+                "name": "konkrete",
+                "version": "1.6.1",
+                "author": "",
+                "description": ""
+            },
+            "fancymenu": {
+                "name": "fancymenu",
+                "version": "2.14.9",
+                "author": "",
+                "description": ""
+            },
+            "grapplemod": {
+                "name": "grapplemod",
+                "version": "1.12.2-v12.3",
+                "author": "",
+                "description": ""
+            },
+            "ichunutil": {
+                "name": "ichunutil",
+                "version": "7.2.2",
+                "author": "",
+                "description": ""
+            },
+            "incontrol": {
+                "name": "incontrol",
+                "version": "3.9.18",
+                "author": "",
+                "description": ""
+            },
+            "infernalmobs": {
+                "name": "infernalmobs",
+                "version": "1.7.6",
+                "author": "",
+                "description": ""
+            },
+            "mcwbridges": {
+                "name": "mcwbridges",
+                "version": "1.0.6",
+                "author": "",
+                "description": ""
+            },
+            "multimine": {
+                "name": "multimine",
+                "version": "1.6.2",
+                "author": "",
+                "description": ""
+            },
+            "placebo": {
+                "name": "placebo",
+                "version": "1.6.0",
+                "author": "",
+                "description": ""
+            },
+            "reborncore": {
+                "name": "reborncore",
+                "version": "3.19.5",
+                "author": "",
+                "description": ""
+            },
+            "artifacts": {
+                "name": "artifacts",
+                "version": "1.1.2",
+                "author": "",
+                "description": ""
+            },
+            "roguelike": {
+                "name": "roguelike",
+                "version": "2.4.6",
+                "author": "",
+                "description": ""
+            },
+            "silentlib": {
+                "name": "silentlib",
+                "version": "3.0.13",
+                "author": "",
+                "description": ""
+            },
+            "sit": {
+                "name": "sit",
+                "version": "v1.3",
+                "author": "",
+                "description": ""
+            },
+            "snowrealmagic": {
+                "name": "snowrealmagic",
+                "version": "0.7.1",
+                "author": "",
+                "description": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.11.2",
+                "author": "",
+                "description": ""
+            },
+            "spartanweaponry": {
+                "name": "spartanweaponry",
+                "version": "1.6.0",
+                "author": "",
+                "description": ""
+            },
+            "spartanfire": {
+                "name": "spartanfire",
+                "version": "1.3.2",
+                "author": "",
+                "description": ""
+            },
+            "spartanshields": {
+                "name": "spartanshields",
+                "version": "1.5.5",
+                "author": "",
+                "description": ""
+            },
+            "toolbelt": {
+                "name": "toolbelt",
+                "version": "1.9.14",
+                "author": "",
+                "description": ""
+            },
+            "tumbleweed": {
+                "name": "tumbleweed",
+                "version": "1.12-0.4.7",
+                "author": "",
+                "description": ""
+            },
+            "waystones": {
+                "name": "waystones",
+                "version": "4.1.0",
+                "author": "",
+                "description": ""
+            },
+            "xpbook": {
+                "name": "xpbook",
+                "version": "v1.1.6",
+                "author": "",
+                "description": ""
+            },
+            "kiwi": {
+                "name": "kiwi",
+                "version": "0.5.3.32",
+                "author": "",
+                "description": ""
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 0
+    }
+}

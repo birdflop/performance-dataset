@@ -1,0 +1,219 @@
+{
+    "metadata": {
+        "startTime": 1709785741466,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-74c932e5-b363)",
+            "minecraftVersion": "",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 874788336,
+                    "total": 1073741824
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 7,
+                    "avgTime": 7.428571428571429,
+                    "avgFrequency": 33070
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 231548,
+            "ping": {
+                "last15m": {
+                    "mean": 87.47619047619048,
+                    "max": 124,
+                    "min": 63,
+                    "median": 82,
+                    "percentile95": 124
+                }
+            },
+            "playerCount": 8
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 32,
+                "processUsage": {
+                    "last1m": 0.0217779317147098,
+                    "last15m": 0.020427994330822454
+                },
+                "systemUsage": {
+                    "last1m": 0.05612885934203552,
+                    "last15m": 0.054977767042301694
+                },
+                "modelName": "AMD Ryzen 9 3950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 38970351616,
+                    "total": 67306729472
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 8192000000
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 21,
+                    "avgTime": 7.095238095238095,
+                    "avgFrequency": 11123
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 611167334400,
+                "total": 982749601792
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-94-generic"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "17.0.10",
+                "vendorVersion": "Temurin-17.0.10+7",
+                "vmArgs": "-Xms1024M -Xmx3072M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15"
+            },
+            "uptime": 233747,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 62,
+                        "max": 155,
+                        "min": 12,
+                        "median": 19,
+                        "percentile95": 155
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 62,
+                        "max": 155,
+                        "min": 12,
+                        "median": 19,
+                        "percentile95": 155
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0.3333333333333333,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0.3333333333333333,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 230950.66666666666,
+                        "max": 332317,
+                        "min": 113613,
+                        "median": 246922,
+                        "percentile95": 332317
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 259744.66666666666,
+                        "max": 402814,
+                        "min": 132072,
+                        "median": 244348,
+                        "percentile95": 402814
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 710.6666666666666,
+                        "max": 791,
+                        "min": 605,
+                        "median": 736,
+                        "percentile95": 791
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 696,
+                        "max": 766,
+                        "min": 639,
+                        "median": 683,
+                        "percentile95": 766
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1709785817287,
+        "numberOfTicks": 0,
+        "plugins": {
+            "easycommandblocker": {
+                "name": "easycommandblocker",
+                "version": "1.8.2"
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.2-SNAPSHOT (b96-7f38765)"
+            },
+            "geyser": {
+                "name": "geyser",
+                "version": "2.2.2-SNAPSHOT (git-master-aca368e)"
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.119"
+            },
+            "maintenance": {
+                "name": "maintenance",
+                "version": "4.2.0"
+            },
+            "minimotd-velocity": {
+                "name": "minimotd-velocity",
+                "version": "2.1.0"
+            },
+            "nantibot": {
+                "name": "nantibot",
+                "version": "6.1.18"
+            },
+            "nlogin": {
+                "name": "nlogin",
+                "version": "10.2.53"
+            },
+            "nuvotifier": {
+                "name": "nuvotifier",
+                "version": "2.7.3"
+            },
+            "skinsrestorer": {
+                "name": "skinsrestorer",
+                "version": "15.0.7"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.60"
+            },
+            "velocity-tools": {
+                "name": "velocity-tools",
+                "version": "1.2.2"
+            }
+        },
+        "samplerMode": 0
+    }
+}

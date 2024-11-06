@@ -1,0 +1,348 @@
+{
+    "metadata": {
+        "startTime": 1729931412957,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "1.16.5-69069a9c (MC: 1.16.5)",
+            "minecraftVersion": "v1_16_R3",
+            "sparkVersion": 2,
+            "brand": ""
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 708589688,
+                    "committed": 1073741824,
+                    "init": 0,
+                    "max": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 143,
+                    "avgTime": 10.601398601398602,
+                    "avgFrequency": 5011
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 718231,
+            "tps": {
+                "last1m": 19.993805660752976,
+                "last5m": 19.998771191569812,
+                "last15m": 20.002385650954807
+            },
+            "playerCount": 0,
+            "onlineMode": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 24,
+                "processUsage": {
+                    "last1m": 0.06796716062840942,
+                    "last15m": 0.011424686430416473
+                },
+                "systemUsage": {
+                    "last1m": 0.21751199692352832,
+                    "last15m": 0.17738097337859085
+                },
+                "modelName": "AMD Ryzen 9 3900 12-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 99881308160,
+                    "total": 134987489280
+                },
+                "swap": {
+                    "used": 4341764096,
+                    "total": 34324082688
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 221,
+                    "avgTime": 17.32126696832579,
+                    "avgFrequency": 3437
+                },
+                "G1 Old Generation": {
+                    "total": 1,
+                    "avgTime": 7,
+                    "avgFrequency": 763537
+                }
+            },
+            "disk": {
+                "used": 749031137280,
+                "total": 3743108481024
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.1.0-12-amd64"
+            },
+            "java": {
+                "vendor": "Temurin",
+                "version": "1.8.0_312",
+                "vendorVersion": "unknown"
+            },
+            "uptime": 763544
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": true,
+                "gamemode": "adventure",
+                "enable-query": false,
+                "generator-settings": "",
+                "level-name": "world",
+                "query.port": 25600,
+                "pvp": true,
+                "generate-structures": true,
+                "difficulty": "easy",
+                "network-compression-threshold": 256,
+                "max-tick-time": 60000,
+                "use-native-transport": true,
+                "max-players": 2024,
+                "online-mode": false,
+                "enable-status": true,
+                "allow-flight": true,
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 8,
+                "max-build-height": 256,
+                "server-port": 25600,
+                "allow-nether": true,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "op-permission-level": 4,
+                "prevent-proxy-connections": false,
+                "entity-broadcast-range-percentage": 100,
+                "player-idle-timeout": 0,
+                "rate-limit": 0,
+                "force-gamemode": false,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "snooper-enabled": false,
+                "function-permission-level": 2,
+                "level-type": "default",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 16,
+                "max-world-size": 29999984
+            },
+            "spigot.yml": {
+                "config-version": 12,
+                "stats": {
+                    "disable-saving": false
+                },
+                "settings": {
+                    "save-user-cache-on-stop-only": false,
+                    "player-shuffle": 0,
+                    "user-cache-size": 1000,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 4,
+                    "moved-too-quickly-multiplier": 10.0,
+                    "item-dirty-ticks": 20,
+                    "bungeecord": false,
+                    "late-bind": false,
+                    "sample-count": 12,
+                    "filter-creative-items": true,
+                    "int-cache-limit": 1024,
+                    "moved-wrongly-threshold": 0.0625,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    },
+                    "debug": false,
+                    "log-villager-deaths": true
+                },
+                "commands": {
+                    "tab-complete": 0,
+                    "silent-commandblock-console": false,
+                    "log": true,
+                    "spam-exclusions": [
+                        "/skill"
+                    ],
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ],
+                    "send-namespaced": true
+                },
+                "advancements": {
+                    "disable-saving": false,
+                    "disabled": [
+                        "minecraft:story/disabled"
+                    ]
+                },
+                "world-settings": {
+                    "default": {
+                        "view-distance": "default",
+                        "verbose": false,
+                        "mob-spawn-range": 6,
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100,
+                            "vine-modifier": 100,
+                            "cocoa-modifier": 100,
+                            "beetroot-modifier": 100,
+                            "carrot-modifier": 100,
+                            "potato-modifier": 100,
+                            "bamboo-modifier": 100,
+                            "sweetberry-modifier": 100,
+                            "kelp-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 32,
+                            "monsters": 32,
+                            "misc": 16,
+                            "tick-inactive-villagers": true,
+                            "raiders": 32
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 1
+                        },
+                        "hopper-amount": 1,
+                        "random-light-updates": false,
+                        "save-structure-info": true,
+                        "dragon-death-sound-radius": 0,
+                        "seed-village": 10387312,
+                        "seed-feature": 14357617,
+                        "seed-monument": 10387313,
+                        "seed-slime": 987234911,
+                        "hunger": {
+                            "jump-walk-exhaustion": 0.05,
+                            "jump-sprint-exhaustion": 0.2,
+                            "combat-exhaustion": 0.1,
+                            "regen-exhaustion": 6.0,
+                            "swim-multiplier": 0.01,
+                            "sprint-multiplier": 0.1,
+                            "other-multiplier": 0.0
+                        },
+                        "max-tnt-per-tick": 100,
+                        "max-tick-time": {
+                            "tile": 50,
+                            "entity": 50
+                        },
+                        "squid-spawn-range": {
+                            "min": 45.0
+                        },
+                        "wither-spawn-sound-radius": 0,
+                        "merge-radius": {
+                            "exp": 6,
+                            "item": 6
+                        },
+                        "zombie-aggressive-towards-villager": true,
+                        "item-despawn-rate": 6000,
+                        "arrow-despawn-rate": 300,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "hanging-tick-frequency": 100,
+                        "nerf-spawner-mobs": false,
+                        "entity-tracking-range": {
+                            "players": 128,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "other": 128
+                        },
+                        "seed-desert": 14357617,
+                        "seed-igloo": 14357618,
+                        "seed-jungle": 14357619,
+                        "seed-swamp": 14357620,
+                        "seed-shipwreck": 165745295,
+                        "seed-ocean": 14357621,
+                        "seed-outpost": 165745296,
+                        "seed-endcity": 10387313,
+                        "seed-bastion": 30084232,
+                        "seed-fortress": 30084232,
+                        "seed-mansion": 10387319,
+                        "seed-fossil": 14357921,
+                        "seed-portal": 34222645,
+                        "trident-despawn-rate": 1200,
+                        "end-portal-sound-radius": 0
+                    },
+                    "worldeditregentempworld": {
+                        "verbose": false
+                    }
+                },
+                "players": {
+                    "disable-saving": false
+                }
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": true,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default",
+                    "minimum-api": "none"
+                },
+                "spawn-limits": {
+                    "monsters": 0,
+                    "animals": 10,
+                    "water-animals": 5,
+                    "water-ambient": 5,
+                    "ambient": 1
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 400
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 4,
+                    "water-spawns": 1,
+                    "water-ambient-spawns": 1,
+                    "ambient-spawns": 1,
+                    "autosave": 6000
+                },
+                "aliases": "now-in-commands.yml"
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                78
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 0,
+        "numberOfTicks": 0,
+        "samplerMode": 0,
+        "samplerEngine": 0
+    }
+}

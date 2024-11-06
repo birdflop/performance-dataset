@@ -1,0 +1,2356 @@
+{
+    "metadata": {
+        "startTime": 1722193707686,
+        "interval": 10000,
+        "platform": {
+            "type": 0,
+            "version": "git-iSpigot-PaperEdition (MC: 1.8.8)",
+            "minecraftVersion": "v1_8_R3",
+            "sparkVersion": 2,
+            "brand": "CraftBukkit"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 4566188032,
+                    "total": 8589934592
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 451,
+                    "avgTime": 35.26385809312639,
+                    "avgFrequency": 3600
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 1639655,
+            "tps": {
+                "last1m": 20.000003369000567,
+                "last5m": 20.000001401266765,
+                "last15m": 20.000001230111188
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 5.8327965483333335,
+                    "max": 50.52762,
+                    "min": 2.87826,
+                    "median": 5.620943,
+                    "percentile95": 8.191528
+                },
+                "last5m": {
+                    "mean": 5.602011397,
+                    "max": 65.200196,
+                    "min": 2.694752,
+                    "median": 5.417124,
+                    "percentile95": 7.877599
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 85.64444444444445,
+                    "max": 102,
+                    "min": 78,
+                    "median": 85,
+                    "percentile95": 96
+                }
+            },
+            "playerCount": 122,
+            "world": {
+                "totalEntities": 1308,
+                "entityCounts": {
+                    "Item": 1139,
+                    "unknown[SPLASH_POTION]": 1,
+                    "unknown[PLAYER]": 132,
+                    "Villager": 1,
+                    "ThrownEnderpearl": 7,
+                    "XPOrb": 1,
+                    "ItemFrame": 27
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 1308,
+                        "regions": [
+                            {
+                                "totalEntities": 42,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 42,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "Item": 10
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 43,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 42,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "Item": 7
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 43,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "Item": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 41,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Item": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 43,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 2,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 42,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 41,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 42,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 736,
+                                "chunks": [
+                                    {
+                                        "x": -6,
+                                        "z": 5,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "Item": 17
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "ThrownEnderpearl": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 0,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -8,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ThrownEnderpearl": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 1,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 4,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 5,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 4,
+                                        "totalEntities": 14,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[SPLASH_POTION]": 1,
+                                            "unknown[PLAYER]": 12
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -8,
+                                        "z": 5,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "Item": 10,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 7,
+                                        "totalEntities": 60,
+                                        "entityCounts": {
+                                            "Item": 60
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 0,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 6,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "Item": 25
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 5,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -8,
+                                        "z": 4,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 3,
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 7,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "Item": 10
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 6,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 3,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 6,
+                                        "totalEntities": 19,
+                                        "entityCounts": {
+                                            "Item": 18,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 5,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 4,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 8
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 2,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "Item": 11
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 7,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 2,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 4,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "Item": 8
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 5,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "Item": 16
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -8,
+                                        "z": 2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 6,
+                                        "totalEntities": 24,
+                                        "entityCounts": {
+                                            "Item": 22,
+                                            "Villager": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 5,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 4,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 4,
+                                        "totalEntities": 22,
+                                        "entityCounts": {
+                                            "Item": 20,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 3,
+                                        "totalEntities": 27,
+                                        "entityCounts": {
+                                            "Item": 27
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 7,
+                                        "totalEntities": 24,
+                                        "entityCounts": {
+                                            "Item": 24
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 7,
+                                        "totalEntities": 32,
+                                        "entityCounts": {
+                                            "Item": 30,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 5,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "Item": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 7,
+                                        "totalEntities": 45,
+                                        "entityCounts": {
+                                            "Item": 44,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 7,
+                                        "totalEntities": 20,
+                                        "entityCounts": {
+                                            "Item": 19,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 5,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "Item": 9,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 1,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 9,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "ThrownEnderpearl": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 8,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Item": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 8,
+                                        "totalEntities": 33,
+                                        "entityCounts": {
+                                            "Item": 29,
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 9,
+                                        "totalEntities": 33,
+                                        "entityCounts": {
+                                            "Item": 32,
+                                            "ThrownEnderpearl": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 9,
+                                        "totalEntities": 24,
+                                        "entityCounts": {
+                                            "Item": 24
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 10,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 2,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 8,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Item": 2,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 9,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "Item": 17
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "ThrownEnderpearl": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 9,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 4,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 8,
+                                        "totalEntities": 28,
+                                        "entityCounts": {
+                                            "Item": 27,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -9,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 8,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 8,
+                                        "totalEntities": 30,
+                                        "entityCounts": {
+                                            "Item": 30
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 13,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 8,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Item": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 13,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 44,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 17,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 19,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "ItemFrame": 7
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 17,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 18,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 17,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "Item": 12
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 20,
+                                        "totalEntities": 20,
+                                        "entityCounts": {
+                                            "ItemFrame": 20
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 19,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 33,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 32,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 5,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 33,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 33,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "Item": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 117,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": 23,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 2,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 24,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 24,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 25,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 25,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 24,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 25,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 27,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 27,
+                                        "totalEntities": 53,
+                                        "entityCounts": {
+                                            "Item": 52,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 24,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 25,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 26,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 24,
+                                        "totalEntities": 28,
+                                        "entityCounts": {
+                                            "Item": 25,
+                                            "ThrownEnderpearl": 1,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 24,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "Item": 9,
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 28,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Item": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 22,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 23,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": -8,
+                                        "z": 27,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 7,
+                                "chunks": [
+                                    {
+                                        "x": 1,
+                                        "z": 34,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "Item": 7
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": 30,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 27,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": 22,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 7,
+                                        "z": 21,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 22,
+                                        "totalEntities": 20,
+                                        "entityCounts": {
+                                            "Item": 20
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 9,
+                                        "z": 43,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 42,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 207,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 20,
+                                        "totalEntities": 34,
+                                        "entityCounts": {
+                                            "Item": 34
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 20,
+                                        "totalEntities": 21,
+                                        "entityCounts": {
+                                            "Item": 17,
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 19,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 21,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 18,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 18,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "Item": 15
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 16,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "Item": 15
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 20,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 4,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 17,
+                                        "totalEntities": 20,
+                                        "entityCounts": {
+                                            "Item": 20
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 21,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Item": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 19,
+                                        "totalEntities": 38,
+                                        "entityCounts": {
+                                            "Item": 38
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 18,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 20,
+                                        "totalEntities": 40,
+                                        "entityCounts": {
+                                            "Item": 40
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 19,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 6
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 34,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 25,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 12,
+                                        "totalEntities": 24,
+                                        "entityCounts": {
+                                            "Item": 24
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": -3,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": -2,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 12,
+                                        "z": 22,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 23,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 22,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ThrownEnderpearl": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 14,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 31,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 30,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 51,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 4,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 51,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 2,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 52,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 22,
+                                "chunks": [
+                                    {
+                                        "x": 1,
+                                        "z": 12,
+                                        "totalEntities": 22,
+                                        "entityCounts": {
+                                            "Item": 22
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -12,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "XPOrb": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -10,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 47,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 47,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 29,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 6,
+                                        "z": 44,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": 20,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 8,
+                                "chunks": [
+                                    {
+                                        "x": -12,
+                                        "z": 27,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 4,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -13,
+                                        "z": 27,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ]
+            }
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 32,
+                "processUsage": {
+                    "last1m": 0.09271266816145847,
+                    "last15m": 0.07953713452120673
+                },
+                "systemUsage": {
+                    "last1m": 0.14593180646103962,
+                    "last15m": 0.12544965696851515
+                },
+                "modelName": "AMD Ryzen 9 7950X3D 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 65605353472,
+                    "total": 201746706432
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 8589930496
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 455,
+                    "avgTime": 35.151648351648355,
+                    "avgFrequency": 3591
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 231691067392,
+                "total": 3935709487104
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-116-generic"
+            },
+            "java": {
+                "vendor": "Ubuntu",
+                "version": "17.0.11",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xms8192M -Xmx8192M --add-modules=jdk.incubator.vector -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=28 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:G1MixedGCCountTarget=3 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=90 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -XX:+PerfDisableSharedMem -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5 -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:+UseNUMA -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:AllocatePrefetchStyle=3 -XX:+AlwaysActAsServerClassMachine -XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2M -XX:+UseLargePages -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -Dgraal.LoopRotation=true -Dgraal.OptWriteMotion=true -Dgraal.CompilerConfiguration=enterprise"
+            },
+            "uptime": 1650064,
+            "net": {
+                "enp5s0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "enx12ad292a4cf0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 10817098.466666667,
+                        "max": 12595291,
+                        "min": 9640653,
+                        "median": 10809956,
+                        "percentile95": 12595291
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 10817098.466666667,
+                        "max": 12595291,
+                        "min": 9640653,
+                        "median": 10809956,
+                        "percentile95": 12595291
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 142294.33333333334,
+                        "max": 167928,
+                        "min": 126385,
+                        "median": 141250,
+                        "percentile95": 167928
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 142294.33333333334,
+                        "max": 167928,
+                        "min": 126385,
+                        "median": 141250,
+                        "percentile95": 167928
+                    }
+                },
+                "enp6s0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "enp10s0f0np0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "enp10s0f1np1": {
+                    "rxBytesPerSecond": {
+                        "mean": 2590510.8666666667,
+                        "max": 3130420,
+                        "min": 2319109,
+                        "median": 2564216,
+                        "percentile95": 3130420
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 7255701.066666666,
+                        "max": 8616869,
+                        "min": 6544117,
+                        "median": 7185930,
+                        "percentile95": 8616869
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 41614.333333333336,
+                        "max": 50528,
+                        "min": 37236,
+                        "median": 41248,
+                        "percentile95": 50528
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 72786.8,
+                        "max": 89530,
+                        "min": 64461,
+                        "median": 72199,
+                        "percentile95": 89530
+                    }
+                },
+                "docker0": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Ubuntu",
+                "version": "17.0.11+9-Ubuntu-122.04.1"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "view-distance": 4,
+                "max-build-height": 256,
+                "gamemode": 0,
+                "server-port": 40002,
+                "enable-command-block": false,
+                "allow-nether": true,
+                "enable-rcon": false,
+                "op-permission-level": 4,
+                "enable-query": false,
+                "generator-settings": "",
+                "player-idle-timeout": 0,
+                "level-name": "world",
+                "announce-player-achievements": false,
+                "force-gamemode": false,
+                "debug": false,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "pvp": true,
+                "spawn-npcs": true,
+                "generate-structures": true,
+                "spawn-animals": true,
+                "snooper-enabled": true,
+                "difficulty": 1,
+                "network-compression-threshold": 256,
+                "level-type": "DEFAULT",
+                "spawn-monsters": true,
+                "use-native-transport": true,
+                "max-players": 2000,
+                "spawn-protection": 16,
+                "online-mode": false,
+                "allow-flight": false,
+                "resource-pack-hash": "",
+                "max-world-size": 29999984
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": true,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default"
+                },
+                "spawn-limits": {
+                    "monsters": 70,
+                    "animals": 15,
+                    "water-animals": 5,
+                    "ambient": 15
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 600,
+                    "load-threshold": 0
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 1,
+                    "autosave": 6000
+                },
+                "aliases": "now-in-commands.yml"
+            },
+            "spigot.yml": {
+                "config-version": 8,
+                "settings": {
+                    "debug": false,
+                    "save-user-cache-on-stop-only": false,
+                    "bungeecord": true,
+                    "late-bind": false,
+                    "sample-count": 12,
+                    "player-shuffle": 0,
+                    "filter-creative-items": true,
+                    "user-cache-size": 1000,
+                    "int-cache-limit": 1024,
+                    "moved-wrongly-threshold": 0.0625,
+                    "moved-too-quickly-threshold": 100.0,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 4,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    }
+                },
+                "timings": {
+                    "enabled": false,
+                    "verbose": true,
+                    "hidden-config-entries": [
+                        "database",
+                        "settings.bungeecord-addresses"
+                    ],
+                    "history-interval": 300,
+                    "history-length": 3600
+                },
+                "commands": {
+                    "tab-complete": 0,
+                    "log": true,
+                    "spam-exclusions": [
+                        "/skill"
+                    ],
+                    "silent-commandblock-console": false,
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ]
+                },
+                "stats": {
+                    "disable-saving": false
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "merge-radius": {
+                            "exp": 3.0,
+                            "item": 2.5
+                        },
+                        "chunks-per-tick": 650,
+                        "clear-tick-list": false,
+                        "mob-spawn-range": 4,
+                        "anti-xray": {
+                            "enabled": true,
+                            "engine-mode": 1,
+                            "hide-blocks": [
+                                14,
+                                15,
+                                16,
+                                21,
+                                48,
+                                49,
+                                54,
+                                56,
+                                73,
+                                74,
+                                82,
+                                129,
+                                130
+                            ],
+                            "replace-blocks": [
+                                1,
+                                5
+                            ]
+                        },
+                        "nerf-spawner-mobs": false,
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 32,
+                            "monsters": 32,
+                            "misc": 16
+                        },
+                        "entity-tracking-range": {
+                            "players": 48,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "other": 64
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 8
+                        },
+                        "hopper-amount": 1,
+                        "random-light-updates": false,
+                        "save-structure-info": true,
+                        "max-bulk-chunks": 10,
+                        "max-entity-collisions": 8,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "walk-exhaustion": 0.2,
+                            "sprint-exhaustion": 0.8,
+                            "combat-exhaustion": 0.3,
+                            "regen-exhaustion": 3.0
+                        },
+                        "max-tnt-per-tick": 100,
+                        "max-tick-time": {
+                            "tile": 50,
+                            "entity": 50
+                        },
+                        "item-despawn-rate": 6000,
+                        "arrow-despawn-rate": 1200,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "wither-spawn-sound-radius": 0,
+                        "view-distance": 4,
+                        "hanging-tick-frequency": 100,
+                        "zombie-aggressive-towards-villager": true
+                    }
+                }
+            },
+            "paper.yml": {
+                "config-version": 9,
+                "settings": {
+                    "baby-zombie-movement-speed": 0.5,
+                    "limit-player-interactions": true
+                },
+                "effect-modifiers": {
+                    "strength": 0.3,
+                    "weakness": -0.5
+                },
+                "warnWhenSettingExcessiveVelocity": true,
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "allow-block-location-tab-completion": true,
+                        "keep-spawn-loaded": true,
+                        "portal-search-radius": 128,
+                        "disable-thunder": false,
+                        "disable-ice-and-snow": false,
+                        "tick-next-tick-list-cap": 10000,
+                        "tick-next-tick-list-cap-ignores-redstone": false,
+                        "generator-settings": {
+                            "canyon": true,
+                            "caves": true,
+                            "dungeon": true,
+                            "fortress": true,
+                            "mineshaft": true,
+                            "monument": true,
+                            "stronghold": true,
+                            "temple": true,
+                            "village": true,
+                            "flat-bedrock": false
+                        },
+                        "falling-blocks-collide-with-signs": false,
+                        "disable-mood-sounds": false,
+                        "cache-chunk-maps": false,
+                        "remove-invalid-mob-spawner-tile-entities": true,
+                        "tnt-explosion-volume": 4.0,
+                        "optimize-explosions": true,
+                        "player-blocking-damage-multiplier": 0.5,
+                        "mob-spawner-tick-rate": 1,
+                        "squid-spawn-height": {
+                            "minimum": 45.0,
+                            "maximum": 63.0
+                        },
+                        "max-growth-height": {
+                            "cactus": 3,
+                            "reeds": 3
+                        },
+                        "fishing-time-range": {
+                            "MinimumTicks": 100,
+                            "MaximumTicks": 900
+                        },
+                        "player-exhaustion": {
+                            "block-break": 0.02500000037252903,
+                            "swimming": 0.014999999664723873
+                        },
+                        "despawn-ranges": {
+                            "soft": 32,
+                            "hard": 128
+                        },
+                        "falling-block-height-nerf": 0,
+                        "remove-unloaded": {
+                            "enderpearls": true,
+                            "tnt-entities": true,
+                            "falling-blocks": true
+                        },
+                        "game-mechanics": {
+                            "boats-drop-boats": false,
+                            "disable-player-crits": false,
+                            "disable-chest-cat-detection": false,
+                            "disable-end-credits": true
+                        },
+                        "nether-ceiling-void-damage": false,
+                        "load-chunks": {
+                            "enderpearls": false,
+                            "tnt-entities": false,
+                            "falling-blocks": false
+                        },
+                        "lava-flow-speed": {
+                            "normal": 30,
+                            "nether": 10
+                        },
+                        "fast-drain": {
+                            "lava": false,
+                            "water": false
+                        },
+                        "fix-cannons": false,
+                        "disable-explosion-knockback": false,
+                        "water-over-lava-flow-speed": 5,
+                        "tnt-entity-height-nerf": 0,
+                        "use-hopper-check": false,
+                        "all-chunks-are-slime-chunks": false,
+                        "allow-undead-horse-leashing": false,
+                        "container-update-tick-rate": 1
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                33
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1722195347401,
+        "numberOfTicks": 32793,
+        "plugins": {
+            "coreprotect": {
+                "name": "CoreProtect",
+                "version": "2.10.0"
+            },
+            "apollo-bukkit": {
+                "name": "Apollo-Bukkit",
+                "version": "1.1.4"
+            },
+            "fastasyncworldedit": {
+                "name": "FastAsyncWorldEdit",
+                "version": "22.05.10-d02d089-1290-22.5.0"
+            },
+            "tebex": {
+                "name": "Tebex",
+                "version": "2.0.5"
+            },
+            "placeholderapi": {
+                "name": "PlaceholderAPI",
+                "version": "2.11.3"
+            },
+            "viaversion": {
+                "name": "ViaVersion",
+                "version": "4.5.1"
+            },
+            "vault": {
+                "name": "Vault",
+                "version": "1.7.3-b131"
+            },
+            "protocollib": {
+                "name": "ProtocolLib",
+                "version": "5.2.0-SNAPSHOT-679"
+            },
+            "viarewind": {
+                "name": "ViaRewind",
+                "version": "2.0.2"
+            },
+            "worldedit": {
+                "name": "WorldEdit",
+                "version": "6.1.9;caf0ad9"
+            },
+            "deluxemenus": {
+                "name": "DeluxeMenus",
+                "version": "1.10.5"
+            },
+            "packetevents": {
+                "name": "packetevents",
+                "version": "2.3.1"
+            },
+            "lpx": {
+                "name": "LPX",
+                "version": "3.4.8"
+            },
+            "libraries": {
+                "name": "Libraries",
+                "version": "2.0"
+            },
+            "core": {
+                "name": "Core",
+                "version": "1.2"
+            },
+            "enchants": {
+                "name": "Enchants",
+                "version": "${git.build.version}-${git.commit.id.abbrev}"
+            },
+            "sodium": {
+                "name": "Sodium",
+                "version": "${git.build.version}-${git.commit.id.abbrev}"
+            },
+            "crates": {
+                "name": "Crates",
+                "version": "${git.build.version}-${git.commit.id.abbrev}"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.86"
+            }
+        },
+        "samplerMode": 0
+    }
+}

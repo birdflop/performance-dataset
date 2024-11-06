@@ -1,0 +1,1365 @@
+{
+    "metadata": {
+        "startTime": 1730238922668,
+        "interval": 10000,
+        "platform": {
+            "type": 0,
+            "version": "git-iSpigot-PaperEdition (MC: 1.8.8)",
+            "minecraftVersion": "v1_8_R3",
+            "sparkVersion": 2,
+            "brand": "CraftBukkit"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 1294141640,
+                    "committed": 2250244096,
+                    "init": 134217728,
+                    "max": 5736235008
+                },
+                "nonHeap": {
+                    "used": 339150472,
+                    "committed": 367419392,
+                    "init": 2555904,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 384020312,
+                            "committed": 1076887552,
+                            "init": 34078720,
+                            "max": 1693450240
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 1076887552,
+                            "init": 34078720,
+                            "max": 1693450240
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 86308656,
+                            "committed": 86507520,
+                            "init": 5242880,
+                            "max": 86507520
+                        },
+                        "collectionUsage": {
+                            "used": 86308656,
+                            "committed": 86507520,
+                            "init": 5242880,
+                            "max": 86507520
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 824579784,
+                            "committed": 1086849024,
+                            "init": 89653248,
+                            "max": 4302307328
+                        },
+                        "collectionUsage": {
+                            "used": 819757152,
+                            "committed": 1086849024,
+                            "init": 89653248,
+                            "max": 4302307328
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "PS Scavenge": {
+                    "total": 14,
+                    "avgTime": 71.71428571428571,
+                    "avgFrequency": 78490
+                },
+                "PS MarkSweep": {
+                    "total": 1,
+                    "avgTime": 3811,
+                    "avgFrequency": 1096064
+                }
+            },
+            "uptime": 1099875,
+            "tps": {
+                "last1m": 20.000185742725,
+                "last5m": 20.00000385120074,
+                "last15m": 20.00001552854539
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 20.18888888888889,
+                    "max": 47,
+                    "min": 19,
+                    "median": 19,
+                    "percentile95": 24
+                }
+            },
+            "playerCount": 2,
+            "world": {
+                "totalEntities": 105,
+                "entityCounts": {
+                    "Zombie": 13,
+                    "Creeper": 25,
+                    "unknown[PLAYER]": 7,
+                    "Rabbit": 2,
+                    "Cow": 3,
+                    "Pig": 3,
+                    "Painting": 2,
+                    "Item": 10,
+                    "ArmorStand": 2,
+                    "Bat": 1,
+                    "Enderman": 1,
+                    "Spider": 10,
+                    "Skeleton": 20,
+                    "Witch": 6
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 24,
+                        "regions": [
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Creeper": 1,
+                                            "Zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 8,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 2,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Creeper": 2,
+                                            "Witch": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Zombie": 1,
+                                            "Witch": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Skeleton": 1,
+                                            "Zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 12,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 7,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "Creeper": 2,
+                                            "Skeleton": 4,
+                                            "Spider": 2,
+                                            "Zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Creeper": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 35,
+                        "regions": [
+                            {
+                                "totalEntities": 14,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ArmorStand": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -7,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Pig": 2,
+                                            "Rabbit": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Cow": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": -8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Cow": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Skeleton": 1,
+                                            "Cow": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 11,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -2,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "Item": 7
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ArmorStand": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": -5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Creeper": 2,
+                                            "Skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Skeleton": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 5,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": -8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Painting": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -7,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Painting": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 1,
+                        "regions": [
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 1,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Bat": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 45,
+                        "regions": [
+                            {
+                                "totalEntities": 45,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 2,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Creeper": 3,
+                                            "Spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 1,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Creeper": 2,
+                                            "Skeleton": 1,
+                                            "Spider": 1,
+                                            "Zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 2,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Creeper": 2,
+                                            "Skeleton": 1,
+                                            "Zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 3,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "Creeper": 4,
+                                            "Spider": 2,
+                                            "Enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Skeleton": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Skeleton": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Creeper": 2,
+                                            "Spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Skeleton": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 2,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "Skeleton": 1,
+                                            "Witch": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Spider": 2
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 64,
+                "processUsage": {
+                    "last1m": 0.0035298927241996683,
+                    "last15m": 0.0034205658101995125
+                },
+                "systemUsage": {
+                    "last1m": 0.25999071504527216,
+                    "last15m": 0.23609136201773737
+                },
+                "modelName": "AMD EPYC 7543P 32-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 482295779328,
+                    "total": 540685488128
+                },
+                "swap": {
+                    "used": 1024454656,
+                    "total": 1024454656
+                }
+            },
+            "gc": {
+                "PS Scavenge": {
+                    "total": 47,
+                    "avgTime": 118.14893617021276,
+                    "avgFrequency": 24653
+                },
+                "PS MarkSweep": {
+                    "total": 7,
+                    "avgTime": 1714.7142857142858,
+                    "avgFrequency": 164607
+                }
+            },
+            "disk": {
+                "used": 990523359232,
+                "total": 1887549632512
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.1.0-13-amd64"
+            },
+            "java": {
+                "vendor": "Temurin",
+                "version": "1.8.0_312",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xms128M -Xmx6154M -Dterminal.jline=false -Dterminal.ansi=true"
+            },
+            "uptime": 1164256,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 121.86666666666666,
+                        "max": 137,
+                        "min": 115,
+                        "median": 120,
+                        "percentile95": 137
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 121.86666666666666,
+                        "max": 137,
+                        "min": 115,
+                        "median": 120,
+                        "percentile95": 137
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 2,
+                        "max": 2,
+                        "min": 2,
+                        "median": 2,
+                        "percentile95": 2
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 2,
+                        "max": 2,
+                        "min": 2,
+                        "median": 2,
+                        "percentile95": 2
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 16886.066666666666,
+                        "max": 28494,
+                        "min": 10952,
+                        "median": 19393,
+                        "percentile95": 28494
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 41262.53333333333,
+                        "max": 60418,
+                        "min": 21882,
+                        "median": 48114,
+                        "percentile95": 60418
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 248.33333333333334,
+                        "max": 330,
+                        "min": 157,
+                        "median": 301,
+                        "percentile95": 330
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 379.26666666666665,
+                        "max": 533,
+                        "min": 226,
+                        "median": 464,
+                        "percentile95": 533
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Temurin",
+                "version": "25.312-b07"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "view-distance": 2,
+                "max-build-height": 256,
+                "server-port": 25607,
+                "enable-command-block": false,
+                "mob-griefing": false,
+                "gamemode": 0,
+                "allow-nether": false,
+                "enable-rcon": false,
+                "op-permission-level": 4,
+                "enable-query": false,
+                "tnt-explosions": false,
+                "generator-settings": "",
+                "server-id": "unnamed",
+                "level-name": "world",
+                "player-idle-timeout": 0,
+                "announce-player-achievements": false,
+                "query.port": 25607,
+                "debug": false,
+                "force-gamemode": false,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "pvp": false,
+                "spawn-npcs": false,
+                "generate-structures": false,
+                "spawn-animals": false,
+                "snooper-enabled": true,
+                "difficulty": 1,
+                "network-compression-threshold": 256,
+                "level-type": "DEFAULT",
+                "spawn-monsters": false,
+                "use-native-transport": true,
+                "max-players": 20,
+                "spawn-protection": 16,
+                "online-mode": true,
+                "allow-flight": false,
+                "max-world-size": 29999984,
+                "resource-pack-hash": ""
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": true,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": -1,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default",
+                    "ping-packet-limit": 100,
+                    "use-exact-login-location": false
+                },
+                "spawn-limits": {
+                    "monsters": 15,
+                    "animals": 5,
+                    "water-animals": 5,
+                    "ambient": 1
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 400,
+                    "load-threshold": 0
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 4,
+                    "autosave": 6000
+                },
+                "aliases": "now-in-commands.yml",
+                "auto-updater": {
+                    "enabled": true,
+                    "on-broken": [
+                        "warn-console",
+                        "warn-ops"
+                    ],
+                    "on-update": [
+                        "warn-console",
+                        "warn-ops"
+                    ],
+                    "preferred-channel": "rb",
+                    "suggest-channels": true
+                }
+            },
+            "spigot.yml": {
+                "config-version": 8,
+                "stats": {
+                    "disable-saving": false
+                },
+                "settings": {
+                    "save-user-cache-on-stop-only": false,
+                    "bungeecord": false,
+                    "late-bind": false,
+                    "sample-count": 12,
+                    "player-shuffle": 0,
+                    "filter-creative-items": true,
+                    "user-cache-size": 1000,
+                    "int-cache-limit": 1024,
+                    "moved-wrongly-threshold": 0.0625,
+                    "moved-too-quickly-threshold": 100.0,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 5,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2020.0
+                        }
+                    },
+                    "debug": false,
+                    "limit-player-interactions": true,
+                    "baby-zombie-movement-speed": 0.5,
+                    "global-api-cache": false
+                },
+                "timings": {
+                    "enabled": true,
+                    "verbose": true,
+                    "hidden-config-entries": [
+                        "database",
+                        "settings.bungeecord-addresses"
+                    ],
+                    "history-interval": 300,
+                    "history-length": 3600
+                },
+                "commands": {
+                    "tab-complete": 0,
+                    "spam-exclusions": [
+                        "/skill"
+                    ],
+                    "silent-commandblock-console": false,
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ],
+                    "log": true
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "nerf-spawner-mobs": false,
+                        "anti-xray": {
+                            "enabled": true,
+                            "engine-mode": 1,
+                            "hide-blocks": [
+                                14,
+                                15,
+                                16,
+                                21,
+                                48,
+                                49,
+                                54,
+                                56,
+                                73,
+                                74,
+                                82,
+                                129,
+                                130
+                            ],
+                            "replace-blocks": [
+                                1,
+                                5
+                            ]
+                        },
+                        "mob-spawn-range": 4,
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 16,
+                            "monsters": 16,
+                            "misc": 12
+                        },
+                        "entity-tracking-range": {
+                            "players": 48,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "other": 64
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 8
+                        },
+                        "hopper-amount": 1,
+                        "random-light-updates": false,
+                        "save-structure-info": true,
+                        "max-bulk-chunks": 10,
+                        "max-entity-collisions": 2,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "walk-exhaustion": 0.2,
+                            "sprint-exhaustion": 0.8,
+                            "combat-exhaustion": 0.3,
+                            "regen-exhaustion": 3.0
+                        },
+                        "max-tnt-per-tick": 0,
+                        "max-tick-time": {
+                            "tile": 50,
+                            "entity": 50
+                        },
+                        "hanging-tick-frequency": 100,
+                        "zombie-aggressive-towards-villager": true,
+                        "item-despawn-rate": 6000,
+                        "merge-radius": {
+                            "item": 4,
+                            "exp": 6
+                        },
+                        "wither-spawn-sound-radius": 0,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "view-distance": 5,
+                        "chunks-per-tick": 650,
+                        "clear-tick-list": false,
+                        "arrow-despawn-rate": 300,
+                        "hopper-alt-ticking": false
+                    }
+                },
+                "effect-modifiers": {
+                    "strength": 1.3,
+                    "weakness": -0.5
+                },
+                "stackable-buckets": {
+                    "lava": false,
+                    "water": false,
+                    "milk": false
+                },
+                "warnWhenSettingExcessiveVelocity": true
+            },
+            "paper.yml": {
+                "config-version": 9,
+                "settings": {
+                    "baby-zombie-movement-speed": 0.5,
+                    "limit-player-interactions": true
+                },
+                "warnWhenSettingExcessiveVelocity": true,
+                "effect-modifiers": {
+                    "strength": 1.3,
+                    "weakness": -0.5
+                },
+                "stackable-buckets": {
+                    "lava": false,
+                    "water": false,
+                    "milk": false
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "generator-settings": {
+                            "canyon": true,
+                            "caves": true,
+                            "dungeon": true,
+                            "fortress": true,
+                            "mineshaft": true,
+                            "monument": true,
+                            "stronghold": true,
+                            "temple": true,
+                            "village": true,
+                            "flat-bedrock": false
+                        },
+                        "allow-block-location-tab-completion": true,
+                        "remove-invalid-mob-spawner-tile-entities": true,
+                        "cache-chunk-maps": false,
+                        "tnt-explosion-volume": 0,
+                        "optimize-explosions": false,
+                        "player-blocking-damage-multiplier": 0.5,
+                        "mob-spawner-tick-rate": 1,
+                        "squid-spawn-height": {
+                            "minimum": 45.0,
+                            "maximum": 63.0
+                        },
+                        "max-growth-height": {
+                            "cactus": 3,
+                            "reeds": 3
+                        },
+                        "fishing-time-range": {
+                            "MinimumTicks": 100,
+                            "MaximumTicks": 900
+                        },
+                        "player-exhaustion": {
+                            "block-break": 0.02500000037252903,
+                            "swimming": 0.014999999664723873
+                        },
+                        "despawn-ranges": {
+                            "soft": 32,
+                            "hard": 128
+                        },
+                        "falling-block-height-nerf": 0,
+                        "remove-unloaded": {
+                            "enderpearls": true,
+                            "tnt-entities": true,
+                            "falling-blocks": true
+                        },
+                        "game-mechanics": {
+                            "boats-drop-boats": false,
+                            "disable-player-crits": false,
+                            "disable-chest-cat-detection": false,
+                            "disable-end-credits": false
+                        },
+                        "nether-ceiling-void-damage": false,
+                        "load-chunks": {
+                            "enderpearls": false,
+                            "tnt-entities": false,
+                            "falling-blocks": false
+                        },
+                        "fast-drain": {
+                            "lava": false,
+                            "water": false
+                        },
+                        "lava-flow-speed": {
+                            "normal": 30,
+                            "nether": 10
+                        },
+                        "allow-undead-horse-leashing": false,
+                        "all-chunks-are-slime-chunks": false,
+                        "disable-explosion-knockback": false,
+                        "fix-cannons": false,
+                        "water-over-lava-flow-speed": 5,
+                        "container-update-tick-rate": 1,
+                        "use-hopper-check": false,
+                        "keep-spawn-loaded": true,
+                        "falling-blocks-collide-with-signs": false,
+                        "disable-mood-sounds": false,
+                        "portal-search-radius": 128,
+                        "disable-thunder": false,
+                        "disable-ice-and-snow": false,
+                        "tick-next-tick-list-cap": 10000,
+                        "tick-next-tick-list-cap-ignores-redstone": false,
+                        "tnt-entity-height-nerf": 0,
+                        "use-async-lighting": false,
+                        "disable-teleportation-suffocation-check": false
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                36
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1730240023090,
+        "numberOfTicks": 21882,
+        "plugins": {
+            "lunarclient-api": {
+                "name": "LunarClient-API",
+                "version": "${git.commit.id.abbrev}",
+                "author": "Moonsworth LLC Development Team",
+                "description": "A server interface for the Lunar Client"
+            },
+            "placeholderapi": {
+                "name": "PlaceholderAPI",
+                "version": "2.11.1",
+                "author": "HelpChat",
+                "description": "An awesome placeholder provider!"
+            },
+            "plugman": {
+                "name": "PlugMan",
+                "version": "2.1.6",
+                "author": "rylinaux",
+                "description": "Plugin manager for Bukkit servers"
+            },
+            "holographicdisplays": {
+                "name": "HolographicDisplays",
+                "version": "3.0.0-SNAPSHOT-b205",
+                "author": "filoghost",
+                "description": ""
+            },
+            "quests": {
+                "name": "Quests",
+                "version": "3.9.2",
+                "author": "LMBishop & contributors",
+                "description": ""
+            },
+            "smartinvs": {
+                "name": "SmartInvs",
+                "version": "1.2.7",
+                "author": "MinusKube",
+                "description": "Inventory API for your Bukkit Plugins."
+            },
+            "viaversion": {
+                "name": "ViaVersion",
+                "version": "4.9.2",
+                "author": "_MylesC, creeper123123321, Gerrygames, kennytv, Matsv",
+                "description": "Allow newer clients to join older server versions."
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.98",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "voidgen": {
+                "name": "VoidGen",
+                "version": "2.2.1",
+                "author": "xtkq",
+                "description": ""
+            },
+            "karhuloader": {
+                "name": "KarhuLoader",
+                "version": "1.2",
+                "author": "",
+                "description": ""
+            },
+            "cheatbreakerapi": {
+                "name": "CheatBreakerAPI",
+                "version": "3.0.1",
+                "author": "CheatBreaker & Offline CheatBreaker Development Teams",
+                "description": "CheatBreaker Bukkit API"
+            },
+            "multiverse-core": {
+                "name": "Multiverse-Core",
+                "version": "2.4-b527",
+                "author": "Rigby, fernferret, lithium3141, main--",
+                "description": ""
+            },
+            "protocollib": {
+                "name": "ProtocolLib",
+                "version": "5.2.0-SNAPSHOT-679",
+                "author": "dmulloy2, comphenix",
+                "description": "Provides read/write access to the Minecraft protocol."
+            },
+            "advancedportals": {
+                "name": "AdvancedPortals",
+                "version": "0.0.41",
+                "author": "sekwah41",
+                "description": "An advanced portals plugin for bukkit."
+            },
+            "coldbuygui": {
+                "name": "ColdBuyGUI",
+                "version": "1.4",
+                "author": "",
+                "description": ""
+            },
+            "fastasyncworldedit": {
+                "name": "FastAsyncWorldEdit",
+                "version": "19.11.13-5505943-1282-22.3.5",
+                "author": "Empire92",
+                "description": "Fast Async WorldEdit plugin"
+            },
+            "vouchers": {
+                "name": "Vouchers",
+                "version": "1.9.10.1",
+                "author": "BadBones69",
+                "description": "Want to make a paper that can give you an axolotl with a pretty firework display, Look no further!"
+            },
+            "keeptheweather": {
+                "name": "KeepTheWeather",
+                "version": "1.0",
+                "author": "AFlameGame",
+                "description": ""
+            },
+            "vault": {
+                "name": "Vault",
+                "version": "1.5.6-b49",
+                "author": "cereal, Sleaker, mung3r",
+                "description": "Vault is a Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves."
+            },
+            "viarewind": {
+                "name": "ViaRewind",
+                "version": "3.0.5",
+                "author": "Gerrygames, FlorianMichael/EnZaXD, creeper123321123",
+                "description": ""
+            },
+            "mines": {
+                "name": "Mines",
+                "version": "4.10.11",
+                "author": "[AsylumDevs]",
+                "description": ""
+            },
+            "simplerename": {
+                "name": "SimpleRename",
+                "version": "13.9",
+                "author": "Galaipa, EnergizerBEAST1, ScarabCoder",
+                "description": "Simple plugin to rename and relore items"
+            },
+            "mobloot": {
+                "name": "MobLoot",
+                "version": "2.1.6",
+                "author": "InfoPaste",
+                "description": "Control items/money mobs drop"
+            },
+            "playervaults": {
+                "name": "PlayerVaults",
+                "version": "4.2.14",
+                "author": "drtshock, kashike, mbaxter",
+                "description": ""
+            },
+            "worldedit": {
+                "name": "WorldEdit",
+                "version": "6.1.7;dd00bb1",
+                "author": "",
+                "description": ""
+            },
+            "lpx": {
+                "name": "LPX",
+                "version": "3.4.11",
+                "author": "Ytnoos",
+                "description": "Blazingly stable anti exploit 1.8-1.19"
+            },
+            "headdatabase": {
+                "name": "HeadDatabase",
+                "version": "4.18.0",
+                "author": "Arcaniax",
+                "description": ""
+            },
+            "buycraftx": {
+                "name": "BuycraftX",
+                "version": "12.0.8",
+                "author": "Buycraft",
+                "description": ""
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.4.7",
+                "author": "Ruan",
+                "description": "Lightweight banning plugin with full UUID support."
+            },
+            "discordsrv": {
+                "name": "DiscordSRV",
+                "version": "1.27.0",
+                "author": "Scarsz, Androkai, Vankka",
+                "description": "The most powerful, configurable, open-source Discord bridge plugin out there."
+            },
+            "tab": {
+                "name": "TAB",
+                "version": "4.1.2",
+                "author": "NEZNAMY",
+                "description": "An all-in-one solution that works"
+            },
+            "worldguard": {
+                "name": "WorldGuard",
+                "version": "6.1",
+                "author": "",
+                "description": ""
+            },
+            "mobstacker": {
+                "name": "MobStacker",
+                "version": "2.0.0",
+                "author": "KiwiFisher",
+                "description": ""
+            },
+            "crazyenvoys": {
+                "name": "CrazyEnvoys",
+                "version": "1.4.17.3",
+                "author": "BadBones69",
+                "description": "Drop custom crates with any prize you want all over spawn for players to fight over."
+            },
+            "silkspawners": {
+                "name": "SilkSpawners",
+                "version": "8.0.0",
+                "author": "xGhOsTkiLLeRx, mushroomhostage",
+                "description": "pick up and move monster spawners using silk touch"
+            },
+            "citizens": {
+                "name": "Citizens",
+                "version": "2.0.33-SNAPSHOT (build 3287)",
+                "author": "fullwall",
+                "description": ""
+            },
+            "shopkeepers": {
+                "name": "Shopkeepers",
+                "version": "1.81",
+                "author": "nisovin, blablubbabc",
+                "description": "Custom villager shopkeepers"
+            },
+            "cratereloaded": {
+                "name": "CrateReloaded",
+                "version": "1.3.79",
+                "author": "Bart bartrawr@gmail.com",
+                "description": ""
+            },
+            "boss": {
+                "name": "Boss",
+                "version": "4.10.3",
+                "author": "kangarko",
+                "description": ""
+            },
+            "beautyquests": {
+                "name": "BeautyQuests",
+                "version": "1.0.2",
+                "author": "SkytAsul",
+                "description": "Quests system with a simple graphical interface."
+            },
+            "shopguiplus": {
+                "name": "ShopGUIPlus",
+                "version": "1.94.0",
+                "author": "brc",
+                "description": ""
+            },
+            "deluxemenus": {
+                "name": "DeluxeMenus",
+                "version": "1.13.3-Release",
+                "author": "extended_clip, Glare",
+                "description": "All in one inventory menu system"
+            },
+            "crazyauctions": {
+                "name": "CrazyAuctions",
+                "version": "1.2.19",
+                "author": "BadBones69",
+                "description": "A plugin to auction off items globally."
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.116",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "metadata": {
+        "startTime": 1720317586207,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "1.21-R0.1-SNAPSHOT",
+            "minecraftVersion": "",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 1142926336,
+                    "total": 2759852032
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 4,
+                    "avgTime": 9.5,
+                    "avgFrequency": 9475792
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 37903206,
+            "ping": {
+                "last15m": {
+                    "mean": 20.68888888888889,
+                    "max": 24,
+                    "min": 17,
+                    "median": 21,
+                    "percentile95": 23
+                }
+            },
+            "playerCount": 86
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 8,
+                "processUsage": {
+                    "last1m": 0.20372777714342125,
+                    "last15m": 0.14864080831318102
+                },
+                "systemUsage": {
+                    "last1m": 0.5446253658794161,
+                    "last15m": 0.4855637673371156
+                },
+                "modelName": ""
+            },
+            "memory": {
+                "physical": {
+                    "used": 15087333376,
+                    "total": 25152327680
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 3277,
+                    "avgTime": 6.197741837046078,
+                    "avgFrequency": 11571
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 59567079424,
+                "total": 103859404800
+            },
+            "os": {
+                "arch": "aarch64",
+                "version": "5.15.0-1062-oracle"
+            },
+            "java": {
+                "vendor": "GraalVM Community",
+                "version": "17.0.9",
+                "vendorVersion": "GraalVM CE 17.0.9+9.1"
+            },
+            "uptime": 37941069,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 32.86666666666667,
+                        "max": 69,
+                        "min": 6,
+                        "median": 31,
+                        "percentile95": 69
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 32.86666666666667,
+                        "max": 69,
+                        "min": 6,
+                        "median": 31,
+                        "percentile95": 69
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0.06666666666666667,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0.06666666666666667,
+                        "max": 1,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 1
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 7540946.733333333,
+                        "max": 9973096,
+                        "min": 6034013,
+                        "median": 7282999,
+                        "percentile95": 9973096
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1287557.9333333333,
+                        "max": 1423190,
+                        "min": 1155833,
+                        "median": 1290191,
+                        "percentile95": 1423190
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 14371.866666666667,
+                        "max": 15157,
+                        "min": 13473,
+                        "median": 14378,
+                        "percentile95": 15157
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 11702.066666666668,
+                        "max": 12232,
+                        "min": 11127,
+                        "median": 11710,
+                        "percentile95": 12232
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1720317626817,
+        "numberOfTicks": 0,
+        "plugins": {
+            "module-kick": {
+                "name": "module-kick",
+                "version": "3.8.7"
+            },
+            "module-send": {
+                "name": "module-send",
+                "version": "3.8.7"
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.15.1"
+            },
+            "banswebhook": {
+                "name": "BansWebhook",
+                "version": "2.0"
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b109-49bd564)"
+            },
+            "nlogin": {
+                "name": "nLogin",
+                "version": "10.3.28"
+            },
+            "geyser-bungeecord": {
+                "name": "Geyser-BungeeCord",
+                "version": "2.4.0-SNAPSHOT"
+            },
+            "cleanmotd": {
+                "name": "CleanMOTD",
+                "version": "0.2.8"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.73"
+            },
+            "skinsrestorer": {
+                "name": "SkinsRestorer",
+                "version": "15.0.15"
+            },
+            "nullcordx-bridge": {
+                "name": "NullCordX-Bridge",
+                "version": "3.8.7"
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.134"
+            },
+            "pay2ply": {
+                "name": "Pay2Ply",
+                "version": "0.0.1"
+            }
+        },
+        "samplerMode": 0
+    }
+}

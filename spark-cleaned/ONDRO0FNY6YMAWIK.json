@@ -1,0 +1,1826 @@
+{
+    "metadata": {
+        "startTime": 1719040320301,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "47.2.32",
+            "minecraftVersion": "1.20.1",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 3744068200,
+                    "total": 17179869184
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 1290438,
+            "tps": {
+                "last1m": 19.999975715696152,
+                "last5m": 20.00000025766667,
+                "last15m": 20.0000001372
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 3.2006898475,
+                    "max": 8.924946,
+                    "min": 2.748105,
+                    "median": 3.075521,
+                    "percentile95": 3.970105
+                },
+                "last5m": {
+                    "mean": 3.0572881731666666,
+                    "max": 116.14945,
+                    "min": 2.37926,
+                    "median": 2.932512,
+                    "percentile95": 3.915543
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 39.111111111111114,
+                    "max": 40,
+                    "min": 38,
+                    "median": 39,
+                    "percentile95": 40
+                }
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 211,
+                "entityCounts": {
+                    "minecraft:skeleton": 19,
+                    "productivebees:mason_bee": 2,
+                    "ars_nouveau:starbuncle": 3,
+                    "productivebees:bumble_bee": 2,
+                    "minecraft:glow_squid": 5,
+                    "minecraft:cow": 3,
+                    "minecraft:spider": 12,
+                    "minecraft:chest_minecart": 9,
+                    "minecraft:creeper": 17,
+                    "ars_nouveau:drygmy": 5,
+                    "minecraft:bee": 7,
+                    "ars_nouveau:whirlisprig": 4,
+                    "productivebees:digger_bee": 2,
+                    "productivebees:configurable_bee": 15,
+                    "minecraft:bat": 16,
+                    "productivebees:green_carpenter_bee": 1,
+                    "minecraft:phantom": 2,
+                    "minecraft:player": 1,
+                    "minecraft:witch": 2,
+                    "minecraft:pig": 4,
+                    "productivebees:yellow_black_carpenter_bee": 3,
+                    "create:stationary_contraption": 2,
+                    "minecraft:enderman": 13,
+                    "minecraft:zombie": 19,
+                    "minecraft:item": 43
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 15,
+                        "regions": [
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -6,
+                                        "z": -10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -10,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 1,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": -1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -8,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -8,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:configurable_bee": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 196,
+                        "regions": [
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 15,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 9,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 4,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:bee": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": 13,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 13,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 20,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 27,
+                                        "z": 22,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:yellow_black_carpenter_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 88,
+                                "chunks": [
+                                    {
+                                        "x": 16,
+                                        "z": 16,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 21,
+                                        "z": 20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 21,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 16,
+                                        "z": 17,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 17,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 22,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 16,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 23,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 19,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 18,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1,
+                                            "minecraft:glow_squid": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 21,
+                                        "z": 17,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 16,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "productivebees:green_carpenter_bee": 1,
+                                            "productivebees:yellow_black_carpenter_bee": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 17,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 2,
+                                            "minecraft:spider": 1,
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 19,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "ars_nouveau:starbuncle": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 17,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 16,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:bat": 2,
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:enderman": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 21,
+                                        "z": 18,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 1,
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 19,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 16,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1,
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 24,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 24,
+                                        "z": 14,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 15,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:bat": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 14,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1,
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 12,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1,
+                                            "minecraft:skeleton": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 15,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:bat": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 21,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 10,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:yellow_black_carpenter_bee": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 21,
+                                        "z": 14,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 11,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 17,
+                                        "z": 12,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1,
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 14,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 23,
+                                        "z": 10,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1,
+                                            "minecraft:zombie": 2,
+                                            "minecraft:spider": 1,
+                                            "minecraft:enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 18,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 21,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 16,
+                                        "z": 14,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:phantom": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 17,
+                                        "z": 15,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:item": 1,
+                                            "minecraft:zombie": 1,
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 20,
+                                        "z": 10,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:witch": 1,
+                                            "minecraft:bat": 1,
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 18,
+                                        "z": 13,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 19,
+                                        "z": 12,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 22,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 17,
+                                        "z": 14,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 2,
+                                            "create:stationary_contraption": 2,
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 16,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 15,
+                                        "z": 20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:witch": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": 19,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ars_nouveau:whirlisprig": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 43,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 10,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:item": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 11,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:item": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 10,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "minecraft:item": 8
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 11,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 11,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "minecraft:item": 8
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 10,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:item": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 11,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:item": 3,
+                                            "productivebees:digger_bee": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:bumble_bee": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 10,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:item": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": 14,
+                                        "z": 14,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": 15,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": 13,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": 16,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 13,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 7,
+                                "chunks": [
+                                    {
+                                        "x": 17,
+                                        "z": 19,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 17,
+                                        "z": 21,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 17,
+                                        "z": 20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 18,
+                                        "z": 21,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": 22,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 5,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:mason_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:digger_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 12,
+                                        "z": 24,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 4,
+                                        "z": -10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:mason_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": 26,
+                                        "z": 5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:bee": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 15,
+                                        "z": 24,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 8,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "productivebees:bumble_bee": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 13,
+                                        "z": 19,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": 20,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ars_nouveau:drygmy": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 17,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": 23,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ars_nouveau:whirlisprig": 1,
+                                            "ars_nouveau:starbuncle": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 24,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "ars_nouveau:starbuncle": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 24,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ars_nouveau:whirlisprig": 1,
+                                            "ars_nouveau:drygmy": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -6,
+                                        "z": -5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ars_nouveau:drygmy": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -7,
+                                        "z": -5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:cow": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -6,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": 20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 23,
+                                        "z": 24,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:pig": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ]
+            }
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 8,
+                "processUsage": {
+                    "last1m": 0.01266213828313118,
+                    "last15m": 0.012940418676799867
+                },
+                "systemUsage": {
+                    "last1m": 0.01143954541332076,
+                    "last15m": 0.011969206171987915
+                },
+                "modelName": "AMD Ryzen 7 5700X 8-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 19106615296,
+                    "total": 34359738368
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 17179865088
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 17,
+                    "avgTime": 52.88235294117647,
+                    "avgFrequency": 78011
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 5317984256,
+                "total": 137438953472
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.102-1-pve"
+            },
+            "java": {
+                "vendor": "N/A",
+                "version": "17.0.10",
+                "vendorVersion": "unknown"
+            },
+            "uptime": 1327100,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 2339.4,
+                        "max": 3357,
+                        "min": 1461,
+                        "median": 2270,
+                        "percentile95": 3357
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 10896.933333333332,
+                        "max": 28561,
+                        "min": 4936,
+                        "median": 9793,
+                        "percentile95": 28561
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 30.333333333333332,
+                        "max": 42,
+                        "min": 17,
+                        "median": 32,
+                        "percentile95": 42
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 59.06666666666667,
+                        "max": 105,
+                        "min": 29,
+                        "median": 53,
+                        "percentile95": 105
+                    }
+                }
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": false,
+                "gamemode": "survival",
+                "enable-query": false,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "world",
+                "query.port": 25000,
+                "pvp": true,
+                "generate-structures": true,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "normal",
+                "network-compression-threshold": 256,
+                "max-tick-time": 60000,
+                "require-resource-pack": false,
+                "max-players": 20,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": true,
+                "allow-flight": true,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 8,
+                "resource-pack-prompt": "",
+                "allow-nether": true,
+                "server-port": 25579,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "op-permission-level": 4,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 8,
+                "player-idle-timeout": 0,
+                "debug": false,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:normal",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 16,
+                "max-world-size": 29999984
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                77
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1719040324543,
+        "numberOfTicks": 85,
+        "plugins": {
+            "tetra": {
+                "name": "tetra",
+                "version": "6.3.0"
+            },
+            "treechop": {
+                "name": "treechop",
+                "version": "0.18.8"
+            },
+            "betterdungeons": {
+                "name": "betterdungeons",
+                "version": "1.20-Forge-4.0.3"
+            },
+            "notenoughcrashes": {
+                "name": "notenoughcrashes",
+                "version": "4.4.7+1.20.1"
+            },
+            "blue_skies": {
+                "name": "blue_skies",
+                "version": "1.3.31"
+            },
+            "supermartijn642configlib": {
+                "name": "supermartijn642configlib",
+                "version": "1.1.8"
+            },
+            "betterwitchhuts": {
+                "name": "betterwitchhuts",
+                "version": "1.20-Forge-3.0.3"
+            },
+            "netherportalfix": {
+                "name": "netherportalfix",
+                "version": "13.0.1"
+            },
+            "geckolib": {
+                "name": "geckolib",
+                "version": "4.3.1"
+            },
+            "botarium": {
+                "name": "botarium",
+                "version": "2.3.3"
+            },
+            "betteroceanmonuments": {
+                "name": "betteroceanmonuments",
+                "version": "1.20-Forge-3.0.4"
+            },
+            "dynamiclights": {
+                "name": "dynamiclights",
+                "version": "1.7.1+mod"
+            },
+            "underground_bunkers": {
+                "name": "underground_bunkers",
+                "version": "1.0.3"
+            },
+            "xaeroworldmap": {
+                "name": "xaeroworldmap",
+                "version": "1.38.3"
+            },
+            "modernfix": {
+                "name": "modernfix",
+                "version": "5.15.0+mc1.20.1"
+            },
+            "yungsapi": {
+                "name": "yungsapi",
+                "version": "1.20-Forge-4.0.4"
+            },
+            "mixinextras": {
+                "name": "mixinextras",
+                "version": "0.3.5"
+            },
+            "railways": {
+                "name": "railways",
+                "version": "1.6.4+forge-mc1.20.1"
+            },
+            "balm": {
+                "name": "balm",
+                "version": "7.2.2"
+            },
+            "betterfortresses": {
+                "name": "betterfortresses",
+                "version": "1.20-Forge-2.0.6"
+            },
+            "pfm": {
+                "name": "pfm",
+                "version": "1.2.1"
+            },
+            "leavesbegone": {
+                "name": "leavesbegone",
+                "version": "8.0.0"
+            },
+            "emojiful": {
+                "name": "emojiful",
+                "version": "4.2.0"
+            },
+            "structure_gel": {
+                "name": "structure_gel",
+                "version": "2.16.1"
+            },
+            "tetraextras": {
+                "name": "tetraextras",
+                "version": "0.1.4-1.20.1"
+            },
+            "crashutilities": {
+                "name": "crashutilities",
+                "version": "8.1.4"
+            },
+            "chunky": {
+                "name": "chunky",
+                "version": "1.3.136"
+            },
+            "supermartijn642corelib": {
+                "name": "supermartijn642corelib",
+                "version": "1.1.17"
+            },
+            "yungsbridges": {
+                "name": "yungsbridges",
+                "version": "1.20-Forge-4.0.3"
+            },
+            "botania": {
+                "name": "botania",
+                "version": "1.20.1-443-FORGE"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.53"
+            },
+            "curios": {
+                "name": "curios",
+                "version": "5.7.2+1.20.1"
+            },
+            "patchouli": {
+                "name": "patchouli",
+                "version": "1.20.1-84-FORGE"
+            },
+            "collective": {
+                "name": "collective",
+                "version": "7.40"
+            },
+            "yungsextras": {
+                "name": "yungsextras",
+                "version": "1.20-Forge-4.0.3"
+            },
+            "betterstrongholds": {
+                "name": "betterstrongholds",
+                "version": "1.20-Forge-4.0.3"
+            },
+            "resourcefullib": {
+                "name": "resourcefullib",
+                "version": "2.1.24"
+            },
+            "constructionwand": {
+                "name": "constructionwand",
+                "version": "1.20.1-2.11"
+            },
+            "architectury": {
+                "name": "architectury",
+                "version": "9.2.14"
+            },
+            "aiimprovements": {
+                "name": "aiimprovements",
+                "version": "0.5.2"
+            },
+            "productivebees": {
+                "name": "productivebees",
+                "version": "1.20.1-12.5.1"
+            },
+            "betterendisland": {
+                "name": "betterendisland",
+                "version": "1.20-Forge-2.0.6"
+            },
+            "chunkloaders": {
+                "name": "chunkloaders",
+                "version": "1.2.8a"
+            },
+            "bettermineshafts": {
+                "name": "bettermineshafts",
+                "version": "1.20-Forge-4.0.4"
+            },
+            "betterjungletemples": {
+                "name": "betterjungletemples",
+                "version": "1.20-Forge-2.0.4"
+            },
+            "bellsandwhistles": {
+                "name": "bellsandwhistles",
+                "version": "0.4.3-1.20.x"
+            },
+            "rhino": {
+                "name": "rhino",
+                "version": "2001.2.2-build.18"
+            },
+            "ftblibrary": {
+                "name": "ftblibrary",
+                "version": "2001.1.5"
+            },
+            "ftbteams": {
+                "name": "ftbteams",
+                "version": "2001.2.0"
+            },
+            "itemfilters": {
+                "name": "itemfilters",
+                "version": "2001.1.0-build.59"
+            },
+            "productivelib": {
+                "name": "productivelib",
+                "version": "1.20.1-0.0.4"
+            },
+            "jei": {
+                "name": "jei",
+                "version": "15.3.0.4"
+            },
+            "kubejs": {
+                "name": "kubejs",
+                "version": "2001.6.4-build.138"
+            },
+            "attributefix": {
+                "name": "attributefix",
+                "version": "21.0.4"
+            },
+            "travelersbackpack": {
+                "name": "travelersbackpack",
+                "version": "9.1.13"
+            },
+            "pneumaticcraft": {
+                "name": "pneumaticcraft",
+                "version": "6.0.14+mc1.20.1"
+            },
+            "betterdeserttemples": {
+                "name": "betterdeserttemples",
+                "version": "1.20-Forge-3.0.3"
+            },
+            "jeitweaker": {
+                "name": "jeitweaker",
+                "version": "8.0.6"
+            },
+            "terralith": {
+                "name": "terralith",
+                "version": "2.4.11"
+            },
+            "blueprint": {
+                "name": "blueprint",
+                "version": "7.0.3"
+            },
+            "crafttweaker": {
+                "name": "crafttweaker",
+                "version": "14.0.38"
+            },
+            "ars_nouveau": {
+                "name": "ars_nouveau",
+                "version": "4.9.0"
+            },
+            "puzzlesaccessapi": {
+                "name": "puzzlesaccessapi",
+                "version": "8.0.7"
+            },
+            "forge": {
+                "name": "forge",
+                "version": "47.2.32"
+            },
+            "mohist": {
+                "name": "mohist",
+                "version": "1.20.1"
+            },
+            "minecraft": {
+                "name": "minecraft",
+                "version": "1.20.1"
+            },
+            "ftbquests": {
+                "name": "ftbquests",
+                "version": "2001.3.5"
+            },
+            "ftbxmodcompat": {
+                "name": "ftbxmodcompat",
+                "version": "2.1.0"
+            },
+            "immersiveengineering": {
+                "name": "immersiveengineering",
+                "version": "1.20.1-10.1.0-171"
+            },
+            "creativecore": {
+                "name": "creativecore",
+                "version": "2.11.25"
+            },
+            "createtweaker": {
+                "name": "createtweaker",
+                "version": "4.0.9"
+            },
+            "kotlinforforge": {
+                "name": "kotlinforforge",
+                "version": "4.10.0"
+            },
+            "flywheel": {
+                "name": "flywheel",
+                "version": "0.6.10-7"
+            },
+            "compressedcreativity": {
+                "name": "compressedcreativity",
+                "version": "1.20.1-0.1.8.b"
+            },
+            "create": {
+                "name": "create",
+                "version": "0.5.1.f"
+            },
+            "create_structures": {
+                "name": "create_structures",
+                "version": "0.1.1"
+            },
+            "mutil": {
+                "name": "mutil",
+                "version": "6.1.1"
+            },
+            "xaerominimap": {
+                "name": "xaerominimap",
+                "version": "24.1.0"
+            },
+            "jaopca": {
+                "name": "jaopca",
+                "version": "4.4.10.15"
+            },
+            "create_sa": {
+                "name": "create_sa",
+                "version": "2.0.4."
+            },
+            "zeta": {
+                "name": "zeta",
+                "version": "1.0-16"
+            },
+            "quark": {
+                "name": "quark",
+                "version": "4.0-439"
+            },
+            "canary": {
+                "name": "canary",
+                "version": "0.3.3"
+            },
+            "kubejs_create": {
+                "name": "kubejs_create",
+                "version": "2001.2.5-build.2"
+            },
+            "appleskin": {
+                "name": "appleskin",
+                "version": "2.5.1+mc1.20.1"
+            },
+            "puzzleslib": {
+                "name": "puzzleslib",
+                "version": "8.1.18"
+            },
+            "createaddition": {
+                "name": "createaddition",
+                "version": "1.20.1-1.2.2"
+            }
+        },
+        "samplerMode": 0
+    }
+}

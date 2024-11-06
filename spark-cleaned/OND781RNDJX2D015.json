@@ -1,0 +1,212 @@
+{
+    "metadata": {
+        "startTime": 1709824601754,
+        "interval": 10000,
+        "platform": {
+            "type": 0,
+            "version": "2.0.0-SNAPSHOT",
+            "minecraftVersion": "v1.20.60",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 157579512,
+                    "total": 232947712
+                }
+            },
+            "gc": {
+                "Copy": {
+                    "total": 56,
+                    "avgTime": 12.517857142857142,
+                    "avgFrequency": 9843
+                },
+                "MarkSweepCompact": {
+                    "total": 3,
+                    "avgTime": 132,
+                    "avgFrequency": 183847
+                }
+            },
+            "uptime": 551938,
+            "tps": {
+                "last1m": 19.999966272723544,
+                "last5m": 20.00000865573708,
+                "last15m": 20.00012017049982
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 69.83333333333333,
+                    "max": 128,
+                    "min": 65,
+                    "median": 66,
+                    "percentile95": 108
+                }
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 1,
+                "entityCounts": {
+                    "player": 1
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 1,
+                        "regions": [
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 2,
+                "processUsage": {
+                    "last1m": 0.015833333333333335,
+                    "last15m": 0.031066420760738764
+                },
+                "systemUsage": {
+                    "last1m": 0.015805116666666667,
+                    "last15m": 0.031082520034357068
+                },
+                "modelName": "AMD Ryzen 9 3900 12-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 117253779456,
+                    "total": 134982684672
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 512000000
+                }
+            },
+            "gc": {
+                "Copy": {
+                    "total": 64,
+                    "avgTime": 12.59375,
+                    "avgFrequency": 8708
+                },
+                "MarkSweepCompact": {
+                    "total": 5,
+                    "avgTime": 92,
+                    "avgFrequency": 111536
+                }
+            },
+            "disk": {
+                "used": 665879568384,
+                "total": 3743108481024
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.1.0-13-amd64"
+            },
+            "java": {
+                "vendor": "Oracle Corporation",
+                "version": "21.0.1",
+                "vendorVersion": "unknown"
+            },
+            "uptime": 558141,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 0.5555555555555556,
+                        "max": 3,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 3
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0.5555555555555556,
+                        "max": 3,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 3
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 2243.222222222222,
+                        "max": 2632,
+                        "min": 1337,
+                        "median": 2437,
+                        "percentile95": 2632
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1708.888888888889,
+                        "max": 5159,
+                        "min": 1038,
+                        "median": 1109,
+                        "percentile95": 5159
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 19.444444444444443,
+                        "max": 24,
+                        "min": 7,
+                        "median": 22,
+                        "percentile95": 24
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 18.333333333333332,
+                        "max": 23,
+                        "min": 6,
+                        "median": 21,
+                        "percentile95": 23
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                1
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1709825156269,
+        "numberOfTicks": 11039,
+        "plugins": {
+            "spark": {
+                "name": "spark",
+                "version": "1.10.60"
+            },
+            "fastasyncworldedit": {
+                "name": "FastAsyncWorldEdit",
+                "version": "0.0.5-SNAPSHOT"
+            }
+        },
+        "samplerMode": 0
+    }
+}

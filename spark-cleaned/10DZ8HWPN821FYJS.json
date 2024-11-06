@@ -1,0 +1,1863 @@
+{
+    "metadata": {
+        "startTime": 1726652941915,
+        "interval": 10000,
+        "platform": {
+            "type": 0,
+            "version": "git-ketting-1.20.1-0.3.25 (MC: 1.20.1)",
+            "minecraftVersion": "v1_20_R1",
+            "sparkVersion": 2,
+            "brand": "CraftBukkit"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 1784240704,
+                    "committed": 2097152000,
+                    "init": 268435456,
+                    "max": 12582912000
+                },
+                "nonHeap": {
+                    "used": 411337760,
+                    "committed": 426377216,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 687865856,
+                            "committed": 855638016,
+                            "init": 100663296,
+                            "max": 855638016
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 855638016,
+                            "init": 100663296,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 1062820416,
+                            "committed": 1207959552,
+                            "init": 167772160,
+                            "max": 12582912000
+                        },
+                        "collectionUsage": {
+                            "used": 1062820416,
+                            "committed": 1207959552,
+                            "init": 167772160,
+                            "max": 12582912000
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 33554432,
+                            "committed": 33554432,
+                            "init": 0,
+                            "max": 33554432
+                        },
+                        "collectionUsage": {
+                            "used": 33554432,
+                            "committed": 33554432,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 92,
+                    "avgTime": 9.706521739130435,
+                    "avgFrequency": 3010
+                },
+                "G1 Concurrent GC": {
+                    "total": 62,
+                    "avgTime": 4.854838709677419,
+                    "avgFrequency": 4477
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 277886,
+            "tps": {
+                "last1m": 12.755748189694676,
+                "last5m": 17.905135272282955,
+                "last15m": 19.249290602866996
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 386,
+                "entityCounts": {
+                    "chicken": 6,
+                    "item": 20,
+                    "axolotl": 5,
+                    "turtle": 1,
+                    "wolf": 4,
+                    "cow": 18,
+                    "chest_minecart": 11,
+                    "pig": 10,
+                    "horse": 4,
+                    "falling_block": 276,
+                    "skeleton": 8,
+                    "bat": 2,
+                    "zombie": 2,
+                    "glow_squid": 5,
+                    "spider": 3,
+                    "sheep": 8,
+                    "creeper": 2,
+                    "player": 1
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 386,
+                        "regions": [
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 6,
+                                        "z": 6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "horse": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 6,
+                                        "z": 8,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "sheep": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": 5,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "cow": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": -2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "wolf": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 7,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chicken": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": 3,
+                                        "z": -4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "pig": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "pig": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "pig": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": 9,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "turtle": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": -5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "cow": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": 15,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "cow": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -3,
+                                        "z": -6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "sheep": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 256,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 8,
+                                        "totalEntities": 256,
+                                        "entityCounts": {
+                                            "falling_block": 256
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": 10,
+                                        "z": -6,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "pig": 4,
+                                            "cow": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 16,
+                                        "z": -1,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "cow": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": 17,
+                                        "z": -3,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "sheep": 2,
+                                            "wolf": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 9,
+                                "chunks": [
+                                    {
+                                        "x": -165,
+                                        "z": -488,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -164,
+                                        "z": -489,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "skeleton": 7
+                                        }
+                                    },
+                                    {
+                                        "x": -165,
+                                        "z": -489,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 11,
+                                "chunks": [
+                                    {
+                                        "x": -162,
+                                        "z": -484,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "axolotl": 2,
+                                            "glow_squid": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -162,
+                                        "z": -483,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "axolotl": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -163,
+                                        "z": -487,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -162,
+                                        "z": -485,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -163,
+                                        "z": -486,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "creeper": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -161,
+                                        "z": -491,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "axolotl": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -161,
+                                        "z": -487,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "skeleton": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -169,
+                                        "z": -493,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -166,
+                                        "z": -493,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -168,
+                                        "z": -483,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -159,
+                                        "z": -493,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -170,
+                                        "z": -491,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -170,
+                                        "z": -486,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 26,
+                                "chunks": [
+                                    {
+                                        "x": -166,
+                                        "z": -482,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -166,
+                                        "z": -481,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -167,
+                                        "z": -481,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "falling_block": 10
+                                        }
+                                    },
+                                    {
+                                        "x": -168,
+                                        "z": -481,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "falling_block": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -169,
+                                        "z": -480,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -170,
+                                        "z": -479,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -169,
+                                        "z": -481,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "falling_block": 8
+                                        }
+                                    },
+                                    {
+                                        "x": -166,
+                                        "z": -480,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -158,
+                                        "z": -488,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "bat": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -158,
+                                        "z": -486,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "creeper": 1,
+                                            "zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -157,
+                                        "z": -490,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "spider": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -172,
+                                        "z": -490,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -173,
+                                        "z": -489,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "item": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -166,
+                                        "z": -496,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "chicken": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -173,
+                                        "z": -494,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -173,
+                                        "z": -484,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "cow": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": -155,
+                                        "z": -489,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -155,
+                                        "z": -488,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -154,
+                                        "z": -488,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "item": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -153,
+                                        "z": -488,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -166,
+                                        "z": -498,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chicken": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -168,
+                                        "z": -478,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "chest_minecart": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -167,
+                                        "z": -478,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "chest_minecart": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -154,
+                                        "z": -479,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "cow": 4
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ],
+                "gameRules": [
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "world": "65536",
+                            "lobby": "65536",
+                            "world/DIM1": "65536",
+                            "world/lostcities/lostcity": "65536",
+                            "world/DIM-1": "65536"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "24",
+                        "worldValues": {
+                            "world": "24",
+                            "lobby": "24",
+                            "world/DIM1": "24",
+                            "world/lostcities/lostcity": "24",
+                            "world/DIM-1": "24"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "100",
+                        "worldValues": {
+                            "world": "100",
+                            "lobby": "100",
+                            "world/DIM1": "100",
+                            "world/lostcities/lostcity": "100",
+                            "world/DIM-1": "100"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "world": "1",
+                            "lobby": "1",
+                            "world/DIM1": "1",
+                            "world/lostcities/lostcity": "1",
+                            "world/DIM-1": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "lobby": "false",
+                            "world/DIM1": "false",
+                            "world/lostcities/lostcity": "false",
+                            "world/DIM-1": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "3",
+                        "worldValues": {
+                            "world": "3",
+                            "lobby": "3",
+                            "world/DIM1": "3",
+                            "world/lostcities/lostcity": "3",
+                            "world/DIM-1": "3"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "10",
+                        "worldValues": {
+                            "world": "10",
+                            "lobby": "10",
+                            "world/DIM1": "10",
+                            "world/lostcities/lostcity": "10",
+                            "world/DIM-1": "10"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "32768",
+                        "worldValues": {
+                            "world": "32768",
+                            "lobby": "32768",
+                            "world/DIM1": "32768",
+                            "world/lostcities/lostcity": "32768",
+                            "world/DIM-1": "32768"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "lobby": "true",
+                            "world/DIM1": "true",
+                            "world/lostcities/lostcity": "true",
+                            "world/DIM-1": "true"
+                        }
+                    }
+                ],
+                "dataPacks": [
+                    {
+                        "description": "Enables experimental Bundle item",
+                        "source": "feature"
+                    },
+                    {
+                        "description": "Data pack for resources provided by Bukkit plugins",
+                        "source": "world"
+                    },
+                    {
+                        "description": "AntiXray",
+                        "source": "default"
+                    },
+                    {
+                        "description": "betterchunkloading resources",
+                        "source": "default"
+                    },
+                    {
+                        "description": "connectivity resources",
+                        "source": "default"
+                    },
+                    {
+                        "description": "cupboard resources",
+                        "source": "default"
+                    },
+                    {
+                        "description": "Forge resource pack",
+                        "source": "default"
+                    },
+                    {
+                        "description": "Resources used for The Lost Cities",
+                        "source": "default"
+                    },
+                    {
+                        "description": "Memory Leak Fix",
+                        "source": "default"
+                    },
+                    {
+                        "description": "MixinExtras Dummy Resources",
+                        "source": "default"
+                    },
+                    {
+                        "description": "ModernFix",
+                        "source": "default"
+                    },
+                    {
+                        "description": "Radium resources",
+                        "source": "default"
+                    },
+                    {
+                        "description": "The default data for Minecraft",
+                        "source": "builtin"
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 24,
+                "processUsage": {
+                    "last1m": 0.054345082910536996,
+                    "last15m": 0.055521590449560766
+                },
+                "systemUsage": {
+                    "last1m": 0.05415049510303265,
+                    "last15m": 0.05725236838267374
+                },
+                "modelName": "Genuine Intel(R) 0000"
+            },
+            "memory": {
+                "physical": {
+                    "used": 12421267456,
+                    "total": 16251756544
+                },
+                "swap": {
+                    "used": 5031329792,
+                    "total": 8327786496
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 154,
+                    "avgTime": 72.99350649350649,
+                    "avgFrequency": 2274
+                },
+                "G1 Concurrent GC": {
+                    "total": 102,
+                    "avgTime": 6.921568627450981,
+                    "avgFrequency": 3537
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 102024536064,
+                "total": 482290704384
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.10.10-1.el9.elrepo.x86_64"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3",
+                "vendorVersion": "Temurin-21.0.3+9"
+            },
+            "uptime": 361575,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 21887.75,
+                        "max": 87026,
+                        "min": 105,
+                        "median": 267,
+                        "percentile95": 87026
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 21887.75,
+                        "max": 87026,
+                        "min": 105,
+                        "median": 267,
+                        "percentile95": 87026
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 18,
+                        "max": 67,
+                        "min": 1,
+                        "median": 2,
+                        "percentile95": 67
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 18,
+                        "max": 67,
+                        "min": 1,
+                        "median": 2,
+                        "percentile95": 67
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 6364,
+                        "max": 23641,
+                        "min": 122,
+                        "median": 1330,
+                        "percentile95": 23641
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 22792,
+                        "max": 79117,
+                        "min": 259,
+                        "median": 11476,
+                        "percentile95": 79117
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 16.25,
+                        "max": 53,
+                        "min": 1,
+                        "median": 9,
+                        "percentile95": 53
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 19.5,
+                        "max": 63,
+                        "min": 3,
+                        "median": 9,
+                        "percentile95": 63
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "21.0.3+9-LTS"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": false,
+                "gamemode": "survival",
+                "enable-query": false,
+                "generator-settings": "{}",
+                "enforce-secure-profile": false,
+                "level-name": "world",
+                "query.port": 25565,
+                "pvp": true,
+                "generate-structures": true,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "easy",
+                "network-compression-threshold": 256,
+                "max-tick-time": "-1",
+                "require-resource-pack": false,
+                "max-players": 100,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": true,
+                "allow-flight": true,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 10,
+                "resource-pack-prompt": "",
+                "allow-nether": true,
+                "server-port": 25565,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "op-permission-level": 4,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 5,
+                "player-idle-timeout": 0,
+                "debug": false,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:normal",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 16,
+                "max-world-size": 29999984
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": true,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default",
+                    "minimum-api": "none",
+                    "use-map-color-cache": true
+                },
+                "spawn-limits": {
+                    "monsters": 15,
+                    "animals": 5,
+                    "water-animals": 5,
+                    "water-ambient": 5,
+                    "water-underground-creature": 5,
+                    "axolotls": 5,
+                    "ambient": 1
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 400
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 4,
+                    "water-spawns": 1,
+                    "water-ambient-spawns": 1,
+                    "water-underground-creature-spawns": 1,
+                    "axolotl-spawns": 1,
+                    "ambient-spawns": 1,
+                    "autosave": 6000
+                },
+                "aliases": "now-in-commands.yml"
+            },
+            "spigot.yml": {
+                "settings": {
+                    "debug": false,
+                    "bungeecord": false,
+                    "save-user-cache-on-stop-only": false,
+                    "sample-count": 12,
+                    "player-shuffle": 0,
+                    "user-cache-size": 1000,
+                    "moved-wrongly-threshold": 0.0625,
+                    "moved-too-quickly-multiplier": 10.0,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 4,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    },
+                    "log-villager-deaths": true,
+                    "log-named-deaths": true
+                },
+                "commands": {
+                    "log": true,
+                    "tab-complete": 0,
+                    "send-namespaced": true,
+                    "spam-exclusions": [
+                        "/skill"
+                    ],
+                    "silent-commandblock-console": false,
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ]
+                },
+                "advancements": {
+                    "disable-saving": false,
+                    "disabled": [
+                        "minecraft:story/disabled"
+                    ]
+                },
+                "players": {
+                    "disable-saving": false
+                },
+                "world-settings": {
+                    "default": {
+                        "below-zero-generation-in-existing-chunks": true,
+                        "verbose": true,
+                        "hanging-tick-frequency": 100,
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "beetroot-modifier": 100,
+                            "carrot-modifier": 100,
+                            "potato-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100,
+                            "vine-modifier": 100,
+                            "cocoa-modifier": 100,
+                            "bamboo-modifier": 100,
+                            "sweetberry-modifier": 100,
+                            "kelp-modifier": 100,
+                            "twistingvines-modifier": 100,
+                            "weepingvines-modifier": 100,
+                            "cavevines-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 16,
+                            "monsters": 16,
+                            "raiders": 48,
+                            "misc": 12,
+                            "tick-inactive-villagers": true,
+                            "ignore-spectators": false
+                        },
+                        "entity-tracking-range": {
+                            "players": 48,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "display": 128,
+                            "other": 64
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 1
+                        },
+                        "hopper-amount": 1,
+                        "hopper-can-load-chunks": false,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "jump-walk-exhaustion": 0.05,
+                            "jump-sprint-exhaustion": 0.2,
+                            "combat-exhaustion": 0.1,
+                            "regen-exhaustion": 6.0,
+                            "swim-multiplier": 0.01,
+                            "sprint-multiplier": 0.1,
+                            "other-multiplier": 0.0
+                        },
+                        "max-tnt-per-tick": 100,
+                        "max-tick-time": {
+                            "tile": -1,
+                            "entity": -1
+                        },
+                        "merge-radius": {
+                            "exp": 6.0,
+                            "item": 4.0
+                        },
+                        "wither-spawn-sound-radius": 0,
+                        "mob-spawn-range": 6,
+                        "thunder-chance": 100000,
+                        "view-distance": "default",
+                        "simulation-distance": "default",
+                        "item-despawn-rate": 6000,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "arrow-despawn-rate": 300,
+                        "trident-despawn-rate": 1200,
+                        "end-portal-sound-radius": 0,
+                        "zombie-aggressive-towards-villager": true,
+                        "nerf-spawner-mobs": false
+                    },
+                    "worldeditregentempworld": {
+                        "verbose": false
+                    }
+                },
+                "config-version": 12,
+                "stats": {
+                    "disable-saving": false
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                180
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1726653240422,
+        "numberOfTicks": 4851,
+        "plugins": {
+            "voidworldgenerator": {
+                "name": "VoidWorldGenerator",
+                "version": "1.1.4",
+                "author": "Hydrolien",
+                "description": "Generate empty world."
+            },
+            "block-physics": {
+                "name": "Block-Physics",
+                "version": "1.6",
+                "author": "HyperCodec",
+                "description": "Makes blocks act like sand"
+            },
+            "mechanicscore": {
+                "name": "MechanicsCore",
+                "version": "3.3.3",
+                "author": "DeeCaaD, CJCrafter",
+                "description": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.105",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            },
+            "nightcore": {
+                "name": "nightcore",
+                "version": "2.6.3",
+                "author": "NightExpress",
+                "description": "Plugin Creation Kit."
+            },
+            "fancyphysics": {
+                "name": "FancyPhysics",
+                "version": "3.0.3",
+                "author": "MaximDe",
+                "description": "Tree cut animation, blood particles, realistic explosions, 3D particles & more"
+            },
+            "viaversion": {
+                "name": "ViaVersion",
+                "version": "5.0.3",
+                "author": "_MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01",
+                "description": "Allows the connection of newer clients to older server versions for Minecraft servers."
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.140",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "protocollib": {
+                "name": "ProtocolLib",
+                "version": "5.3.0-SNAPSHOT-726",
+                "author": "dmulloy2, comphenix",
+                "description": "Provides read/write access to the Minecraft protocol."
+            },
+            "libsdisguises": {
+                "name": "LibsDisguises",
+                "version": "10.0.44",
+                "author": "libraryaddict, Byteflux, Navid K.",
+                "description": "A disguise plugin with various disguises."
+            },
+            "packetevents": {
+                "name": "packetevents",
+                "version": "2.5.0+dc015dc45-SNAPSHOT",
+                "author": "retrooper",
+                "description": ""
+            },
+            "vault": {
+                "name": "Vault",
+                "version": "1.7.3-b131",
+                "author": "cereal, Sleaker, mung3r",
+                "description": "Vault is a Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves."
+            },
+            "dynmap": {
+                "name": "dynmap",
+                "version": "3.7-SNAPSHOT-948",
+                "author": "mikeprimm",
+                "description": ""
+            },
+            "worldedit": {
+                "name": "WorldEdit",
+                "version": "7.3.1+6763-2e55f4f",
+                "author": "EngineHub",
+                "description": ""
+            },
+            "vehiclespluspro": {
+                "name": "VehiclesPlusPro",
+                "version": "2.4.4.1",
+                "author": "relavis, legofreak107, SBDeveloper",
+                "description": "Add real cars, planes, helicopters, bikes, boats, and more to your server!"
+            },
+            "chunky": {
+                "name": "Chunky",
+                "version": "1.3.146",
+                "author": "pop4959",
+                "description": "Pre-generates chunks, quickly, efficiently, and safely"
+            },
+            "essentials": {
+                "name": "Essentials",
+                "version": "2.20.1",
+                "author": "Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally, drtshock, vemacs, SupaHam, mdcfe, JRoy, pop4959",
+                "description": "Provides an essential, core set of commands for Bukkit."
+            },
+            "chunkyborder": {
+                "name": "ChunkyBorder",
+                "version": "1.1.63",
+                "author": "pop4959",
+                "description": "Add a world border to your Chunky world"
+            },
+            "multiverse-core": {
+                "name": "Multiverse-Core",
+                "version": "4.3.12",
+                "author": "dumptruckman, Rigby, fernferret, lithium3141, main--",
+                "description": ""
+            },
+            "worldguard": {
+                "name": "WorldGuard",
+                "version": "7.0.9+5934e49",
+                "author": "",
+                "description": ""
+            },
+            "factions": {
+                "name": "Factions",
+                "version": "1.6.9.5-4.1.6-BETA",
+                "author": "Olof Larsson, Brett Flannigan, drtshock, ProSavage, DroppingAnvil, Driftay, SaberDev, Callum, Atilt",
+                "description": ""
+            },
+            "blueslimecore": {
+                "name": "BlueSlimeCore",
+                "version": "2.9.6.431",
+                "author": "SirBlobman",
+                "description": "A core plugin with useful libraries."
+            },
+            "excellentcrates": {
+                "name": "ExcellentCrates",
+                "version": "5.3.2",
+                "author": "NightExpress",
+                "description": ""
+            },
+            "mythicmobs": {
+                "name": "MythicMobs",
+                "version": "5.5.1-9aedaa15",
+                "author": "Lumine",
+                "description": "The total solution for all things mob-related."
+            },
+            "slimefun": {
+                "name": "Slimefun",
+                "version": "Dev - 1154",
+                "author": "The Slimefun 4 Community",
+                "description": "Slimefun basically turns your entire Server into a FTB modpack without installing a single mod"
+            },
+            "deathchest": {
+                "name": "DeathChest",
+                "version": "2.2.7",
+                "author": "CyntrixAlgorithm",
+                "description": ""
+            },
+            "economyshopgui": {
+                "name": "EconomyShopGUI",
+                "version": "6.8.1",
+                "author": "Gypopo",
+                "description": "This is a simple to use server GUI shop plugin."
+            },
+            "betterrtp": {
+                "name": "BetterRTP",
+                "version": "3.6.13",
+                "author": "SuperRonanCraft",
+                "description": ""
+            },
+            "combatlogx": {
+                "name": "CombatLogX",
+                "version": "11.5.0.0.1242",
+                "author": "SirBlobman",
+                "description": "A modular combat tagging plugin."
+            },
+            "weaponmechanics": {
+                "name": "WeaponMechanics",
+                "version": "3.3.3",
+                "author": "DeeCaaD, CJCrafter",
+                "description": ""
+            },
+            "weaponmechanicscosmetics": {
+                "name": "WeaponMechanicsCosmetics",
+                "version": "3.2.4",
+                "author": "CJCrafter, DeeCaaD",
+                "description": ""
+            },
+            "weaponmechanicsplus": {
+                "name": "WeaponMechanicsPlus",
+                "version": "1.4.4",
+                "author": "DeeCaaD, CJCrafter",
+                "description": ""
+            },
+            "armormechanics": {
+                "name": "ArmorMechanics",
+                "version": "3.0.2",
+                "author": "CJCrafter",
+                "description": ""
+            },
+            "reviveme": {
+                "name": "ReviveMe",
+                "version": "4.0.7",
+                "author": "",
+                "description": ""
+            },
+            "plugmanx": {
+                "name": "PlugManX",
+                "version": "2.4.1",
+                "author": "rylinaux, Entity303",
+                "description": "Plugin manager for Bukkit servers"
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}

@@ -1,0 +1,223 @@
+{
+    "metadata": {
+        "startTime": 1712821948089,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "36.2.41",
+            "minecraftVersion": "1.16.5",
+            "sparkVersion": 2
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 2537794048,
+                    "total": 6442450944
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 277266,
+            "tps": {
+                "last1m": 4.483946733170088,
+                "last5m": 11.819833185817808,
+                "last15m": 16.25104062688296
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 265.83149979631526,
+                    "max": 16282.89656,
+                    "min": 3.471174,
+                    "median": 6.435326,
+                    "percentile95": 154.036341
+                },
+                "last5m": {
+                    "mean": 265.83149979631526,
+                    "max": 16282.89656,
+                    "min": 3.471174,
+                    "median": 6.435326,
+                    "percentile95": 154.036341
+                }
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 868.5833333333334,
+                    "max": 2217,
+                    "min": 271,
+                    "median": 495,
+                    "percentile95": 2217
+                }
+            },
+            "playerCount": 0
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 32,
+                "processUsage": {
+                    "last1m": 0.018219688169431918,
+                    "last15m": 0.02021490131086121
+                },
+                "systemUsage": {
+                    "last1m": 0.08992255465161882,
+                    "last15m": 0.12476023884092492
+                },
+                "modelName": "AMD Ryzen 9 7950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 116581535744,
+                    "total": 134196645888
+                },
+                "swap": {
+                    "used": 229003264,
+                    "total": 4994363392
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 25,
+                    "avgTime": 18.92,
+                    "avgFrequency": 11829
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 321100328960,
+                "total": 1960432062464
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.1.0-18-amd64"
+            },
+            "java": {
+                "vendor": "GraalVM Community",
+                "version": "11.0.19",
+                "vendorVersion": "GraalVM CE 22.3.2",
+                "vmArgs": "-XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms6G -Xmx6G -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3 -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=28 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:G1MixedGCCountTarget=3 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5 -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150"
+            },
+            "uptime": 296211,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 388475.5,
+                        "max": 458962,
+                        "min": 344836,
+                        "median": 387359,
+                        "percentile95": 458962
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 388475.5,
+                        "max": 458962,
+                        "min": 344836,
+                        "median": 387359,
+                        "percentile95": 458962
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 1833,
+                        "max": 1952,
+                        "min": 1543,
+                        "median": 1924,
+                        "percentile95": 1952
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 1833,
+                        "max": 1952,
+                        "min": 1543,
+                        "median": 1924,
+                        "percentile95": 1952
+                    }
+                },
+                "eth1": {
+                    "rxBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 38963.5,
+                        "max": 40895,
+                        "min": 33945,
+                        "median": 40819,
+                        "percentile95": 40895
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 280173.5,
+                        "max": 338688,
+                        "min": 235324,
+                        "median": 279508,
+                        "percentile95": 338688
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 556.75,
+                        "max": 589,
+                        "min": 475,
+                        "median": 586,
+                        "percentile95": 589
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 593,
+                        "max": 632,
+                        "min": 519,
+                        "median": 617,
+                        "percentile95": 632
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                117
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 0,
+        "numberOfTicks": 0,
+        "samplerMode": 0
+    }
+}

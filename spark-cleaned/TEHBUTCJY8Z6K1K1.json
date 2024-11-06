@@ -1,0 +1,1500 @@
+{
+    "metadata": {
+        "startTime": 1726600721755,
+        "interval": 10000,
+        "platform": {
+            "type": 0,
+            "version": "git-Magma-1.20.1-b4bdd80 (MC: 1.20.1)",
+            "minecraftVersion": "v1_20_R1",
+            "sparkVersion": 2,
+            "brand": "Magma"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 2053265920,
+                    "committed": 4991221760,
+                    "init": 264241152,
+                    "max": 8589934592
+                },
+                "nonHeap": {
+                    "used": 491730616,
+                    "committed": 499515392,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 557842432,
+                            "committed": 2805989376,
+                            "init": 20971520,
+                            "max": 2805989376
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 2805989376,
+                            "init": 20971520,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 1482840576,
+                            "committed": 2172649472,
+                            "init": 243269632,
+                            "max": 8589934592
+                        },
+                        "collectionUsage": {
+                            "used": 1482840576,
+                            "committed": 2172649472,
+                            "init": 243269632,
+                            "max": 8589934592
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 12582912,
+                            "committed": 12582912,
+                            "init": 0,
+                            "max": 12582912
+                        },
+                        "collectionUsage": {
+                            "used": 12582912,
+                            "committed": 12582912,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 309,
+                    "avgTime": 67.47572815533981,
+                    "avgFrequency": 192194
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 59409064,
+            "tps": {
+                "last1m": 20.396732171372946,
+                "last5m": 19.999599298828233,
+                "last15m": 19.99986919767769
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 152,
+                "entityCounts": {
+                    "seadwellers_mermorph_polar": 1,
+                    "realmrpg_demons_chort": 4,
+                    "alexsmobs_seagull": 4,
+                    "alexsmobs_terrapin": 2,
+                    "pig": 2,
+                    "alexsmobs_fly": 1,
+                    "skeleton": 12,
+                    "alexsmobs_cachalot_echo": 5,
+                    "bat": 11,
+                    "zombie": 10,
+                    "alexsmobs_gazelle": 8,
+                    "alexsmobs_cockroach": 3,
+                    "sheep": 3,
+                    "player": 1,
+                    "item": 4,
+                    "alexsmobs_cachalot_whale": 2,
+                    "item_frame": 11,
+                    "falling_block": 4,
+                    "alexsmobs_bald_eagle": 3,
+                    "cave_spider": 28,
+                    "glow_squid": 9,
+                    "alexsmobs_emu": 3,
+                    "squid": 5,
+                    "spider": 9,
+                    "creeper": 6,
+                    "enderman": 1
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 141,
+                        "regions": [
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -35,
+                                        "z": -20,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 5,
+                                "chunks": [
+                                    {
+                                        "x": -30,
+                                        "z": -21,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "alexsmobs_cachalot_echo": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -31,
+                                        "z": -21,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "alexsmobs_cachalot_whale": 1,
+                                            "seadwellers_mermorph_polar": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -27,
+                                        "z": -23,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "alexsmobs_cachalot_echo": 1,
+                                            "alexsmobs_cachalot_whale": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -26,
+                                        "z": -23,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "squid": 1,
+                                            "alexsmobs_cachalot_echo": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 95,
+                                "chunks": [
+                                    {
+                                        "x": -31,
+                                        "z": -29,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "skeleton": 1,
+                                            "alexsmobs_cockroach": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -32,
+                                        "z": -29,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -31,
+                                        "z": -27,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "enderman": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -32,
+                                        "z": -28,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "cave_spider": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -30,
+                                        "z": -25,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -32,
+                                        "z": -27,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "creeper": 1,
+                                            "bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -31,
+                                        "z": -28,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -31,
+                                        "z": -25,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -32,
+                                        "z": -26,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -30,
+                                        "z": -28,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "item": 1,
+                                            "creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -32,
+                                        "z": -25,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -31,
+                                        "z": -26,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -30,
+                                        "z": -27,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "realmrpg_demons_chort": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -34,
+                                        "z": -24,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "creeper": 1,
+                                            "spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -33,
+                                        "z": -25,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "skeleton": 1,
+                                            "zombie": 1,
+                                            "bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -34,
+                                        "z": -26,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "creeper": 1,
+                                            "spider": 2,
+                                            "cave_spider": 3,
+                                            "bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -35,
+                                        "z": -27,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "alexsmobs_bald_eagle": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -33,
+                                        "z": -26,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "spider": 2,
+                                            "zombie": 1,
+                                            "cave_spider": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -35,
+                                        "z": -25,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "skeleton": 1,
+                                            "spider": 1,
+                                            "zombie": 2,
+                                            "glow_squid": 6
+                                        }
+                                    },
+                                    {
+                                        "x": -33,
+                                        "z": -27,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "cave_spider": 7,
+                                            "bat": 1,
+                                            "alexsmobs_cockroach": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -34,
+                                        "z": -28,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "skeleton": 1,
+                                            "cave_spider": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -35,
+                                        "z": -26,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "cave_spider": 3,
+                                            "bat": 1,
+                                            "glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -34,
+                                        "z": -27,
+                                        "totalEntities": 10,
+                                        "entityCounts": {
+                                            "skeleton": 2,
+                                            "cave_spider": 5,
+                                            "bat": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -33,
+                                        "z": -28,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "spider": 1,
+                                            "alexsmobs_fly": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -33,
+                                        "z": -29,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -34,
+                                        "z": -30,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -35,
+                                        "z": -31,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -34,
+                                        "z": -29,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "item": 2,
+                                            "skeleton": 4,
+                                            "cave_spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -33,
+                                        "z": -30,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -35,
+                                        "z": -29,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "realmrpg_demons_chort": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -36,
+                                        "z": -30,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "player": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -27,
+                                        "z": -25,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "glow_squid": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -27,
+                                        "z": -26,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "bat": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -39,
+                                        "z": -29,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "alexsmobs_terrapin": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": -39,
+                                        "z": -31,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "squid": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -39,
+                                        "z": -32,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "squid": 1,
+                                            "alexsmobs_bald_eagle": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -38,
+                                        "z": -32,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "alexsmobs_bald_eagle": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -36,
+                                        "z": -35,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "alexsmobs_cockroach": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -36,
+                                        "z": -34,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "pig": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 10,
+                                "chunks": [
+                                    {
+                                        "x": -34,
+                                        "z": -34,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "sheep": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -34,
+                                        "z": -35,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "alexsmobs_gazelle": 7
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 3,
+                                "chunks": [
+                                    {
+                                        "x": -29,
+                                        "z": -34,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "alexsmobs_emu": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -38,
+                                        "z": -37,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "falling_block": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -36,
+                                        "z": -37,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "alexsmobs_gazelle": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 4,
+                                "chunks": [
+                                    {
+                                        "x": -34,
+                                        "z": -38,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "alexsmobs_seagull": 4
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 11,
+                        "regions": [
+                            {
+                                "totalEntities": 11,
+                                "chunks": [
+                                    {
+                                        "x": -21,
+                                        "z": 8,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "item_frame": 11
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ],
+                "gameRules": [
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "world": "65536",
+                            "world_the_end": "65536",
+                            "world_nether": "65536",
+                            "world_twilightforest_twilight_forest": "65536",
+                            "world_deeperdarker_otherside": "65536"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "24",
+                        "worldValues": {
+                            "world": "24",
+                            "world_the_end": "24",
+                            "world_nether": "24",
+                            "world_twilightforest_twilight_forest": "24",
+                            "world_deeperdarker_otherside": "24"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "100",
+                        "worldValues": {
+                            "world": "100",
+                            "world_the_end": "100",
+                            "world_nether": "100",
+                            "world_twilightforest_twilight_forest": "100",
+                            "world_deeperdarker_otherside": "100"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "world": "1",
+                            "world_the_end": "1",
+                            "world_nether": "1",
+                            "world_twilightforest_twilight_forest": "1",
+                            "world_deeperdarker_otherside": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "world": "false",
+                            "world_the_end": "false",
+                            "world_nether": "false",
+                            "world_twilightforest_twilight_forest": "false",
+                            "world_deeperdarker_otherside": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "3",
+                        "worldValues": {
+                            "world": "3",
+                            "world_the_end": "3",
+                            "world_nether": "3",
+                            "world_twilightforest_twilight_forest": "3",
+                            "world_deeperdarker_otherside": "3"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "10",
+                        "worldValues": {
+                            "world": "10",
+                            "world_the_end": "10",
+                            "world_nether": "10",
+                            "world_twilightforest_twilight_forest": "10",
+                            "world_deeperdarker_otherside": "10"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "32768",
+                        "worldValues": {
+                            "world": "32768",
+                            "world_the_end": "32768",
+                            "world_nether": "32768",
+                            "world_twilightforest_twilight_forest": "32768",
+                            "world_deeperdarker_otherside": "32768"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "world": "true",
+                            "world_the_end": "true",
+                            "world_nether": "true",
+                            "world_twilightforest_twilight_forest": "true",
+                            "world_deeperdarker_otherside": "true"
+                        }
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 6,
+                "processUsage": {
+                    "last1m": 0.8086528159441663,
+                    "last15m": 0.43171694149906553
+                },
+                "systemUsage": {
+                    "last1m": 0.7081145837814737,
+                    "last15m": 0.3861607237996832
+                },
+                "modelName": "AMD EPYC 7282 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 13354549248,
+                    "total": 16773996544
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 370,
+                    "avgTime": 62.76756756756757,
+                    "avgFrequency": 160963
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 43782041600,
+                "total": 419491782656
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.4.0-186-generic"
+            },
+            "java": {
+                "vendor": "Ubuntu",
+                "version": "17.0.11",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xmx8192M -Djline.terminal=jline.UnsupportedTerminal -Dlog4j2.formatMsgNoLookups=true"
+            },
+            "uptime": 59579555,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 753.4,
+                        "max": 1793,
+                        "min": 482,
+                        "median": 566,
+                        "percentile95": 1793
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 753.4,
+                        "max": 1793,
+                        "min": 482,
+                        "median": 566,
+                        "percentile95": 1793
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 8.4,
+                        "max": 15,
+                        "min": 6,
+                        "median": 7,
+                        "percentile95": 15
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 8.4,
+                        "max": 15,
+                        "min": 6,
+                        "median": 7,
+                        "percentile95": 15
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 9589.866666666667,
+                        "max": 12840,
+                        "min": 2074,
+                        "median": 9970,
+                        "percentile95": 12840
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 83043.86666666667,
+                        "max": 160842,
+                        "min": 3710,
+                        "median": 74964,
+                        "percentile95": 160842
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 130.33333333333334,
+                        "max": 182,
+                        "min": 10,
+                        "median": 135,
+                        "percentile95": 182
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 306,
+                        "max": 387,
+                        "min": 5,
+                        "median": 329,
+                        "percentile95": 387
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Ubuntu",
+                "version": "17.0.11+9-Ubuntu-120.04.2"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": false,
+                "gamemode": "survival",
+                "enable-query": false,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "world",
+                "query.port": 25545,
+                "pvp": true,
+                "generate-structures": true,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "easy",
+                "network-compression-threshold": 256,
+                "max-tick-time": 60000,
+                "require-resource-pack": false,
+                "max-players": 20,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": true,
+                "allow-flight": false,
+                "initial-disabled-packs": "",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 10,
+                "resource-pack-prompt": "",
+                "allow-nether": true,
+                "server-port": 25545,
+                "enable-rcon": false,
+                "sync-chunk-writes": true,
+                "op-permission-level": 4,
+                "prevent-proxy-connections": false,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 10,
+                "player-idle-timeout": 0,
+                "debug": false,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:normal",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 16,
+                "max-world-size": 29999984
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": true,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default",
+                    "minimum-api": "none",
+                    "use-map-color-cache": true
+                },
+                "spawn-limits": {
+                    "monsters": 70,
+                    "animals": 10,
+                    "water-animals": 5,
+                    "water-ambient": 20,
+                    "water-underground-creature": 5,
+                    "axolotls": 5,
+                    "ambient": 15
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 600
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 1,
+                    "water-spawns": 1,
+                    "water-ambient-spawns": 1,
+                    "water-underground-creature-spawns": 1,
+                    "axolotl-spawns": 1,
+                    "ambient-spawns": 1,
+                    "autosave": 6000
+                },
+                "aliases": "now-in-commands.yml"
+            },
+            "spigot.yml": {
+                "settings": {
+                    "debug": false,
+                    "save-user-cache-on-stop-only": false,
+                    "bungeecord": false,
+                    "sample-count": 12,
+                    "player-shuffle": 0,
+                    "user-cache-size": 1000,
+                    "moved-wrongly-threshold": 0.0625,
+                    "moved-too-quickly-multiplier": 10.0,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 4,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    },
+                    "log-villager-deaths": true,
+                    "log-named-deaths": true
+                },
+                "commands": {
+                    "log": true,
+                    "tab-complete": 0,
+                    "send-namespaced": true,
+                    "spam-exclusions": [
+                        "/skill"
+                    ],
+                    "silent-commandblock-console": false,
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ]
+                },
+                "advancements": {
+                    "disable-saving": false,
+                    "disabled": [
+                        "minecraft:story/disabled"
+                    ]
+                },
+                "players": {
+                    "disable-saving": false
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "beetroot-modifier": 100,
+                            "carrot-modifier": 100,
+                            "potato-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100,
+                            "vine-modifier": 100,
+                            "cocoa-modifier": 100,
+                            "bamboo-modifier": 100,
+                            "sweetberry-modifier": 100,
+                            "kelp-modifier": 100,
+                            "twistingvines-modifier": 100,
+                            "weepingvines-modifier": 100,
+                            "cavevines-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 32,
+                            "monsters": 32,
+                            "raiders": 48,
+                            "misc": 16,
+                            "tick-inactive-villagers": true,
+                            "ignore-spectators": false
+                        },
+                        "entity-tracking-range": {
+                            "players": 48,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "display": 128,
+                            "other": 64
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 1
+                        },
+                        "hopper-amount": 1,
+                        "hopper-can-load-chunks": false,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "jump-walk-exhaustion": 0.05,
+                            "jump-sprint-exhaustion": 0.2,
+                            "combat-exhaustion": 0.1,
+                            "regen-exhaustion": 6.0,
+                            "swim-multiplier": 0.01,
+                            "sprint-multiplier": 0.1,
+                            "other-multiplier": 0.0
+                        },
+                        "max-tnt-per-tick": 100,
+                        "max-tick-time": {
+                            "tile": 50,
+                            "entity": 50
+                        },
+                        "merge-radius": {
+                            "exp": 3.0,
+                            "item": 2.5
+                        },
+                        "mob-spawn-range": 6,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "view-distance": "default",
+                        "simulation-distance": "default",
+                        "thunder-chance": 100000,
+                        "item-despawn-rate": 6000,
+                        "arrow-despawn-rate": 1200,
+                        "trident-despawn-rate": 1200,
+                        "wither-spawn-sound-radius": 0,
+                        "end-portal-sound-radius": 0,
+                        "hanging-tick-frequency": 100,
+                        "zombie-aggressive-towards-villager": true,
+                        "nerf-spawner-mobs": false,
+                        "below-zero-generation-in-existing-chunks": true
+                    }
+                },
+                "config-version": 12,
+                "stats": {
+                    "disable-saving": false
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                74
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1726660136043,
+        "numberOfTicks": 1187981,
+        "plugins": {
+            "skinsrestorer": {
+                "name": "SkinsRestorer",
+                "version": "15.4.2",
+                "author": "knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls",
+                "description": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.99",
+                "author": "Luck",
+                "description": ""
+            },
+            "openinv": {
+                "name": "OpenInv",
+                "version": "5.1.2",
+                "author": "lishid, Jikoo, ShadowRanger",
+                "description": ""
+            },
+            "essentials": {
+                "name": "Essentials",
+                "version": "2.20.1",
+                "author": "Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally, drtshock, vemacs, SupaHam, mdcfe, JRoy, pop4959",
+                "description": ""
+            },
+            "plugmanx": {
+                "name": "PlugManX",
+                "version": "2.4.1",
+                "author": "rylinaux, Entity303",
+                "description": ""
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 0
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "metadata": {
+        "startTime": 1724345976285,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "3.3.0-SNAPSHOT (git-09f687e5-b413)",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "Velocity"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 400608672,
+                    "committed": 595591168,
+                    "init": 134217728,
+                    "max": 6291456000
+                },
+                "nonHeap": {
+                    "used": 207776552,
+                    "committed": 210173952,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 180355072,
+                            "committed": 222298112,
+                            "init": 20971520,
+                            "max": 222298112
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 222298112,
+                            "init": 20971520,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 219061248,
+                            "committed": 369098752,
+                            "init": 113246208,
+                            "max": 6291456000
+                        },
+                        "collectionUsage": {
+                            "used": 223255552,
+                            "committed": 314572800,
+                            "init": 113246208,
+                            "max": 6291456000
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 1192352,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": 4194304
+                        },
+                        "collectionUsage": {
+                            "used": 1192352,
+                            "committed": 4194304,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 6,
+                    "avgTime": 4,
+                    "avgFrequency": 19176
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 115080,
+            "ping": {
+                "last15m": {
+                    "mean": 132,
+                    "max": 141,
+                    "min": 127,
+                    "median": 133,
+                    "percentile95": 141
+                }
+            },
+            "playerCount": 31,
+            "onlineMode": 1
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 6,
+                "processUsage": {
+                    "last1m": 0.09591666666666666,
+                    "last15m": 0.12012040133779264
+                },
+                "systemUsage": {
+                    "last1m": 0.09594791666666666,
+                    "last15m": 0.12016619342251951
+                },
+                "modelName": "AMD Ryzen 9 7950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 87875727360,
+                    "total": 134236057600
+                },
+                "swap": {
+                    "used": 11693649920,
+                    "total": 106099105792
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 37,
+                    "avgTime": 4.783783783783784,
+                    "avgFrequency": 3144
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 382987776000,
+                "total": 1962133716992
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.1.0-23-amd64"
+            },
+            "java": {
+                "vendor": "Eclipse Adoptium",
+                "version": "17.0.11",
+                "vendorVersion": "Temurin-17.0.11+9",
+                "vmArgs": "-Xms128M -Xmx6000M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15"
+            },
+            "uptime": 116518,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 161,
+                        "max": 161,
+                        "min": 161,
+                        "median": 161,
+                        "percentile95": 161
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 161,
+                        "max": 161,
+                        "min": 161,
+                        "median": 161,
+                        "percentile95": 161
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 1,
+                        "max": 1,
+                        "min": 1,
+                        "median": 1,
+                        "percentile95": 1
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 1,
+                        "max": 1,
+                        "min": 1,
+                        "median": 1,
+                        "percentile95": 1
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 1983851,
+                        "max": 1983851,
+                        "min": 1983851,
+                        "median": 1983851,
+                        "percentile95": 1983851
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 1550468,
+                        "max": 1550468,
+                        "min": 1550468,
+                        "median": 1550468,
+                        "percentile95": 1550468
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 14408,
+                        "max": 14408,
+                        "min": 14408,
+                        "median": 14408,
+                        "percentile95": 14408
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 8574,
+                        "max": 8574,
+                        "min": 8574,
+                        "median": 8574,
+                        "percentile95": 8574
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Eclipse Adoptium",
+                "version": "17.0.11+9"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1724345997428,
+        "numberOfTicks": 0,
+        "plugins": {
+            "advancedserverlist": {
+                "name": "advancedserverlist",
+                "version": "3.3.0-b1",
+                "author": "Andre_601"
+            },
+            "ajqueue": {
+                "name": "ajqueue",
+                "version": "2.7.0",
+                "author": "ajgeiss0702"
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b109-49bd564)",
+                "author": "GeyserMC"
+            },
+            "geyser": {
+                "name": "geyser",
+                "version": "2.4.2-b650 (git-master-7da1d7d)",
+                "author": "GeyserMC"
+            },
+            "litebans": {
+                "name": "litebans",
+                "version": "2.15.1",
+                "author": "Ruan"
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.139",
+                "author": "Luck"
+            },
+            "maintenance": {
+                "name": "maintenance",
+                "version": "4.0.1",
+                "author": "kennytv"
+            },
+            "nantibot": {
+                "name": "nantibot",
+                "version": "6.1.24",
+                "author": "NickUC"
+            },
+            "nlogin": {
+                "name": "nlogin",
+                "version": "10.4.3",
+                "author": "NickUC"
+            },
+            "skinsrestorer": {
+                "name": "skinsrestorer",
+                "version": "15.4.0",
+                "author": "knat, AlexProgrammerDE, Blackfire62, McLive"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.97",
+                "author": "Luck"
+            },
+            "velocity-tools": {
+                "name": "velocity-tools",
+                "version": "1.2.3",
+                "author": "Elytrium (https://elytrium.net/)"
+            }
+        },
+        "samplerMode": 0
+    }
+}

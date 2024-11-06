@@ -1,0 +1,2921 @@
+{
+    "metadata": {
+        "startTime": 1724091353212,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "0.15.11",
+            "minecraftVersion": "1.21",
+            "sparkVersion": 2,
+            "brand": "Fabric API"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 821035008,
+                    "committed": 1289748480,
+                    "init": 239075328,
+                    "max": 4294967296
+                },
+                "nonHeap": {
+                    "used": 298661632,
+                    "committed": 333578240,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 153092096,
+                            "committed": 555745280,
+                            "init": 12582912,
+                            "max": 555745280
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 551550976,
+                            "init": 12582912,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 640679936,
+                            "committed": 706740224,
+                            "init": 226492416,
+                            "max": 4294967296
+                        },
+                        "collectionUsage": {
+                            "used": 640679936,
+                            "committed": 710934528,
+                            "init": 226492416,
+                            "max": 4294967296
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 27262976,
+                            "committed": 27262976,
+                            "init": 0,
+                            "max": 27262976
+                        },
+                        "collectionUsage": {
+                            "used": 27262976,
+                            "committed": 27262976,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "uptime": 728516,
+            "tps": {
+                "last1m": 20.000154701196614,
+                "last5m": 20.000083047011504,
+                "last15m": 19.946151227044332
+            },
+            "mspt": {
+                "last1m": {
+                    "mean": 4.93333925,
+                    "max": 73.1204,
+                    "min": 0.3976,
+                    "median": 1.3109,
+                    "percentile95": 13.7004
+                },
+                "last5m": {
+                    "mean": 1.6683338166666666,
+                    "max": 78.3107,
+                    "min": 0.3216,
+                    "median": 0.7063,
+                    "percentile95": 8.2619
+                }
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 216,
+                "entityCounts": {
+                    "minecraft:bat": 15,
+                    "minecraft:skeleton": 11,
+                    "minecraft:player": 1,
+                    "minecraft:witch": 2,
+                    "minecraft:salmon": 21,
+                    "minecraft:fox": 6,
+                    "minecraft:squid": 9,
+                    "minecraft:glow_squid": 8,
+                    "minecraft:stray": 2,
+                    "minecraft:enderman": 2,
+                    "minecraft:cow": 3,
+                    "minecraft:spider": 9,
+                    "minecraft:chicken": 6,
+                    "minecraft:zombie": 23,
+                    "minecraft:creeper": 23,
+                    "minecraft:wolf": 1,
+                    "minecraft:zombie_villager": 1,
+                    "minecraft:rabbit": 11,
+                    "minecraft:item": 15,
+                    "minecraft:marker": 47
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 0
+                    },
+                    {
+                        "totalEntities": 216,
+                        "regions": [
+                            {
+                                "totalEntities": 171,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": 0,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:salmon": 5
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 2,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:squid": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -2,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 1,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "minecraft:salmon": 4,
+                                            "minecraft:bat": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 1,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:salmon": 3,
+                                            "minecraft:player": 1,
+                                            "minecraft:squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 0,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "minecraft:salmon": 8,
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 0,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:salmon": 1,
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 3,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:bat": 2,
+                                            "minecraft:glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 0,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 1,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 2,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": -1,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "minecraft:zombie_villager": 1,
+                                            "minecraft:glow_squid": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 2,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:zombie": 1,
+                                            "minecraft:bat": 1,
+                                            "minecraft:witch": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 4,
+                                        "totalEntities": 48,
+                                        "entityCounts": {
+                                            "minecraft:marker": 47,
+                                            "minecraft:glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": 6,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:rabbit": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 4,
+                                        "z": 1,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 0,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 4,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "minecraft:item": 2,
+                                            "minecraft:bat": 3,
+                                            "minecraft:glow_squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:squid": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:stray": 1,
+                                            "minecraft:creeper": 1,
+                                            "minecraft:witch": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:stray": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 5,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:enderman": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:rabbit": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 5,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1,
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -3,
+                                        "z": 5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": 1,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": 4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1,
+                                            "minecraft:zombie": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": 3,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 2,
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 3,
+                                        "z": 4,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:spider": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 13,
+                                "chunks": [
+                                    {
+                                        "x": -5,
+                                        "z": -6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:fox": 3
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:fox": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:fox": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -5,
+                                        "z": -4,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 2,
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -4,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:fox": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 17,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:item": 1,
+                                            "minecraft:chicken": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -2,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:cow": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": -6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": -7,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:wolf": 1,
+                                            "minecraft:spider": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 2,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:chicken": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 1,
+                                        "z": -7,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "minecraft:item": 2,
+                                            "minecraft:chicken": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 6,
+                                "chunks": [
+                                    {
+                                        "x": 5,
+                                        "z": -6,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "minecraft:rabbit": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -5,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:bat": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 6,
+                                        "z": -4,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -9,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:creeper": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -10,
+                                        "z": 2,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": -6,
+                                        "z": 7,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:rabbit": 1
+                                        }
+                                    },
+                                    {
+                                        "x": -6,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:zombie": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -4,
+                                        "z": 8,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:item": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -2,
+                                        "z": -3,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:cow": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 2,
+                                "chunks": [
+                                    {
+                                        "x": 2,
+                                        "z": 9,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "minecraft:rabbit": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 1,
+                                "chunks": [
+                                    {
+                                        "x": -10,
+                                        "z": -6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "minecraft:skeleton": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "totalEntities": 0
+                    }
+                ],
+                "gameRules": [
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "astral_plane": "65536",
+                            "the_nether": "65536",
+                            "overworld": "65536",
+                            "the_end": "65536"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "-2",
+                        "worldValues": {
+                            "astral_plane": "-2",
+                            "the_nether": "-2",
+                            "overworld": "-2",
+                            "the_end": "-2"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "astral_plane": "1",
+                            "the_nether": "1",
+                            "overworld": "1",
+                            "the_end": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "24",
+                        "worldValues": {
+                            "astral_plane": "24",
+                            "the_nether": "24",
+                            "overworld": "24",
+                            "the_end": "24"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "100",
+                        "worldValues": {
+                            "astral_plane": "100",
+                            "the_nether": "100",
+                            "overworld": "100",
+                            "the_end": "100"
+                        }
+                    },
+                    {
+                        "defaultValue": "1",
+                        "worldValues": {
+                            "astral_plane": "1",
+                            "the_nether": "1",
+                            "overworld": "1",
+                            "the_end": "1"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "3",
+                        "worldValues": {
+                            "astral_plane": "3",
+                            "the_nether": "3",
+                            "overworld": "3",
+                            "the_end": "3"
+                        }
+                    },
+                    {
+                        "defaultValue": "80",
+                        "worldValues": {
+                            "astral_plane": "80",
+                            "the_nether": "80",
+                            "overworld": "80",
+                            "the_end": "80"
+                        }
+                    },
+                    {
+                        "defaultValue": "10",
+                        "worldValues": {
+                            "astral_plane": "10",
+                            "the_nether": "10",
+                            "overworld": "10",
+                            "the_end": "10"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "2",
+                        "worldValues": {
+                            "astral_plane": "2",
+                            "the_nether": "2",
+                            "overworld": "2",
+                            "the_end": "2"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "false",
+                        "worldValues": {
+                            "astral_plane": "false",
+                            "the_nether": "false",
+                            "overworld": "false",
+                            "the_end": "false"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "32768",
+                        "worldValues": {
+                            "astral_plane": "32768",
+                            "the_nether": "32768",
+                            "overworld": "32768",
+                            "the_end": "32768"
+                        }
+                    },
+                    {
+                        "defaultValue": "-2",
+                        "worldValues": {
+                            "astral_plane": "-2",
+                            "the_nether": "-2",
+                            "overworld": "-2",
+                            "the_end": "-2"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    },
+                    {
+                        "defaultValue": "65536",
+                        "worldValues": {
+                            "astral_plane": "65536",
+                            "the_nether": "65536",
+                            "overworld": "65536",
+                            "the_end": "65536"
+                        }
+                    },
+                    {
+                        "defaultValue": "true",
+                        "worldValues": {
+                            "astral_plane": "true",
+                            "the_nether": "true",
+                            "overworld": "true",
+                            "the_end": "true"
+                        }
+                    }
+                ]
+            },
+            "onlineMode": 1
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 4,
+                "processUsage": {
+                    "last1m": 0.09329861083229352,
+                    "last15m": 0.09738796805634076
+                },
+                "systemUsage": {
+                    "last1m": 0.47193698641888476,
+                    "last15m": 0.39385037677639506
+                },
+                "modelName": "Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz"
+            },
+            "memory": {
+                "physical": {
+                    "used": 13068247040,
+                    "total": 15253495808
+                },
+                "swap": {
+                    "used": 16555843584,
+                    "total": 23574994944
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 98,
+                    "avgTime": 19.306122448979593,
+                    "avgFrequency": 7839
+                },
+                "G1 Concurrent GC": {
+                    "total": 54,
+                    "avgTime": 16.64814814814815,
+                    "avgFrequency": 14244
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 89817337856,
+                "total": 128164696064
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "10.0.19045"
+            },
+            "java": {
+                "vendor": "Oracle Corporation",
+                "version": "21.0.3",
+                "vendorVersion": "unknown",
+                "vmArgs": "-Xmx4G"
+            },
+            "uptime": 770117,
+            "jvm": {
+                "vendor": "Oracle Corporation",
+                "version": "21.0.3+7-LTS-152"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "enable-jmx-monitoring": false,
+                "rcon.port": 25575,
+                "enable-command-block": true,
+                "gamemode": "survival",
+                "enable-query": false,
+                "generator-settings": "{}",
+                "enforce-secure-profile": true,
+                "level-name": "world",
+                "query.port": 25565,
+                "pvp": true,
+                "&4&kk<&4Tecnico&4&k>": "&d<&dMod/Rol&d> &a<&aSurvival&a> &c<&c&o+30&c>",
+                "generate-structures": true,
+                "max-chained-neighbor-updates": 1000000,
+                "difficulty": "hard",
+                "network-compression-threshold": 512,
+                "max-tick-time": 60000,
+                "require-resource-pack": false,
+                "max-players": 20,
+                "use-native-transport": true,
+                "enable-status": true,
+                "online-mode": false,
+                "allow-flight": false,
+                "initial-disabled-packs": "",
+                "\u00a74<\u00a74Tecnico\u00a74>": "\u00a7d<\u00a7dMod/Rol\u00a7d> \u00a7a<\u00a7aSurvival\u00a7a> \u00a7c<\u00a7c+30\u00a7c>",
+                "broadcast-rcon-to-ops": true,
+                "view-distance": 7,
+                "resource-pack-prompt": "",
+                "bug-report-link": "",
+                "allow-nether": true,
+                "server-port": 25565,
+                "enable-rcon": true,
+                "sync-chunk-writes": true,
+                "resource-pack-id": "",
+                "op-permission-level": 4,
+                "accepts-transfers": false,
+                "prevent-proxy-connections": true,
+                "hide-online-players": false,
+                "entity-broadcast-range-percentage": 100,
+                "simulation-distance": 6,
+                "player-idle-timeout": 0,
+                "force-gamemode": false,
+                "rate-limit": 0,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "region-file-compression": "deflate",
+                "spawn-npcs": true,
+                "spawn-animals": true,
+                "log-ips": true,
+                "function-permission-level": 2,
+                "initial-enabled-packs": "vanilla",
+                "level-type": "minecraft:normal",
+                "text-filtering-config": "",
+                "spawn-monsters": true,
+                "enforce-whitelist": false,
+                "resource-pack-sha1": "",
+                "spawn-protection": 0,
+                "max-world-size": 29999984
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                75
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1724091836462,
+        "numberOfTicks": 9657,
+        "plugins": {
+            "advancedbackups": {
+                "name": "advancedbackups",
+                "version": "3.6",
+                "author": "Mommy Heather"
+            },
+            "adventure-platform-fabric": {
+                "name": "adventure-platform-fabric",
+                "version": "5.14.0",
+                "author": "kashike, zml, Luck, Electroid"
+            },
+            "afkplus": {
+                "name": "afkplus",
+                "version": "1.5.0",
+                "author": "sakura-ryoko, (based upon afkdisplay by beabfc)"
+            },
+            "alternate-current": {
+                "name": "alternate-current",
+                "version": "1.8.0",
+                "author": "Space Walker"
+            },
+            "aopalliance_aopalliance": {
+                "name": "aopalliance_aopalliance",
+                "version": "1.0",
+                "author": ""
+            },
+            "architectury": {
+                "name": "architectury",
+                "version": "13.0.6",
+                "author": "shedaniel"
+            },
+            "at_favre_lib_bcrypt": {
+                "name": "at_favre_lib_bcrypt",
+                "version": "0.10.2",
+                "author": ""
+            },
+            "at_favre_lib_bytes": {
+                "name": "at_favre_lib_bytes",
+                "version": "1.6.1",
+                "author": ""
+            },
+            "axiom": {
+                "name": "axiom",
+                "version": "3.2.1",
+                "author": "Moulberry"
+            },
+            "banhammer": {
+                "name": "banhammer",
+                "version": "0.11.1+1.21",
+                "author": "Patbox"
+            },
+            "better-fabric-console": {
+                "name": "better-fabric-console",
+                "version": "1.1.10",
+                "author": "jmp"
+            },
+            "blue_endless_jankson": {
+                "name": "blue_endless_jankson",
+                "version": "1.2.2",
+                "author": ""
+            },
+            "c2me": {
+                "name": "c2me",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-base": {
+                "name": "c2me-base",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-fixes-chunkio-threading-issues": {
+                "name": "c2me-fixes-chunkio-threading-issues",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-fixes-general-threading-issues": {
+                "name": "c2me-fixes-general-threading-issues",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-fixes-worldgen-threading-issues": {
+                "name": "c2me-fixes-worldgen-threading-issues",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-fixes-worldgen-vanilla-bugs": {
+                "name": "c2me-fixes-worldgen-vanilla-bugs",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-notickvd": {
+                "name": "c2me-notickvd",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-opts-allocs": {
+                "name": "c2me-opts-allocs",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-opts-chunk-access": {
+                "name": "c2me-opts-chunk-access",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-opts-chunkio": {
+                "name": "c2me-opts-chunkio",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-opts-math": {
+                "name": "c2me-opts-math",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-opts-scheduling": {
+                "name": "c2me-opts-scheduling",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-opts-worldgen-general": {
+                "name": "c2me-opts-worldgen-general",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-opts-worldgen-vanilla": {
+                "name": "c2me-opts-worldgen-vanilla",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-rewrites-chunk-serializer": {
+                "name": "c2me-rewrites-chunk-serializer",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, Kroppeb"
+            },
+            "c2me-rewrites-chunkio": {
+                "name": "c2me-rewrites-chunkio",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-server-utils": {
+                "name": "c2me-server-utils",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-threading-chunkio": {
+                "name": "c2me-threading-chunkio",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-threading-lighting": {
+                "name": "c2me-threading-lighting",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "c2me-threading-worldgen": {
+                "name": "c2me-threading-worldgen",
+                "version": "0.2.0+alpha.11.107+1.21",
+                "author": "RelativityMC, ishland"
+            },
+            "cardinal-components": {
+                "name": "cardinal-components",
+                "version": "6.1.1",
+                "author": "UpcraftLP, Pyrofab"
+            },
+            "cardinal-components-base": {
+                "name": "cardinal-components-base",
+                "version": "6.1.1",
+                "author": "UpcraftLP, Pyrofab"
+            },
+            "cardinal-components-block": {
+                "name": "cardinal-components-block",
+                "version": "6.1.1",
+                "author": "UpcraftLP, Pyrofab, B0undaryBreaker"
+            },
+            "cardinal-components-chunk": {
+                "name": "cardinal-components-chunk",
+                "version": "6.1.1",
+                "author": "UpcraftLP"
+            },
+            "cardinal-components-entity": {
+                "name": "cardinal-components-entity",
+                "version": "6.1.1",
+                "author": "UpcraftLP"
+            },
+            "cardinal-components-item": {
+                "name": "cardinal-components-item",
+                "version": "6.1.1",
+                "author": "UpcraftLP"
+            },
+            "cardinal-components-level": {
+                "name": "cardinal-components-level",
+                "version": "6.1.1",
+                "author": "UpcraftLP"
+            },
+            "cardinal-components-scoreboard": {
+                "name": "cardinal-components-scoreboard",
+                "version": "6.1.1",
+                "author": "Pyrofab"
+            },
+            "cardinal-components-world": {
+                "name": "cardinal-components-world",
+                "version": "6.1.1",
+                "author": "UpcraftLP"
+            },
+            "carpet": {
+                "name": "carpet",
+                "version": "1.4.147+v240613",
+                "author": "gnembon, ..."
+            },
+            "carpet-extra": {
+                "name": "carpet-extra",
+                "version": "1.4.147",
+                "author": "gnembon, DeadlyMC, ImUrX, 2No2Name, ..."
+            },
+            "chunky": {
+                "name": "chunky",
+                "version": "1.4.16",
+                "author": "pop4959"
+            },
+            "cloth-basic-math": {
+                "name": "cloth-basic-math",
+                "version": "0.6.1",
+                "author": ""
+            },
+            "cloth-config": {
+                "name": "cloth-config",
+                "version": "15.0.130",
+                "author": "shedaniel"
+            },
+            "cloud": {
+                "name": "cloud",
+                "version": "2.0.0-beta.7",
+                "author": "Citymonstret, zml, jmp"
+            },
+            "collective": {
+                "name": "collective",
+                "version": "7.84",
+                "author": "Rick South"
+            },
+            "com_electronwill_night-config_core": {
+                "name": "com_electronwill_night-config_core",
+                "version": "3.6.5",
+                "author": ""
+            },
+            "com_electronwill_night-config_toml": {
+                "name": "com_electronwill_night-config_toml",
+                "version": "3.6.5",
+                "author": ""
+            },
+            "com_fasterxml_jackson_core_jackson-annotations": {
+                "name": "com_fasterxml_jackson_core_jackson-annotations",
+                "version": "2.17.0",
+                "author": ""
+            },
+            "com_fasterxml_jackson_core_jackson-core": {
+                "name": "com_fasterxml_jackson_core_jackson-core",
+                "version": "2.17.0",
+                "author": ""
+            },
+            "com_fasterxml_jackson_core_jackson-databind": {
+                "name": "com_fasterxml_jackson_core_jackson-databind",
+                "version": "2.17.0",
+                "author": ""
+            },
+            "com_fasterxml_jackson_dataformat_jackson-dataformat-yaml": {
+                "name": "com_fasterxml_jackson_dataformat_jackson-dataformat-yaml",
+                "version": "2.17.0",
+                "author": ""
+            },
+            "com_google_errorprone_error_prone_annotations": {
+                "name": "com_google_errorprone_error_prone_annotations",
+                "version": "2.27.0",
+                "author": ""
+            },
+            "com_ibm_async_asyncutil": {
+                "name": "com_ibm_async_asyncutil",
+                "version": "0.1.0",
+                "author": ""
+            },
+            "com_moandjiezana_toml_toml4j": {
+                "name": "com_moandjiezana_toml_toml4j",
+                "version": "0.7.2",
+                "author": ""
+            },
+            "com_moulberry_axiomclientapi_axiomclientapi_": {
+                "name": "com_moulberry_axiomclientapi_axiomclientapi_",
+                "version": "1.0.0",
+                "author": ""
+            },
+            "com_moulberry_mixinconstraints": {
+                "name": "com_moulberry_mixinconstraints",
+                "version": "1.0.1",
+                "author": ""
+            },
+            "com_mysql_mysql-connector-j": {
+                "name": "com_mysql_mysql-connector-j",
+                "version": "8.4.0",
+                "author": ""
+            },
+            "com_nukkitx_natives": {
+                "name": "com_nukkitx_natives",
+                "version": "1.0.3",
+                "author": ""
+            },
+            "com_teamresourceful_bytecodecs": {
+                "name": "com_teamresourceful_bytecodecs",
+                "version": "1.1.2",
+                "author": ""
+            },
+            "com_teamresourceful_yabn": {
+                "name": "com_teamresourceful_yabn",
+                "version": "1.0.3",
+                "author": ""
+            },
+            "com_twelvemonkeys_common_common-image": {
+                "name": "com_twelvemonkeys_common_common-image",
+                "version": "3.10.0",
+                "author": ""
+            },
+            "com_twelvemonkeys_common_common-io": {
+                "name": "com_twelvemonkeys_common_common-io",
+                "version": "3.10.0",
+                "author": ""
+            },
+            "com_twelvemonkeys_common_common-lang": {
+                "name": "com_twelvemonkeys_common_common-lang",
+                "version": "3.10.0",
+                "author": ""
+            },
+            "com_twelvemonkeys_imageio_imageio-core": {
+                "name": "com_twelvemonkeys_imageio_imageio-core",
+                "version": "3.10.0",
+                "author": ""
+            },
+            "com_twelvemonkeys_imageio_imageio-metadata": {
+                "name": "com_twelvemonkeys_imageio_imageio-metadata",
+                "version": "3.10.0",
+                "author": ""
+            },
+            "com_twelvemonkeys_imageio_imageio-webp": {
+                "name": "com_twelvemonkeys_imageio_imageio-webp",
+                "version": "3.10.0",
+                "author": ""
+            },
+            "com_typesafe_config": {
+                "name": "com_typesafe_config",
+                "version": "1.4.3",
+                "author": ""
+            },
+            "com_velocitypowered_velocity-native": {
+                "name": "com_velocitypowered_velocity-native",
+                "version": "3.3.0-SNAPSHOT",
+                "author": ""
+            },
+            "common-protection-api": {
+                "name": "common-protection-api",
+                "version": "1.0.0",
+                "author": "Patbox"
+            },
+            "connectivity": {
+                "name": "connectivity",
+                "version": "1.21-5.7",
+                "author": "Someaddons"
+            },
+            "cupboard": {
+                "name": "cupboard",
+                "version": "1.21-2.7",
+                "author": "Someaddon"
+            },
+            "de_mkammerer_argon2-jvm": {
+                "name": "de_mkammerer_argon2-jvm",
+                "version": "2.11",
+                "author": ""
+            },
+            "de_mkammerer_argon2-jvm-nolibs": {
+                "name": "de_mkammerer_argon2-jvm-nolibs",
+                "version": "2.11",
+                "author": ""
+            },
+            "dynmap": {
+                "name": "dynmap",
+                "version": "3.7-SNAPSHOT",
+                "author": "mikeprimm, LolHens, i509VCB"
+            },
+            "easyauth": {
+                "name": "easyauth",
+                "version": "3.0.25",
+                "author": "NikitaCartes, samo_lego"
+            },
+            "ec-core": {
+                "name": "ec-core",
+                "version": "1.3.0-mc1.21",
+                "author": "John Paul R. (JP79194)"
+            },
+            "essential_commands": {
+                "name": "essential_commands",
+                "version": "0.35.2-mc1.21",
+                "author": "John Paul R. (JP79194)"
+            },
+            "fabric-api": {
+                "name": "fabric-api",
+                "version": "0.100.3+1.21",
+                "author": "FabricMC"
+            },
+            "fabric-api-base": {
+                "name": "fabric-api-base",
+                "version": "0.4.42+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabric-api-lookup-api-v1": {
+                "name": "fabric-api-lookup-api-v1",
+                "version": "1.6.67+b5597344d1",
+                "author": "FabricMC"
+            },
+            "fabric-biome-api-v1": {
+                "name": "fabric-biome-api-v1",
+                "version": "13.0.28+6fc22b99d1",
+                "author": "FabricMC"
+            },
+            "fabric-block-api-v1": {
+                "name": "fabric-block-api-v1",
+                "version": "1.0.22+0af3f5a7d1",
+                "author": "FabricMC"
+            },
+            "fabric-block-view-api-v2": {
+                "name": "fabric-block-view-api-v2",
+                "version": "1.0.10+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabric-command-api-v1": {
+                "name": "fabric-command-api-v1",
+                "version": "1.2.48+f71b366fd1",
+                "author": "FabricMC"
+            },
+            "fabric-command-api-v2": {
+                "name": "fabric-command-api-v2",
+                "version": "2.2.27+6a6dfa19d1",
+                "author": "FabricMC"
+            },
+            "fabric-commands-v0": {
+                "name": "fabric-commands-v0",
+                "version": "0.2.65+df3654b3d1",
+                "author": "FabricMC"
+            },
+            "fabric-content-registries-v0": {
+                "name": "fabric-content-registries-v0",
+                "version": "8.0.13+b5597344d1",
+                "author": "FabricMC"
+            },
+            "fabric-convention-tags-v1": {
+                "name": "fabric-convention-tags-v1",
+                "version": "2.0.14+7f945d5bd1",
+                "author": "FabricMC"
+            },
+            "fabric-convention-tags-v2": {
+                "name": "fabric-convention-tags-v2",
+                "version": "2.3.1+8a3b5617d1",
+                "author": "FabricMC"
+            },
+            "fabric-crash-report-info-v1": {
+                "name": "fabric-crash-report-info-v1",
+                "version": "0.2.29+0af3f5a7d1",
+                "author": "FabricMC"
+            },
+            "fabric-data-attachment-api-v1": {
+                "name": "fabric-data-attachment-api-v1",
+                "version": "1.1.23+6a6dfa19d1",
+                "author": "FabricMC"
+            },
+            "fabric-data-generation-api-v1": {
+                "name": "fabric-data-generation-api-v1",
+                "version": "20.2.8+16c4ae25d1",
+                "author": "FabricMC"
+            },
+            "fabric-dimensions-v1": {
+                "name": "fabric-dimensions-v1",
+                "version": "4.0.0+6fc22b99d1",
+                "author": "FabricMC"
+            },
+            "fabric-entity-events-v1": {
+                "name": "fabric-entity-events-v1",
+                "version": "1.6.12+6fc22b99d1",
+                "author": "FabricMC"
+            },
+            "fabric-events-interaction-v0": {
+                "name": "fabric-events-interaction-v0",
+                "version": "0.7.10+e633f883d1",
+                "author": "FabricMC"
+            },
+            "fabric-game-rule-api-v1": {
+                "name": "fabric-game-rule-api-v1",
+                "version": "1.0.52+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabric-item-api-v1": {
+                "name": "fabric-item-api-v1",
+                "version": "11.0.0+afdfc921d1",
+                "author": "FabricMC"
+            },
+            "fabric-item-group-api-v1": {
+                "name": "fabric-item-group-api-v1",
+                "version": "4.1.1+cb5ced13d1",
+                "author": "FabricMC"
+            },
+            "fabric-language-kotlin": {
+                "name": "fabric-language-kotlin",
+                "version": "1.12.0+kotlin.2.0.10",
+                "author": "FabricMC"
+            },
+            "fabric-lifecycle-events-v1": {
+                "name": "fabric-lifecycle-events-v1",
+                "version": "2.3.11+8f3583aed1",
+                "author": "FabricMC"
+            },
+            "fabric-loot-api-v2": {
+                "name": "fabric-loot-api-v2",
+                "version": "3.0.10+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabric-message-api-v1": {
+                "name": "fabric-message-api-v1",
+                "version": "6.0.13+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabric-networking-api-v1": {
+                "name": "fabric-networking-api-v1",
+                "version": "4.2.0+ab7edbacd1",
+                "author": "FabricMC"
+            },
+            "fabric-object-builder-api-v1": {
+                "name": "fabric-object-builder-api-v1",
+                "version": "15.1.11+d1321076d1",
+                "author": "FabricMC"
+            },
+            "fabric-particles-v1": {
+                "name": "fabric-particles-v1",
+                "version": "4.0.2+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabric-permissions-api-v0": {
+                "name": "fabric-permissions-api-v0",
+                "version": "0.3.1",
+                "author": "Luck"
+            },
+            "fabric-recipe-api-v1": {
+                "name": "fabric-recipe-api-v1",
+                "version": "5.0.9+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabric-registry-sync-v0": {
+                "name": "fabric-registry-sync-v0",
+                "version": "5.0.22+ab7edbacd1",
+                "author": "FabricMC"
+            },
+            "fabric-rendering-data-attachment-v1": {
+                "name": "fabric-rendering-data-attachment-v1",
+                "version": "0.3.48+73761d2ed1",
+                "author": "FabricMC"
+            },
+            "fabric-rendering-fluids-v1": {
+                "name": "fabric-rendering-fluids-v1",
+                "version": "3.1.6+b5597344d1",
+                "author": "FabricMC"
+            },
+            "fabric-resource-conditions-api-v1": {
+                "name": "fabric-resource-conditions-api-v1",
+                "version": "4.2.1+d153f344d1",
+                "author": "FabricMC"
+            },
+            "fabric-resource-loader-v0": {
+                "name": "fabric-resource-loader-v0",
+                "version": "1.1.4+cb5ced13d1",
+                "author": "FabricMC"
+            },
+            "fabric-screen-handler-api-v1": {
+                "name": "fabric-screen-handler-api-v1",
+                "version": "1.3.79+b5597344d1",
+                "author": "FabricMC"
+            },
+            "fabric-transfer-api-v1": {
+                "name": "fabric-transfer-api-v1",
+                "version": "5.1.14+b5597344d1",
+                "author": "FabricMC"
+            },
+            "fabric-transitive-access-wideners-v1": {
+                "name": "fabric-transitive-access-wideners-v1",
+                "version": "6.0.12+6573ed8cd1",
+                "author": "FabricMC"
+            },
+            "fabricloader": {
+                "name": "fabricloader",
+                "version": "0.15.11",
+                "author": "FabricMC"
+            },
+            "farsight": {
+                "name": "farsight",
+                "version": "1.21-4.3",
+                "author": "Someaddon"
+            },
+            "fastasyncworldsave": {
+                "name": "fastasyncworldsave",
+                "version": "1.21-2.0",
+                "author": "Someaddon"
+            },
+            "ferritecore": {
+                "name": "ferritecore",
+                "version": "7.0.0",
+                "author": "malte0811"
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT",
+                "author": "GeyserMC"
+            },
+            "geyser-fabric": {
+                "name": "geyser-fabric",
+                "version": "2.4.2-SNAPSHOT",
+                "author": "GeyserMC"
+            },
+            "goml": {
+                "name": "goml",
+                "version": "1.13.1+1.21",
+                "author": "Patbox, Draylar (Original author)"
+            },
+            "invview": {
+                "name": "invview",
+                "version": "1.4.15-1.20.5+",
+                "author": "Potatoboy9999"
+            },
+            "io_airlift_aircompressor": {
+                "name": "io_airlift_aircompressor",
+                "version": "0.25",
+                "author": ""
+            },
+            "io_jsonwebtoken_jjwt-api": {
+                "name": "io_jsonwebtoken_jjwt-api",
+                "version": "0.12.6",
+                "author": ""
+            },
+            "io_jsonwebtoken_jjwt-gson": {
+                "name": "io_jsonwebtoken_jjwt-gson",
+                "version": "0.12.6",
+                "author": ""
+            },
+            "io_jsonwebtoken_jjwt-impl": {
+                "name": "io_jsonwebtoken_jjwt-impl",
+                "version": "0.12.6",
+                "author": ""
+            },
+            "io_leangen_geantyref_geantyref": {
+                "name": "io_leangen_geantyref_geantyref",
+                "version": "1.3.15",
+                "author": ""
+            },
+            "io_netty_netty-codec-dns": {
+                "name": "io_netty_netty-codec-dns",
+                "version": "4.1.107",
+                "author": ""
+            },
+            "io_netty_netty-codec-haproxy": {
+                "name": "io_netty_netty-codec-haproxy",
+                "version": "4.1.107",
+                "author": ""
+            },
+            "io_netty_netty-resolver-dns-classes-macos": {
+                "name": "io_netty_netty-resolver-dns-classes-macos",
+                "version": "4.1.107",
+                "author": ""
+            },
+            "io_wispforest_endec": {
+                "name": "io_wispforest_endec",
+                "version": "0.1.5",
+                "author": ""
+            },
+            "io_wispforest_endec_gson": {
+                "name": "io_wispforest_endec_gson",
+                "version": "0.1.3",
+                "author": ""
+            },
+            "io_wispforest_endec_jankson": {
+                "name": "io_wispforest_endec_jankson",
+                "version": "0.1.3",
+                "author": ""
+            },
+            "io_wispforest_endec_netty": {
+                "name": "io_wispforest_endec_netty",
+                "version": "0.1.2",
+                "author": ""
+            },
+            "jakarta_inject_jakarta_inject-api": {
+                "name": "jakarta_inject_jakarta_inject-api",
+                "version": "2.0.1",
+                "author": ""
+            },
+            "java": {
+                "name": "java",
+                "version": "21",
+                "author": ""
+            },
+            "javax_inject_javax_inject": {
+                "name": "javax_inject_javax_inject",
+                "version": "1",
+                "author": ""
+            },
+            "krypton": {
+                "name": "krypton",
+                "version": "0.2.8",
+                "author": "tuxed"
+            },
+            "ksyxis": {
+                "name": "ksyxis",
+                "version": "1.3.2",
+                "author": "VidTu"
+            },
+            "ledger": {
+                "name": "ledger",
+                "version": "1.3.4",
+                "author": "Potatoboy9999"
+            },
+            "letmedespawn": {
+                "name": "letmedespawn",
+                "version": "1.3.1",
+                "author": "frikinjay"
+            },
+            "limitedchunks": {
+                "name": "limitedchunks",
+                "version": "1.21-4.1",
+                "author": "Someaddon"
+            },
+            "luckperms": {
+                "name": "luckperms",
+                "version": "5.4.139",
+                "author": "Luck"
+            },
+            "melius-vanish": {
+                "name": "melius-vanish",
+                "version": "1.5.6+1.21",
+                "author": "Drex"
+            },
+            "minecraft": {
+                "name": "minecraft",
+                "version": "1.21",
+                "author": ""
+            },
+            "minimotd-fabric": {
+                "name": "minimotd-fabric",
+                "version": "2.1.2",
+                "author": "jmp"
+            },
+            "mixinextras": {
+                "name": "mixinextras",
+                "version": "0.3.5",
+                "author": "LlamaLad7"
+            },
+            "mr_tidal_towns": {
+                "name": "mr_tidal_towns",
+                "version": "1.3.3",
+                "author": "joshieman"
+            },
+            "mr_true_ending": {
+                "name": "mr_true_ending",
+                "version": "1-v1.1.2b",
+                "author": "limesplatus"
+            },
+            "mr_vanilla_refresh": {
+                "name": "mr_vanilla_refresh",
+                "version": "1.4.23b",
+                "author": "limesplatus"
+            },
+            "mr_villager_transportation": {
+                "name": "mr_villager_transportation",
+                "version": "1.3.1",
+                "author": "Jaffthry"
+            },
+            "net_bytebuddy_byte-buddy": {
+                "name": "net_bytebuddy_byte-buddy",
+                "version": "1.14.9",
+                "author": ""
+            },
+            "net_fabricmc_mapping-io": {
+                "name": "net_fabricmc_mapping-io",
+                "version": "0.6.1",
+                "author": ""
+            },
+            "net_java_dev_jna_jna": {
+                "name": "net_java_dev_jna_jna",
+                "version": "5.13.0",
+                "author": ""
+            },
+            "net_jodah_expiringmap": {
+                "name": "net_jodah_expiringmap",
+                "version": "0.5.10",
+                "author": ""
+            },
+            "net_kyori_adventure-api": {
+                "name": "net_kyori_adventure-api",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-key": {
+                "name": "net_kyori_adventure-key",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-nbt": {
+                "name": "net_kyori_adventure-nbt",
+                "version": "4.15.0",
+                "author": ""
+            },
+            "net_kyori_adventure-platform-api": {
+                "name": "net_kyori_adventure-platform-api",
+                "version": "4.3.3",
+                "author": ""
+            },
+            "net_kyori_adventure-serializer-configurate4": {
+                "name": "net_kyori_adventure-serializer-configurate4",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-feature-pagination": {
+                "name": "net_kyori_adventure-text-feature-pagination",
+                "version": "4.0.0-SNAPSHOT",
+                "author": ""
+            },
+            "net_kyori_adventure-text-logger-slf4j": {
+                "name": "net_kyori_adventure-text-logger-slf4j",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-minimessage": {
+                "name": "net_kyori_adventure-text-minimessage",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-serializer-ansi": {
+                "name": "net_kyori_adventure-text-serializer-ansi",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-serializer-gson": {
+                "name": "net_kyori_adventure-text-serializer-gson",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-serializer-json": {
+                "name": "net_kyori_adventure-text-serializer-json",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-serializer-json-legacy-impl": {
+                "name": "net_kyori_adventure-text-serializer-json-legacy-impl",
+                "version": "4.15.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-serializer-legacy": {
+                "name": "net_kyori_adventure-text-serializer-legacy",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_adventure-text-serializer-plain": {
+                "name": "net_kyori_adventure-text-serializer-plain",
+                "version": "4.17.0",
+                "author": ""
+            },
+            "net_kyori_ansi": {
+                "name": "net_kyori_ansi",
+                "version": "1.0.3",
+                "author": ""
+            },
+            "net_kyori_examination-api": {
+                "name": "net_kyori_examination-api",
+                "version": "1.3.0",
+                "author": ""
+            },
+            "net_kyori_examination-string": {
+                "name": "net_kyori_examination-string",
+                "version": "1.3.0",
+                "author": ""
+            },
+            "net_kyori_option": {
+                "name": "net_kyori_option",
+                "version": "1.0.0",
+                "author": ""
+            },
+            "net_lenni0451_commons_httpclient": {
+                "name": "net_lenni0451_commons_httpclient",
+                "version": "1.5.1",
+                "author": ""
+            },
+            "net_objecthunter_exp4j": {
+                "name": "net_objecthunter_exp4j",
+                "version": "0.4.8",
+                "author": ""
+            },
+            "net_raphimc_minecraftauth": {
+                "name": "net_raphimc_minecraftauth",
+                "version": "4.1.1-20240806.235051-7",
+                "author": ""
+            },
+            "noisium": {
+                "name": "noisium",
+                "version": "2.2.1+mc1.21",
+                "author": "Steveplays28"
+            },
+            "org_apache_commons_commons-text": {
+                "name": "org_apache_commons_commons-text",
+                "version": "1.10.0",
+                "author": ""
+            },
+            "org_bitbucket_b_c_jose4j": {
+                "name": "org_bitbucket_b_c_jose4j",
+                "version": "0.9.6",
+                "author": ""
+            },
+            "org_cloudburstmc_math_api": {
+                "name": "org_cloudburstmc_math_api",
+                "version": "2.0",
+                "author": ""
+            },
+            "org_cloudburstmc_math_immutable": {
+                "name": "org_cloudburstmc_math_immutable",
+                "version": "2.0",
+                "author": ""
+            },
+            "org_cloudburstmc_nbt": {
+                "name": "org_cloudburstmc_nbt",
+                "version": "3.0.3",
+                "author": ""
+            },
+            "org_fusesource_jansi_jansi": {
+                "name": "org_fusesource_jansi_jansi",
+                "version": "2.4.1",
+                "author": ""
+            },
+            "org_geysermc_api_base-api": {
+                "name": "org_geysermc_api_base-api",
+                "version": "1.0.1",
+                "author": ""
+            },
+            "org_geysermc_cumulus_cumulus": {
+                "name": "org_geysermc_cumulus_cumulus",
+                "version": "1.1.2",
+                "author": ""
+            },
+            "org_geysermc_event_events": {
+                "name": "org_geysermc_event_events",
+                "version": "1.1-SNAPSHOT",
+                "author": ""
+            },
+            "org_geysermc_geyser_common": {
+                "name": "org_geysermc_geyser_common",
+                "version": "2.2.3-SNAPSHOT",
+                "author": ""
+            },
+            "org_incendo_cloud-brigadier": {
+                "name": "org_incendo_cloud-brigadier",
+                "version": "2.0.0-beta.8",
+                "author": ""
+            },
+            "org_incendo_cloud-core": {
+                "name": "org_incendo_cloud-core",
+                "version": "2.0.0-rc.2",
+                "author": ""
+            },
+            "org_incendo_cloud-minecraft-extras": {
+                "name": "org_incendo_cloud-minecraft-extras",
+                "version": "2.0.0-beta.9",
+                "author": ""
+            },
+            "org_incendo_cloud-minecraft-modded-common-fabric-repack_": {
+                "name": "org_incendo_cloud-minecraft-modded-common-fabric-repack_",
+                "version": "2.0.0-beta.7",
+                "author": ""
+            },
+            "org_incendo_cloud-services": {
+                "name": "org_incendo_cloud-services",
+                "version": "2.0.0-rc.2",
+                "author": ""
+            },
+            "org_iq80_leveldb_leveldb": {
+                "name": "org_iq80_leveldb_leveldb",
+                "version": "0.12",
+                "author": ""
+            },
+            "org_iq80_leveldb_leveldb-api": {
+                "name": "org_iq80_leveldb_leveldb-api",
+                "version": "0.12",
+                "author": ""
+            },
+            "org_java-websocket_java-websocket": {
+                "name": "org_java-websocket_java-websocket",
+                "version": "1.5.2",
+                "author": ""
+            },
+            "org_jctools_jctools-core": {
+                "name": "org_jctools_jctools-core",
+                "version": "4.0.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-reflect": {
+                "name": "org_jetbrains_kotlin_kotlin-reflect",
+                "version": "2.0.10",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib",
+                "version": "2.0.10",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib-jdk7": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib-jdk7",
+                "version": "2.0.10",
+                "author": ""
+            },
+            "org_jetbrains_kotlin_kotlin-stdlib-jdk8": {
+                "name": "org_jetbrains_kotlin_kotlin-stdlib-jdk8",
+                "version": "2.0.10",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_atomicfu-jvm": {
+                "name": "org_jetbrains_kotlinx_atomicfu-jvm",
+                "version": "0.25.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm",
+                "version": "1.8.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8": {
+                "name": "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8",
+                "version": "1.8.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-datetime-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-datetime-jvm",
+                "version": "0.6.0",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm",
+                "version": "0.5.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-io-core-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-io-core-jvm",
+                "version": "0.5.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm",
+                "version": "1.7.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm",
+                "version": "1.7.1",
+                "author": ""
+            },
+            "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm": {
+                "name": "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm",
+                "version": "1.7.1",
+                "author": ""
+            },
+            "org_jline_jline": {
+                "name": "org_jline_jline",
+                "version": "3.26.2",
+                "author": ""
+            },
+            "org_jline_jline-terminal-jansi": {
+                "name": "org_jline_jline-terminal-jansi",
+                "version": "3.26.2",
+                "author": ""
+            },
+            "org_lanternpowered_lmbda": {
+                "name": "org_lanternpowered_lmbda",
+                "version": "2.0.0",
+                "author": ""
+            },
+            "org_mongodb_bson": {
+                "name": "org_mongodb_bson",
+                "version": "4.11.1",
+                "author": ""
+            },
+            "org_mongodb_mongodb-driver-core": {
+                "name": "org_mongodb_mongodb-driver-core",
+                "version": "4.11.1",
+                "author": ""
+            },
+            "org_mongodb_mongodb-driver-sync": {
+                "name": "org_mongodb_mongodb-driver-sync",
+                "version": "4.11.1",
+                "author": ""
+            },
+            "org_postgresql_postgresql": {
+                "name": "org_postgresql_postgresql",
+                "version": "42.7.3",
+                "author": ""
+            },
+            "org_quiltmc_parsers_gson": {
+                "name": "org_quiltmc_parsers_gson",
+                "version": "0.2.1",
+                "author": ""
+            },
+            "org_quiltmc_parsers_json": {
+                "name": "org_quiltmc_parsers_json",
+                "version": "0.2.1",
+                "author": ""
+            },
+            "org_spongepowered_configurate-core": {
+                "name": "org_spongepowered_configurate-core",
+                "version": "4.2.0-SNAPSHOT",
+                "author": ""
+            },
+            "org_spongepowered_configurate-hocon": {
+                "name": "org_spongepowered_configurate-hocon",
+                "version": "4.2.0-SNAPSHOT",
+                "author": ""
+            },
+            "org_spongepowered_configurate-yaml": {
+                "name": "org_spongepowered_configurate-yaml",
+                "version": "4.2.0-SNAPSHOT",
+                "author": ""
+            },
+            "org_threadly_threadly": {
+                "name": "org_threadly_threadly",
+                "version": "7.0",
+                "author": ""
+            },
+            "org_xerial_sqlite-jdbc": {
+                "name": "org_xerial_sqlite-jdbc",
+                "version": "3.46.0.0",
+                "author": ""
+            },
+            "org_yaml_snakeyaml": {
+                "name": "org_yaml_snakeyaml",
+                "version": "2.2",
+                "author": ""
+            },
+            "owo": {
+                "name": "owo",
+                "version": "0.12.11+1.21",
+                "author": "glisco"
+            },
+            "packet_tweaker": {
+                "name": "packet_tweaker",
+                "version": "0.5.5+1.21",
+                "author": "Gegy, Patbox"
+            },
+            "placeholder-api": {
+                "name": "placeholder-api",
+                "version": "2.4.1+1.21",
+                "author": "Patbox"
+            },
+            "player-data-api": {
+                "name": "player-data-api",
+                "version": "0.6.0+1.21",
+                "author": "Patbox"
+            },
+            "playerabilitylib": {
+                "name": "playerabilitylib",
+                "version": "1.10.0",
+                "author": "Pyrofab"
+            },
+            "polymer-common": {
+                "name": "polymer-common",
+                "version": "0.9.8+1.21",
+                "author": "Patbox"
+            },
+            "polymer-core": {
+                "name": "polymer-core",
+                "version": "0.9.8+1.21",
+                "author": "Patbox"
+            },
+            "polymer-networking": {
+                "name": "polymer-networking",
+                "version": "0.9.8+1.21",
+                "author": "Patbox"
+            },
+            "polymer-registry-sync-manipulator": {
+                "name": "polymer-registry-sync-manipulator",
+                "version": "0.9.8+1.21",
+                "author": "Patbox"
+            },
+            "polymer-resource-pack": {
+                "name": "polymer-resource-pack",
+                "version": "0.9.8+1.21",
+                "author": "Patbox"
+            },
+            "polymer-virtual-entity": {
+                "name": "polymer-virtual-entity",
+                "version": "0.9.8+1.21",
+                "author": "Patbox"
+            },
+            "predicate-api": {
+                "name": "predicate-api",
+                "version": "0.5.1+1.21",
+                "author": "Patbox"
+            },
+            "recipeessentials": {
+                "name": "recipeessentials",
+                "version": "1.21-3.7",
+                "author": ""
+            },
+            "resourcefullib": {
+                "name": "resourcefullib",
+                "version": "3.0.9",
+                "author": "ThatGravyBoat, Epic_Oreo"
+            },
+            "rtree-3i-lite-fabric": {
+                "name": "rtree-3i-lite-fabric",
+                "version": "0.3.0",
+                "author": "JamiesWhiteShirt"
+            },
+            "server_translations_api": {
+                "name": "server_translations_api",
+                "version": "2.3.1+1.21-pre2",
+                "author": "CatCore, Gegy, Patbox"
+            },
+            "servercore": {
+                "name": "servercore",
+                "version": "1.5.4+1.21",
+                "author": "Wesley1808"
+            },
+            "servux": {
+                "name": "servux",
+                "version": "0.3.7",
+                "author": "masa"
+            },
+            "sgui": {
+                "name": "sgui",
+                "version": "1.6.0+1.21",
+                "author": "Patbox"
+            },
+            "silk-all": {
+                "name": "silk-all",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "silk-commands": {
+                "name": "silk-commands",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "silk-core": {
+                "name": "silk-core",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "silk-game": {
+                "name": "silk-game",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "silk-igui": {
+                "name": "silk-igui",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "silk-nbt": {
+                "name": "silk-nbt",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "silk-network": {
+                "name": "silk-network",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "silk-persistence": {
+                "name": "silk-persistence",
+                "version": "1.10.7",
+                "author": "jakobkmar, _F0X"
+            },
+            "skinrestorer": {
+                "name": "skinrestorer",
+                "version": "2.0.2+1.21",
+                "author": "Lionarius"
+            },
+            "smoothchunk": {
+                "name": "smoothchunk",
+                "version": "1.21-3.6",
+                "author": "Someaddons"
+            },
+            "space_arim_dazzleconf_dazzleconf-core": {
+                "name": "space_arim_dazzleconf_dazzleconf-core",
+                "version": "1.3.0-M2",
+                "author": ""
+            },
+            "space_arim_dazzleconf_dazzleconf-ext-snakeyaml": {
+                "name": "space_arim_dazzleconf_dazzleconf-ext-snakeyaml",
+                "version": "1.3.0-M2",
+                "author": ""
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.97",
+                "author": "Luck"
+            },
+            "starterkit": {
+                "name": "starterkit",
+                "version": "7.1",
+                "author": "Rick South"
+            },
+            "structureessentials": {
+                "name": "structureessentials",
+                "version": "1.21-3.4",
+                "author": "Someaddons"
+            },
+            "styled-nicknames": {
+                "name": "styled-nicknames",
+                "version": "1.6.0+1.21",
+                "author": "Patbox"
+            },
+            "styledchat": {
+                "name": "styledchat",
+                "version": "2.6.0+1.21",
+                "author": "Patbox"
+            },
+            "styledplayerlist": {
+                "name": "styledplayerlist",
+                "version": "3.5.1+1.21",
+                "author": "Patbox"
+            },
+            "tabtps-fabric": {
+                "name": "tabtps-fabric",
+                "version": "1.3.24",
+                "author": "jmp"
+            },
+            "universal-graves": {
+                "name": "universal-graves",
+                "version": "3.4.3+1.21",
+                "author": "Patbox"
+            },
+            "vmp": {
+                "name": "vmp",
+                "version": "0.2.0+beta.7.165+1.21",
+                "author": "ishland"
+            },
+            "yet_another_config_lib_v3": {
+                "name": "yet_another_config_lib_v3",
+                "version": "3.5.0+1.21-fabric",
+                "author": "isXander"
+            }
+        },
+        "extraPlatformMetadata": {
+            "datapacks": "{\"vanilla\":{\"name\":\"Default\",\"description\":\"The default data for Minecraft\",\"source\":\"builtin\"},\"fabric\":{\"name\":\"Fabric Mods\",\"description\":\"Mod resources.\",\"source\":\"unknown\"},\"axiom\":{\"name\":\"Fabric Mod \\\"Axiom\\\"\",\"description\":\"axiom\",\"source\":\"unknown\"},\"blossom-homes\":{\"name\":\"Fabric Mod \\\"BlossomHomes\\\"\",\"description\":\"blossom-homes\",\"source\":\"unknown\"},\"blossom-lib\":{\"name\":\"Fabric Mod \\\"BlossomLib\\\"\",\"description\":\"blossom-lib\",\"source\":\"unknown\"},\"blossom-pvp\":{\"name\":\"Fabric Mod \\\"BlossomPVP\\\"\",\"description\":\"blossom-pvp\",\"source\":\"unknown\"},\"collective\":{\"name\":\"Fabric Mod \\\"Collective\\\"\",\"description\":\"collective resources\",\"source\":\"unknown\"},\"easyauth\":{\"name\":\"Fabric Mod \\\"Easy Authentication Mod\\\"\",\"description\":\"easyauth\",\"source\":\"unknown\"},\"fabric-convention-tags-v2\":{\"name\":\"Fabric Mod \\\"Fabric Convention Tags (v2)\\\"\",\"description\":\"fabric-convention-tags-v2\",\"source\":\"unknown\"},\"goml\":{\"name\":\"Fabric Mod \\\"Get Off My Lawn ReServed\\\"\",\"description\":\"goml\",\"source\":\"unknown\"},\"ledger\":{\"name\":\"Fabric Mod \\\"Ledger\\\"\",\"description\":\"ledger\",\"source\":\"unknown\"},\"melius-vanish\":{\"name\":\"Fabric Mod \\\"Vanish\\\"\",\"description\":\"melius-vanish\",\"source\":\"unknown\"},\"mr_dungeons_andtavernsendcastlestandalone\":{\"name\":\"Fabric Mod \\\"Dungeons and Taverns End Castle Standalone\\\"\",\"description\":\"Also works as a resourcepack to give custom textures\",\"source\":\"unknown\"},\"mr_nice_mobsremastered\":{\"name\":\"Fabric Mod \\\"Nice Mobs Remastered: Friends & Foes\\\"\",\"description\":\"Mobs Remastered by NiceRon\",\"source\":\"unknown\"},\"mr_rpgtitles\":{\"name\":\"Fabric Mod \\\"RPGTitles\\\"\",\"description\":\"\u00a7l\u00a75RPG Titles v1.4.0\u00a7r\\nCreated by \u00a73naomi\",\"source\":\"unknown\"},\"mr_tidal_towns\":{\"name\":\"Fabric Mod \\\"Tidal Towns\\\"\",\"description\":\"Adds Ocean Villages\",\"source\":\"unknown\"},\"mr_true_ending\":{\"name\":\"Fabric Mod \\\"True Ending: Ender Dragon Overhaul\\\"\",\"description\":\"Ender Dragon Overhauled\\nVersion v1.1.2b - MC 1.21\",\"source\":\"unknown\"},\"mr_vanilla_refresh\":{\"name\":\"Fabric Mod \\\"Vanilla Refresh\\\"\",\"description\":\"Quality of Life Refresh\\nVersion 1.4.23b - MC 1.21\",\"source\":\"unknown\"},\"mr_villager_transportation\":{\"name\":\"Fabric Mod \\\"Villager Transportation\\\"\",\"description\":\"Created by Jaffthry\",\"source\":\"unknown\"},\"server_translations_api\":{\"name\":\"Fabric Mod \\\"Server Translations API\\\"\",\"description\":\"server_translations_api\",\"source\":\"unknown\"},\"universal-graves\":{\"name\":\"Fabric Mod \\\"Universal Graves\\\"\",\"description\":\"universal-graves\",\"source\":\"unknown\"},\"warden-drops\":{\"name\":\"Fabric Mod \\\"Warden Drops\\\"\",\"description\":\"warden-drops\",\"source\":\"unknown\"},\"file/ShulkerDropsTwoShells-[1.21]-v.2.1.0.zip\":{\"name\":\"ShulkerDropsTwoShells-[1.21]-v.2.1.0.zip\",\"description\":\"Shulkers drop 2 shells, instead of 1 - [1.21] - v.2.1.0\",\"source\":\"world\"},\"file/sit-anywhere1-21v2.zip\":{\"name\":\"sit-anywhere1-21v2.zip\",\"description\":\"Datapack by TheMobo / Updated by Keegers02 to 1.21\",\"source\":\"world\"},\"file/villagers-infinite-stock-open-me-e1760.zip\":{\"name\":\"villagers-infinite-stock-open-me-e1760.zip\",\"description\":\"placeholder hehe\",\"source\":\"world\"},\"file/Villager Transportation v1.3.1 1.21.zip\":{\"name\":\"Villager Transportation v1.3.1 1.21.zip\",\"description\":\"Created by Jaffthry\",\"source\":\"world\"}}"
+        },
+        "samplerMode": 0
+    }
+}

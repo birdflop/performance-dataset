@@ -1,0 +1,636 @@
+{
+    "metadata": {
+        "startTime": 1720910148134,
+        "interval": 10000,
+        "platform": {
+            "type": 0,
+            "version": "git-PaperSpigot-cbe632ca (MC: 1.8.8)",
+            "minecraftVersion": "v1_8_R3",
+            "sparkVersion": 2,
+            "brand": ""
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 696221776,
+                    "total": 1495269376
+                }
+            },
+            "gc": {
+                "PS Scavenge": {
+                    "total": 4,
+                    "avgTime": 68.75,
+                    "avgFrequency": 57511
+                },
+                "PS MarkSweep": {
+                    "total": 1,
+                    "avgTime": 378,
+                    "avgFrequency": 229941
+                }
+            },
+            "uptime": 230319,
+            "tps": {
+                "last1m": 19.99934966548077,
+                "last5m": 13.360800215798049,
+                "last15m": 17.15797416061454
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 134,
+                    "max": 163,
+                    "min": 81,
+                    "median": 143,
+                    "percentile95": 163
+                }
+            },
+            "playerCount": 1,
+            "world": {
+                "totalEntities": 41,
+                "entityCounts": {
+                    "ArmorStand": 12,
+                    "unknown[PLAYER]": 1,
+                    "ItemFrame": 28
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 41,
+                        "regions": [
+                            {
+                                "totalEntities": 29,
+                                "chunks": [
+                                    {
+                                        "x": -1,
+                                        "z": 0,
+                                        "totalEntities": 12,
+                                        "entityCounts": {
+                                            "ItemFrame": 12
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 0,
+                                        "totalEntities": 17,
+                                        "entityCounts": {
+                                            "ItemFrame": 16,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 12,
+                                "chunks": [
+                                    {
+                                        "x": 0,
+                                        "z": 2,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "ArmorStand": 4
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 2,
+                                        "totalEntities": 4,
+                                        "entityCounts": {
+                                            "ArmorStand": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 0,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ArmorStand": 2
+                                        }
+                                    },
+                                    {
+                                        "x": -1,
+                                        "z": 3,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "ArmorStand": 2
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 8,
+                "processUsage": {
+                    "last1m": 0.0339432557246112,
+                    "last15m": 0.02571736285983429
+                },
+                "systemUsage": {
+                    "last1m": 0.045526624120247446,
+                    "last15m": 0.042623418083682967
+                },
+                "modelName": "Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz"
+            },
+            "memory": {
+                "physical": {
+                    "used": 5878861824,
+                    "total": 20967784448
+                },
+                "swap": {
+                    "used": 0,
+                    "total": 0
+                }
+            },
+            "gc": {
+                "PS Scavenge": {
+                    "total": 16,
+                    "avgTime": 76.6875,
+                    "avgFrequency": 15785
+                },
+                "PS MarkSweep": {
+                    "total": 5,
+                    "avgTime": 356.8,
+                    "avgFrequency": 50400
+                }
+            },
+            "disk": {
+                "used": 14361878528,
+                "total": 84445941760
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "5.15.0-113-generic"
+            },
+            "java": {
+                "vendor": "Temurin",
+                "version": "1.8.0_312",
+                "vendorVersion": "unknown",
+                "vmArgs": "-XX:+UseContainerSupport -Xms128M -Xmx8192M -javaagent:slimeworldmanager-classmodifier.jar -Dterminal.jline=false -Dterminal.ansi=true -Dfile.encoding=UTF-8"
+            },
+            "uptime": 253787,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 15,
+                        "max": 32,
+                        "min": 0,
+                        "median": 13,
+                        "percentile95": 32
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 15,
+                        "max": 32,
+                        "min": 0,
+                        "median": 13,
+                        "percentile95": 32
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 494.6666666666667,
+                        "max": 1112,
+                        "min": 21,
+                        "median": 351,
+                        "percentile95": 1112
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 3626.6666666666665,
+                        "max": 10661,
+                        "min": 18,
+                        "median": 201,
+                        "percentile95": 10661
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 4.333333333333333,
+                        "max": 12,
+                        "min": 0,
+                        "median": 1,
+                        "percentile95": 12
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 5.666666666666667,
+                        "max": 16,
+                        "min": 0,
+                        "median": 1,
+                        "percentile95": 16
+                    }
+                }
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "view-distance": 7,
+                "max-build-height": 256,
+                "server-port": 25568,
+                "enable-command-block": false,
+                "gamemode": 0,
+                "allow-nether": false,
+                "enable-rcon": false,
+                "op-permission-level": 4,
+                "enable-query": false,
+                "generator-settings": "",
+                "level-name": "spawn",
+                "player-idle-timeout": 0,
+                "announce-player-achievements": false,
+                "query.port": 25568,
+                "debug": false,
+                "force-gamemode": false,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": true,
+                "pvp": true,
+                "spawn-npcs": false,
+                "generate-structures": false,
+                "spawn-animals": true,
+                "snooper-enabled": true,
+                "difficulty": 0,
+                "network-compression-threshold": 256,
+                "level-type": "DEFAULT",
+                "spawn-monsters": true,
+                "use-native-transport": true,
+                "max-players": 2024,
+                "spawn-protection": 0,
+                "online-mode": false,
+                "allow-flight": false,
+                "max-world-size": 29999984,
+                "resource-pack-hash": ""
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": false,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default"
+                },
+                "spawn-limits": {
+                    "monsters": 3,
+                    "animals": 3,
+                    "water-animals": 3,
+                    "ambient": 3
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 400,
+                    "load-threshold": 0
+                },
+                "ticks-per": {
+                    "animal-spawns": 5,
+                    "monster-spawns": 5,
+                    "autosave": 0
+                },
+                "aliases": "now-in-commands.yml"
+            },
+            "spigot.yml": {
+                "config-version": 8,
+                "settings": {
+                    "debug": false,
+                    "moved-too-quickly-threshold": 100.0,
+                    "bungeecord": true,
+                    "late-bind": false,
+                    "sample-count": 12,
+                    "player-shuffle": 0,
+                    "filter-creative-items": true,
+                    "user-cache-size": 1000,
+                    "save-user-cache-on-stop-only": true,
+                    "int-cache-limit": 1024,
+                    "moved-wrongly-threshold": 0.0625,
+                    "timeout-time": 60,
+                    "restart-on-crash": true,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 4,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    }
+                },
+                "stats": {
+                    "disable-saving": false
+                },
+                "commands": {
+                    "log": false,
+                    "tab-complete": 0,
+                    "silent-commandblock-console": false
+                },
+                "timings": {
+                    "enabled": false,
+                    "verbose": false,
+                    "history-interval": 300,
+                    "history-length": 3600
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "mob-spawn-range": 4,
+                        "anti-xray": {
+                            "enabled": false,
+                            "engine-mode": 1
+                        },
+                        "nerf-spawner-mobs": true,
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 4,
+                            "monsters": 4,
+                            "misc": 4
+                        },
+                        "entity-tracking-range": {
+                            "players": 48,
+                            "animals": 48,
+                            "monsters": 48,
+                            "misc": 32,
+                            "other": 64
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 8
+                        },
+                        "hopper-amount": 1,
+                        "random-light-updates": false,
+                        "save-structure-info": true,
+                        "max-bulk-chunks": 10,
+                        "max-entity-collisions": 8,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "walk-exhaustion": 0.2,
+                            "sprint-exhaustion": 0.8,
+                            "combat-exhaustion": 0.3,
+                            "regen-exhaustion": 3.0
+                        },
+                        "max-tnt-per-tick": 100,
+                        "max-tick-time": {
+                            "tile": 1000,
+                            "entity": 1000
+                        },
+                        "chunks-per-tick": 650,
+                        "clear-tick-list": false,
+                        "merge-radius": {
+                            "exp": 3.0,
+                            "item": 2.5
+                        },
+                        "item-despawn-rate": 2000,
+                        "arrow-despawn-rate": 300,
+                        "enable-zombie-pigmen-portal-spawns": true,
+                        "wither-spawn-sound-radius": 0,
+                        "view-distance": 7,
+                        "hanging-tick-frequency": 100,
+                        "zombie-aggressive-towards-villager": true
+                    }
+                }
+            },
+            "paper.yml": {
+                "config-version": 9,
+                "hopper": {
+                    "push-based": true,
+                    "fire-inventory-move-item-event": true
+                },
+                "tps": {
+                    "normal": 20,
+                    "hibernate": 1
+                },
+                "settings": {
+                    "baby-zombie-movement-speed": 0.5,
+                    "limit-player-interactions": true,
+                    "save-player-data": false
+                },
+                "stackable-buckets": {
+                    "lava": false,
+                    "water": false,
+                    "milk": false
+                },
+                "allow-map-decorations": false,
+                "pearl-passthrough": {
+                    "tripwire": true,
+                    "fence_gate": true,
+                    "slab": true
+                },
+                "durability-multiplier": 1.0,
+                "disconnect-spam": {
+                    "addition": 5,
+                    "enabled": false
+                },
+                "adaptative-chunk-gc": true,
+                "instant-respawn": true,
+                "effect-modifiers": {
+                    "strength": 1.3,
+                    "weakness": -0.5
+                },
+                "book": {
+                    "max_pages": 5
+                },
+                "warnWhenSettingExcessiveVelocity": true,
+                "knockback": {
+                    "friction": 2.0,
+                    "horizontal": 0.4,
+                    "vertical": 0.4,
+                    "vertical-limit": 0.4,
+                    "extra-horizontal": 0.5,
+                    "extra-vertical": 0.1
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "generator-settings": {
+                            "canyon": false,
+                            "caves": false,
+                            "dungeon": false,
+                            "fortress": false,
+                            "mineshaft": false,
+                            "monument": false,
+                            "stronghold": false,
+                            "temple": false,
+                            "village": false,
+                            "flat-bedrock": false
+                        },
+                        "allow-block-location-tab-completion": true,
+                        "player-exhaustion": {
+                            "block-break": 0.02500000037252903,
+                            "swimming": 0.014999999664723873
+                        },
+                        "falling-block-height-nerf": 0,
+                        "tnt-explosion-volume": 4.0,
+                        "cache-chunk-maps": false,
+                        "max-growth-height": {
+                            "cactus": 3,
+                            "reeds": 3
+                        },
+                        "game-mechanics": {
+                            "boats-drop-boats": false,
+                            "disable-player-crits": false,
+                            "disable-chest-cat-detection": true,
+                            "disable-end-credits": false
+                        },
+                        "remove-unloaded": {
+                            "enderpearls": true,
+                            "tnt-entities": true,
+                            "falling-blocks": true
+                        },
+                        "player-blocking-damage-multiplier": 0.5,
+                        "remove-invalid-mob-spawner-tile-entities": true,
+                        "squid-spawn-height": {
+                            "minimum": 45.0,
+                            "maximum": 63.0
+                        },
+                        "nether-ceiling-void-damage": false,
+                        "fast-drain": {
+                            "lava": false,
+                            "water": false
+                        },
+                        "lava-flow-speed": {
+                            "normal": 30,
+                            "nether": 10
+                        },
+                        "optimize-explosions": true,
+                        "mob-spawner-tick-rate": 1,
+                        "fishing-time-range": {
+                            "MinimumTicks": 100,
+                            "MaximumTicks": 900
+                        },
+                        "despawn-ranges": {
+                            "soft": 28,
+                            "hard": 96
+                        },
+                        "disable-teleportation-suffocation-check": false,
+                        "ocean-monument-guardian": false,
+                        "swamp-hut-witch": true,
+                        "keep-spawn-loaded": true,
+                        "falling-blocks-collide-with-signs": false,
+                        "disable-mood-sounds": false,
+                        "use-async-lighting": false,
+                        "portal-search-radius": 128,
+                        "disable-explosion-knockback": false,
+                        "water-over-lava-flow-speed": 5,
+                        "fix-cannons": true,
+                        "tnt-entity-height-nerf": 0,
+                        "use-hopper-check": false,
+                        "all-chunks-are-slime-chunks": false,
+                        "allow-undead-horse-leashing": false,
+                        "disable-thunder": false,
+                        "disable-ice-and-snow": false,
+                        "tick-next-tick-list-cap": 10000,
+                        "tick-next-tick-list-cap-ignores-redstone": false,
+                        "container-update-tick-rate": 1
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                14
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1720910381981,
+        "numberOfTicks": 1621,
+        "plugins": {
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.131"
+            },
+            "fastasyncworldedit": {
+                "name": "FastAsyncWorldEdit",
+                "version": "21.03.26-5ff3a9b-1286-22.3.9"
+            },
+            "nchat": {
+                "name": "nChat",
+                "version": "5.6.46"
+            },
+            "slimeworldmanager": {
+                "name": "SlimeWorldManager",
+                "version": "2.2.1"
+            },
+            "placeholderapi": {
+                "name": "PlaceholderAPI",
+                "version": "2.11.6"
+            },
+            "tab": {
+                "name": "TAB",
+                "version": "4.1.6"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.73"
+            },
+            "protocollib": {
+                "name": "ProtocolLib",
+                "version": "5.1.0"
+            },
+            "worldedit": {
+                "name": "WorldEdit",
+                "version": "6.1.7;dd00bb1"
+            },
+            "animatedscoreboard": {
+                "name": "AnimatedScoreboard",
+                "version": "0.3.5"
+            },
+            "decentholograms": {
+                "name": "DecentHolograms",
+                "version": "2.8.9"
+            },
+            "bungeeguard": {
+                "name": "BungeeGuard",
+                "version": "1.4.4"
+            },
+            "grimac": {
+                "name": "GrimAC",
+                "version": "2.3.65"
+            },
+            "lpx": {
+                "name": "LPX",
+                "version": "3.4.8"
+            },
+            "worldguard": {
+                "name": "WorldGuard",
+                "version": "6.1-TRADUZIDA"
+            },
+            "citizens": {
+                "name": "Citizens",
+                "version": "2.0.33-SNAPSHOT (build 3374)"
+            },
+            "legendchat": {
+                "name": "Legendchat",
+                "version": "1.0"
+            }
+        },
+        "samplerMode": 0
+    }
+}

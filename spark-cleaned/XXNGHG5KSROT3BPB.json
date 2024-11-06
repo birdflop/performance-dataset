@@ -1,0 +1,353 @@
+{
+    "metadata": {
+        "startTime": 1726340448123,
+        "interval": 4000,
+        "platform": {
+            "type": 2,
+            "version": "git:Waterfall-Bootstrap:1.20-R0.3-SNAPSHOT:c5fd43a:565",
+            "minecraftVersion": "",
+            "sparkVersion": 2,
+            "brand": "Waterfall"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 4373939304,
+                    "committed": 6442450944,
+                    "init": 6442450944,
+                    "max": 6442450944
+                },
+                "nonHeap": {
+                    "used": 281630840,
+                    "committed": 320143360,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 2952790016,
+                            "committed": 3795845120,
+                            "init": 318767104,
+                            "max": 3795845120
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 3795845120,
+                            "init": 318767104,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 1157027856,
+                            "committed": 2382364672,
+                            "init": 6123683840,
+                            "max": 6442450944
+                        },
+                        "collectionUsage": {
+                            "used": 961002816,
+                            "committed": 2382364672,
+                            "init": 6123683840,
+                            "max": 6442450944
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 264121432,
+                            "committed": 264241152,
+                            "init": 0,
+                            "max": 264241152
+                        },
+                        "collectionUsage": {
+                            "used": 264121432,
+                            "committed": 264241152,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 8,
+                    "avgTime": 66.5,
+                    "avgFrequency": 65955
+                },
+                "G1 Concurrent GC": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "uptime": 528178,
+            "ping": {
+                "last15m": {
+                    "mean": 44.73076923076923,
+                    "max": 51,
+                    "min": 39,
+                    "median": 45,
+                    "percentile95": 50
+                }
+            },
+            "playerCount": 142,
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 32,
+                "processUsage": {
+                    "last1m": 0.21473978915750225,
+                    "last15m": 0.190209902904711
+                },
+                "systemUsage": {
+                    "last1m": 0.6794353634933475,
+                    "last15m": 0.6348154872250733
+                },
+                "modelName": "AMD Ryzen 9 5950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 127324323840,
+                    "total": 134972555264
+                },
+                "swap": {
+                    "used": 10980950016,
+                    "total": 34325131264
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 2359,
+                    "avgTime": 26.565069944891903,
+                    "avgFrequency": 62552
+                },
+                "G1 Concurrent GC": {
+                    "total": 224,
+                    "avgTime": 8.928571428571429,
+                    "avgFrequency": 659030
+                },
+                "G1 Old Generation": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                }
+            },
+            "disk": {
+                "used": 2797462511616,
+                "total": 3744290480128
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.1.0-22-amd64"
+            },
+            "java": {
+                "vendor": "Amazon.com Inc.",
+                "version": "21.0.3",
+                "vmArgs": "-Xmx6G -Xms6G -Dfile.encoding=UTF-8 -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch"
+            },
+            "uptime": 147624844,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 25258306.125,
+                        "max": 29170409,
+                        "min": 23058949,
+                        "median": 25061187,
+                        "percentile95": 29170409
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 25258306.125,
+                        "max": 29170409,
+                        "min": 23058949,
+                        "median": 25061187,
+                        "percentile95": 29170409
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 219378.25,
+                        "max": 248531,
+                        "min": 197692,
+                        "median": 218036,
+                        "percentile95": 248531
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 219378.25,
+                        "max": 248531,
+                        "min": 197692,
+                        "median": 218036,
+                        "percentile95": 248531
+                    }
+                },
+                "enp7s1": {
+                    "rxBytesPerSecond": {
+                        "mean": 1340333.875,
+                        "max": 1633388,
+                        "min": 1188368,
+                        "median": 1318673,
+                        "percentile95": 1633388
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 17165508.5,
+                        "max": 20529356,
+                        "min": 15122665,
+                        "median": 16850278,
+                        "percentile95": 20529356
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 27294.125,
+                        "max": 33674,
+                        "min": 23976,
+                        "median": 26805,
+                        "percentile95": 33674
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 68017.75,
+                        "max": 95992,
+                        "min": 56403,
+                        "median": 63010,
+                        "percentile95": 95992
+                    }
+                },
+                "enp7s0": {
+                    "rxBytesPerSecond": {
+                        "mean": 1722513.375,
+                        "max": 2104890,
+                        "min": 1524089,
+                        "median": 1694009,
+                        "percentile95": 2104890
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 17304510.125,
+                        "max": 20666254,
+                        "min": 15253920,
+                        "median": 17008903,
+                        "percentile95": 20666254
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 27295.125,
+                        "max": 33675,
+                        "min": 23977,
+                        "median": 26806,
+                        "percentile95": 33675
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 70563.25,
+                        "max": 98505,
+                        "min": 58802,
+                        "median": 65350,
+                        "percentile95": 98505
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Amazon.com Inc.",
+                "version": "21.0.3+9-LTS"
+            }
+        },
+        "threadDumper": {
+            "type": 0
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1726340569516,
+        "numberOfTicks": 0,
+        "plugins": {
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.141",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "nlogin": {
+                "name": "nLogin",
+                "version": "10.3.28",
+                "author": "NickUC",
+                "description": "A practical, secure and friendly authentication plugin"
+            },
+            "litebans": {
+                "name": "LiteBans",
+                "version": "2.15.1",
+                "author": "Ruan",
+                "description": "Lightweight banning plugin with full UUID support."
+            },
+            "pixelmotd": {
+                "name": "PixelMOTD",
+                "version": "9.4.1-SNAPSHOT",
+                "author": "",
+                "description": "Motd plugin for multiplatform"
+            },
+            "ajqueue": {
+                "name": "ajQueue",
+                "version": "2.7.0",
+                "author": "ajgeiss0702",
+                "description": ""
+            },
+            "floodgate": {
+                "name": "floodgate",
+                "version": "2.2.3-SNAPSHOT (b109-49bd564)",
+                "author": "GeyserMC",
+                "description": "Allows Bedrock players to join Java edition servers while keeping the server in online mode"
+            },
+            "skinsrestorer": {
+                "name": "SkinsRestorer",
+                "version": "15.4.2",
+                "author": "knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls",
+                "description": ""
+            },
+            "nuvotifier": {
+                "name": "NuVotifier",
+                "version": "1.2.0",
+                "author": "",
+                "description": ""
+            },
+            "2fa": {
+                "name": "2FA",
+                "version": "1.7.1",
+                "author": "LielAmar",
+                "description": "Add another layer of protection to your server"
+            },
+            "geyser-bungeecord": {
+                "name": "Geyser-BungeeCord",
+                "version": "2.4.2-SNAPSHOT",
+                "author": "GeyserMC",
+                "description": ""
+            },
+            "packetevents": {
+                "name": "packetevents",
+                "version": "2.4.1-SNAPSHOT",
+                "author": "retrooper",
+                "description": ""
+            },
+            "pl-hide-pro": {
+                "name": "Pl-Hide-Pro",
+                "version": "2.11.0-BETA-1",
+                "author": "Nononitas",
+                "description": ""
+            },
+            "commandforward": {
+                "name": "CommandForward",
+                "version": "0.4.0",
+                "author": "games647, https://github.com/games647/CommandForward/graphs/contributors",
+                "description": "Forwards commands from Bukkit to BungeeCord to execute it there\n"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.105",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}

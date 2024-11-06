@@ -1,0 +1,1156 @@
+{
+    "metadata": {
+        "startTime": 1729355655468,
+        "interval": 4000,
+        "platform": {
+            "type": 0,
+            "version": "1.8.8-R0.1-SNAPSHOT (MC: 1.8.8)",
+            "minecraftVersion": "v1_8_R3",
+            "sparkVersion": 2,
+            "brand": "Atlaspigot"
+        },
+        "platformStatistics": {
+            "memory": {
+                "heap": {
+                    "used": 14334334344,
+                    "committed": 14612955136,
+                    "init": 14612955136,
+                    "max": 14612955136
+                },
+                "nonHeap": {
+                    "used": 295012408,
+                    "committed": 351272960,
+                    "init": 7667712,
+                    "max": -1
+                },
+                "pools": [
+                    {
+                        "usage": {
+                            "used": 150994944,
+                            "committed": 218103808,
+                            "init": 5838471168,
+                            "max": 218103808
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 201326592,
+                            "init": 5838471168,
+                            "max": -1
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 14200116616,
+                            "committed": 14394851328,
+                            "init": 8774483968,
+                            "max": 14612955136
+                        },
+                        "collectionUsage": {
+                            "used": 14200116616,
+                            "committed": 14411628544,
+                            "init": 8774483968,
+                            "max": 14612955136
+                        }
+                    },
+                    {
+                        "usage": {
+                            "used": 0,
+                            "committed": 0,
+                            "init": 0,
+                            "max": 0
+                        },
+                        "collectionUsage": {
+                            "used": 0,
+                            "committed": 0,
+                            "init": 0,
+                            "max": -1
+                        }
+                    }
+                ]
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 393,
+                    "avgTime": 2.6055979643765905,
+                    "avgFrequency": 4180
+                },
+                "G1 Concurrent GC": {
+                    "total": 0,
+                    "avgTime": 0,
+                    "avgFrequency": 0
+                },
+                "G1 Old Generation": {
+                    "total": 393,
+                    "avgTime": 202.01272264631044,
+                    "avgFrequency": 3980
+                }
+            },
+            "uptime": 1643837,
+            "tps": {
+                "last1m": 8.307864716948817,
+                "last5m": 15.607036871640105,
+                "last15m": 18.28446185889371
+            },
+            "ping": {
+                "last15m": {
+                    "mean": 57.77777777777778,
+                    "max": 220,
+                    "min": 39,
+                    "median": 42,
+                    "percentile95": 134
+                }
+            },
+            "playerCount": 96,
+            "world": {
+                "totalEntities": 495,
+                "entityCounts": {
+                    "Arrow": 90,
+                    "Item": 309,
+                    "unknown[PLAYER]": 96
+                },
+                "worlds": [
+                    {
+                        "totalEntities": 495,
+                        "regions": [
+                            {
+                                "totalEntities": 70,
+                                "chunks": [
+                                    {
+                                        "x": 14,
+                                        "z": 14,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 15,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "Item": 11
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 14,
+                                        "totalEntities": 34,
+                                        "entityCounts": {
+                                            "Item": 31,
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 15,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 14,
+                                        "totalEntities": 22,
+                                        "entityCounts": {
+                                            "Item": 21,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "totalEntities": 425,
+                                "chunks": [
+                                    {
+                                        "x": 11,
+                                        "z": 11,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 10,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "Arrow": 3,
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 11,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 12,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 10,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "Item": 6,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 9,
+                                        "totalEntities": 24,
+                                        "entityCounts": {
+                                            "Item": 4,
+                                            "Arrow": 17,
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 8,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 9,
+                                        "totalEntities": 13,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "Arrow": 9,
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 10,
+                                        "totalEntities": 3,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 8,
+                                        "totalEntities": 50,
+                                        "entityCounts": {
+                                            "Item": 32,
+                                            "Arrow": 15,
+                                            "unknown[PLAYER]": 3
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 8,
+                                        "totalEntities": 11,
+                                        "entityCounts": {
+                                            "Item": 11
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 9,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Arrow": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": 10,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": 11,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 9,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 8,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 4,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 15,
+                                        "z": 10,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "Item": 15,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "Item": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 10,
+                                        "totalEntities": 13,
+                                        "entityCounts": {
+                                            "Item": 11,
+                                            "Arrow": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 12,
+                                        "totalEntities": 9,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 9
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 11,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": 9,
+                                        "totalEntities": 5,
+                                        "entityCounts": {
+                                            "Item": 3,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 12,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 5,
+                                        "totalEntities": 46,
+                                        "entityCounts": {
+                                            "Item": 36,
+                                            "Arrow": 8,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 12,
+                                        "z": 6,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "Item": 7,
+                                            "Arrow": 11,
+                                            "unknown[PLAYER]": 7
+                                        }
+                                    },
+                                    {
+                                        "x": 13,
+                                        "z": 6,
+                                        "totalEntities": 20,
+                                        "entityCounts": {
+                                            "Item": 14,
+                                            "unknown[PLAYER]": 6
+                                        }
+                                    },
+                                    {
+                                        "x": 14,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Item": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 7,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "Item": 1,
+                                            "Arrow": 5,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 5,
+                                        "totalEntities": 21,
+                                        "entityCounts": {
+                                            "Item": 16,
+                                            "Arrow": 1,
+                                            "unknown[PLAYER]": 4
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 6,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 7,
+                                        "totalEntities": 6,
+                                        "entityCounts": {
+                                            "Item": 3,
+                                            "Arrow": 1,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 6,
+                                        "totalEntities": 1,
+                                        "entityCounts": {
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 5,
+                                        "totalEntities": 2,
+                                        "entityCounts": {
+                                            "Arrow": 1,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 8,
+                                        "z": 6,
+                                        "totalEntities": 27,
+                                        "entityCounts": {
+                                            "Item": 16,
+                                            "Arrow": 11
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 4,
+                                        "totalEntities": 8,
+                                        "entityCounts": {
+                                            "Item": 2,
+                                            "Arrow": 1,
+                                            "unknown[PLAYER]": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 10,
+                                        "z": 5,
+                                        "totalEntities": 16,
+                                        "entityCounts": {
+                                            "Item": 11,
+                                            "Arrow": 4,
+                                            "unknown[PLAYER]": 1
+                                        }
+                                    },
+                                    {
+                                        "x": 9,
+                                        "z": 6,
+                                        "totalEntities": 25,
+                                        "entityCounts": {
+                                            "Item": 22,
+                                            "Arrow": 1,
+                                            "unknown[PLAYER]": 2
+                                        }
+                                    },
+                                    {
+                                        "x": 11,
+                                        "z": 4,
+                                        "totalEntities": 15,
+                                        "entityCounts": {
+                                            "Item": 10,
+                                            "unknown[PLAYER]": 5
+                                        }
+                                    },
+                                    {
+                                        "x": 16,
+                                        "z": 10,
+                                        "totalEntities": 7,
+                                        "entityCounts": {
+                                            "Item": 7
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "onlineMode": 2
+        },
+        "systemStatistics": {
+            "cpu": {
+                "threads": 32,
+                "processUsage": {
+                    "last1m": 0.5714697195465778,
+                    "last15m": 0.18033863334446676
+                },
+                "systemUsage": {
+                    "last1m": 0.8522663373513495,
+                    "last15m": 0.44661966408419645
+                },
+                "modelName": "AMD Ryzen 9 7950X 16-Core Processor"
+            },
+            "memory": {
+                "physical": {
+                    "used": 85964984320,
+                    "total": 134158614528
+                },
+                "swap": {
+                    "used": 31985664,
+                    "total": 1024454656
+                }
+            },
+            "gc": {
+                "G1 Young Generation": {
+                    "total": 695,
+                    "avgTime": 8.77841726618705,
+                    "avgFrequency": 2390
+                },
+                "G1 Concurrent GC": {
+                    "total": 78,
+                    "avgTime": 3.6025641025641026,
+                    "avgFrequency": 21371
+                },
+                "G1 Old Generation": {
+                    "total": 559,
+                    "avgTime": 200.07692307692307,
+                    "avgFrequency": 2782
+                }
+            },
+            "disk": {
+                "used": 553018863616,
+                "total": 1966309933056
+            },
+            "os": {
+                "arch": "amd64",
+                "version": "6.1.0-25-amd64"
+            },
+            "java": {
+                "vendor": "Azul Systems, Inc.",
+                "version": "21.0.4",
+                "vendorVersion": "Zulu21.36+17-CA"
+            },
+            "uptime": 1667228,
+            "net": {
+                "lo": {
+                    "rxBytesPerSecond": {
+                        "mean": 11,
+                        "max": 24,
+                        "min": 0,
+                        "median": 12,
+                        "percentile95": 24
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 11,
+                        "max": 24,
+                        "min": 0,
+                        "median": 12,
+                        "percentile95": 24
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 0,
+                        "max": 0,
+                        "min": 0,
+                        "median": 0,
+                        "percentile95": 0
+                    }
+                },
+                "eth0": {
+                    "rxBytesPerSecond": {
+                        "mean": 2453389.8666666667,
+                        "max": 3352674,
+                        "min": 811660,
+                        "median": 2794655,
+                        "percentile95": 3352674
+                    },
+                    "txBytesPerSecond": {
+                        "mean": 7258778.733333333,
+                        "max": 9767020,
+                        "min": 2156896,
+                        "median": 8263801,
+                        "percentile95": 9767020
+                    },
+                    "rxPacketsPerSecond": {
+                        "mean": 35884.066666666666,
+                        "max": 49350,
+                        "min": 11701,
+                        "median": 40886,
+                        "percentile95": 49350
+                    },
+                    "txPacketsPerSecond": {
+                        "mean": 71927,
+                        "max": 100804,
+                        "min": 19366,
+                        "median": 82824,
+                        "percentile95": 100804
+                    }
+                }
+            },
+            "jvm": {
+                "vendor": "Azul Systems, Inc.",
+                "version": "21.0.4+7-LTS"
+            }
+        },
+        "serverConfigurations": {
+            "server.properties": {
+                "view-distance": 10,
+                "bStats-UUID": "16226625-2559-4357-91fb-b186d35b5d0c",
+                "gamemode": 0,
+                "enable-command-block": false,
+                "allow-nether": false,
+                "server-port": 25592,
+                "enable-rcon": false,
+                "enable-query": false,
+                "op-permission-level": 4,
+                "generator-settings": "",
+                "level-name": "world",
+                "player-idle-timeout": 0,
+                "announce-player-achievements": false,
+                "debug": false,
+                "force-gamemode": false,
+                "hardcore": false,
+                "white-list": false,
+                "broadcast-console-to-ops": false,
+                "pvp": true,
+                "spawn-npcs": false,
+                "generate-structures": false,
+                "spawn-animals": false,
+                "difficulty": 1,
+                "network-compression-threshold": 256,
+                "level-type": "DEFAULT",
+                "spawn-monsters": false,
+                "max-players": 500,
+                "use-native-transport": true,
+                "spawn-protection": 0,
+                "online-mode": false,
+                "allow-flight": true,
+                "max-world-size": 29999984,
+                "resource-pack-hash": ""
+            },
+            "bukkit.yml": {
+                "settings": {
+                    "allow-end": false,
+                    "warn-on-overload": true,
+                    "permissions-file": "permissions.yml",
+                    "update-folder": "update",
+                    "plugin-profiling": false,
+                    "connection-throttle": 4000,
+                    "query-plugins": true,
+                    "deprecated-verbose": "default"
+                },
+                "spawn-limits": {
+                    "monsters": 1,
+                    "animals": 1,
+                    "water-animals": 1,
+                    "ambient": 1
+                },
+                "chunk-gc": {
+                    "period-in-ticks": 400,
+                    "load-threshold": 0
+                },
+                "ticks-per": {
+                    "animal-spawns": 400,
+                    "monster-spawns": 200,
+                    "autosave": 6000
+                },
+                "aliases": "now-in-commands.yml",
+                "worlds": {
+                    "world": {
+                        "generator": "VoidGen"
+                    }
+                }
+            },
+            "spigot.yml": {
+                "config-version": 8,
+                "commands": {
+                    "tab-complete": 0,
+                    "silent-commandblock-console": false,
+                    "replace-commands": [
+                        "setblock",
+                        "summon",
+                        "testforblock",
+                        "tellraw"
+                    ],
+                    "log": true
+                },
+                "settings": {
+                    "save-user-cache-on-stop-only": false,
+                    "player-shuffle": 0,
+                    "filter-creative-items": true,
+                    "user-cache-size": 1000,
+                    "int-cache-limit": 1024,
+                    "moved-wrongly-threshold": 1000.0,
+                    "moved-too-quickly-threshold": 1000.0,
+                    "timeout-time": 60,
+                    "restart-on-crash": false,
+                    "restart-script": "./start.sh",
+                    "netty-threads": 12,
+                    "bungeecord": true,
+                    "late-bind": false,
+                    "sample-count": 12,
+                    "attribute": {
+                        "maxHealth": {
+                            "max": 2048.0
+                        },
+                        "movementSpeed": {
+                            "max": 2048.0
+                        },
+                        "attackDamage": {
+                            "max": 2048.0
+                        }
+                    }
+                },
+                "stats": {
+                    "disable-saving": true
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "mob-spawn-range": 1,
+                        "anti-xray": {
+                            "enabled": false,
+                            "engine-mode": 1,
+                            "hide-blocks": [
+                                14,
+                                15,
+                                16,
+                                21,
+                                48,
+                                49,
+                                54,
+                                56,
+                                73,
+                                74,
+                                82,
+                                129,
+                                130
+                            ],
+                            "replace-blocks": [
+                                1,
+                                5
+                            ]
+                        },
+                        "growth": {
+                            "cactus-modifier": 100,
+                            "cane-modifier": 100,
+                            "melon-modifier": 100,
+                            "mushroom-modifier": 100,
+                            "pumpkin-modifier": 100,
+                            "sapling-modifier": 100,
+                            "wheat-modifier": 100,
+                            "netherwart-modifier": 100
+                        },
+                        "entity-activation-range": {
+                            "animals": 24,
+                            "monsters": 1,
+                            "misc": 1
+                        },
+                        "entity-tracking-range": {
+                            "players": 48,
+                            "animals": 24,
+                            "monsters": 1,
+                            "misc": 32,
+                            "other": 32
+                        },
+                        "ticks-per": {
+                            "hopper-transfer": 8,
+                            "hopper-check": 8
+                        },
+                        "hopper-amount": 1,
+                        "random-light-updates": false,
+                        "save-structure-info": false,
+                        "max-bulk-chunks": 10,
+                        "max-entity-collisions": 0,
+                        "dragon-death-sound-radius": 0,
+                        "hunger": {
+                            "walk-exhaustion": 0.2,
+                            "sprint-exhaustion": 0.8,
+                            "combat-exhaustion": 0.3,
+                            "regen-exhaustion": 3.0
+                        },
+                        "max-tick-time": {
+                            "tile": 50,
+                            "entity": 50
+                        },
+                        "item-despawn-rate": 1200,
+                        "merge-radius": {
+                            "item": 4.0,
+                            "exp": 6.0
+                        },
+                        "arrow-despawn-rate": 120,
+                        "enable-zombie-pigmen-portal-spawns": false,
+                        "nerf-spawner-mobs": false,
+                        "wither-spawn-sound-radius": 5,
+                        "view-distance": 10,
+                        "hanging-tick-frequency": 100,
+                        "zombie-aggressive-towards-villager": false,
+                        "chunks-per-tick": 650,
+                        "clear-tick-list": false
+                    }
+                }
+            },
+            "paper.yml": {
+                "config-version": 9,
+                "stackable-buckets": {
+                    "lava": false,
+                    "water": false,
+                    "milk": false
+                },
+                "warnWhenSettingExcessiveVelocity": true,
+                "settings": {
+                    "baby-zombie-movement-speed": 0.5,
+                    "limit-player-interactions": true
+                },
+                "effect-modifiers": {
+                    "strength": 1.3,
+                    "weakness": -0.5
+                },
+                "world-settings": {
+                    "default": {
+                        "verbose": true,
+                        "cache-chunk-maps": false,
+                        "remove-invalid-mob-spawner-tile-entities": true,
+                        "generator-settings": {
+                            "canyon": false,
+                            "caves": false,
+                            "dungeon": false,
+                            "fortress": false,
+                            "mineshaft": false,
+                            "monument": false,
+                            "stronghold": false,
+                            "temple": false,
+                            "village": false,
+                            "flat-bedrock": false
+                        },
+                        "allow-block-location-tab-completion": true,
+                        "tnt-explosion-volume": 4.0,
+                        "fast-drain": {
+                            "lava": false,
+                            "water": false
+                        },
+                        "lava-flow-speed": {
+                            "normal": 30,
+                            "nether": 10
+                        },
+                        "optimize-explosions": true,
+                        "disable-mood-sounds": false,
+                        "mob-spawner-tick-rate": 20,
+                        "use-hopper-check": false,
+                        "squid-spawn-height": {
+                            "minimum": 45.0,
+                            "maximum": 63.0
+                        },
+                        "remove-unloaded": {
+                            "enderpearls": true,
+                            "tnt-entities": true,
+                            "falling-blocks": true
+                        },
+                        "game-mechanics": {
+                            "boats-drop-boats": false,
+                            "disable-player-crits": false,
+                            "disable-chest-cat-detection": true,
+                            "disable-end-credits": true
+                        },
+                        "nether-ceiling-void-damage": false,
+                        "load-chunks": {
+                            "enderpearls": true,
+                            "tnt-entities": false,
+                            "falling-blocks": false
+                        },
+                        "disable-teleportation-suffocation-check": true,
+                        "max-growth-height": {
+                            "cactus": 3,
+                            "reeds": 3
+                        },
+                        "fishing-time-range": {
+                            "MinimumTicks": 100,
+                            "MaximumTicks": 900
+                        },
+                        "player-exhaustion": {
+                            "block-break": 0.02500000037252903,
+                            "swimming": 0.014999999664723873
+                        },
+                        "despawn-ranges": {
+                            "soft": 16,
+                            "hard": 32
+                        },
+                        "falling-block-height-nerf": 0,
+                        "disable-explosion-knockback": false,
+                        "player-blocking-damage-multiplier": 0.5,
+                        "water-over-lava-flow-speed": 5,
+                        "fix-cannons": true,
+                        "tnt-entity-height-nerf": 0,
+                        "container-update-tick-rate": 3,
+                        "all-chunks-are-slime-chunks": false,
+                        "allow-undead-horse-leashing": false,
+                        "keep-spawn-loaded": true,
+                        "portal-search-radius": 128,
+                        "disable-thunder": true,
+                        "disable-ice-and-snow": true,
+                        "tick-next-tick-list-cap": 10000,
+                        "tick-next-tick-list-cap-ignores-redstone": false,
+                        "falling-blocks-collide-with-signs": false,
+                        "use-async-lighting": true
+                    }
+                }
+            }
+        },
+        "threadDumper": {
+            "type": 1,
+            "ids": [
+                65
+            ]
+        },
+        "dataAggregator": {
+            "type": 0,
+            "threadGrouper": 1,
+            "tickLengthThreshold": 0,
+            "numberOfIncludedTicks": 0
+        },
+        "comment": "",
+        "endTime": 1729355751794,
+        "numberOfTicks": 235,
+        "plugins": {
+            "apollo-bukkit": {
+                "name": "Apollo-Bukkit",
+                "version": "1.1.5",
+                "author": "Moonsworth",
+                "description": ""
+            },
+            "voidgen": {
+                "name": "VoidGen",
+                "version": "2.2.1",
+                "author": "xtkq",
+                "description": ""
+            },
+            "inventoryrollbackplus": {
+                "name": "InventoryRollbackPlus",
+                "version": "1.6.18",
+                "author": "TechnicallyCoded, TechnicallyCoded, danjono",
+                "description": "Allows server moderators to restore player items and data from backups."
+            },
+            "openinv": {
+                "name": "OpenInv",
+                "version": "4.1.5",
+                "author": "lishid, Jikoo, ShadowRanger",
+                "description": "This plugin allows you to open a player's inventory as a chest and interact with it in real time.\n"
+            },
+            "placeholderapi": {
+                "name": "PlaceholderAPI",
+                "version": "2.11.6",
+                "author": "HelpChat",
+                "description": "An awesome placeholder provider!"
+            },
+            "schedulerwatcher": {
+                "name": "SchedulerWatcher",
+                "version": "1.0",
+                "author": "",
+                "description": ""
+            },
+            "cmilib": {
+                "name": "CMILib",
+                "version": "1.5.1.6",
+                "author": "Zrips",
+                "description": "CMI library"
+            },
+            "spark": {
+                "name": "spark",
+                "version": "1.10.110",
+                "author": "Luck",
+                "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+            },
+            "elitelootbox": {
+                "name": "EliteLootbox",
+                "version": "2.4.0",
+                "author": "Splodgebox",
+                "description": "Fully customisable lootbox plugin (As seen on a big server)"
+            },
+            "fastasyncworldedit": {
+                "name": "FastAsyncWorldEdit",
+                "version": "23.01.22-3daee40-1479-53.3.3",
+                "author": "Empire92",
+                "description": "Fast Async WorldEdit plugin"
+            },
+            "viaversion": {
+                "name": "ViaVersion",
+                "version": "5.0.3",
+                "author": "_MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01",
+                "description": "Allows the connection of newer clients to older server versions for Minecraft servers."
+            },
+            "luckperms": {
+                "name": "LuckPerms",
+                "version": "5.4.141",
+                "author": "Luck",
+                "description": "A permissions plugin"
+            },
+            "worldedit": {
+                "name": "WorldEdit",
+                "version": "6.1.9;caf0ad9",
+                "author": "",
+                "description": ""
+            },
+            "decentholograms": {
+                "name": "DecentHolograms",
+                "version": "2.8.11",
+                "author": "d0by",
+                "description": "A lightweight yet very powerful hologram plugin with many features and configuration options."
+            },
+            "znpcsplus": {
+                "name": "ZNPCsPlus",
+                "version": "2.0.0-SNAPSHOT",
+                "author": "Pyr, D3v1s0m",
+                "description": ""
+            },
+            "lpx": {
+                "name": "LPX",
+                "version": "3.4.11",
+                "author": "Ytnoos",
+                "description": "Blazingly stable anti exploit 1.8-1.19"
+            },
+            "worldguard": {
+                "name": "WorldGuard",
+                "version": "6.1.3-SNAPSHOT;c904242",
+                "author": "",
+                "description": ""
+            },
+            "vulcan": {
+                "name": "Vulcan",
+                "version": "2.9.1",
+                "author": "frep, GladUrBad, Joshb_, Elevated, retrooper",
+                "description": "Vulcan Cheat Detection"
+            },
+            "vault": {
+                "name": "Vault",
+                "version": "1.7.3-b131",
+                "author": "cereal, Sleaker, mung3r",
+                "description": "Vault is a Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves."
+            },
+            "shopguiplus": {
+                "name": "ShopGUIPlus",
+                "version": "1.97.0",
+                "author": "brc",
+                "description": ""
+            },
+            "cratereloaded": {
+                "name": "CrateReloaded",
+                "version": "2.3.15",
+                "author": "dinosaur",
+                "description": ""
+            },
+            "trademe": {
+                "name": "TradeMe",
+                "version": "6.2.2.3",
+                "author": "Zrips",
+                "description": "Powerfull trade plugin"
+            },
+            "deluxemenus": {
+                "name": "DeluxeMenus",
+                "version": "1.13.3-Release",
+                "author": "extended_clip, Glare",
+                "description": "All in one inventory menu system"
+            },
+            "playerkits2": {
+                "name": "PlayerKits2",
+                "version": "1.12.6",
+                "author": "Ajneb97",
+                "description": ""
+            },
+            "tab": {
+                "name": "TAB",
+                "version": "4.1.9",
+                "author": "NEZNAMY",
+                "description": "An all-in-one solution that works"
+            },
+            "playervaults": {
+                "name": "PlayerVaults",
+                "version": "4.3.2",
+                "author": "drtshock, kashike, mbaxter",
+                "description": ""
+            },
+            "craftingstore": {
+                "name": "CraftingStore",
+                "version": "2.9.3",
+                "author": "Tim_kwakman, thijs_a",
+                "description": ""
+            },
+            "supervanish": {
+                "name": "SuperVanish",
+                "version": "6.2.20",
+                "author": "MyzelYam",
+                "description": "Advanced /vanish plugin which makes other players think that you're not on the server"
+            },
+            "koth": {
+                "name": "KOTH",
+                "version": "6.1",
+                "author": "benzimmer123",
+                "description": "Benzimmers premium KOTH plugin."
+            }
+        },
+        "samplerMode": 0,
+        "samplerEngine": 1
+    }
+}
