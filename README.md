@@ -17,3 +17,8 @@ The profiles have much information redacted before being published, including bu
 All information is collected from the Birdflop [performance-analyzing Discord bot](https://github.com/birdflop/botflop) and our free online resources permitting Spark and Timings analysis on [our website](https://birdflop.com/), including the APIs for our resources. All information is processed in accordance with our [privacy policy](https://birdflop.com/privacy).
 
 For questions, please create a ticket on the [Birdflop Discord] or contact us by emailing research [at sign] birdflop.com.
+
+# Citation
+If you use the Birdflop Performance Dataset in your research, please cite it as follows:
+> Birdflop. (2024). Birdflop Performance Dataset. GitHub repository. https://github.com/birdflop/performance-dataset.
+
